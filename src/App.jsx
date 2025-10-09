@@ -31,10 +31,8 @@ function Home() {
   className="relative h-screen flex flex-col justify-center items-center text-center text-white overflow-hidden"
 >
   {/* Imagen de fondo */}
-  <div
-    className="absolute inset-0 bg-cover bg-center"
-    style={{ backgroundImage: "url('/src/assets/hero-bg.jpg')" }}
-  ></div>
+<div className="bg-[url('/hero-bg.jpg')] bg-cover bg-center h-screen">
+
 
   {/* Capa de oscurecimiento */}
   <div className="absolute inset-0 bg-black/50"></div>
