@@ -18,6 +18,7 @@ import Levantamientos from "./pages/services/Levantamientos"
 import AsistenciaTecnica from "./pages/services/AsistenciaTecnica"
 import MonitoreoAuscultacion from "./pages/services/MonitoreoAuscultacion"
 import DronesFotogrametria from "./pages/services/DronesFotogrametria"
+import heroImage from "../assets/hero-bg.jpg"
 
 function Home() {	
   return (
