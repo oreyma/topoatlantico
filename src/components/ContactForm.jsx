@@ -57,7 +57,7 @@ export default function ContactForm() {
 <button
   type="submit"
   disabled={state.submitting}
-  className="bg-topo-navy text-white px-6 py-2 rounded-lg shadow hover:bg-topo-ocean hover:text-topo-navy transition-colors"
+  className="bg-topo-navy text-topo-navy px-6 py-2 rounded-lg shadow hover:bg-topo-ocean hover:text-topo-navy transition-colors"
 >
   {state.submitting ? "Enviando..." : "Enviar"}
 </button>
