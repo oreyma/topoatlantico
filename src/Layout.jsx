@@ -1,5 +1,7 @@
 // src/components/Layout.jsx
 
+import Footer from "./components/Footer"
+
 export default function Layout({ children }) {
   return (
     <div className="font-sans text-topo-dark bg-white flex flex-col min-h-screen">
