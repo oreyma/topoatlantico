@@ -35,7 +35,7 @@ export default function Navbar() {
             src={logo}
             alt="TopoAtlántico"
             className={`object-contain transition-all duration-300 ${
-              scrolled ? "w-12 h-12" : "w-36 h-36"
+              scrolled ? "w-12 h-12" : "w-24 h-24"
             }`}
           />
           <div className="flex flex-col leading-tight">
