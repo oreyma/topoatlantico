@@ -46,16 +46,6 @@ export default function Navbar() {
           </div>
         </a>
 
-        {/* BOTÓN HAMBURGUESA */}
-        <button
-          className="md:hidden flex flex-col justify-center items-center w-10 h-10 focus:outline-none z-50 relative"
-          onClick={() => setMenuOpen(!menuOpen)}
-          aria-label="Abrir menú"
-        >
-          <span className={`block w-6 h-0.5 bg-topo-navy transition-transform duration-300 ${menuOpen ? "rotate-45 translate-y-1.5" : ""}`} />
-          <span className={`block w-6 h-0.5 bg-topo-navy my-1 transition-opacity duration-300 ${menuOpen ? "opacity-0" : "opacity-100"}`} />
-          <span className={`block w-6 h-0.5 bg-topo-navy transition-transform duration-300 ${menuOpen ? "-rotate-45 -translate-y-1.5" : ""}`} />
-        </button>
 
 {/* MENÚ DESKTOP */}
 <nav className="flex gap-10 items-center text-black text-2xl">
