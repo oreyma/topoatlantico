@@ -54,13 +54,14 @@ export default function ContactForm() {
             ></textarea>
             <ValidationError prefix="Mensaje" field="message" errors={state.errors} />
 
-            <button
-              type="submit"
-              disabled={state.submitting}
-              className="bg-topo-ocean text-white px-6 py-2 rounded-lg hover:bg-topo-navy transition-colors"
-            >
-              {state.submitting ? "Enviando..." : "Enviar"}
-            </button>
+<button
+  type="submit"
+  disabled={state.submitting}
+  className="bg-topo-navy text-white px-6 py-2 rounded-lg shadow hover:bg-topo-ocean hover:text-topo-navy transition-colors"
+>
+  {state.submitting ? "Enviando..." : "Enviar"}
+</button>
+
           </form>
         </div>
 
