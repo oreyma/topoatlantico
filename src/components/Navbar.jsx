@@ -39,7 +39,7 @@ export default function Navbar() {
             }`}
           />
           <div className="flex flex-col leading-tight">
-            <span className="text-2xl font-bold text-topo-navy">TopoAtlántico</span>
+            <span className="text-2xl font-bold text-topo-navy">TopoAtlantico</span>
             <span className="text-sm italic font-medium text-[#1B7F8C] tracking-wide mt-0.2">
   Servicios Topográficos
             </span>
