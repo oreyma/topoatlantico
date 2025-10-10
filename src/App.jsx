@@ -59,7 +59,7 @@ function Home() {
       </a>
       <a
         href="#services"
-        className="border border-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-topo-navy transition-colors"
+        className="border border-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-topo-dark transition-colors"
       >
         Ver servicios
       </a>
