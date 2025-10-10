@@ -18,7 +18,6 @@ import Levantamientos from "./pages/services/Levantamientos"
 import AsistenciaTecnica from "./pages/services/AsistenciaTecnica"
 import MonitoreoAuscultacion from "./pages/services/MonitoreoAuscultacion"
 import DronesFotogrametria from "./pages/services/DronesFotogrametria"
-import heroImage from "../assets/hero-bg.jpg"
 
 function Home() {	
   return (
@@ -31,7 +30,10 @@ function Home() {
   className="relative h-screen flex flex-col justify-center items-center text-center text-white overflow-hidden"
 >
   {/* Imagen de fondo */}
-<div className="bg-[url('/hero-bg.jpg')] bg-cover bg-center h-screen">
+<div
+  className="absolute inset-0 bg-cover bg-center"
+  style={{ backgroundImage: "url('/hero-bg.jpg')" }}
+></div>
 
 
   {/* Capa de oscurecimiento */}
