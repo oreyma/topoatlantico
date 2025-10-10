@@ -51,18 +51,20 @@ function Home() {
     </p>
 
     <div className="flex justify-center gap-6">
-      <a
-        href="#contact"
-        className="border border-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-topo-navy transition-colors"
-      >
-        Solicita presupuesto
-      </a>
-      <a
-        href="#services"
-        className="border border-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-topo-navy transition-colors"
-      >
-        Ver servicios
-      </a>
+<a
+  href="#contact"
+  className="border border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-topo-navy transition-colors"
+>
+  Solicita presupuesto
+</a>
+
+<a
+  href="#services"
+  className="border border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-topo-navy transition-colors"
+>
+  Ver servicios
+</a>
+
     </div>
   </div>
 </section>
