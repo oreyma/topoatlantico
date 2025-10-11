@@ -60,8 +60,8 @@ function Home() {
 
 <a
   href="#services"
-  className="border border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-topo-navy transition-colors"
->
+      className="group relative block rounded-xl overflow-hidden shadow hover:shadow-lg transition-transform hover:-translate-y-1"
+    >
   Ver servicios
 </a>
 
