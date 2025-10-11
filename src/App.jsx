@@ -175,6 +175,7 @@ function Home() {
       <section id="contact" className="py-16 bg-topo-gray">
        <ContactForm />
       </section>
+<Footer />
     </Layout>
 
   )
