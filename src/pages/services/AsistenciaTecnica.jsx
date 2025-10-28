@@ -74,7 +74,6 @@ Asistencia Técnica</h1>
           </div>
         </div>
       </section>
-
       <Footer />
     </>
   )

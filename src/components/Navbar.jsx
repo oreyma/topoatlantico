@@ -37,7 +37,7 @@ export default function Navbar() {
         </a>
 
         {/* MENÚ (horizontal en escritorio, debajo en móvil) */}
-        <nav className="flex flex-wrap justify-center md:justify-end gap-6 mt-3 md:mt-0 text-topo-navy text-lg font-semibold">
+        <nav className="flex flex-wrap justify-center md:justify-end gap-4 mt-3 md:mt-0 text-topo-navy text-lg font-semibold">
           <a href="#services" className="hover:text-topo-ocean transition-colors">Servicios</a>
           <a href="#projects" className="hover:text-topo-ocean transition-colors">Proyectos</a>
           <a href="#about" className="hover:text-topo-ocean transition-colors">Nosotros</a>
