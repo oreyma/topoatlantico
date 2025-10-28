@@ -1,5 +1,4 @@
-// src/App.jsx
-
+import { Routes, Route } from "react-router-dom"
 import './App.css'
 import logo from './assets/logo.png'
 import Button from './components/Button'
@@ -8,10 +7,18 @@ import ProjectCard from './components/ProjectCard'
 import Layout from './components/Layout'
 import Navbar from './components/Navbar'
 import Footer from "./components/Footer"
-import ImageCarousel from "./components/ImageCarousel";
+import ImageCarousel from "./components/ImageCarousel"
+import PoliticaPrivacidad from "./pages/legal/PoliticaPrivacidad"
+import AvisoLegal from "./pages/legal/AvisoLegal"
+import MedicionParcelas from "./pages/services/MedicionParcelas"
+import ReplanteoObra from "./pages/services/ReplanteoObra"
+import Levantamientos from "./pages/services/Levantamientos"
+import AsistenciaTecnica from "./pages/services/AsistenciaTecnica"
+import MonitoreoAuscultacion from "./pages/services/MonitoreoAuscultacion"
+import DronesFotogrametria from "./pages/services/DronesFotogrametria"
+import ContactForm from "./components/ContactForm"
 
-
-function App() {	
+function Home() {	
   return (
     <Layout>
       <Navbar />
@@ -24,7 +31,7 @@ function App() {
   {/* Imagen de fondo */}
   <div
     className="absolute inset-0 bg-cover bg-center"
-    style={{ backgroundImage: "url('/src/assets/hero-bg.jpg')" }}
+    style={{ backgroundImage: "url('/hero-bg.jpg')" }}
   ></div>
 
   {/* Capa de oscurecimiento */}
@@ -37,19 +44,20 @@ function App() {
       Servicios de topografía y cartografía en las Islas Canarias. 
     </p>
     <p className="text-lg mb-8">
-      Precisión, tecnología y conocimiento del terreno insular.
+      Soluciones de precision, a la medida de tus necesidades.
     </p>
 
     <div className="flex justify-center gap-6">
       <a
         href="#contact"
-        className="border border-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-topo-navy transition-colors"
+        className="border border-white text-white px-6 py-3 rounded-lg shadow hover:shadow-lg transition-transform hover:-translate-y-1"
       >
         Solicita presupuesto
       </a>
+
       <a
         href="#services"
-        className="border border-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-topo-navy transition-colors"
+        className="border border-white text-white px-6 py-3 rounded-lg shadow hover:shadow-lg transition-transform hover:-translate-y-1"
       >
         Ver servicios
       </a>
@@ -57,99 +65,119 @@ function App() {
   </div>
 </section>
 
+{/* SERVICES */}
+<section id="services" className="py-16 bg-white">
+  <div className="max-w-6xl mx-auto p-6">
+    <h2 className="text-3xl font-bold mb-2 text-topo-navy">Nuestros servicios</h2>
+    <p className="mb-6 text-topo-dark">
+      Ofrecemos asesoramiento y soluciones adaptadas al cliente
+    </p>
+    <div className="grid gap-6 md:grid-cols-3">
+      <ServiceCard
+        title="Medición de Parcelas"
+        description=""
+        image="/images/servicios/parcelas.jpg"
+        link="/servicios/medicion-parcelas"
+      />
+      <ServiceCard
+        title="Replanteo de Obra"
+        description=""
+        image="/images/servicios/replanteo.jpg"
+        link="/servicios/replanteo-obra"
+      />
+      <ServiceCard
+        title="Levantamientos Topográficos"
+        description=""
+        image="/images/servicios/levantamiento.jpg"
+        link="/servicios/levantamientos"
+      />
+      <ServiceCard
+        title="Asistencia Técnica"
+        description=""
+        image="/images/servicios/ATecnica.jpg"
+        link="/servicios/asistencia-tecnica"
+      />
+      <ServiceCard
+        title="Monitoreo y auscultación"
+        description=""
+        image="/images/servicios/monitoreo.jpg"
+        link="/servicios/monitoreo-auscultacion"
+      />
+      <ServiceCard
+        title="Drones & Fotogrametría"
+        description=""
+        image="/images/servicios/dron.jpg"
+        link="/servicios/drones-fotogrametria"
+      />
+    </div>
+  </div>
+</section>
 
-      {/* SERVICES */}
-      <section id="services" className="py-16 bg-white">
-        <div className="max-w-6xl mx-auto p-6">
-          <h2 className="text-3xl font-bold mb-2 text-topo-navy">Nuestros servicios</h2>
-          <p className="mb-6 text-topo-dark">Ofrecemos asesoramiento y soluciones adaptadas al cliente</p>
-
-          <div className="grid gap-6 md:grid-cols-3">
-	     <ServiceCard
-              title="Medidición de Parcelas"
-                description="Medición precisa de terrenos rústicos, cálculo de superficies y pendientes."
-  image="/images/servicios/parcelas.jpg"
-  link="/servicios/medicion-parcelas"
-/>
-	     <ServiceCard
-              title="Replanteos de Obra"
-              description="Servicios de replanteo de alta precision tanto en Edificacion como en Obra Civil; Replanteos de estructuras, Movimientos de tierra, Drenajes, Servicios afectados, etc."
-            />
-	     <ServiceCard
-              title="Levantamientos Topograficos"
-              description="Especializados en levantamientos topográficos de alta precision. encaje de proyectoOfrecemoso Estación total y GNSS. Entrega de planos y archivos compatibles con AutoCAD/GIS."
-            />
-	     <ServiceCard
-              title="Monitoreo y Auscultacion"
-              description="Control de deformaciones, Nivelacion de precision, Informes técnicos y Registros periódicos."
-            />
-	     <ServiceCard
-              title="Drones & Fotogrametría"
-              description="Ortomosaicos, nubes de puntos y modelos 3D para análisis y seguimiento de obra."
-            />
-            	<ServiceCard
-              title="Asistencia Tecnica"
-              description="Servicios de asistencia técnica para el control y vigilancia de la ejecución de las obras"
-            />
-          </div>
-        </div>
-      </section>
-
-      {/* PROJECTS */}
+{/* PROJECTS */}
 <section id="projects" className="py-16 bg-topo-gray">
   <div className="max-w-6xl mx-auto p-6 text-center">
     <h2 className="text-3xl font-bold mb-4 text-topo-navy">Experiencias en el Sector </h2>
-    {/*<p className="mb-8 text-topo-dark">Ejemplos de trabajos realizados en diferentes islas.</p>*/}
     <ImageCarousel />
   </div>
 </section>
 
+{/* ABOUT */}
+<section id="about" className="py-16 bg-white">
+  <style>{`
+    @media (min-width: 768px) {
+      .about-force-row { flex-direction: row !important; }
+    }
+  `}</style>
 
-      {/* ABOUT */}
-      <section id="about" className="py-16 bg-white">
-        <div className="max-w-6xl mx-auto p-6 flex flex-col md:flex-row gap-10 items-center">
-          <div className="flex-1">
-            <h2 className="text-3xl font-bold mb-4 text-topo-navy">Sobre nosotros</h2>
-            <p className="mb-4 text-topo-dark">
-              TopoAtlantico es un estudio de topografía con base en Canarias. Combinamos experiencia local con tecnología (estación total, GNSS y drones) para entregar resultados precisos y documentación lista para obra.
-            </p>
-            <ul className="list-disc pl-5 space-y-1 text-topo-dark">
-              <li>Técnicos titulados en topografía y geomática</li>
-              <li>Equipos propios: estación total, GNSS, drones multirrotor</li>
-              <li>Informes detallados y modelos 3D</li>
-            </ul>
-          </div>
-          <div className="flex-1 bg-topo-gray h-60 flex items-center justify-center text-topo-dark">
-            Imagen / Galería
-          </div>
-        </div>
-      </section>
+  <div className="max-w-6xl mx-auto p-6 flex flex-col about-force-row gap-10 items-center md:items-start">
+    {/* LOGO A LA IZQUIERDA */}
+    <div className="md:w-1/2 flex justify-center md:justify-start">
+      <div className="bg-topo-gray/10 p-4 rounded-2xl shadow-sm">
+        <img
+          src={logo}
+          alt="TopoAtlántico"
+          className="w-40 md:w-52 lg:w-64 object-contain"
+        />
+      </div>
+    </div>
 
-      {/* CONTACT */}
-      <section id="contact" className="py-16 bg-topo-gray">
-        <div className="max-w-6xl mx-auto p-6 grid md:grid-cols-2 gap-10">
-          <div>
-            <h2 className="text-3xl font-bold mb-4 text-topo-navy">Contacto</h2>
-            <p className="mb-6 text-topo-dark">Pide presupuesto o consulta disponibilidad. Responderemos en 24–48 horas.</p>
-            <form action="mailto:info@topoatlantico.com" method="post" className="space-y-4">
-              <input type="text" name="name" placeholder="Nombre" required className="w-full border border-topo-navy rounded-lg p-2" />
-              <input type="email" name="email" placeholder="Email" required className="w-full border border-topo-navy rounded-lg p-2" />
-              <textarea name="message" placeholder="Mensaje" required className="w-full border border-topo-navy rounded-lg p-2 h-32"></textarea>
-              <Button variant="accent" type="submit">Enviar</Button>
-            </form>
-          </div>
-          <div className="bg-white p-6 rounded-xl shadow">
-            <h3 className="font-semibold mb-2 text-topo-navy">Datos</h3>
-            <p>TopoAtlántico · Canarias</p>
-            <p>📞 +34 600 000 000</p>
-            <p>✉️ info@topoatlantico.com</p>
-            <h4 className="mt-4 font-semibold text-topo-navy">Síguenos</h4>
-            <p>LinkedIn · Instagram</p>
-          </div>
-        </div>
-      </section>
+    {/* TEXTO A LA DERECHA */}
+    <div className="md:w-1/2">
+      <h2 className="text-3xl font-bold mb-4 text-topo-navy">Sobre nosotros</h2>
+      <p className="mb-4 text-topo-dark">
+        TopoAtlántico es un nuevo estudio de topografía con base en las islas Canarias. Combinamos la experiencia local de nuestros profesionales con la ultima tecnología para entregar resultados precisos a costes reducidos.
+      </p>
+      <ul className="list-disc pl-5 space-y-1 text-topo-dark">
+        <li>Técnicos titulados en geómatica y topografía</li>
+        <li>Equipos de precision: estación total, GNSS, drones multirrotor</li>
+        <li>Informes detallados y modelos 3D</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+{/* CONTACT */}
+<section id="contact" className="py-16 bg-topo-gray">
+  <ContactForm />
+</section>
+
+<Footer />
     </Layout>
   )
 }
 
-export default App
+export default function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/servicios/medicion-parcelas" element={<MedicionParcelas />} />
+      <Route path="/servicios/replanteo-obra" element={<ReplanteoObra />} />
+      <Route path="/servicios/levantamientos" element={<Levantamientos />} />
+      <Route path="/servicios/asistencia-tecnica" element={<AsistenciaTecnica />} />
+      <Route path="/servicios/monitoreo-auscultacion" element={<MonitoreoAuscultacion />} />
+      <Route path="/servicios/drones-fotogrametria" element={<DronesFotogrametria />} />
+      <Route path="/politica-privacidad" element={<PoliticaPrivacidad />} />
+      <Route path="/aviso-legal" element={<AvisoLegal />} />
+    </Routes>
+  )
+}

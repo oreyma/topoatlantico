@@ -66,7 +66,7 @@ function Home() {
 </section>
 
 {/* SERVICES */}
-<section id="services" className="py-16 bg-white">
+<section id="services" className="py-20 bg-white">
   <div className="max-w-6xl mx-auto p-6">
     <h2 className="text-3xl font-bold mb-2 text-topo-navy">Nuestros servicios</h2>
     <p className="mb-6 text-topo-dark">
@@ -114,7 +114,7 @@ function Home() {
 </section>
 
 {/* PROJECTS */}
-<section id="projects" className="py-16 bg-topo-gray">
+<section id="projects" className="py-20 bg-topo-gray">
   <div className="max-w-6xl mx-auto p-6 text-center">
     <h2 className="text-3xl font-bold mb-4 text-topo-navy">Experiencias en el Sector </h2>
     <ImageCarousel />
@@ -122,14 +122,14 @@ function Home() {
 </section>
 
 {/* ABOUT */}
-<section id="about" className="py-16 bg-white">
+<section id="about" className="py-20 bg-white">
   <style>{`
     @media (min-width: 768px) {
       .about-force-row { flex-direction: row !important; }
     }
   `}</style>
 
-  <div className="max-w-6xl mx-auto p-6 flex flex-col about-force-row gap-10 items-center md:items-start">
+  <div className="max-w-6xl mx-auto p-16 flex flex-col about-force-row gap-10 items-center md:items-start">
     {/* LOGO A LA IZQUIERDA */}
     <div className="md:w-1/2 flex justify-center md:justify-start">
       <div className="bg-topo-gray/10 p-4 rounded-2xl shadow-sm">
@@ -150,7 +150,7 @@ function Home() {
       <ul className="list-disc pl-5 space-y-1 text-topo-dark">
         <li>Técnicos titulados en geómatica y topografía</li>
         <li>Equipos de precision: estación total, GNSS, drones multirrotor</li>
-        <li>Informes detallados y modelos 3D</li>
+        <li>Disponibilidad y presupuesto en 24-48 h.</li>
       </ul>
     </div>
   </div>

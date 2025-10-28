@@ -23,7 +23,7 @@ export default function Navbar() {
         <a href="#home" className="flex items-center gap-3">
           <img
             src={logo}
-            alt="TopoAtlántico"
+            alt="TopoAtlantico"
             className={`object-contain transition-all duration-300 ${
               scrolled ? "w-12 h-12" : "w-16 h-16"
             }`}
