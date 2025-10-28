@@ -30,14 +30,14 @@ export default function Navbar() {
         >
           <img
             src={logo}
-            alt="TopoAtlántico"
+            alt="TopoAtlantico"
             className={`object-contain transition-all duration-300 ${
               scrolled ? "w-10 h-10" : "w-16 h-16"
             }`}
           />
           <div className="flex flex-col leading-tight">
             <span className="text-xl sm:text-2xl font-bold text-topo-navy">
-              TopoAtlántico
+              TopoAtlantico
             </span>
             <span className="text-xs sm:text-sm italic font-medium text-[#1B7F8C] tracking-wide mt-0.5">
               Servicios Topográficos
@@ -83,12 +83,13 @@ export default function Navbar() {
         </button>
 
         {/* MENÚ DESKTOP */}
-        <nav className="hidden md:flex gap-10 items-center text-black text-lg font-semibold">
-          <a href="#services" className="hover:text-topo-ocean">Servicios</a>
-          <a href="#projects" className="hover:text-topo-ocean">Proyectos</a>
-          <a href="#about" className="hover:text-topo-ocean">Nosotros</a>
-          <a href="#contact" className="hover:text-topo-ocean">Contacto</a>
-        </nav>
+{/* MENÚ DESKTOP */}
+<nav className="hidden sm:flex gap-8 items-center text-topo-navy text-lg font-semibold">
+  <a href="#services" className="hover:text-topo-ocean transition-colors">Servicios</a>
+  <a href="#projects" className="hover:text-topo-ocean transition-colors">Proyectos</a>
+  <a href="#about" className="hover:text-topo-ocean transition-colors">Nosotros</a>
+  <a href="#contact" className="hover:text-topo-ocean transition-colors">Contacto</a>
+</nav>
       </div>
 
       {/* CAPA OSCURA AL ABRIR MENÚ MÓVIL */}
