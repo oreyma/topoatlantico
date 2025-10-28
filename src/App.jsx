@@ -131,11 +131,11 @@ function Home() {
 
   <div className="max-w-6xl mx-auto p-16 flex flex-col about-force-row gap-10 items-center md:items-start">
     {/* LOGO A LA IZQUIERDA */}
-    <div className="md:w-1/2 flex justify-center md:justify-start">
-      <div className="bg-topo-gray/10 p-4 rounded-2xl shadow-sm">
+    <div className="md:w-1/4 flex justify-center md:justify-start">
+      <div className="bg-topo-gray/10 p-2 rounded-2xl shadow-sm">
         <img
           src={logo}
-          alt="TopoAtlántico"
+          alt="TopoAtlantico"
           className="w-40 md:w-52 lg:w-64 object-contain"
         />
       </div>
@@ -145,7 +145,7 @@ function Home() {
     <div className="md:w-1/2">
       <h2 className="text-3xl font-bold mb-4 text-topo-navy">Sobre nosotros</h2>
       <p className="mb-4 text-topo-dark">
-        TopoAtlántico es un nuevo estudio de topografía con base en las islas Canarias. Combinamos la experiencia local de nuestros profesionales con la ultima tecnología para entregar resultados precisos a costes reducidos.
+        TopoAtlantico es un nuevo estudio de topografía con base en las islas Canarias. Combinamos la experiencia local de nuestros profesionales con la ultima tecnología para entregar resultados precisos a costes reducidos.
       </p>
       <ul className="list-disc pl-5 space-y-1 text-topo-dark">
         <li>Técnicos titulados en geómatica y topografía</li>

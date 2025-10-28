@@ -48,13 +48,13 @@ export default function ReplanteoObra() {
       {/* CONTENIDO PRINCIPAL */}
       <section className="min-h-screen flex flex-col items-center justify-center text-center bg-white">
         <div className="max-w-3xl p-6">
-          <h1 className="text-3xl font-bold text-topo-navy mt-6 mb-4 text-center">
+          <h1 className="text-4xl font-bold text-topo-navy mb-4">
             Replanteo de Obra
           </h1>
           <img
             src="/images/servicios/replanteo.jpg"
             alt="Replanteo de Obra"
-            className="w-full h-64 md:h-96 object-cover rounded-xl shadow-md"
+            className="rounded-lg shadow-lg mb-6 w-full object-cover"
           />
           <p className="text-lg text-topo-dark mb-0">
             Servicios de replanteo de alta precisión tanto en edificación como en obra civil:

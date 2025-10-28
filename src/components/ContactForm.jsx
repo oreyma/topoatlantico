@@ -65,7 +65,7 @@ export default function ContactForm() {
 {/* BOTÓN DE WHATSAPP */}
 <div className="bg-white p-6 rounded-xl shadow">
   <a
-    href="https://wa.me/342566908" // <-- pon aquí tu número, sin + ni espacios
+    href="https://wa.me/34642566908" // <-- pon aquí tu número, sin + ni espacios
     target="_blank"
     rel="noopener noreferrer"
     className="flex items-center gap-2 text-green-600 hover:text-green-700 transition-colors"

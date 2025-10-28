@@ -25,11 +25,11 @@ export default function Navbar() {
             src={logo}
             alt="TopoAtlantico"
             className={`object-contain transition-all duration-300 ${
-              scrolled ? "w-12 h-12" : "w-16 h-16"
+              scrolled ? "w-12 h-12" : "w-24 h-24"
             }`}
           />
           <div className="flex flex-col leading-tight">
-            <span className="text-2xl font-bold text-topo-navy">TopoAtlántico</span>
+            <span className="text-2xl font-bold text-topo-navy">TopoAtlantico</span>
             <span className="text-sm italic font-medium text-[#1B7F8C] tracking-wide">
               Servicios Topográficos
             </span>
