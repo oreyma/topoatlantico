@@ -22,7 +22,7 @@ export default function Navbar() {
         scrolled ? "bg-white backdrop-blur-md py-2 shadow-md" : "bg-white py-3"
       }`}
     >
-      <div className="max-w-7xl mx-auto flex justify-between items-center px-4 md:px-6 transition-all duration-300">
+      <div className="max-w-7xl mx-auto flex items-center justify-between px-4 md:px-6 transition-all duration-300">
         {/* LOGO + NOMBRE */}
         <a
           href="#home"
@@ -37,7 +37,7 @@ export default function Navbar() {
           />
           <div className="flex flex-col leading-tight">
             <span className="text-xl sm:text-2xl font-bold text-topo-navy">
-              TopoAtlantico
+              TopoAtlántico
             </span>
             <span className="text-xs sm:text-sm italic font-medium text-[#1B7F8C] tracking-wide mt-0.5">
               Servicios Topográficos
@@ -45,9 +45,25 @@ export default function Navbar() {
           </div>
         </a>
 
+        {/* MENÚ DESKTOP */}
+        <nav className="hidden lg:flex gap-10 items-center text-topo-navy text-lg font-semibold">
+          <a href="#services" className="hover:text-topo-ocean transition-colors">
+            Servicios
+          </a>
+          <a href="#projects" className="hover:text-topo-ocean transition-colors">
+            Proyectos
+          </a>
+          <a href="#about" className="hover:text-topo-ocean transition-colors">
+            Nosotros
+          </a>
+          <a href="#contact" className="hover:text-topo-ocean transition-colors">
+            Contacto
+          </a>
+        </nav>
+
         {/* BOTÓN MENÚ MÓVIL */}
         <button
-          className="md:hidden text-topo-navy focus:outline-none"
+          className="lg:hidden text-topo-navy focus:outline-none"
           onClick={() => setMenuOpen(!menuOpen)}
           aria-label="Abrir menú"
         >
@@ -81,20 +97,11 @@ export default function Navbar() {
             </svg>
           )}
         </button>
-
-        {/* MENÚ DESKTOP */}
-{/* MENÚ DESKTOP */}
-<nav className="hidden sm:flex gap-8 items-center text-topo-navy text-lg font-semibold">
-  <a href="#services" className="hover:text-topo-ocean transition-colors">Servicios</a>
-  <a href="#projects" className="hover:text-topo-ocean transition-colors">Proyectos</a>
-  <a href="#about" className="hover:text-topo-ocean transition-colors">Nosotros</a>
-  <a href="#contact" className="hover:text-topo-ocean transition-colors">Contacto</a>
-</nav>
       </div>
 
       {/* CAPA OSCURA AL ABRIR MENÚ MÓVIL */}
       <div
-        className={`fixed inset-0 bg-black/40 backdrop-blur-sm transition-all duration-500 md:hidden ${
+        className={`fixed inset-0 bg-black/40 backdrop-blur-sm transition-all duration-500 lg:hidden ${
           menuOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
         }`}
         onClick={() => setMenuOpen(false)}
@@ -102,7 +109,7 @@ export default function Navbar() {
 
       {/* MENÚ MÓVIL DESLIZABLE */}
       <div
-        className={`fixed top-0 right-0 h-full w-3/4 sm:w-1/2 bg-white shadow-2xl transition-transform duration-500 md:hidden flex flex-col items-center gap-6 text-topo-navy font-semibold text-lg ${
+        className={`fixed top-0 right-0 h-full w-3/4 sm:w-1/2 bg-white shadow-2xl transition-transform duration-500 lg:hidden flex flex-col items-center gap-6 text-topo-navy font-semibold text-lg ${
           menuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
