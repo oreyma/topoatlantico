@@ -44,11 +44,12 @@ export default function AsistenciaTecnica() {
       {/* CONTENIDO PRINCIPAL */}
       <section className="min-h-screen flex flex-col items-center justify-center text-center bg-white p-6">
         <div className="max-w-3xl">
-          <h1 className="text-4xl font-bold text-topo-navy mb-4">Asistencia Técnica</h1>
+          <h1 className="text-3xl font-bold text-topo-navy mt-6 mb-4 text-center">
+Asistencia Técnica</h1>
           <img
             src="/images/servicios/ATecnica.jpg"
             alt="Asistencia técnica"
-            className="rounded-lg shadow-lg mb-6 w-full object-cover"
+            className="w-full h-64 md:h-96 object-cover rounded-xl shadow-md"
           />
           <p className="text-lg text-topo-dark mb-6">
             Ofrecemos asistencia técnica en obra, control de replanteos, cubicaciones, nivelaciones y verificación de estructuras. 

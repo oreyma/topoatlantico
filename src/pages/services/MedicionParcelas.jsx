@@ -48,13 +48,13 @@ export default function MedicionParcelas() {
       {/* CONTENIDO PRINCIPAL */}
       <section className="min-h-screen flex flex-col items-center justify-center text-center bg-white">
         <div className="max-w-3xl p-6">
-          <h1 className="text-4xl font-bold text-topo-navy mb-4">
+          <h1 className="text-3xl font-bold text-topo-navy mt-6 mb-4 text-center">
             Medición de Parcelas
           </h1>
           <img
             src="/images/servicios/parcelas.jpg"
             alt="Medición de parcelas"
-            className="rounded-lg shadow-lg mb-6 w-full object-cover"
+            className="w-full h-64 md:h-96 object-cover rounded-xl shadow-md"
           />
           <p className="text-lg text-topo-dark mb-0">
             Medición precisa de terrenos rusticos         

@@ -3,7 +3,7 @@ import Footer from "../../components/Footer"
 import Button from "../../components/Button"
 import logo from "../../assets/logo.png"
 
-export default function DronesFotogrametria() {
+export default function MonitoreoAuscultacion() {
   const navigate = useNavigate()
 
   const handleHomeClick = () => {
@@ -39,16 +39,17 @@ export default function DronesFotogrametria() {
 
       <section className="min-h-screen flex flex-col items-center justify-center text-center bg-white p-6">
         <div className="max-w-3xl">
-        <h1 className="text-3xl font-bold text-topo-navy mt-6 mb-4 text-center">
-            Drones & Fotogrametría
+          <h1 className="text-4xl font-bold text-topo-navy mb-4">
+            Monitoreo y Auscultación
           </h1>
           <img
-            src="/images/servicios/dron.jpg"
-            alt="Drones y fotogrametría"
-            className="w-full h-64 md:h-96 object-cover rounded-xl shadow-md"
+            src="/images/servicios/monitoreo.jpg"
+            alt="Monitoreo y Auscultación"
+            className="rounded-lg shadow-lg mb-6 w-full object-cover"
           />
           <p className="text-lg text-topo-dark mb-6">
-            Capturamos imágenes aéreas de alta resolución mediante drones profesionales, generando ortofotos, modelos 3D y nubes de puntos. Ideal para cartografía, estudios topográficos y seguimiento de obra (Video y Foto).
+            Realizamos control de deformaciones y desplazamientos en estructuras, taludes, presas y edificaciones.
+            Utilizamos instrumentación de alta precisión para un seguimiento continuo y seguro.
           </p>
 
           <div className="flex justify-center gap-4">

@@ -3,11 +3,11 @@ import Footer from "../../components/Footer"
 import Button from "../../components/Button"
 import logo from "../../assets/logo.png"
 
-export default function DronesFotogrametria() {
+export default function MedicionParcelas() {
   const navigate = useNavigate()
 
   const handleHomeClick = () => {
-    navigate("/")
+    navigate("/") // 🔹 vuelve al inicio de la página principal
     window.scrollTo({ top: 0, behavior: "smooth" })
   }
 
@@ -27,9 +27,17 @@ export default function DronesFotogrametria() {
 
   return (
     <>
+      {/* CABECERA SIMPLE */}
       <header className="w-full py-4 flex justify-center items-center border-b border-topo-gray bg-white shadow-sm">
-        <div className="flex items-center gap-3 cursor-pointer" onClick={handleHomeClick}>
-          <img src={logo} alt="TopoAtlántico" className="w-24 h-24 object-contain" />
+        <div
+          className="flex items-center gap-3 cursor-pointer"
+          onClick={handleHomeClick} // 👈 al hacer clic en el logo o texto
+        >
+          <img
+            src={logo}
+            alt="TopoAtlantico"
+            className="w-24 h-24 object-contain"
+          />
           <div className="flex flex-col leading-tight">
             <span className="text-2xl font-bold text-topo-navy">TopoAtlántico</span>
             <span className="text-sm italic text-[#2DD4BF]">Servicios Topográficos</span>
@@ -37,20 +45,23 @@ export default function DronesFotogrametria() {
         </div>
       </header>
 
-      <section className="min-h-screen flex flex-col items-center justify-center text-center bg-white p-6">
-        <div className="max-w-3xl">
-        <h1 className="text-3xl font-bold text-topo-navy mt-6 mb-4 text-center">
-            Drones & Fotogrametría
+      {/* CONTENIDO PRINCIPAL */}
+      <section className="min-h-screen flex flex-col items-center justify-center text-center bg-white">
+        <div className="max-w-3xl p-6">
+          <h1 className="text-4xl font-bold text-topo-navy mb-4">
+            Medición de Parcelas
           </h1>
           <img
-            src="/images/servicios/dron.jpg"
-            alt="Drones y fotogrametría"
-            className="w-full h-64 md:h-96 object-cover rounded-xl shadow-md"
+            src="/images/servicios/parcelas.jpg"
+            alt="Medición de parcelas"
+            className="rounded-lg shadow-lg mb-6 w-full object-cover"
           />
+          <p className="text-lg text-topo-dark mb-0">
+            Medición precisa de terrenos rusticos         
+         </p>
           <p className="text-lg text-topo-dark mb-6">
-            Capturamos imágenes aéreas de alta resolución mediante drones profesionales, generando ortofotos, modelos 3D y nubes de puntos. Ideal para cartografía, estudios topográficos y seguimiento de obra (Video y Foto).
+            Ofrecemos una amplia gama de servicios que incluye el cálculo detallado de la superficie, delimitación de linderos, parcelaciones, análisis de diferencias de nivel, control de pendientes y cubicación de volúmenes, entre otros.
           </p>
-
           <div className="flex justify-center gap-4">
             <Button
               variant="accent"
