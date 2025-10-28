@@ -47,7 +47,7 @@ function Home() {
       Servicios de topografía y cartografía en las Islas Canarias. 
     </p>
     <p className="text-lg mb-8">
-      Soluciones de precision, a la medida de tus necesidades.
+      Soluciones de precisión, a la medida de tus necesidades.
     </p>
 
     <div className="flex justify-center gap-6">
