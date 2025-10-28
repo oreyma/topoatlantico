@@ -48,8 +48,7 @@ export default function DronesFotogrametria() {
             className="rounded-lg shadow-lg mb-6 w-full object-cover"
           />
           <p className="text-lg text-topo-dark mb-6">
-            Capturamos imágenes aéreas de alta resolución mediante drones profesionales,
-            generando ortofotos, modelos 3D y nubes de puntos. Ideal para cartografía, seguimiento de obra y estudios topográficos.
+            Capturamos imágenes aéreas de alta resolución mediante drones profesionales, generando ortofotos, modelos 3D y nubes de puntos. Ideal para cartografía, estudios topográficos y seguimiento de obra (Video y Foto).
           </p>
 
           <div className="flex justify-center gap-4">

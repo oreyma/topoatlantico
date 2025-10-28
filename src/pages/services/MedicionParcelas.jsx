@@ -60,7 +60,7 @@ export default function MedicionParcelas() {
             Medición precisa de terrenos rusticos         
          </p>
           <p className="text-lg text-topo-dark mb-6">
-            Ofrecemos una amplia gama de servicios que incluye el cálculo detallado de la superficie,  análisis de diferencias de nivel, control de pendientes y cubicación de volúmenes, entre otros.
+            Ofrecemos una amplia gama de servicios que incluye el cálculo detallado de la superficie, delimitación de linderos, parcelaciones, análisis de diferencias de nivel, control de pendientes y cubicación de volúmenes, entre otros.
           </p>
           <div className="flex justify-center gap-4">
             <Button

@@ -47,7 +47,7 @@ function Home() {
       Servicios de topografía y cartografía en las Islas Canarias. 
     </p>
     <p className="text-lg mb-8">
-      Precisión, tecnología y conocimiento del terreno.
+      Soluciones de precision, a la medida de tus necesidades.
     </p>
 
     <div className="flex justify-center gap-6">
@@ -159,11 +159,11 @@ function Home() {
     <div className="md:w-1/2">
       <h2 className="text-3xl font-bold mb-4 text-topo-navy">Sobre nosotros</h2>
       <p className="mb-4 text-topo-dark">
-        TopoAtlántico es un estudio de topografía con base en Canarias. Combinamos experiencia local con tecnología (estación total, GNSS y drones) para entregar resultados precisos y documentación lista para obra.
+        TopoAtlántico es un nuevo estudio de topografía con base en las islas Canarias. Combinamos la experiencia local de nuestros profesionales con la ultima tecnología para entregar resultados precisos a costes reducidos.
       </p>
       <ul className="list-disc pl-5 space-y-1 text-topo-dark">
-        <li>Técnicos titulados en topografía y geomática</li>
-        <li>Equipos propios: estación total, GNSS, drones multirrotor</li>
+        <li>Técnicos titulados en geómatica y topografía</li>
+        <li>Equipos de precision: estación total, GNSS, drones multirrotor</li>
         <li>Informes detallados y modelos 3D</li>
       </ul>
     </div>
