@@ -1,0 +1,99 @@
+{
+  "navbar": {
+    "services": "Servicios",
+    "projects": "Proyectos",
+    "about": "Nosotros",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "TopoAtlántico",
+    "subtitle1": "Servicios de topografía y cartografía en las Islas Canarias.",
+    "subtitle2": "Soluciones de precisión, a la medida de tus necesidades.",
+    "btn_quote": "Solicita presupuesto",
+    "btn_services": "Ver servicios"
+  },
+  "services": {
+    "title": "Nuestros servicios",
+    "description": "Ofrecemos asesoramiento y soluciones adaptadas al cliente",
+    "list": {
+      "parcelas": "Medición de Parcelas",
+      "replanteo": "Replanteo de Obra",
+      "levantamientos": "Levantamientos Topográficos",
+      "asistencia": "Asistencia Técnica",
+      "monitoreo": "Monitoreo y Auscultación",
+      "drones": "Drones & Fotogrametría"
+    },
+  "levantamientos": {
+      "title": "Levantamientos Topográficos",
+      "desc": "Realizamos levantamientos topográficos precisos para ingeniería, edificación y cartografía. Generamos planos, curvas de nivel y modelos 3D del terreno."
+    },
+    "replanteo": {
+      "title": "Replanteo de Obra",
+      "desc": "Servicios de replanteo de alta precisión en edificación y obra civil: Amplia experiencia en replanteos de estructuras, movimientos de tierra, drenajes, etc."
+    },
+    "parcelas": {
+      "title": "Medición de Parcelas",
+      "desc": "Medición precisa de terrenos rústicos y urbanos, delimitación de linderos, parcelaciones y cubicaciones detalladas, entre otros."
+    },
+    "asistencia": {
+      "title": "Asistencia Técnica",
+      "desc": "Ofrecemos asistencia técnica en obra, control de replanteos, cubicaciones, nivelaciones y verificación de estructuras. Aseguramos la precisión geométrica en todas las fases del proyecto."
+    },
+    "monitoreo": {
+      "title": "Monitoreo y Auscultación",
+      "desc": "Realizamos control de deformaciones y desplazamientos en estructuras, taludes, presas y edificaciones. Utilizamos instrumentación de alta precisión para un seguimiento continuo y seguro."
+    },
+    "drones": {
+      "title": "Drones y Fotogrametría",
+      "desc": "Capturamos imágenes aéreas de alta resolución para generar ortofotos, modelos 3D y nubes de puntos."
+    }
+  },
+  "projects": {
+    "title": "Experiencias en el Sector"
+  },
+  "about": {
+    "title": "Sobre nosotros",
+    "p1": "TopoAtlántico es un nuevo estudio de topografía con base en las Islas Canarias. Combinamos la experiencia local de nuestros profesionales con la última tecnología para entregar resultados precisos a costes reducidos.",
+    "list": {
+      "1": "Técnicos titulados en geomática y topografía",
+      "2": "Equipos de precisión: estación total, GNSS, drones multirrotor",
+      "3": "Disponibilidad y presupuesto en 24-48 h."
+    }
+  },
+"contact": {
+  "title": "Contacto",
+  "description": "Pide presupuesto o consulta disponibilidad. Responderemos en 24–48 h.",
+  "name": "Nombre",
+  "email": "Email",
+  "message": "Mensaje",
+  "send": "Enviar",
+  "sending": "Enviando...",
+  "whatsapp": "Escríbenos por WhatsApp",
+  "data_title": "Datos",
+  "company": "TopoAtlántico · Canarias",
+  "follow": "Síguenos",
+  "success_title": "Gracias",
+  "success_message": "✅ Tu mensaje ha sido enviado correctamente. Te responderemos pronto."
+},
+  "buttons": {
+    "quote": "Solicita presupuesto",
+    "other": "Otros servicios"
+  },
+"legal": {
+  "title": "Aviso Legal",
+  "content": "Este sitio web pertenece a TopoAtlántico. La información contenida en esta página tiene carácter meramente informativo. No nos hacemos responsables del mal uso que se pueda hacer de los contenidos. El acceso a este sitio implica la aceptación de las condiciones de uso aquí descritas.",
+  "updated": "Última actualización: Octubre 2025",
+  "back": "Volver al inicio"
+},
+"privacy": {
+  "title": "Política de Privacidad",
+  "content": "En TopoAtlántico respetamos su privacidad y garantizamos la protección de sus datos personales conforme al Reglamento General de Protección de Datos (RGPD). Los datos que nos proporcione serán utilizados exclusivamente para atender sus consultas o solicitudes de presupuesto.",
+  "updated": "Última actualización: Octubre 2025",
+  "back": "Volver al inicio"
+},
+"footer": {
+  "rights": "Todos los derechos reservados.",
+  "privacy": "Política de Privacidad",
+  "legal": "Aviso Legal"
+}
+}

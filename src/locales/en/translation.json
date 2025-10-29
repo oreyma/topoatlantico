@@ -1,0 +1,99 @@
+{
+  "navbar": {
+    "services": "Services",
+    "projects": "Projects",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "TopoAtlantico",
+    "subtitle1": "Surveying and mapping services in the Canary Islands.",
+    "subtitle2": "Tailored precision solutions to meet your needs.",
+    "btn_quote": "Request a quote",
+    "btn_services": "View services"
+  },
+ "services": {
+    "title": "Our Services",
+    "description": "We offer tailored technical solutions",
+    "list": {
+      "parcelas": "Measuring & Mapping Property Boundaries",
+      "replanteo": "Setting Out Engineering",
+      "levantamientos": "Land Surveying & Mapping",
+      "asistencia": "Surveys Inspection & QA Reports",
+      "monitoreo": "Surface and Sub-surface Monitoring",
+      "drones": "Drones & Photogrammetry"
+    },
+    "levantamientos": {
+      "title": "Topographic Surveys",
+      "desc": "We carry out precise topographic surveys for engineering, construction, and cartography. We generate maps, contour lines, and 3D terrain models."
+    },
+    "replanteo": {
+      "title": "Construction Setting Out",
+      "desc": "High-precision setting-out services for building and civil works: structures, earthworks, drainage, etc."
+    },
+    "parcelas": {
+      "title": "Property Boundary Measurement",
+      "desc": "Accurate measurement of rural and urban plots, boundary demarcation, and detailed volume calculations."
+    },
+    "asistencia": {
+      "title": "Technical Assistance",
+      "desc": "Control of layouts, volume calculations, and leveling. We ensure geometric precision at all project stages."
+    },
+    "monitoreo": {
+      "title": "Monitoring & Structural Surveying",
+      "desc": "Tracking structural and ground deformations using high-precision instruments."
+    },
+    "drones": {
+      "title": "Drones & Photogrammetry",
+      "desc": "We capture high-resolution aerial imagery to create orthophotos, 3D models, and point clouds."
+    }
+  },
+  "projects": {
+    "title": "Industry Experience"
+  },
+  "about": {
+    "title": "About Us",
+    "p1": "TopoAtlantico is a new surveying firm based in the Canary Islands. We combine local expertise with advanced technology to deliver precise results at reduced costs.",
+    "list": {
+      "1": "Qualified geomatics and surveying engineers",
+      "2": "Precision equipment: total station, GNSS, multirotor drones",
+      "3": "Availability and quotes within 24–48 hours."
+    }
+  },
+"contact": {
+  "title": "Contact",
+  "description": "Request a quote or check availability. We'll reply within 24–48 h.",
+  "name": "Name",
+  "email": "Email",
+  "message": "Message",
+  "send": "Send",
+  "sending": "Sending...",
+  "whatsapp": "Message us on WhatsApp",
+  "data_title": "Contact Info",
+  "company": "TopoAtlántico · Canary Islands",
+  "follow": "Follow us",
+  "success_title": "Thank you",
+  "success_message": "✅ Your message has been sent successfully. We'll get back to you soon."
+},
+  "buttons": {
+    "quote": "Request a quote",
+    "other": "Other services"
+  },
+"legal": {
+  "title": "Legal Notice",
+  "content": "This website belongs to TopoAtlántico. The information on this page is for informational purposes only. We are not responsible for any misuse of its content. Access to this site implies acceptance of the terms of use described here.",
+  "updated": "Last updated: October 2025",
+  "back": "Return to homepage"
+},
+"privacy": {
+  "title": "Privacy Policy",
+  "content": "At TopoAtlántico, we respect your privacy and guarantee the protection of your personal data in accordance with the General Data Protection Regulation (GDPR). The information you provide will be used solely to respond to your inquiries or quote requests.",
+  "updated": "Last updated: October 2025",
+  "back": "Return to homepage"
+},
+"footer": {
+  "rights": "All rights reserved.",
+  "privacy": "Privacy Policy",
+  "legal": "Legal Notice"
+}
+}

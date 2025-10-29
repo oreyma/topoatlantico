@@ -1,15 +1,22 @@
-// src/components/Navbar.jsx
-import { useState, useEffect } from "react"
-import logo from "../assets/logo.png"
+import { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
+import logo from "../assets/logo.png";
+import flagES from "../assets/flag-es.png";
+import flagEN from "../assets/flag-en.png";
 
 export default function Navbar() {
-  const [scrolled, setScrolled] = useState(false)
+  const [scrolled, setScrolled] = useState(false);
+  const { t, i18n } = useTranslation();
 
   useEffect(() => {
-    const handleScroll = () => setScrolled(window.scrollY > 50)
-    window.addEventListener("scroll", handleScroll)
-    return () => window.removeEventListener("scroll", handleScroll)
-  }, [])
+    const handleScroll = () => setScrolled(window.scrollY > 50);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  };
 
   return (
     <header
@@ -19,31 +26,53 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-4 md:px-8 flex flex-col md:flex-row items-center justify-between transition-all duration-300">
         
-        {/* LOGO + TEXTO */}
-        <a href="#home" className="flex items-center gap-3">
-          <img
-            src={logo}
-            alt="TopoAtlantico"
-            className={`object-contain transition-all duration-300 ${
-              scrolled ? "w-12 h-12" : "w-24 h-24"
-            }`}
-          />
-          <div className="flex flex-col leading-tight">
-            <span className="text-2xl font-bold text-topo-navy">TopoAtlantico</span>
-            <span className="text-sm italic font-medium text-[#1B7F8C] tracking-wide">
-              Servicios Topográficos
-            </span>
-          </div>
-        </a>
+        {/* LOGO CENTRADO */}
+        <div className="flex-1 flex justify-center items-center">
+          <a href="#home" className="flex items-center gap-3">
+            <img
+              src={logo}
+              alt="TopoAtlantico"
+              className={`object-contain transition-all duration-300 ${
+                scrolled ? "w-12 h-12" : "w-24 h-24"
+              }`}
+            />
+            <div className="flex flex-col leading-tight">
+              <span className="text-2xl font-bold text-topo-navy">TopoAtlantico</span>
+              <span className="text-sm italic font-medium text-[#1B7F8C] tracking-wide">
+                Servicios Topográficos
+              </span>
+            </div>
+          </a>
 
-        {/* MENÚ (horizontal en escritorio, debajo en móvil) */}
+          {/* SELECTOR DE IDIOMA - A la derecha del logo */}
+          <div className="flex gap-2 ml-4">
+            <button
+              onClick={() => changeLanguage("es")}
+              className={`p-1 rounded-full border-2 transition-all ${
+                i18n.language === "es" ? "border-topo-navy" : "border-transparent"
+              }`}
+            >
+              <img src={flagES} alt="Español" className="w-6 h-6 rounded-full" />
+            </button>
+            <button
+              onClick={() => changeLanguage("en")}
+              className={`p-1 rounded-full border-2 transition-all ${
+                i18n.language === "en" ? "border-topo-navy" : "border-transparent"
+              }`}
+            >
+              <img src={flagEN} alt="English" className="w-6 h-6 rounded-full" />
+            </button>
+          </div>
+        </div>
+
+        {/* MENÚ */}
         <nav className="flex flex-wrap justify-center md:justify-end gap-4 mt-3 md:mt-0 text-topo-navy text-lg font-semibold">
-          <a href="#services" className="hover:text-topo-ocean transition-colors">Servicios</a>
-          <a href="#projects" className="hover:text-topo-ocean transition-colors">Proyectos</a>
-          <a href="#about" className="hover:text-topo-ocean transition-colors">Nosotros</a>
-          <a href="#contact" className="hover:text-topo-ocean transition-colors">Contacto</a>
+          <a href="#services" className="hover:text-topo-ocean transition-colors">{t("navbar.services")}</a>
+          <a href="#projects" className="hover:text-topo-ocean transition-colors">{t("navbar.projects")}</a>
+          <a href="#about" className="hover:text-topo-ocean transition-colors">{t("navbar.about")}</a>
+          <a href="#contact" className="hover:text-topo-ocean transition-colors">{t("navbar.contact")}</a>
         </nav>
       </div>
     </header>
-  )
+  );
 }

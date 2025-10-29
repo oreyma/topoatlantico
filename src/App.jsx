@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom"
+
 import './App.css'
 import logo from './assets/logo.png'
 import Button from './components/Button'
@@ -17,9 +17,15 @@ import AsistenciaTecnica from "./pages/services/AsistenciaTecnica"
 import MonitoreoAuscultacion from "./pages/services/MonitoreoAuscultacion"
 import DronesFotogrametria from "./pages/services/DronesFotogrametria"
 import ContactForm from "./components/ContactForm"
+import { useTranslation } from "react-i18next"
+import PrivacyPolicy from "./pages/legal/PrivacyPolicy"
+import LegalNotice from "./pages/legal/LegalNotice"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-function Home() {	
+function Home() {
+ const { t } = useTranslation();	
   return (
+
     <Layout>
       <Navbar />
 
@@ -39,76 +45,34 @@ function Home() {
 
   {/* Contenido principal */}
   <div className="relative z-10 max-w-3xl px-6">
-    <h1 className="text-5xl font-extrabold mb-4">TopoAtlantico</h1>
-    <p className="text-lg mb-1">
-      Servicios de topografía y cartografía en las Islas Canarias. 
-    </p>
-    <p className="text-lg mb-8">
-      Soluciones de precision, a la medida de tus necesidades.
-    </p>
+<h1 className="text-5xl font-extrabold mb-4">{t("hero.title")}</h1>
+<p className="text-lg mb-1">{t("hero.subtitle1")}</p>
+<p className="text-lg mb-8">{t("hero.subtitle2")}</p>
 
-    <div className="flex justify-center gap-6">
-      <a
-        href="#contact"
-        className="border border-white text-white px-6 py-3 rounded-lg shadow hover:shadow-lg transition-transform hover:-translate-y-1"
-      >
-        Solicita presupuesto
-      </a>
+<div className="flex justify-center gap-6">
+  <a href="#contact" className="border border-white text-white px-6 py-3 rounded-lg shadow hover:shadow-lg transition-transform hover:-translate-y-1">
+    {t("hero.btn_quote")}
+  </a>
+  <a href="#services" className="border border-white text-white px-6 py-3 rounded-lg shadow hover:shadow-lg transition-transform hover:-translate-y-1">
+    {t("hero.btn_services")}
+  </a>
+</div>
 
-      <a
-        href="#services"
-        className="border border-white text-white px-6 py-3 rounded-lg shadow hover:shadow-lg transition-transform hover:-translate-y-1"
-      >
-        Ver servicios
-      </a>
-    </div>
   </div>
 </section>
 
 {/* SERVICES */}
 <section id="services" className="py-20 bg-white">
   <div className="max-w-6xl mx-auto p-6">
-    <h2 className="text-3xl font-bold mb-2 text-topo-navy">Nuestros servicios</h2>
-    <p className="mb-6 text-topo-dark">
-      Ofrecemos asesoramiento y soluciones adaptadas al cliente
-    </p>
+    <h2 className="text-3xl font-bold mb-2 text-topo-navy">{t("services.title")}</h2>
+    <p className="mb-6 text-topo-dark">{t("services.description")}</p>
     <div className="grid gap-6 md:grid-cols-3">
-      <ServiceCard
-        title="Medición de Parcelas"
-        description=""
-        image="/images/servicios/parcelas.jpg"
-        link="/servicios/medicion-parcelas"
-      />
-      <ServiceCard
-        title="Replanteo de Obra"
-        description=""
-        image="/images/servicios/replanteo.jpg"
-        link="/servicios/replanteo-obra"
-      />
-      <ServiceCard
-        title="Levantamientos Topográficos"
-        description=""
-        image="/images/servicios/levantamiento.jpg"
-        link="/servicios/levantamientos"
-      />
-      <ServiceCard
-        title="Asistencia Técnica"
-        description=""
-        image="/images/servicios/ATecnica.jpg"
-        link="/servicios/asistencia-tecnica"
-      />
-      <ServiceCard
-        title="Monitoreo y auscultación"
-        description=""
-        image="/images/servicios/monitoreo.jpg"
-        link="/servicios/monitoreo-auscultacion"
-      />
-      <ServiceCard
-        title="Drones & Fotogrametría"
-        description=""
-        image="/images/servicios/dron.jpg"
-        link="/servicios/drones-fotogrametria"
-      />
+      <ServiceCard title={t("services.list.parcelas")} image="/images/servicios/parcelas.jpg" link="/servicios/medicion-parcelas" />
+      <ServiceCard title={t("services.list.replanteo")} image="/images/servicios/replanteo.jpg" link="/servicios/replanteo-obra" />
+      <ServiceCard title={t("services.list.levantamientos")} image="/images/servicios/levantamiento.jpg" link="/servicios/levantamientos" />
+      <ServiceCard title={t("services.list.asistencia")} image="/images/servicios/ATecnica.jpg" link="/servicios/asistencia-tecnica" />
+      <ServiceCard title={t("services.list.monitoreo")} image="/images/servicios/monitoreo.jpg" link="/servicios/monitoreo-auscultacion" />
+      <ServiceCard title={t("services.list.drones")} image="/images/servicios/dron.jpg" link="/servicios/drones-fotogrametria" />
     </div>
   </div>
 </section>
@@ -116,41 +80,28 @@ function Home() {
 {/* PROJECTS */}
 <section id="projects" className="py-20 bg-topo-gray">
   <div className="max-w-6xl mx-auto p-6 text-center">
-    <h2 className="text-3xl font-bold mb-4 text-topo-navy">Experiencias en el Sector </h2>
+    <h2 className="text-3xl font-bold mb-4 text-topo-navy">{t("projects.title")}</h2>
     <ImageCarousel />
   </div>
 </section>
 
+
 {/* ABOUT */}
 <section id="about" className="py-20 bg-white">
-  <style>{`
-    @media (min-width: 768px) {
-      .about-force-row { flex-direction: row !important; }
-    }
-  `}</style>
-
-  <div className="max-w-6xl mx-auto p-16 flex flex-col about-force-row gap-10 items-center md:items-start">
-    {/* LOGO A LA IZQUIERDA */}
+  <div className="max-w-6xl mx-auto p-16 flex flex-col md:flex-row gap-10 items-center md:items-start">
     <div className="md:w-1/4 flex justify-center md:justify-start">
       <div className="bg-topo-gray/10 p-2 rounded-2xl shadow-sm">
-        <img
-          src={logo}
-          alt="TopoAtlantico"
-          className="w-40 md:w-52 lg:w-64 object-contain"
-        />
+        <img src={logo} alt="TopoAtlantico" className="w-40 md:w-52 lg:w-64 object-contain" />
       </div>
     </div>
 
-    {/* TEXTO A LA DERECHA */}
     <div className="md:w-1/2">
-      <h2 className="text-3xl font-bold mb-4 text-topo-navy">Sobre nosotros</h2>
-      <p className="mb-4 text-topo-dark">
-        TopoAtlantico es un nuevo estudio de topografía con base en las islas Canarias. Combinamos la experiencia local de nuestros profesionales con la ultima tecnología para entregar resultados precisos a costes reducidos.
-      </p>
+      <h2 className="text-3xl font-bold mb-4 text-topo-navy">{t("about.title")}</h2>
+      <p className="mb-4 text-topo-dark">{t("about.p1")}</p>
       <ul className="list-disc pl-5 space-y-1 text-topo-dark">
-        <li>Técnicos titulados en geómatica y topografía</li>
-        <li>Equipos de precision: estación total, GNSS, drones multirrotor</li>
-        <li>Disponibilidad y presupuesto en 24-48 h.</li>
+        <li>{t("about.list.1")}</li>
+        <li>{t("about.list.2")}</li>
+        <li>{t("about.list.3")}</li>
       </ul>
     </div>
   </div>
@@ -176,8 +127,14 @@ export default function App() {
       <Route path="/servicios/asistencia-tecnica" element={<AsistenciaTecnica />} />
       <Route path="/servicios/monitoreo-auscultacion" element={<MonitoreoAuscultacion />} />
       <Route path="/servicios/drones-fotogrametria" element={<DronesFotogrametria />} />
-      <Route path="/politica-privacidad" element={<PoliticaPrivacidad />} />
-      <Route path="/aviso-legal" element={<AvisoLegal />} />
+
+        {/* Español */}
+        <Route path="/politica-privacidad" element={<PoliticaPrivacidad />} />
+        <Route path="/aviso-legal" element={<AvisoLegal />} />
+
+        {/* Inglés */}
+        <Route path="/privacy-policy" element={<PoliticaPrivacidad />} />
+        <Route path="/legal-notice" element={<AvisoLegal />} />
     </Routes>
   )
 }
