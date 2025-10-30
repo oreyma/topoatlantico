@@ -33,11 +33,11 @@ export default function Navbar() {
               src={logo}
               alt="TopoAtlantico"
               className={`object-contain transition-all duration-300 ${
-                scrolled ? "w-12 h-12" : "w-24 h-24"
+                scrolled ? "w-20 h-20" : "w-24 h-24"
               }`}
             />
             <div className="flex flex-col leading-tight">
-              <span className="text-2xl font-bold text-topo-navy">TopoAtlantico</span>
+              <span className="text-2xl font-bold text-topo-navy text-base sm:text-lg lg:text-xl">TopoAtlantico</span>
               <span className="text-sm italic font-medium text-[#1B7F8C] tracking-wide">
                 Servicios Topográficos
               </span>
@@ -45,7 +45,7 @@ export default function Navbar() {
           </a>
 
           {/* SELECTOR DE IDIOMA - A la derecha del logo */}
-          <div className="flex gap-2 ml-4">
+          <div className="flex gap-1 sm:gap-2 md:gap-3 lg:gap-4 ml-2 sm:ml-4 md:ml-6">
             <button
               onClick={() => changeLanguage("es")}
               className={`p-1 rounded-full border-2 transition-all ${
@@ -66,7 +66,7 @@ export default function Navbar() {
         </div>
 
         {/* MENÚ */}
-        <nav className="flex flex-wrap justify-center md:justify-end gap-4 mt-3 md:mt-0 text-topo-navy text-lg font-semibold">
+<nav className="flex flex-wrap justify-center md:justify-end gap-2 sm:gap-4 md:gap-6 lg:gap-10 mt-3 md:mt-0 text-topo-navy text-base sm:text-lg lg:text-xl font-semibold">
           <a href="#services" className="hover:text-topo-ocean transition-colors">{t("navbar.services")}</a>
           <a href="#projects" className="hover:text-topo-ocean transition-colors">{t("navbar.projects")}</a>
           <a href="#about" className="hover:text-topo-ocean transition-colors">{t("navbar.about")}</a>

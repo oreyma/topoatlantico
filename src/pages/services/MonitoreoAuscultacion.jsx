@@ -7,7 +7,7 @@ import flagES from "../../assets/flag-es.png"
 import flagEN from "../../assets/flag-en.png"
 
 
-export default function AsistenciaTecnica() {
+export default function MonitoreoAuscultacion() {
   const navigate = useNavigate()
   const { t, i18n } = useTranslation()
 
@@ -76,7 +76,7 @@ export default function AsistenciaTecnica() {
       <section className="min-h-screen flex flex-col items-center justify-center text-center bg-white p-6">
         <div className="max-w-3xl">
           <h1 className="text-3xl font-bold text-topo-navy mt-6 mb-4 text-center">
-            {t("services.asistencia.title")}
+            {t("services.monitoreo.title")}
           </h1>
 
           <img

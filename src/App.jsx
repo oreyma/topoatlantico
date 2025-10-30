@@ -62,7 +62,7 @@ function Home() {
 </section>
 
 {/* SERVICES */}
-<section id="services" className="py-20 bg-white">
+<section id="services" className="py-22 bg-white">
   <div className="max-w-6xl mx-auto p-6">
     <h2 className="text-3xl font-bold mb-2 text-topo-navy">{t("services.title")}</h2>
     <p className="mb-6 text-topo-dark">{t("services.description")}</p>
@@ -78,7 +78,7 @@ function Home() {
 </section>
 
 {/* PROJECTS */}
-<section id="projects" className="py-20 bg-topo-gray">
+<section id="projects" className="py-22 bg-topo-gray">
   <div className="max-w-6xl mx-auto p-6 text-center">
     <h2 className="text-3xl font-bold mb-4 text-topo-navy">{t("projects.title")}</h2>
     <ImageCarousel />
@@ -87,7 +87,7 @@ function Home() {
 
 
 {/* ABOUT */}
-<section id="about" className="py-20 bg-white">
+<section id="about" className="py-10 bg-white">
   <div className="max-w-6xl mx-auto p-16 flex flex-col md:flex-row gap-10 items-center md:items-start">
     <div className="md:w-1/4 flex justify-center md:justify-start">
       <div className="bg-topo-gray/10 p-2 rounded-2xl shadow-sm">
@@ -108,7 +108,7 @@ function Home() {
 </section>
 
 {/* CONTACT */}
-<section id="contact" className="py-16 bg-topo-gray">
+<section id="contact" className="py-0 bg-topo-gray">
   <ContactForm />
 </section>
 

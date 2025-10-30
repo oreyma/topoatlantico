@@ -24,8 +24,8 @@
       "drones": "Drones & Photogrammetry"
     },
     "levantamientos": {
-      "title": "Topographic Surveys",
-      "desc": "We carry out precise topographic surveys for engineering, construction, and cartography. We generate maps, contour lines, and 3D terrain models."
+      "title": "Land Surveying & Mapping",
+      "desc": "We carry out precise topographic surveys for engineering, construction, and cartography. generating maps, contour lines, 3D terrain models, cut & fill analysis."
     },
     "replanteo": {
       "title": "Construction Setting Out",
@@ -33,11 +33,11 @@
     },
     "parcelas": {
       "title": "Property Boundary Measurement",
-      "desc": "Accurate measurement of rural and urban plots, boundary demarcation, and detailed volume calculations."
+      "desc": "Accurate measurement of rural and urban plots, boundary demarcation, and detailed area and volume calculations."
     },
     "asistencia": {
-      "title": "Technical Assistance",
-      "desc": "Control of layouts, volume calculations, and leveling. We ensure geometric precision at all project stages."
+      "title": "Surveys Inspection & QA Reports",
+      "desc": "Control of layouts, Excavation & fill volume calculations, leveling. We ensure geometric precision at all project stages."
     },
     "monitoreo": {
       "title": "Monitoring & Structural Surveying",
@@ -45,7 +45,7 @@
     },
     "drones": {
       "title": "Drones & Photogrammetry",
-      "desc": "We capture high-resolution aerial imagery to create orthophotos, 3D models, and point clouds."
+      "desc": "We capture high-resolution aerial imagery to create orthophotos, 3D models, point clouds, earthwork volume estimation."
     }
   },
   "projects": {
@@ -70,7 +70,7 @@
   "sending": "Sending...",
   "whatsapp": "Message us on WhatsApp",
   "data_title": "Contact Info",
-  "company": "TopoAtlántico · Canary Islands",
+  "company": "TopoAtlantico · Canary Islands",
   "follow": "Follow us",
   "success_title": "Thank you",
   "success_message": "✅ Your message has been sent successfully. We'll get back to you soon."
@@ -87,7 +87,7 @@
 },
 "privacy": {
   "title": "Privacy Policy",
-  "content": "At TopoAtlántico, we respect your privacy and guarantee the protection of your personal data in accordance with the General Data Protection Regulation (GDPR). The information you provide will be used solely to respond to your inquiries or quote requests.",
+  "content": "At TopoAtlantico, we respect your privacy and guarantee the protection of your personal data in accordance with the General Data Protection Regulation (GDPR). The information you provide will be used solely to respond to your inquiries or quote requests.",
   "updated": "Last updated: October 2025",
   "back": "Return to homepage"
 },
@@ -95,5 +95,15 @@
   "rights": "All rights reserved.",
   "privacy": "Privacy Policy",
   "legal": "Legal Notice"
-}
+},
+  "carousel": {
+    "1": "Land surveying, La Gomera",
+    "2": "Setting-out, Tenerife",
+    "3": "Surveys Inspection & QA Reports, United Kingdom",
+    "4": "Setting-out, Gran Canaria",
+    "5": "Earthworks & survey control, Badajoz",
+    "6": "Railway survey, Cáceres",
+    "7": "Monitoring, United Kingdom",
+    "8": "Civil and building setting-out, United Kingdom"
+  }
 }

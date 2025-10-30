@@ -35,7 +35,7 @@ export default function PoliticaPrivacidad() {
           </div>
         </div>
         {/* SELECTOR DE IDIOMA */}
-        <div className="absolute right-6 top-6 flex gap-2">
+        <div className="flex gap-2 ml-4">
           <button
             onClick={() => changeLanguage("es")}
             className={`p-1 rounded-full border-2 transition-all ${

@@ -1,18 +1,20 @@
 import { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
 const images = [
-    { src: "/images/proyecto1.jpg", title: "Levantamiento topográfico, La Gomera" },
-    { src: "/images/proyecto2.jpg", title: "Replanteo de Obra, Tenerife" },
-    { src: "/images/proyecto3.jpg", title: "Control Geométrico, Reino Unido" },
-    { src: "/images/proyecto4.jpg", title: "Replanteo de Obra, Gran Canaria" },
-    { src: "/images/proyecto5.jpg", title: "Replanteo Obra lineal, Badajoz" },
-    { src: "/images/proyecto8.jpg", title: "Levantamiento  ferroviario, Caceres" },
-    { src: "/images/proyecto9.jpg", title: "Monitoreo y auscultacion, Reino Unido" },
-    { src: "/images/proyecto10.jpg", title: "Replanteo Obra Civil y Edificacion, Reino Unido" },
+  { src: "/images/proyecto1.jpg", key: "carousel.1" },
+  { src: "/images/proyecto2.jpg", key: "carousel.2" },
+  { src: "/images/proyecto3.jpg", key: "carousel.3" },
+  { src: "/images/proyecto4.jpg", key: "carousel.4" },
+  { src: "/images/proyecto5.jpg", key: "carousel.5" },
+  { src: "/images/proyecto8.jpg", key: "carousel.6" },
+  { src: "/images/proyecto9.jpg", key: "carousel.7" },
+  { src: "/images/proyecto10.jpg", key: "carousel.8" },
 ];
 
 export default function ImageCarousel() {
   const [current, setCurrent] = useState(0);
+  const { t } = useTranslation();
 
   const next = () => setCurrent((prev) => (prev + 1) % images.length);
   const prev = () => setCurrent((prev) => (prev - 1 + images.length) % images.length);
@@ -28,13 +30,13 @@ export default function ImageCarousel() {
       {/* Imagen principal */}
       <img
   src={images[current].src}
-  alt={images[current].title}
+  alt={images[current].key}
   className="w-full h-96 object-cover transition-all duration-700"
 />
 
         {/* Título de la imagen */}
         <div className="absolute bottom-0 left-0 w-full bg-black/50 text-white py-8 text-center text-lg font-medium">
-          {images[current].title}
+          {t(images[current].key)}
         </div>
 
       {/* Botón anterior */}

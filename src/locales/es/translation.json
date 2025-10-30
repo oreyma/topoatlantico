@@ -29,7 +29,7 @@
     },
     "replanteo": {
       "title": "Replanteo de Obra",
-      "desc": "Servicios de replanteo de alta precisión en edificación y obra civil: Amplia experiencia en replanteos de estructuras, movimientos de tierra, drenajes, etc."
+      "desc": "Servicios de replanteo de alta precisión en edificación y obra civil: Amplia experiencia en replanteos de estructuras, movimientos de tierra, redes, urbanización, etc."
     },
     "parcelas": {
       "title": "Medición de Parcelas",
@@ -95,5 +95,15 @@
   "rights": "Todos los derechos reservados.",
   "privacy": "Política de Privacidad",
   "legal": "Aviso Legal"
-}
+},
+  "carousel": {
+    "1": "Levantamiento topográfico, La Gomera",
+    "2": "Replanteo de Obra, Tenerife",
+    "3": "Control Geométrico, Reino Unido",
+    "4": "Replanteo de Obra, Gran Canaria",
+    "5": "Replanteo Obra lineal, Badajoz",
+    "6": "Levantamiento ferroviario, Cáceres",
+    "7": "Monitoreo y auscultación, Reino Unido",
+    "8": "Replanteo Obra Civil y Edificación, Reino Unido"
+  }
 }
