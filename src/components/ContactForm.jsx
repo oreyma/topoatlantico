@@ -55,7 +55,7 @@ export default function ContactForm() {
             <button
               type="submit"
               disabled={state.submitting}
-              className="bg-topo-navy text-topo-dark px-6 py-2 rounded-lg shadow hover:bg-topo-ocean hover:text-topo-navy transition-colors"
+              className="bg-topo-navy text-topo-dark px-6 py-2 rounded-lg shadow  hover:shadow-lg transition-transform hover:-translate-y-1"
             >
               {state.submitting ? t("contact.sending") : t("contact.send")}
             </button>

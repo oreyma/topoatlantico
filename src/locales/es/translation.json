@@ -6,7 +6,7 @@
     "contact": "Contacto"
   },
   "hero": {
-    "title": "TopoAtlántico",
+    "title": "TopoAtlantico",
     "subtitle1": "Servicios de topografía y cartografía en las Islas Canarias.",
     "subtitle2": "Soluciones de precisión, a la medida de tus necesidades.",
     "btn_quote": "Solicita presupuesto",
@@ -53,7 +53,7 @@
   },
   "about": {
     "title": "Sobre nosotros",
-    "p1": "TopoAtlántico es un nuevo estudio de topografía con base en las Islas Canarias. Combinamos la experiencia local de nuestros profesionales con la última tecnología para entregar resultados precisos a costes reducidos.",
+    "p1": "TopoAtlantico es un nuevo estudio de topografía con base en las Islas Canarias. Combinamos la experiencia local de nuestros profesionales con la última tecnología para entregar resultados precisos a costes reducidos.",
     "list": {
       "1": "Técnicos titulados en geomática y topografía",
       "2": "Equipos de precisión: estación total, GNSS, drones multirrotor",
@@ -70,7 +70,7 @@
   "sending": "Enviando...",
   "whatsapp": "Escríbenos por WhatsApp",
   "data_title": "Datos",
-  "company": "TopoAtlántico · Canarias",
+  "company": "TopoAtlantico · Canarias",
   "follow": "Síguenos",
   "success_title": "Gracias",
   "success_message": "✅ Tu mensaje ha sido enviado correctamente. Te responderemos pronto."
@@ -81,13 +81,13 @@
   },
 "legal": {
   "title": "Aviso Legal",
-  "content": "Este sitio web pertenece a TopoAtlántico. La información contenida en esta página tiene carácter meramente informativo. No nos hacemos responsables del mal uso que se pueda hacer de los contenidos. El acceso a este sitio implica la aceptación de las condiciones de uso aquí descritas.",
+  "content": "Este sitio web pertenece a TopoAtlantico. La información contenida en esta página tiene carácter meramente informativo. No nos hacemos responsables del mal uso que se pueda hacer de los contenidos. El acceso a este sitio implica la aceptación de las condiciones de uso aquí descritas.",
   "updated": "Última actualización: Octubre 2025",
   "back": "Volver al inicio"
 },
 "privacy": {
   "title": "Política de Privacidad",
-  "content": "En TopoAtlántico respetamos su privacidad y garantizamos la protección de sus datos personales conforme al Reglamento General de Protección de Datos (RGPD). Los datos que nos proporcione serán utilizados exclusivamente para atender sus consultas o solicitudes de presupuesto.",
+  "content": "En TopoAtlantico respetamos su privacidad y garantizamos la protección de sus datos personales conforme al Reglamento General de Protección de Datos (RGPD). Los datos que nos proporcione serán utilizados exclusivamente para atender sus consultas o solicitudes de presupuesto.",
   "updated": "Última actualización: Octubre 2025",
   "back": "Volver al inicio"
 },
