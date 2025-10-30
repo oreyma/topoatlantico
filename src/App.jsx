@@ -28,7 +28,6 @@ function Home() {
 
     <Layout>
       <Navbar />
-
 {/* HERO SECTION */}
 <section
   id="home"
@@ -62,11 +61,17 @@ function Home() {
 </section>
 
 {/* SERVICES */}
-<section id="services" className="py-22 bg-white">
-  <div className="max-w-6xl mx-auto p-6">
+<section id="services" className="py-0 bg-white">
+  <div className="max-w-6xl mx-auto p-6" 
+  style={{
+    backgroundImage: "url('/images/bg-pattern.jpg')",
+    backgroundColor: "rgba(255,255,255,0.85)",
+    backgroundBlendMode: "overlay",
+  }}>
     <h2 className="text-3xl font-bold mb-2 text-topo-navy">{t("services.title")}</h2>
     <p className="mb-6 text-topo-dark">{t("services.description")}</p>
     <div className="grid gap-6 md:grid-cols-3">
+
       <ServiceCard title={t("services.list.parcelas")} image="/images/servicios/parcelas.jpg" link="/servicios/medicion-parcelas" />
       <ServiceCard title={t("services.list.replanteo")} image="/images/servicios/replanteo.jpg" link="/servicios/replanteo-obra" />
       <ServiceCard title={t("services.list.levantamientos")} image="/images/servicios/levantamiento.jpg" link="/servicios/levantamientos" />
@@ -78,8 +83,14 @@ function Home() {
 </section>
 
 {/* PROJECTS */}
-<section id="projects" className="py-22 bg-topo-gray">
-  <div className="max-w-6xl mx-auto p-6 text-center">
+<section id="projects" className="py-0 bg-topo-gray">
+  <div className="max-w-6xl mx-auto p-6 text-center"
+  style={{
+    backgroundImage: "url('/images/bg-pattern.jpg')",
+    backgroundColor: "rgba(255,255,255,0.85)",
+    backgroundBlendMode: "overlay",
+  }}
+>
     <h2 className="text-3xl font-bold mb-4 text-topo-navy">{t("projects.title")}</h2>
     <ImageCarousel />
   </div>
@@ -87,8 +98,14 @@ function Home() {
 
 
 {/* ABOUT */}
-<section id="about" className="py-10 bg-white">
-  <div className="max-w-6xl mx-auto p-16 flex flex-col md:flex-row gap-10 items-center md:items-start">
+<section id="about" className="py-0 bg-white">
+  <div className="max-w-6xl mx-auto p-16 flex flex-col md:flex-row gap-10 items-center md:items-start"
+  style={{
+    backgroundImage: "url('/images/bg-pattern.jpg')",
+    backgroundColor: "rgba(255,255,255,0.85)",
+    backgroundBlendMode: "overlay",
+  }}
+>
     <div className="md:w-1/4 flex justify-center md:justify-start">
       <div className="bg-topo-gray/10 p-2 rounded-2xl shadow-sm">
         <img src={logo} alt="TopoAtlantico" className="w-40 md:w-52 lg:w-64 object-contain" />
@@ -108,7 +125,13 @@ function Home() {
 </section>
 
 {/* CONTACT */}
-<section id="contact" className="py-0 bg-topo-gray">
+<section id="contact" className="py-0 bg-topo-gray"
+  style={{
+    backgroundImage: "url('/images/bg-pattern.jpg')",
+    backgroundColor: "rgba(255,255,255,0.85)",
+    backgroundBlendMode: "overlay",
+  }}
+>
   <ContactForm />
 </section>
 

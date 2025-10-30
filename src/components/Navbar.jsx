@@ -20,9 +20,8 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 left-0 w-full z-50 border-b border-topo-gray transition-all duration-300 ${
-        scrolled ? "shadow-md py-2 bg-white" : "py-3 bg-white"
-      }`}
+      className={`fixed top-0 left-0 w-full z-50 border-b border-topo-gray transition-all duration-300 ${scrolled ? "shadow-md py-2 bg-white/90" : "py-2 bg-white/50"}
+      `}
     >
       <div className="max-w-7xl mx-auto px-4 md:px-8 flex flex-col md:flex-row items-center justify-between transition-all duration-300">
         

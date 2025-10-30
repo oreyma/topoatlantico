@@ -59,9 +59,17 @@ export default function ContactForm() {
             >
               {state.submitting ? t("contact.sending") : t("contact.send")}
             </button>
+          </form>
+        </div>
+
+        {/* DATOS DE CONTACTO */}
+        <div className="bg-white p-6 rounded-xl shadow">
+          <h3 className="font-semibold mb-2 text-topo-navy">{t("contact.data_title")}</h3>
+          <p>{t("contact.company")}</p>
+          <p>📞 +34 642 566 908</p>
+          <p>✉️ info@topoatlantico.com</p>
 
             {/* BOTÓN DE WHATSAPP */}
-            <div className="bg-white p-6 rounded-xl shadow">
               <a
                 href="https://wa.me/34642566908"
                 target="_blank"
@@ -78,16 +86,7 @@ export default function ContactForm() {
                 </svg>
                 <span className="text-sm font-medium">{t("contact.whatsapp")}</span>
               </a>
-            </div>
-          </form>
-        </div>
 
-        {/* DATOS DE CONTACTO */}
-        <div className="bg-white p-6 rounded-xl shadow">
-          <h3 className="font-semibold mb-2 text-topo-navy">{t("contact.data_title")}</h3>
-          <p>{t("contact.company")}</p>
-          <p>📞 +34 642 566 908</p>
-          <p>✉️ info@topoatlantico.com</p>
           <h4 className="mt-4 font-semibold text-topo-navy">{t("contact.follow")}</h4>
           <p>LinkedIn · Instagram</p>
         </div>
