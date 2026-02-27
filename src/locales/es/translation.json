@@ -24,16 +24,16 @@
       "drones": "Drones & Fotogrametría"
     },
   "levantamientos": {
-      "title": "Levantamientos Topográficos",
+      "title": "Levantamientos Topográficos y Cartografía",
       "desc": "Realizamos levantamientos topográficos precisos para ingeniería, edificación y cartografía. Generamos planos, curvas de nivel y modelos 3D del terreno."
     },
     "replanteo": {
       "title": "Replanteo de Obra",
-      "desc": "Servicios de replanteo de alta precisión en edificación y obra civil: Amplia experiencia en replanteos de estructuras, movimientos de tierra, redes, urbanización, etc."
+      "desc": "Servicios de replanteo de alta precisión en edificación y obra civil: Amplia experiencia en replanteos de estructuras, movimientos de tierra, servicios enterrados, urbanización, etc."
     },
     "parcelas": {
       "title": "Medición de Parcelas",
-      "desc": "Medición precisa de terrenos rústicos y urbanos, delimitación de linderos, parcelaciones y cubicaciones detalladas, entre otros."
+      "desc": "Medición precisa de terrenos rústicos y urbanos, delimitación de linderos, parcelaciones, inmatriculaciones, informes de coordinación con catastro y cubicaciones detalladas, entre otros."
     },
     "asistencia": {
       "title": "Asistencia Técnica",
