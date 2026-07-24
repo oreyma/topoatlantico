@@ -48,7 +48,7 @@ const settingOutLink =
 <BlogCard
   title={t("blog.monitoring.title")}
   excerpt={t("blogCard.monitoringExcerpt")}
-  image="/images/blog/monitoring.jpg"
+  image="/images/blog/monitoreo.jpg"
   link={
     i18n.language === "es"
       ? "/blog/monitoreo-estructuras"
