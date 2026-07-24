@@ -182,7 +182,7 @@ const articleLink =
 <BlogCard
   title={t("blog.monitoring.title")}
   excerpt={t("blogCard.monitoringExcerpt")}
-  image="/images/blog/Monitoreo.jpg"
+  image="/images/blog/monitoreo.jpg"
   link={
     i18n.language === "es"
       ? "/blog/monitoreo-estructuras"
