@@ -3,6 +3,7 @@
     "services": "Servicios",
     "projects": "Proyectos",
     "about": "Nosotros",
+    "blog": "Blog",
     "contact": "Contacto"
   },
   "hero": {
@@ -21,7 +22,7 @@
       "levantamientos": "Levantamientos Topográficos",
       "asistencia": "Asistencia Técnica",
       "monitoreo": "Monitoreo y Auscultación",
-      "drones": "Drones & Fotogrametría"
+      "drones": "Drones y Fotogrametría"
     },
   "levantamientos": {
       "title": "Levantamientos Topográficos y Cartografía",
@@ -75,6 +76,104 @@
   "success_title": "Gracias",
   "success_message": "✅ Tu mensaje ha sido enviado correctamente. Te responderemos pronto."
 },
+
+
+"blog": {
+"topographicSurvey": {
+"title": "¿Qué es un levantamiento topográfico?",
+
+  "intro": "Un levantamiento topográfico consiste en medir con precisión las características y particularidades de un terreno en concreto. Este procedimiento proporciona información esencial del emplazamiento para una correcta planificación de proyectos de edificación y obra civil",
+
+  "section1": "¿Qué Información proporciona un levantamiento topográfico?",
+  "section1Text": "Un levantamiento topográfico registra la forma y características del terreno. Los planos obtenidos suelen incluir curvas de nivel, cotas, edificaciones, muros, carreteras, vallados, árboles, drenajes y otros elementos visibles.",
+
+  "section2": "¿Cuándo es necesario un levantamiento topográfico?",
+  "section2Text": "Los levantamientos topográficos son necesarios antes de ejecutar proyectos de construcción, desarrollos urbanísticos, infraestructuras, carreteras, instalaciones de servicios o estudios ambientales.",
+
+  "section3": "¿Cómo se realiza un levantamiento topográfico?",
+  "section3Text": "Los topógrafos emplean receptores GNSS, estaciones totales robotizadas y drones para capturar coordenadas precisas del terreno. Posteriormente, los datos se procesan mediante software especializado para generar planos y modelos digitales del terreno.",
+
+  "section4": "Equipos utilizados en la topografía moderna",
+  "section4Text": "La topografía moderna utiliza equipos GPS/GNSS, estaciones totales robotizadas, escáneres láser y drones para obtener resultados de alta precisión de forma eficiente.",
+
+  "section5": "Ventajas de un levantamiento topográfico",
+  "section5Text": "Contar con información topográfica precisa reduce riesgos, mejora la calidad de los diseños, evita errores costosos y facilita la toma de decisiones durante todo el ciclo del proyecto.",
+
+  "section6": "Levantamientos topográficos en Canarias",
+  "section6Text": "La compleja orografía de las Islas Canarias hace que los levantamientos topográficos sean fundamentales para proyectos de ingeniería, construcción, infraestructuras y gestión de propiedades.",
+
+  "section7": "Preguntas Frecuentes",
+  "section7Text": "El coste y duración de un levantamiento dependen del tamaño, accesibilidad y complejidad del terreno. Un solar urbano pequeño puede completarse en pocas horas, mientras que proyectos de gran extensión pueden requerir varios días.",
+
+  "section8": "¿Necesita un Levantamiento Topográfico?",
+  "section8Text": "TopoAtlantico ofrece servicios profesionales de topografía en todas las Islas Canarias. Contacte con nosotros para recibir asesoramiento técnico y un presupuesto personalizado."
+
+},
+
+"settingOut": {
+  "title": "¿Qué es el replanteo de obra?",
+
+  "intro": "El replanteo de obra es el proceso mediante el cual se traslada al terreno los  elementos constructivos definidos en los planos del proyecto. Es una fase imprescindible durante la ejecución de cualquier obra, ya que garantiza que cada elemento se construya exactamente en la posición prevista, asegurando la integridad de la construcción, optimizando el uso de materiales y ajustando los procedimientos a las normativas y regulaciones aplicables. Un replanteo preciso evita sorpresas desagradables, reduciendo costes y asegurando la correcta ejecución de edificaciones, infraestructuras y obras civiles.",
+
+  "section1": "¿Qué es un replanteo de obra?",
+  "section1Text": "El replanteo consiste en marcar sobre el terreno la ubicación exacta de cimentaciones, pilares, muros, carreteras, servicios enterrados y cualquier elemento constructivo definido en el proyecto. Su objetivo es trasladar fielmente el diseño del plano a la realidad.",
+
+  "section2": "¿Cuándo es necesario un replanteo?",
+  "section2Text": "El replanteo de obra es un procedimiento imprescindible en proyectos de edificios, carreteras, urbanizaciones, infraestructuras, movimientos de tierra, redes de servicios y obras civiles. Es especialmente importante en la fase de ejecución de estructuras, ya que garantiza la integridad del proyecto y evita situaciones indeseadas.",
+
+  "section3": "¿Cómo se realiza un replanteo?",
+  "section3Text": "Los topógrafos utilizan estaciones totales robotizadas, receptores GNSS y niveles digitales para trasladar las coordenadas del proyecto al terreno de forma precisa. Cada punto se verifica continuamente para garantizar el cumplimiento del diseño.",
+
+  "section4": "¿Por qué es tan importante la precisión?",
+  "section4Text": "Un error durante el replanteo puede provocar desviaciones importantes, retrasos en la obra y elevados costes de corrección. Una correcta implantación asegura la calidad geométrica del proyecto y evita problemas durante la construcción.",
+
+  "section5": "Replanteo en obras civiles",
+  "section5Text": "Las grandes infraestructuras requieren un control topográfico continuo durante toda su ejecución. Carreteras, conducciones, movimientos de tierras, ferrocarriles y estructuras necesitan replanteos precisos para cumplir las tolerancias del proyecto.",
+
+  "section6": "Replanteo de Obra en Canarias",
+  "section6Text": "La compleja orografía y el origen volcánico del terreno hacen que la topografía tenga un papel fundamental en las obras desarrolladas en Canarias. Un replanteo preciso permite adaptar correctamente el proyecto al terreno existente.",
+
+  "section7": "Preguntas Frecuentes",
+  "section7Text": "El coste y duración del replanteo depende del tamaño y complejidad de la obra. Mientras que una vivienda unifamiliar puede replantearse en pocas horas, grandes infraestructuras requieren asistencia topográfica durante toda la ejecución."
+},
+"monitoring": {
+  "title": "Monitoreo y auscultación de estructuras",
+
+  "intro": "El monitoreo y la auscultación de estructuras consisten en medir de forma periódica y precisa el comportamiento de edificios, puentes, muros, presas, excavaciones e infraestructuras para detectar desplazamientos, deformaciones o asentamientos antes de que se conviertan en un problema. Gracias a la topografía de alta precisión es posible garantizar la seguridad de las estructuras y tomar decisiones fundamentadas durante toda la vida útil del proyecto.",
+
+  "section1": "¿Qué es el Monitoreo y la Auscultación de Estructuras?",
+  "section1Text": "La auscultación estructural consiste en controlar la posición de determinados puntos de una estructura mediante mediciones repetidas a lo largo del tiempo. Comparando estas observaciones es posible detectar movimientos horizontales, verticales o deformaciones con precisión milimétrica. Esta información resulta fundamental para evaluar el comportamiento real de la estructura y comprobar que evoluciona dentro de los límites previstos por el proyecto.",
+
+  "section2": "¿Qué estructuras necesitan monitoreo?",
+  "section2Text": "El monitoreo topográfico se utiliza en edificios, puentes, presas, túneles, muros de contención, excavaciones profundas, infraestructuras ferroviarias, parques eólicos, taludes y grandes obras civiles. También es habitual controlar edificaciones cercanas cuando se ejecutan excavaciones o construcciones que puedan afectar a su estabilidad.",
+
+  "section3": "¿Cómo se realiza el monitoreo?",
+  "section3Text": "El proceso comienza estableciendo una red de bases estables fuera de la zona de influencia de la obra. Posteriormente se colocan prismas u otros elementos de observación sobre la estructura y se realizan mediciones periódicas mediante estaciones totales robotizadas, receptores GNSS o niveles digitales. Los resultados se comparan entre campañas para detectar cualquier desplazamiento o deformación.",
+
+  "section4": "Equipos utilizados",
+  "section4Text": "La topografía moderna emplea estaciones totales robotizadas, receptores GNSS de alta precisión, niveles digitales, escáneres láser y sistemas automáticos de monitoreo. Dependiendo del proyecto también pueden utilizarse sensores de inclinación, fisurómetros y otros equipos específicos para obtener un control continuo de la estructura.",
+
+  "section5": "Beneficios del monitoreo estructural",
+  "section5Text": "El monitoreo permite detectar movimientos en fases muy tempranas, mejorar la seguridad de las personas, reducir costes de mantenimiento, evitar reparaciones de gran magnitud y proporcionar información objetiva para la toma de decisiones. Además, constituye una herramienta esencial para el control de calidad en proyectos de ingeniería y obra civil.",
+
+  "section6": "Beneficios del monitoreo de estructuras en Canarias",
+  "section6Text": "El monitoreo permite detectar movimientos en fases muy tempranas, mejorar la seguridad de las personas, reducir costes de mantenimiento, evitar reparaciones de gran magnitud y proporcionar información objetiva para la toma de decisiones. Las Islas Canarias presentan características geológicas singulares debido a su origen volcánico, fuertes pendientes y elevada complejidad del terreno. Estas condiciones hacen especialmente recomendable el monitoreo topográfico en infraestructuras, edificaciones singulares, excavaciones y grandes proyectos de ingeniería para garantizar su estabilidad durante todas las fases de ejecución y explotación.",
+
+  "section7": "Preguntas frecuentes",
+  "section7Text": "La frecuencia de las mediciones depende del tipo de estructura y del nivel de riesgo asociado. Algunos proyectos requieren controles diarios o incluso sistemas automáticos de monitoreo continuo, mientras que otros únicamente necesitan campañas mensuales o trimestrales. La precisión alcanzada por los equipos topográficos actuales permite detectar desplazamientos del orden de pocos milímetros."
+}
+},
+"blogCard": {
+  "surveyExcerpt": "Descubre qué es un levantamiento topográfico, cuándo es necesario y cómo beneficia a proyectos de ingeniería y construcción.",
+  "settingOutExcerpt": "Descubre cómo el replanteo de obra garantiza la ubicación exacta de cada elemento constructivo y por qué es imprescindible para cualquier proyecto de ingeniería.",
+  "monitoringExcerpt": "Descubre cómo el monitoreo y la auscultación de estructuras permiten detectar deformaciones y garantizar la seguridad de edificios, puentes e infraestructuras."
+},
+
+"blogSection": {
+  "title": "Blog y Guías",
+  "description": "Artículos técnicos sobre topografía, ingeniería, drones, cartografía y gestión del territorio."
+},
+
   "buttons": {
     "quote": "Solicita presupuesto",
     "other": "Otros servicios"
@@ -97,13 +196,13 @@
   "legal": "Aviso Legal"
 },
   "carousel": {
-    "1": "Levantamiento topográfico, La Gomera",
-    "2": "Replanteo de Obra, Tenerife",
-    "3": "Control Geométrico, Reino Unido",
-    "4": "Replanteo de Obra, Gran Canaria",
-    "5": "Replanteo Obra lineal, Badajoz",
-    "6": "Levantamiento ferroviario, Cáceres",
-    "7": "Monitoreo y auscultación, Reino Unido",
-    "8": "Replanteo Obra Civil y Edificación, Reino Unido"
+    "1": "Levantamiento topográfico",
+    "2": "Replanteo de Obra",
+    "3": "Control Geométrico",
+    "4": "Replanteo de Obra",
+    "5": "Replanteo Obra lineal",
+    "6": "Levantamiento ferroviario",
+    "7": "Monitoreo y auscultación",
+    "8": "Replanteo Obra Civil y Edificación"
   }
 }

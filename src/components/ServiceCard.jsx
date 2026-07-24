@@ -7,7 +7,7 @@ export default function ServiceCard({ title, description, image, link }) {
       className="group relative block rounded-xl overflow-hidden shadow hover:shadow-lg transition-transform hover:-translate-y-1"
     >
       <div
-        className="h-48 bg-cover bg-center group-hover:scale-105 transition-transform duration-500"
+        className="h-40 bg-cover bg-center group-hover:scale-105 transition-transform duration-500"
         style={{ backgroundImage: `url(${image})` }}
       ></div>
       <div className="p-4 bg-white">

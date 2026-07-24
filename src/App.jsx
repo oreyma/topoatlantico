@@ -1,4 +1,3 @@
-
 import './App.css'
 import logo from './assets/logo.png'
 import Button from './components/Button'
@@ -21,9 +20,19 @@ import { useTranslation } from "react-i18next"
 import PrivacyPolicy from "./pages/legal/PrivacyPolicy"
 import LegalNotice from "./pages/legal/LegalNotice"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Blog from "./pages/Blog";
+import WhatIsTopographicSurvey from "./pages/blog/WhatIsTopographicSurvey";
+import ReplanteoDeObra from "./pages/blog/ReplanteoDeObra";
+import MonitoreoEstructuras from "./pages/blog/MonitoreoEstructuras";
+import BlogCard from "./components/BlogCard";
+import ScrollToHash from "./components/ScrollToHash";
 
 function Home() {
- const { t } = useTranslation();	
+ const { t, i18n } = useTranslation();	
+const articleLink =
+  i18n.language === "es"
+    ? "/blog/que-es-un-levantamiento-topografico"
+    : "/blog/what-is-a-topographic-survey";
   return (
 
     <Layout>
@@ -98,32 +107,96 @@ function Home() {
 </section>
 
 
-{/* ABOUT */}
-<section id="about" className="py-0 bg-white"
+{/* ABOUT + BLOG */}
+<section
+  id="about"
+  className="py-0 bg-white"
   style={{
     backgroundImage: "url('/images/bg-pattern.jpg')",
     backgroundColor: "rgba(255,255,255,0.85)",
     backgroundBlendMode: "overlay",
   }}
 >
-  <div className="max-w-6xl mx-auto p-16 flex flex-col md:flex-row gap-10 items-center md:items-start">
-    <div className="md:w-1/4 flex justify-center md:justify-start">
-      <div className="bg-topo-gray/10 p-2 rounded-2xl shadow-sm">
-        <img src={logo} alt="TopoAtlantico" className="w-40 md:w-52 lg:w-64 object-contain" />
+  <div className="max-w-6xl mx-auto p-8 md:p-16">
+
+    <div className="grid md:grid-cols-2 gap-12">
+
+      {/* ABOUT US */}
+      <div>
+
+        <h2 className="text-3xl font-bold mb-4 text-topo-navy">
+          {t("about.title")}
+        </h2>
+
+        <p className="mb-4 text-topo-dark">
+          {t("about.p1")}
+        </p>
+
+        <ul className="list-disc pl-5 space-y-1 text-topo-dark">
+          <li>{t("about.list.1")}</li>
+          <li>{t("about.list.2")}</li>
+          <li>{t("about.list.3")}</li>
+        </ul>
+
+ <div className="flex justify-center md:justify-start mb-6">
+          <div className="bg-topo-gray/10 p-2 rounded-2xl shadow-sm">
+            <img
+              src={logo}
+              alt="TopoAtlantico"
+              className="w-40 md:w-52 object-contain"
+            />
+          </div>
+        </div>
       </div>
+
+      {/* BLOG */}
+      <div id="blog">
+        <h2 className="text-3xl font-bold mb-2 text-topo-navy">
+          {t("blogSection.title")}
+        </h2>
+
+        <p className="mb-3 text-topo-dark">
+          {t("blogSection.description")}
+        </p>
+
+        <BlogCard
+  title={t("blog.topographicSurvey.title")}
+  excerpt={t("blogCard.surveyExcerpt")}
+  image="/images/blog/topographic-survey.jpg"
+  link={
+    i18n.language === "es"
+      ? "/blog/que-es-un-levantamiento-topografico"
+      : "/blog/what-is-a-topographic-survey"
+  }
+/>
+<BlogCard
+  title={t("blog.settingOut.title")}
+  excerpt={t("blogCard.settingOutExcerpt")}
+  image="/images/blog/replanteo.jpg"
+  link={
+    i18n.language === "es"
+      ? "/blog/replanteo-de-obra"
+      : "/blog/construction-setting-out"
+  }
+/>
+<BlogCard
+  title={t("blog.monitoring.title")}
+  excerpt={t("blogCard.monitoringExcerpt")}
+  image="/images/blog/Monitoreo.jpg"
+  link={
+    i18n.language === "es"
+      ? "/blog/monitoreo-estructuras"
+      : "/blog/monitoring-structures"
+  }
+/>
+
+      </div>
+
     </div>
 
-    <div className="md:w-1/2">
-      <h2 className="text-3xl font-bold mb-4 text-topo-navy">{t("about.title")}</h2>
-      <p className="mb-4 text-topo-dark">{t("about.p1")}</p>
-      <ul className="list-disc pl-5 space-y-1 text-topo-dark">
-        <li>{t("about.list.1")}</li>
-        <li>{t("about.list.2")}</li>
-        <li>{t("about.list.3")}</li>
-      </ul>
-    </div>
   </div>
 </section>
+
 
 {/* CONTACT */}
 <section id="contact" className="py-0 bg-topo-gray"
@@ -143,22 +216,38 @@ function Home() {
 
 export default function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/servicios/medicion-parcelas" element={<MedicionParcelas />} />
-      <Route path="/servicios/replanteo-obra" element={<ReplanteoObra />} />
-      <Route path="/servicios/levantamientos" element={<Levantamientos />} />
-      <Route path="/servicios/asistencia-tecnica" element={<AsistenciaTecnica />} />
-      <Route path="/servicios/monitoreo-auscultacion" element={<MonitoreoAuscultacion />} />
-      <Route path="/servicios/drones-fotogrametria" element={<DronesFotogrametria />} />
+    <>
+      <ScrollToHash />
 
-        {/* Español */}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/servicios/medicion-parcelas" element={<MedicionParcelas />} />
+        <Route path="/servicios/replanteo-obra" element={<ReplanteoObra />} />
+        <Route path="/servicios/levantamientos" element={<Levantamientos />} />
+        <Route path="/servicios/asistencia-tecnica" element={<AsistenciaTecnica />} />
+        <Route path="/servicios/monitoreo-auscultacion" element={<MonitoreoAuscultacion />} />
+        <Route path="/servicios/drones-fotogrametria" element={<DronesFotogrametria />} />
+        <Route path="/blog" element={<Blog />} />
+
+        <Route path="/blog/what-is-a-topographic-survey" element={<WhatIsTopographicSurvey />} />
+        <Route path="/blog/que-es-un-levantamiento-topografico" element={<WhatIsTopographicSurvey />} />
+	<Route path="/blog/replanteo-de-obra" element={<ReplanteoDeObra />} />
+	<Route path="/blog/construction-setting-out" element={<ReplanteoDeObra />} />
+<Route
+  path="/blog/monitoring-structures"
+  element={<MonitoreoEstructuras />}
+/>
+
+<Route
+  path="/blog/monitoreo-estructuras"
+  element={<MonitoreoEstructuras />}
+/>
+
         <Route path="/politica-privacidad" element={<PoliticaPrivacidad />} />
         <Route path="/aviso-legal" element={<AvisoLegal />} />
-
-        {/* Inglés */}
         <Route path="/privacy-policy" element={<PoliticaPrivacidad />} />
         <Route path="/legal-notice" element={<AvisoLegal />} />
-    </Routes>
+      </Routes>
+    </>
   )
 }

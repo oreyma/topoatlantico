@@ -3,6 +3,7 @@
     "services": "Services",
     "projects": "Projects",
     "about": "About Us",
+    "blog": "Blog",
     "contact": "Contact"
   },
   "hero": {
@@ -75,6 +76,102 @@
   "success_title": "Thank you",
   "success_message": "✅ Your message has been sent successfully. We'll get back to you soon."
 },
+"blog": {
+"topographicSurvey": {
+"title": "What is a topographic survey?",
+
+"intro": "A topographic survey is the process of accurately measuring and mapping the natural and man-made features of a piece of land. It provides essential information about elevations, boundaries, structures, vegetation, roads, utilities and terrain characteristics. Topographic surveys are widely used in engineering, construction, architecture, land development and infrastructure projects.",
+
+"section1": "What information does a topographic survey provide?",
+"section1Text": "A topographic survey collects precise data about the shape and characteristics of the terrain. The resulting plans typically show contour lines, spot levels, buildings, walls, roads, fences, trees, drainage systems and other visible features. This information helps engineers, architects and developers make informed decisions during project planning and design.",
+
+"section2": "When is a topographic survey required?",
+"section2Text": "Topographic surveys are commonly required before construction projects, property developments, road works, utility installations, environmental studies and land subdivision processes. They provide the accurate ground information necessary for safe and efficient project execution.",
+
+"section3": "How is a topographic survey carried out?",
+"section3Text": "Surveyors use advanced instruments such as GNSS receivers, robotic total stations and drones to collect field measurements. The data is then processed using specialized software to generate detailed maps, digital terrain models and engineering drawings.",
+
+"section4": "Equipment used in modern surveying",
+"section4Text": "Modern surveying relies on high-precision technology including GPS/GNSS systems, total stations, laser scanners and unmanned aerial vehicles (UAVs). These tools allow surveyors to achieve high accuracy while reducing fieldwork time.",
+
+"section5": "Benefits of a topographic survey",
+"section5Text": "Accurate topographic information reduces project risks, improves design quality, minimizes costly construction errors and supports better decision-making throughout the project lifecycle.",
+
+"section6": "Topographic surveys in the Canary Islands",
+"section6Text": "The varied terrain of the Canary Islands makes topographic surveys particularly important. Accurate terrain information is essential for construction projects, infrastructure development, environmental management and property boundary verification across the archipelago.",
+
+"section7": "Frequently asked questions",
+"section7Text": "The cost and duration of a survey depend on the size, accessibility and complexity of the site. Small residential surveys may take a few hours, while large infrastructure projects may require several days of fieldwork and data processing.",
+
+"section8": "Need a topographic survey?",
+"section8Text": "TopoAtlantico provides professional surveying services throughout the Canary Islands. Contact us to discuss your project and request a quotation."
+
+},
+"settingOut": {
+  "title": "What is construction setting out?",
+
+  "intro": "Construction setting out is the process of transferring the dimensions and coordinates from engineering drawings onto the ground before and during construction. It ensures that every element of a project is built in the correct position, elevation and alignment. Accurate setting out is essential for buildings, roads, bridges, utilities and civil engineering projects throughout the Canary Islands.",
+
+  "section1": "What is construction setting Out?",
+  "section1Text": "Setting out consists of marking the exact location of foundations, columns, walls, roads, drainage systems and all structural elements according to the approved design. Surveyors use precise coordinates to ensure the construction matches the engineering plans.",
+
+  "section2": "When is setting out required?",
+  "section2Text": "Setting out is required before excavation begins and throughout the entire construction process. It is commonly performed for residential developments, commercial buildings, industrial facilities, roads, retaining walls, utilities, bridges and renewable energy projects.",
+
+  "section3": "How is setting out performed?",
+  "section3Text": "Professional surveyors use robotic total stations, GNSS receivers and digital levels to transfer design coordinates onto the site with millimetre accuracy. Measurements are continuously checked to guarantee compliance with project specifications.",
+
+  "section4": "Why is accuracy so important?",
+  "section4Text": "Even small positioning errors can lead to costly delays, structural problems and expensive corrections. Accurate setting out reduces construction risks, improves quality control and minimizes rework.",
+
+  "section5": "Setting out for civil engineering projects",
+  "section5Text": "Large infrastructure projects require continuous survey control throughout construction. Roads, pipelines, railways and earthworks depend on precise setting out to achieve the required geometry and design tolerances.",
+
+  "section6": "Construction setting out in the Canary Islands",
+  "section6Text": "The complex terrain and volcanic geology of the Canary Islands make precise surveying particularly important. Professional setting out ensures that construction projects adapt correctly to existing terrain conditions while complying with engineering requirements.",
+
+  "section7": "Frequently asked questions",
+  "section7Text": "The duration of setting out depends on the size and complexity of the project. Small residential buildings may only require a few hours, whereas large civil engineering projects require continuous survey support throughout construction."
+},
+"monitoring": {
+  "title": "Structural Monitoring",
+
+  "intro": "Structural monitoring is the process of periodically measuring buildings, bridges, retaining walls, dams, excavations and civil engineering structures to detect movements, settlements or deformations before they become critical. Using high-precision surveying techniques, engineers can verify structural stability, improve safety and make informed decisions throughout the entire life cycle of a project.",
+
+  "section1": "What Is Structural Monitoring?",
+  "section1Text": "Structural monitoring consists of repeatedly measuring specific points on a structure over time. By comparing observations from different surveys, engineers can detect horizontal movements, vertical settlements and structural deformations with millimetre-level accuracy. This information is essential for assessing the real behaviour of the structure and verifying that it performs within the design tolerances.",
+
+  "section2": "Which Structures Require Monitoring?",
+  "section2Text": "Survey monitoring is widely used on buildings, bridges, dams, tunnels, retaining walls, deep excavations, railways, wind farms, slopes and major infrastructure projects. It is also common to monitor nearby buildings during excavation or construction works to ensure that neighbouring properties remain unaffected.",
+
+  "section3": "How Is Structural Monitoring Carried Out?",
+  "section3Text": "The process begins by establishing stable control points outside the area affected by the project. Survey prisms or monitoring targets are then installed on the structure and periodically observed using robotic total stations, GNSS receivers or digital levels. The measurements are compared over time to identify any movement or deformation.",
+
+  "section4": "Equipment Used",
+  "section4Text": "Modern structural monitoring relies on robotic total stations, high-precision GNSS receivers, digital levels, laser scanners and automated monitoring systems. Depending on the project, tilt sensors, crack gauges and other specialized instruments may also be installed to provide continuous structural monitoring.",
+
+  "section5": "Benefits of Structural Monitoring",
+  "section5Text": "Structural monitoring allows engineers to detect movements at an early stage, improve public safety, reduce maintenance costs, prevent major structural failures and provide objective data for engineering decisions. It is an essential quality-control tool throughout the construction and operational phases of infrastructure projects.",
+
+  "section6": "Benefits of Structural Monitoring in the Canary Islands",
+  "section6Text": "Structural monitoring allows engineers to detect movements at an early stage, improve public safety, reduce maintenance costs, prevent major structural failures and provide objective data for engineering decisions. The Canary Islands present unique geological conditions due to their volcanic origin, steep terrain and complex landscapes. These characteristics make structural monitoring especially valuable for infrastructure, excavations, retaining structures and major engineering projects, ensuring that any movement is detected before it affects safety or performance.",
+
+  "section7": "Frequently Asked Questions",
+  "section7Text": "The monitoring frequency depends on the structure and its associated level of risk. Some projects require daily observations or fully automated continuous monitoring systems, while others only need monthly or quarterly surveys. Modern surveying equipment is capable of detecting movements of just a few millimetres."
+}
+},
+
+"blogCard": {
+  "surveyExcerpt": "Learn what a topographic survey is, when it is required and how it benefits engineering and construction projects.",
+  "settingOutExcerpt": "Discover how construction setting out guarantees the precise location of every element on site and why it is essential for successful engineering projects.",
+  "monitoringExcerpt": "Learn how structural monitoring detects deformations, improves safety and protects buildings, bridges and civil engineering infrastructure."
+},
+
+"blogSection": {
+  "title": "Blog & Guides",
+  "description": "Technical articles about surveying, engineering, drones, mapping and land management."
+},
+
   "buttons": {
     "quote": "Request a quote",
     "other": "Other services"
@@ -97,13 +194,13 @@
   "legal": "Legal Notice"
 },
   "carousel": {
-    "1": "Land surveying, La Gomera",
-    "2": "Setting-out, Tenerife",
-    "3": "Surveys Inspection & QA Reports, United Kingdom",
-    "4": "Setting-out, Gran Canaria",
-    "5": "Earthworks & survey control, Badajoz",
-    "6": "Railway survey, Cáceres",
-    "7": "Monitoring, United Kingdom",
-    "8": "Civil and building setting-out, United Kingdom"
+    "1": "Land surveying",
+    "2": "Setting-out",
+    "3": "Surveys Inspection & QA Reports",
+    "4": "Setting-out",
+    "5": "Earthworks & survey control",
+    "6": "Railway survey",
+    "7": "Monitoring",
+    "8": "Civil and building setting-out"
   }
 }
