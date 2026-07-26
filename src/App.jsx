@@ -70,7 +70,7 @@ const articleLink =
 </section>
 
 {/* SERVICES */}
-<section id="services" className="py-0 bg-white"
+<section id="services" className="pt-30 bg-white"
   style={{
     backgroundImage: "url('/images/bg-pattern.jpg')",
     backgroundColor: "rgba(255,255,255,0.85)",
@@ -93,7 +93,7 @@ const articleLink =
 </section>
 
 {/* PROJECTS */}
-<section id="projects" className="py-0 bg-topo-gray"
+<section id="projects" className="pt-30 bg-topo-gray"
   style={{
     backgroundImage: "url('/images/bg-pattern.jpg')",
     backgroundColor: "rgba(255,255,255,0.85)",
@@ -110,7 +110,7 @@ const articleLink =
 {/* ABOUT + BLOG */}
 <section
   id="about"
-  className="py-0 bg-white"
+  className="pt-20 bg-white"
   style={{
     backgroundImage: "url('/images/bg-pattern.jpg')",
     backgroundColor: "rgba(255,255,255,0.85)",
@@ -151,11 +151,11 @@ const articleLink =
 
       {/* BLOG */}
       <div id="blog">
-        <h2 className="text-3xl font-bold mb-2 text-topo-navy">
+        <h2 className= "text-3xl font-bold mb-2 text-topo-navy">
           {t("blogSection.title")}
         </h2>
 
-        <p className="mb-3 text-topo-dark">
+        <p className= "mb-3 text-topo-dark">
           {t("blogSection.description")}
         </p>
 
@@ -199,7 +199,7 @@ const articleLink =
 
 
 {/* CONTACT */}
-<section id="contact" className="py-0 bg-topo-gray"
+<section id="contact" className="pt-15 bg-topo-gray"
   style={{
     backgroundImage: "url('/images/bg-pattern.jpg')",
     backgroundColor: "rgba(255,255,255,0.85)",

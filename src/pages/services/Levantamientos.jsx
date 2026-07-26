@@ -30,7 +30,7 @@ export default function Levantamientos() {
 
       {/* CONTENIDO PRINCIPAL */}
       <section
-  className="min-h-screen flex flex-col items-center justify-center text-center bg-white p-6 pt-20"
+  className="min-h-screen flex flex-col items-center justify-center text-center bg-white p-6 pt-15"
 >
         <div className="max-w-3xl">
           <h1 className="text-3xl font-bold text-topo-navy mt-6 mb-4 text-center">
