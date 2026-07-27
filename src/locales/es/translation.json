@@ -54,11 +54,11 @@
   },
   "about": {
     "title": "Sobre nosotros",
-    "p1": "TopoAtlantico es un nuevo estudio de topografía con base en las Islas Canarias. Combinamos la experiencia local de nuestros profesionales con la última tecnología para entregar resultados precisos a costes reducidos.",
+    "p1": "TopoAtlantico es un nuevo estudio de topografía con base en las Islas Canarias. Combinamos nuestra experiencia local con la última tecnología para entregar resultados precisos a costes reducidos.",
     "list": {
       "1": "Técnicos titulados en geomática y topografía",
       "2": "Equipos de precisión: estación total, GNSS, drones multirrotor",
-      "3": "Disponibilidad y presupuesto en 24-48 h."
+      "3": "Presupuesto y disponibilidad en 24-48 h."
     }
   },
 "contact": {
@@ -85,13 +85,13 @@
   "intro": "El levantamiento topográfico es el proceso de medir con exactitud las dimensiones, formas y características de un terreno. Esta información resulta fundamental para planificar adecuadamente proyectos de construcción y obras civiles, ya que permite conocer a detalle las condiciones reales del emplazamiento.",
 
   "section1": "¿Qué Información proporciona un levantamiento topográfico?",
-  "section1Text": "Un levantamiento topográfico registra la forma y características del terreno. Los planos obtenidos suelen incluir curvas de nivel, cotas, edificaciones, muros, carreteras, vallados, árboles, drenajes y otros elementos visibles.",
+  "section1Text": "Un levantamiento topográfico recoge con precisión la forma, dimensiones y características del terreno. Los planos resultantes suelen incluir curvas de nivel, cotas, edificaciones existentes, muros, carreteras, vallados, árboles, drenajes y cualquier otro elemento visible que pueda influir en el diseño o ejecución de un proyecto.",
 
   "section2": "¿Cuándo es necesario un levantamiento topográfico?",
-  "section2Text": "Los levantamientos topográficos son necesarios antes de ejecutar proyectos de construcción, desarrollos urbanísticos, infraestructuras, carreteras, instalaciones de servicios o estudios ambientales.",
+  "section2Text": "Los levantamientos topográficos son imprescindibles antes de ejecutar proyectos de construcción, desarrollos urbanísticos, infraestructuras, carreteras, instalaciones de servicios o estudios ambientales. También se requieren cuando es necesario conocer con precisión la geometría del terreno para diseñar correctamente una obra, evaluar su viabilidad o detectar posibles condicionantes físicos del entorno. En definitiva, cualquier proyecto que dependa de la forma, dimensiones o características del terreno necesita un levantamiento topográfico previo para garantizar una planificación segura y ajustada a la realidad.",
 
   "section3": "¿Cómo se realiza un levantamiento topográfico?",
-  "section3Text": "Los topógrafos emplean receptores GNSS, estaciones totales robotizadas y drones para capturar coordenadas precisas del terreno. Posteriormente, los datos se procesan mediante software especializado para generar planos y modelos digitales del terreno.",
+  "section3Text": "Para llevar a cabo un levantamiento topográfico, los topógrafos utilizan equipos de alta precisión como receptores GNSS, estaciones totales robotizadas y drones. Con estos instrumentos se capturan coordenadas exactas del terreno, registrando su forma, relieve y todos los elementos presentes. Una vez obtenidos los datos, se procesan mediante software especializado que permite generar planos detallados, modelos digitales del terreno y representaciones tridimensionales.",
 
   "section4": "Equipos utilizados en la topografía moderna",
   "section4Text": "La topografía moderna utiliza equipos GPS/GNSS, estaciones totales robotizadas, escáneres láser y drones para obtener resultados de alta precisión de forma eficiente.",

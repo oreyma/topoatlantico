@@ -20,7 +20,7 @@ import { useTranslation } from "react-i18next"
 import PrivacyPolicy from "./pages/legal/PrivacyPolicy"
 import LegalNotice from "./pages/legal/LegalNotice"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Blog from "./pages/Blog";
+import blog from "./pages/Blog";
 import WhatIsTopographicSurvey from "./pages/blog/WhatIsTopographicSurvey";
 import ReplanteoDeObra from "./pages/blog/ReplanteoDeObra";
 import MonitoreoEstructuras from "./pages/blog/MonitoreoEstructuras";
@@ -110,7 +110,7 @@ const articleLink =
 {/* ABOUT + BLOG */}
 <section
   id="about"
-  className="pt-20 bg-white"
+  className="pt-25 bg-white"
   style={{
     backgroundImage: "url('/images/bg-pattern.jpg')",
     backgroundColor: "rgba(255,255,255,0.85)",
