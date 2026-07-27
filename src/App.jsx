@@ -20,7 +20,7 @@ import { useTranslation } from "react-i18next"
 import PrivacyPolicy from "./pages/legal/PrivacyPolicy"
 import LegalNotice from "./pages/legal/LegalNotice"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import blog from "./pages/Blog";
+import Blog from "./pages/Blog";
 import WhatIsTopographicSurvey from "./pages/blog/WhatIsTopographicSurvey";
 import ReplanteoDeObra from "./pages/blog/ReplanteoDeObra";
 import MonitoreoEstructuras from "./pages/blog/MonitoreoEstructuras";
