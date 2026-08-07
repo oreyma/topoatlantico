@@ -55,6 +55,17 @@ const settingOutLink =
       : "/blog/monitoring-structures"}
 />
 
+<BlogCard
+  title={t("blog.FotogrametriaDrones.title")}
+  excerpt={t("blogCard.FotogrametriaDronesExcerpt")}
+  image="/images/blog/FotogrametriaDrones.jpg"
+  link={
+    i18n.language === "es"
+      ? "/blog/Fotogrametria-drones"
+      : "/blog/Drone-Photogrammetry"
+  }
+/>
+
 </div>
       </section>
 

@@ -24,8 +24,10 @@ import Blog from "./pages/Blog";
 import WhatIsTopographicSurvey from "./pages/blog/WhatIsTopographicSurvey";
 import ReplanteoDeObra from "./pages/blog/ReplanteoDeObra";
 import MonitoreoEstructuras from "./pages/blog/MonitoreoEstructuras";
+import FotogrametriaDrones from "./pages/blog/FotogrametriaDrones";
 import BlogCard from "./components/BlogCard";
 import ScrollToHash from "./components/ScrollToHash";
+import ScrollToTop from "./components/ScrollToTop";
 
 function Home() {
  const { t, i18n } = useTranslation();	
@@ -82,17 +84,17 @@ const articleLink =
     <p className="mb-6 text-topo-dark">{t("services.description")}</p>
     <div className="grid gap-6 md:grid-cols-3">
 
-      <ServiceCard title={t("services.list.parcelas")} image="/images/servicios/parcelas.jpg" link="/servicios/medicion-parcelas" />
-      <ServiceCard title={t("services.list.replanteo")} image="/images/servicios/replanteo.jpg" link="/servicios/replanteo-obra" />
-      <ServiceCard title={t("services.list.levantamientos")} image="/images/servicios/levantamiento.jpg" link="/servicios/levantamientos" />
+      <ServiceCard title={t("services.list.parcelas")} image="/images/servicios/MediciónRegularizaciónFincas.jpg" link="/servicios/medicion-parcelas" />
+      <ServiceCard title={t("services.list.replanteo")} image="/images/servicios/ReplanteoDeObra.jpg" link="/servicios/replanteo-obra" />
+      <ServiceCard title={t("services.list.levantamientos")} image="/images/servicios/LevantaminetoTopografico.jpg" link="/servicios/levantamientos" />
       <ServiceCard title={t("services.list.asistencia")} image="/images/servicios/ATecnica.jpg" link="/servicios/asistencia-tecnica" />
-      <ServiceCard title={t("services.list.monitoreo")} image="/images/servicios/monitoreo.jpg" link="/servicios/monitoreo-auscultacion" />
-      <ServiceCard title={t("services.list.drones")} image="/images/servicios/dron.jpg" link="/servicios/drones-fotogrametria" />
+      <ServiceCard title={t("services.list.monitoreo")} image="/images/servicios/MonitoreoEstructuras.jpg" link="/servicios/monitoreo-auscultacion" />
+      <ServiceCard title={t("services.list.drones")} image="/images/servicios/Ortofoto_Fotogrametria_Drones.jpg" link="/servicios/drones-fotogrametria" />
     </div>
   </div>
 </section>
 
-{/* PROJECTS */}
+{/* PROJECTS 
 <section id="projects" className="pt-30 bg-topo-gray"
   style={{
     backgroundImage: "url('/images/bg-pattern.jpg')",
@@ -104,13 +106,13 @@ const articleLink =
     <h2 className="text-3xl font-bold mb-4 text-topo-navy">{t("projects.title")}</h2>
     <ImageCarousel />
   </div>
-</section>
+</section> */}
 
 
 {/* ABOUT + BLOG */}
 <section
   id="about"
-  className="pt-25 bg-white"
+  className="pt-15 bg-white"
   style={{
     backgroundImage: "url('/images/bg-pattern.jpg')",
     backgroundColor: "rgba(255,255,255,0.85)",
@@ -119,45 +121,51 @@ const articleLink =
 >
   <div className="max-w-6xl mx-auto p-8 md:p-16">
 
-    <div className="grid md:grid-cols-2 gap-12">
 
       {/* ABOUT US */}
-      <div>
+<div className="relative">
 
-        <h2 className="text-3xl font-bold mb-4 text-topo-navy">
-          {t("about.title")}
-        </h2>
+  {/* Logo de fondo */}
+  <img
+    src={logo}
+    alt=""
+    className="absolute w-120 opacity-10"
+  />
 
-        <p className="mb-4 text-topo-dark">
-          {t("about.p1")}
-        </p>
+  {/* Contenido */}
+  <div className="relative z-10">
 
-        <ul className="list-disc pl-5 space-y-1 text-topo-dark">
-          <li>{t("about.list.1")}</li>
-          <li>{t("about.list.2")}</li>
-          <li>{t("about.list.3")}</li>
-        </ul>
+    <h2 className="text-3xl font-bold mb-4 text-topo-navy">
+      {t("about.title")}
+    </h2>
 
- <div className="flex justify-center md:justify-start mb-6">
-          <div className="bg-topo-gray/10 p-2 rounded-2xl shadow-sm">
-            <img
-              src={logo}
-              alt="TopoAtlantico"
-              className="w-40 md:w-52 object-contain"
-            />
-          </div>
-        </div>
-      </div>
+    <p className="mb-4 text-topo-dark">
+      {t("about.p1")}
+    </p>
 
+    <ul className="list-disc pl-5 space-y-1 text-topo-dark">
+      <li>{t("about.list.1")}</li>
+      <li>{t("about.list.2")}</li>
+      <li>{t("about.list.3")}</li>
+      <li>{t("about.list.4")}</li>
+      <li>{t("about.list.5")}</li>
+    </ul>
+
+</div>
+  <div className="max-w-6xl mx-auto p-6 text-center">
+    <ImageCarousel />
+  </div>
       {/* BLOG */}
       <div id="blog">
-        <h2 className= "text-3xl font-bold mb-2 text-topo-navy">
+        <h2 className= "pt-15 text-3xl font-bold mb-2 text-topo-navy">
           {t("blogSection.title")}
         </h2>
 
-        <p className= "mb-3 text-topo-dark">
+        <p className= "mb-8 text-topo-dark">
           {t("blogSection.description")}
         </p>
+
+<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
 
         <BlogCard
   title={t("blog.topographicSurvey.title")}
@@ -167,6 +175,7 @@ const articleLink =
     i18n.language === "es"
       ? "/blog/que-es-un-levantamiento-topografico"
       : "/blog/what-is-a-topographic-survey"
+
   }
 />
 <BlogCard
@@ -189,7 +198,17 @@ const articleLink =
       : "/blog/monitoring-structures"
   }
 />
-
+<BlogCard
+  title={t("blog.FotogrametriaDrones.title")}
+  excerpt={t("blogCard.FotogrametriaDronesExcerpt")}
+  image="/images/blog/FotogrametriaDrones.jpg"
+  link={
+    i18n.language === "es"
+      ? "/blog/Fotogrametria-drones"
+      : "/blog/Drone-Photogrammetry"
+  }
+/>
+ </div>
       </div>
 
     </div>
@@ -199,7 +218,7 @@ const articleLink =
 
 
 {/* CONTACT */}
-<section id="contact" className="pt-15 bg-topo-gray"
+<section id="contact" className="pt-5 bg-topo-gray"
   style={{
     backgroundImage: "url('/images/bg-pattern.jpg')",
     backgroundColor: "rgba(255,255,255,0.85)",
@@ -233,15 +252,10 @@ export default function App() {
         <Route path="/blog/que-es-un-levantamiento-topografico" element={<WhatIsTopographicSurvey />} />
 	<Route path="/blog/replanteo-de-obra" element={<ReplanteoDeObra />} />
 	<Route path="/blog/construction-setting-out" element={<ReplanteoDeObra />} />
-<Route
-  path="/blog/monitoring-structures"
-  element={<MonitoreoEstructuras />}
-/>
-
-<Route
-  path="/blog/monitoreo-estructuras"
-  element={<MonitoreoEstructuras />}
-/>
+        <Route path="/blog/monitoring-structures" element={<MonitoreoEstructuras />} />
+        <Route path="/blog/monitoreo-estructuras" element={<MonitoreoEstructuras />} />
+        <Route path="/blog/Fotogrametria-drones" element={<FotogrametriaDrones />} />
+        <Route path="/blog/Drone-Photogrammetry" element={<FotogrametriaDrones />} />
 
         <Route path="/politica-privacidad" element={<PoliticaPrivacidad />} />
         <Route path="/aviso-legal" element={<AvisoLegal />} />

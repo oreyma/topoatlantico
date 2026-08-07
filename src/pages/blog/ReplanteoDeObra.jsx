@@ -178,7 +178,7 @@ export default function ReplanteoDeObra() {
 
           <img
             src="/images/blog/NecesarioReplanteo.jpg"
-            alt="Setting out control points on a construction site"
+            alt="Replanteo estrucutras edificación y obra civil"
             className="w-full rounded-xl shadow-md"
           />
 
@@ -205,7 +205,7 @@ export default function ReplanteoDeObra() {
 
           <img
             src="/images/blog/ReplanteoCarretera.jpg"
-            alt="Engineer checking setting out points before construction"
+            alt="Replanteo carretera con estación total y gps"
             className="w-full rounded-xl shadow-md"
           />
 
@@ -232,7 +232,7 @@ export default function ReplanteoDeObra() {
 
           <img
             src="/images/blog/ReplanteoPrecision.jpg"
-            alt="Surveyor carrying out construction setting out"
+            alt="Precision en replanteo, evitar costes elevados"
             className="w-full rounded-xl shadow-md"
           />
 
@@ -253,7 +253,7 @@ export default function ReplanteoDeObra() {
         <figure className="mb-10">
           <img
             src="/images/blog/ReplanteoObraCivil.jpg"
-            alt="Road setting out in the Canary Islands"
+            alt="Replanteo carretera en las Islas Canarias"
             className="w-full rounded-xl shadow-md"
           />
         </figure>
@@ -272,7 +272,7 @@ export default function ReplanteoDeObra() {
         <figure className="mb-10">
           <img
             src="/images/blog/ReplanteoCanarias.jpg"
-            alt="Construction setting out in the Canary Islands"
+            alt="Replanteo infraestructuras, Canarias"
             className="w-full rounded-xl shadow-md"
           />
         </figure>

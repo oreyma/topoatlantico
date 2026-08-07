@@ -7,7 +7,7 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "TopoAtlantico",
+    "title": "TOPOATLANTICO",
     "subtitle1": "Surveying and mapping services in the Canary Islands.",
     "subtitle2": "Tailored precision solutions to meet your needs.",
     "btn_quote": "Request a quote",
@@ -17,7 +17,7 @@
     "title": "Our Services",
     "description": "We offer tailored technical solutions",
     "list": {
-      "parcelas": "Measuring & Mapping Property Boundaries",
+      "parcelas": "Mapping Property Boundaries",
       "replanteo": "Setting Out Engineering",
       "levantamientos": "Land Surveying & Mapping",
       "asistencia": "Surveys Inspection & QA Reports",
@@ -34,7 +34,7 @@
     },
     "parcelas": {
       "title": "Property Boundary Measurement",
-      "desc": "Accurate measurement of rural and urban plots, boundary demarcation, land registration, ordnance survey, detailed area and volume calculations."
+      "desc": "We provide accurate surveys of rural and urban properties, boundary determination, and topographic surveys. Our services also include georeferencing certificates, building age certificates, Land Registry and Cadastre coordination, property subdivisions, mergers, boundary adjustments, first registrations, alternative graphical representations, and detailed area and volume calculations."
     },
     "asistencia": {
       "title": "Surveys Inspection & QA Reports",
@@ -46,7 +46,7 @@
     },
     "drones": {
       "title": "Drones & Photogrammetry",
-      "desc": "We capture high-resolution aerial imagery to create orthophotos, 3D models, point clouds, earthwork volume estimation."
+      "desc": "We use professional drones to capture accurate geospatial data and high-quality visual documentation. Our services include aerial photogrammetry, orthophotos, 3D models, point clouds, infrastructure inspections, construction progress monitoring, project documentation, volume calculations, and technical support for engineering, surveying, and construction projects."
     }
   },
   "projects": {
@@ -54,7 +54,7 @@
   },
   "about": {
     "title": "About Us",
-    "p1": "TopoAtlantico is a new surveying firm based in the Canary Islands. We combine local expertise with advanced technology to deliver precise results at reduced costs.",
+    "p1": "TOPOATLANTICO is a new surveying firm based in the Canary Islands. We combine local expertise with advanced technology to deliver precise results at reduced costs.",
     "list": {
       "1": "Qualified geomatics and surveying engineers",
       "2": "Precision equipment: total station, GNSS, multirotor drones",
@@ -133,30 +133,103 @@
   "section7": "Frequently asked questions",
   "section7Text": "The duration of setting out depends on the size and complexity of the project. Small residential buildings may only require a few hours, whereas large civil engineering projects require continuous survey support throughout construction."
 },
+
+
+
+
+"FotogrametriaDrones": {
+  "title": "Drone photogrammetry in the Canary Islands",
+
+  "intro": "Drone photogrammetry has revolutionised the way topographic and cartographic surveys are carried out. By combining unmanned aerial vehicles (UAVs), high-resolution cameras and specialised processing software, it is now possible to obtain highly accurate geospatial information in a fraction of the time required by traditional surveying methods. At TopoAtlántico, we use this technology to produce orthophotos, digital terrain models, dense point clouds and 3D models for engineering, construction, urban planning and environmental projects throughout the Canary Islands.",
+
+  "section1": "What is drone photogrammetry?",
+
+  "section1Text1": "Drone photogrammetry is a surveying technique that reconstructs the geometry of land, buildings or infrastructure by processing aerial photographs captured by an unmanned aerial vehicle (UAV). Unlike a conventional photograph, each image contains spatial information which, when combined with hundreds or even thousands of overlapping photographs, allows highly accurate three-dimensional models to be generated.",
+
+  "section1Text2": "The technique is based on digital photogrammetry. Specialised software automatically identifies thousands of common points between consecutive photographs and calculates their position in three-dimensional space. The result is a highly detailed digital representation of the surveyed area with centimetre-level accuracy, particularly when supported by Ground Control Points (GCPs) or GNSS RTK/PPK positioning systems.",
+
+  "section1Text3": "Today, drone photogrammetry has become an essential tool for surveyors, engineers, architects and public authorities. Its ability to document large areas quickly and safely makes it the preferred solution for civil engineering projects, mining operations, precision agriculture, infrastructure inspections, environmental studies and land management.",
+
+  "section2": "How is a drone photogrammetric survey carried out?",
+
+  "section2Text1": "Every project begins with careful flight planning. At this stage, parameters such as flight altitude, Ground Sample Distance (GSD), image overlap, flight speed and the survey area are defined. Proper planning is essential to achieve the required level of accuracy while avoiding unnecessary repeat flights.",
+
+  "section2Text2": "During the mission, the drone follows a pre-programmed autonomous flight path while capturing a large number of high-resolution georeferenced photographs. Depending on the size and complexity of the project, the survey may consist of anything from a few dozen images to several thousand photographs.",
+
+  "section2Text3": "Once the flight has been completed, all images are processed using specialised photogrammetry software such as WebODM, Pix4D or Agisoft Metashape. During processing, the photographs are aligned to generate a dense point cloud, from which orthophotos, Digital Terrain Models (DTMs), Digital Surface Models (DSMs) and three-dimensional models are produced for direct use in CAD and GIS software.",
+
+  "section3": "What deliverables can be produced?",
+
+  "section3Text1": "One of the greatest advantages of drone photogrammetry is the wide variety of deliverables that can be generated from a single flight. The collected data can be processed into different products depending on the requirements of each project, ranging from simple orthophotos to highly detailed three-dimensional engineering models.",
+
+  "section3Text2": "The most common deliverables include high-resolution georeferenced orthophotos, Digital Terrain Models (DTMs), Digital Surface Models (DSMs), dense point clouds in LAS/LAZ format, textured 3D meshes (OBJ), contour lines and accurate volume calculations for earthworks, stockpiles and quarry operations.",
+
+  "section3Text3": "These deliverables can be seamlessly integrated into industry-standard software such as AutoCAD Civil 3D, QGIS, ArcGIS and other GIS or CAD platforms, providing engineers, architects and surveyors with reliable geospatial data for design, planning and construction.",
+
+  "section4": "What level of accuracy can be achieved?",
+
+  "section4Text1": "One of the most common questions is whether drone photogrammetry can replace a conventional topographic survey. The answer depends on the level of accuracy required. For most mapping, engineering and construction projects, drone photogrammetry is capable of delivering centimetre-level accuracy, provided that the survey is properly planned and carried out using appropriate equipment and methodologies.",
+
+  "section4Text2": "The final accuracy depends on several factors, including Ground Sample Distance (GSD), camera quality, flight altitude, image overlap, weather conditions and the positioning technology used by the drone. For projects requiring the highest level of accuracy, Ground Control Points (GCPs) measured using GNSS receivers or total stations are commonly incorporated to accurately georeference and optimise the photogrammetric model.",
+
+  "section4Text3": "Modern drones equipped with RTK or PPK technology significantly reduce the number of Ground Control Points required while improving the absolute positioning of the survey. Nevertheless, for high-precision engineering projects, combining drone photogrammetry with GNSS surveying and strategically placed control points remains the preferred methodology for achieving reliable and verifiable results.",
+
+
+  "section5": "Advantages of drone photogrammetry",
+
+  "section5Text1": "One of the greatest advantages of drone photogrammetry is its ability to survey large areas in a remarkably short period of time. Sites that would traditionally require several days of fieldwork can often be documented within a single flight, reducing both project duration and operational costs.",
+
+  "section5Text2": "In addition to speed, drone surveys provide an exceptional amount of information. A single flight can generate high-resolution orthophotos, Digital Terrain Models (DTMs), Digital Surface Models (DSMs), dense point clouds, three-dimensional meshes and accurate volume calculations. This allows the same dataset to be reused throughout the lifecycle of a project without the need for additional field surveys.",
+
+  "section5Text3": "Safety is another major benefit. Many surveying projects involve hazardous or difficult-to-access environments such as steep slopes, quarries, industrial roofs, volcanic terrain or unstable ground. Drone technology enables these areas to be documented without exposing surveyors to unnecessary risks while maintaining a high level of accuracy.",
+
+
+  "section6": "Applications of drone photogrammetry in the Canary Islands",
+
+  "section6Text1": "The unique volcanic landscape of the Canary Islands makes drone photogrammetry particularly valuable. Ravines, cliffs, lava fields, coastal areas and other challenging environments can be surveyed efficiently, producing highly detailed topographic information that would otherwise be difficult or time-consuming to obtain using conventional methods.",
+
+  "section6Text2": "At TopoAtlántico, we apply drone photogrammetry to civil engineering, urban planning, earthworks monitoring, stockpile volume calculations, construction progress monitoring, infrastructure inspections, renewable energy projects, environmental studies and heritage documentation. The resulting deliverables integrate seamlessly into CAD, BIM and GIS workflows.",
+
+  "section6Text3": "By combining drone technology with GNSS surveying, robotic total stations and specialised processing software, we deliver accurate and reliable geospatial information tailored to the specific requirements of each project throughout the Canary Islands.",
+
+  "section7": "Frequently asked questions",
+
+  "section7Text1": "Is authorisation required to carry out a drone survey? In Spain, all drone operations must comply with the regulations established by AESA and EASA. Depending on the location of the project, additional restrictions may apply due to controlled airspace, airports, urban environments or protected natural areas. Every professional operation should therefore include a detailed aeronautical assessment before the flight takes place.",
+
+  "section7Text2": "How large an area can be surveyed in a single flight? This depends on the drone platform, battery endurance, required image resolution and terrain characteristics. Larger projects are normally divided into several autonomous flight missions to ensure adequate image overlap and maintain the required survey accuracy.",
+
+  "section7Text3": "Looking for a professional drone photogrammetry survey in the Canary Islands? At TopoAtlántico, we combine modern surveying technology with extensive experience in geomatics, engineering surveying and cartography to provide accurate, reliable and cost-effective solutions for projects of every scale."
+
+},
+
+
+
+
+
 "monitoring": {
-  "title": "Structural Monitoring",
+  "title": "Structural monitoring",
 
   "intro": "Structural monitoring is the process of periodically measuring buildings, bridges, retaining walls, dams, excavations and civil engineering structures to detect movements, settlements or deformations before they become critical. Using high-precision surveying techniques, engineers can verify structural stability, improve safety and make informed decisions throughout the entire life cycle of a project.",
 
-  "section1": "What Is Structural Monitoring?",
+  "section1": "What Is structural monitoring?",
   "section1Text": "Structural monitoring consists of repeatedly measuring specific points on a structure over time. By comparing observations from different surveys, engineers can detect horizontal movements, vertical settlements and structural deformations with millimetre-level accuracy. This information is essential for assessing the real behaviour of the structure and verifying that it performs within the design tolerances.",
 
-  "section2": "Which Structures Require Monitoring?",
+  "section2": "Which structures require monitoring?",
   "section2Text": "Survey monitoring is widely used on buildings, bridges, dams, tunnels, retaining walls, deep excavations, railways, wind farms, slopes and major infrastructure projects. It is also common to monitor nearby buildings during excavation or construction works to ensure that neighbouring properties remain unaffected.",
 
-  "section3": "How Is Structural Monitoring Carried Out?",
+  "section3": "How is structural monitoring carried out?",
   "section3Text": "The process begins by establishing stable control points outside the area affected by the project. Survey prisms or monitoring targets are then installed on the structure and periodically observed using robotic total stations, GNSS receivers or digital levels. The measurements are compared over time to identify any movement or deformation.",
 
-  "section4": "Equipment Used",
+  "section4": "Equipment used",
   "section4Text": "Modern structural monitoring relies on robotic total stations, high-precision GNSS receivers, digital levels, laser scanners and automated monitoring systems. Depending on the project, tilt sensors, crack gauges and other specialized instruments may also be installed to provide continuous structural monitoring.",
 
-  "section5": "Benefits of Structural Monitoring",
+  "section5": "Benefits of structural monitoring",
   "section5Text": "Structural monitoring allows engineers to detect movements at an early stage, improve public safety, reduce maintenance costs, prevent major structural failures and provide objective data for engineering decisions. It is an essential quality-control tool throughout the construction and operational phases of infrastructure projects.",
 
-  "section6": "Benefits of Structural Monitoring in the Canary Islands",
+  "section6": "Benefits of structural monitoring in the Canary Islands",
   "section6Text": "Structural monitoring allows engineers to detect movements at an early stage, improve public safety, reduce maintenance costs, prevent major structural failures and provide objective data for engineering decisions. The Canary Islands present unique geological conditions due to their volcanic origin, steep terrain and complex landscapes. These characteristics make structural monitoring especially valuable for infrastructure, excavations, retaining structures and major engineering projects, ensuring that any movement is detected before it affects safety or performance.",
 
-  "section7": "Frequently Asked Questions",
+  "section7": "Frequently asked questions",
   "section7Text": "The monitoring frequency depends on the structure and its associated level of risk. Some projects require daily observations or fully automated continuous monitoring systems, while others only need monthly or quarterly surveys. Modern surveying equipment is capable of detecting movements of just a few millimetres."
 }
 },
@@ -164,7 +237,8 @@
 "blogCard": {
   "surveyExcerpt": "Learn what a topographic survey is, when it is required and how it benefits engineering and construction projects.",
   "settingOutExcerpt": "Discover how construction setting out guarantees the precise location of every element on site and why it is essential for successful engineering projects.",
-  "monitoringExcerpt": "Learn how structural monitoring detects deformations, improves safety and protects buildings, bridges and civil engineering infrastructure."
+  "monitoringExcerpt": "Learn how structural monitoring detects deformations, improves safety and protects buildings, bridges and civil engineering infrastructure.",
+  "FotogrametriaDronesExcerpt": "Learn how drone photogrammetry is transforming modern surveying through high-resolution orthophotos, digital terrain models and accurate mapping across the Canary Islands."
 },
 
 "blogSection": {

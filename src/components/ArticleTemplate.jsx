@@ -6,10 +6,10 @@ import Button from "./Button";
 import Navbar from "./Navbar";
 
 
-
 export default function ArticleTemplate({
   title,
   image,
+  video,
   children,
 }) {
   const navigate = useNavigate();
@@ -39,13 +39,30 @@ export default function ArticleTemplate({
             {title}
           </h1>
 
-          {image && (
-            <img
-              src={image}
-              alt={title}
-              className="w-full h-80 md:h-[450px] object-cover rounded-xl shadow-md mb-8"
-            />
-          )}
+{video ? (
+<video
+    className="w-full h-80 md:h-[500px] object-cover rounded-xl shadow-xl mb-8"
+    autoPlay
+    muted
+    loop
+    playsInline
+    preload="metadata"
+    poster={image}
+>
+    <source
+        src={video}
+        type="video/mp4"
+    />
+</video>
+) : (
+  image && (
+    <img
+      src={image}
+      alt={title}
+      className="w-full h-80 md:h-[450px] object-cover rounded-xl shadow-md mb-8"
+    />
+  )
+)}
 
           <div className="prose prose-lg max-w-none prose-headings:text-topo-navy text-topo-dark">
   {children}

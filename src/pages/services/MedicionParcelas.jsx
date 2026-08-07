@@ -30,7 +30,7 @@ export default function MedicionParcelas() {
 <ServiceTemplate>
       {/* CONTENIDO PRINCIPAL */}
       <section
-  className="min-h-screen flex flex-col items-center justify-center text-center bg-white p-6 pt-20"
+  className="min-h-screen flex flex-col items-center justify-center text-center bg-white p-6 pt-30"
 >
         <div className="max-w-3xl">
           <h1 className="text-3xl font-bold text-topo-navy mt-6 mb-4 text-center">
@@ -38,12 +38,12 @@ export default function MedicionParcelas() {
           </h1>
 
           <img
-            src="/images/servicios/parcelas.jpg"
+            src="/images/servicios/DeslindeGeorreferenciacionCatastro-Registro.jpg"
             alt={t("services.parcelas.title")}
             className="w-full h-64 md:h-96 object-cover rounded-xl shadow-md"
           />
 
-          <p className="text-lg text-topo-dark mb-6">
+          <p className="whitespace-pre-line text-topo-dark mb-6">
             {t("services.parcelas.desc")}
           </p>
 

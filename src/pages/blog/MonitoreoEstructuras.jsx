@@ -184,8 +184,8 @@ export default function MonitoreoEstructuras() {
         <figure className="mb-10">
 
           <img
-            src="/images/blog/AuscultacionEstructuras.jpg"
-            alt="Bridge and building deformation monitoring"
+            src="/images/blog/MonitoreoTunel.jpg"
+            alt="Control de deformacion en tuneles, puentes y otras estrucutras"
             className="w-full rounded-xl shadow-md"
           />
 
@@ -211,8 +211,8 @@ export default function MonitoreoEstructuras() {
         <figure className="mb-10">
 
           <img
-            src="/images/blog/MonitoreoCanarias.jpg"
-            alt="Surveyor carrying out structural monitoring"
+            src="/images/blog/MonitoreoPresasCanarias.jpg"
+            alt="Monitoreo de estructuras"
             className="w-full rounded-xl shadow-md"
           />
 
@@ -238,7 +238,7 @@ export default function MonitoreoEstructuras() {
 
           <img
             src="/images/blog/MonitoreoEquipos.jpg"
-            alt="Surveying equipment used for structural monitoring"
+            alt="Equipos topograficos utilizados, estacion total, niveles y receptores gnss"
             className="w-full rounded-xl shadow-md"
           />
 
@@ -264,8 +264,8 @@ export default function MonitoreoEstructuras() {
         <figure className="mb-10">
 
           <img
-            src="/images/blog/BenefitsMonitoring.jpg"
-            alt="Benefits of structural monitoring"
+            src="/images/blog/BeneficiosMonitoreo.jpg"
+            alt="Detectar deformaciones estructuras"
             className="w-full rounded-xl shadow-md"
           />
 
@@ -292,7 +292,7 @@ export default function MonitoreoEstructuras() {
 
           <img
             src="/images/blog/MonitoreoNivelacion.jpg"
-            alt="Structural monitoring in the Canary Islands"
+            alt="Nivelacion monitore Canarias"
             className="w-full rounded-xl shadow-md"
           />
 

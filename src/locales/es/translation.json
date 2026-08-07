@@ -7,7 +7,7 @@
     "contact": "Contacto"
   },
   "hero": {
-    "title": "TopoAtlantico",
+    "title": "TOPOATLANTICO",
     "subtitle1": "Servicios de topografía y cartografía en las Islas Canarias.",
     "subtitle2": "Soluciones de precisión, a la medida de tus necesidades.",
     "btn_quote": "Solicita presupuesto",
@@ -17,7 +17,7 @@
     "title": "Nuestros servicios",
     "description": "Ofrecemos asesoramiento y soluciones adaptadas al cliente",
     "list": {
-      "parcelas": "Medición de Parcelas",
+      "parcelas": "Medición y regularización de fincas",
       "replanteo": "Replanteo de Obra",
       "levantamientos": "Levantamientos Topográficos",
       "asistencia": "Asistencia Técnica",
@@ -33,8 +33,8 @@
       "desc": "Servicios de replanteo de alta precisión en edificación y obra civil: Amplia experiencia en replanteos de estructuras, movimientos de tierra, servicios enterrados, urbanización, etc."
     },
     "parcelas": {
-      "title": "Medición de Parcel",
-      "desc": "Medición precisa de terrenos rústicos y urbanos, delimitación de linderos, parcelaciones, inmatriculaciones, informes de coordinación con catastro y cubicaciones detalladas, entre otros."
+      "title": "Medición y regularización de fincas",
+      "desc": "Ofrecemos soluciones técnicas para la medición y regularización de fincas rústicas y urbanas. \n Nuestros servicios incluyen delimitación de linderos, certificados de georreferenciación y antigüedad, coordinación Catastro-Registro, segregaciones, agrupaciones, divisiones de fincas, inmatriculaciones, GML catastro, Informe de validación gráfica, representaciones gráficas alternativas, y cálculo de superficies y volúmenes."
     },
     "asistencia": {
       "title": "Asistencia Técnica",
@@ -46,7 +46,7 @@
     },
     "drones": {
       "title": "Drones y Fotogrametría",
-      "desc": "Capturamos imágenes aéreas de alta resolución para generar ortofotos, modelos 3D y nubes de puntos."
+      "desc": "Realizamos vuelos con drones profesionales para la obtención de ortofotos, modelos 3D, nubes de puntos, cálculo de volúmenes y documentación técnica de alta precisión. \n Además, realizamos tomas de videos para la inspección de estructuras e infraestructuras de difícil acceso, el seguimiento y documentación del proceso de obra y el apoyo a proyectos de ingeniería y construcción."
     }
   },
   "projects": {
@@ -54,11 +54,13 @@
   },
   "about": {
     "title": "Sobre nosotros",
-    "p1": "TopoAtlantico es un nuevo estudio de topografía con base en las Islas Canarias. Combinamos nuestra experiencia local con la última tecnología para entregar resultados precisos a costes reducidos.",
+    "p1": "TOPOATLANTICO es un nuevo estudio de topografía con base en las Islas Canarias. Combinamos nuestra experiencia local con la última tecnología para entregar resultados precisos a costes reducidos.",
     "list": {
-      "1": "Técnicos titulados en geomática y topografía",
-      "2": "Equipos de precisión: estación total, GNSS, drones multirrotor",
-      "3": "Presupuesto y disponibilidad en 24-48 h."
+      "1": "Técnicos colegiados en geomática y topografía",
+      "2": "Operadores de UAS (drones) certificados por AESA",
+      "3": "Especialistas en levantamientos topográficos, replanteos de obra, medición y regularización de parcelas, fotogrametría, inspección con drones y monitorización de estructuras.",
+      "4": "Equipos de precisión: estación total, GNSS, drones multirrotor",
+      "5": "Presupuesto y disponibilidad en 24-48 h."
     }
   },
 "contact": {
@@ -102,10 +104,10 @@
   "section6": "Levantamientos topográficos en Canarias",
   "section6Text": "La compleja orografía de las Islas Canarias hace que los levantamientos topográficos sean fundamentales para proyectos de ingeniería, construcción, infraestructuras y gestión de propiedades.",
 
-  "section7": "Preguntas Frecuentes: ¿Coste y Duración?",
+  "section7": "Preguntas frecuentes: ¿Coste y duración?",
   "section7Text": "El coste y la duración de un levantamiento topográfico dependen del tamaño, la accesibilidad y la complejidad del terreno. En el caso de un solar pequeño, el trabajo suele completarse en pocas horas y su precio normalmente no supera los 300 euros. En cambio, los proyectos de mayor extensión o con condiciones difíciles pueden requerir varios días de trabajo y un presupuesto más elevado.",
 
-  "section8": "¿Necesita un Levantamiento Topográfico?",
+  "section8": "¿Necesita un levantamiento topográfico?",
   "section8Text": "TopoAtlantico ofrece servicios profesionales de topografía en todas las Islas Canarias. Contacte con nosotros para recibir asesoramiento técnico y un presupuesto personalizado."
 
 },
@@ -130,18 +132,91 @@
   "section5": "Replanteo en obras civiles",
   "section5Text": "Las grandes infraestructuras requieren un control topográfico continuo durante toda su ejecución. Carreteras, conducciones, movimientos de tierras, ferrocarriles y estructuras necesitan replanteos precisos para cumplir las tolerancias del proyecto.",
 
-  "section6": "Replanteo de Obra en Canarias",
+  "section6": "Replanteo de obra en Canarias",
   "section6Text": "La compleja orografía y el origen volcánico del terreno hacen que la topografía tenga un papel fundamental en las obras desarrolladas en Canarias. Un replanteo preciso permite adaptar correctamente el proyecto al terreno existente.",
 
-  "section7": "Preguntas Frecuentes: ¿Coste y Duración?",
+  "section7": "Preguntas frecuentes: ¿Coste y Duración?",
   "section7Text": "El coste y duración del replanteo depende del tamaño y complejidad de la obra. Mientras que la estructura de una vivienda unifamiliar puede replantearse en pocas horas, incuriendo en un coste de unos pocos cientos de euros, grandes infraestructuras requieren asistencia topográfica durante toda la ejecución."
 },
+
+
+
+"FotogrametriaDrones": {
+  "title": "Fotogrametría con drones en Canarias",
+
+  "intro": "La fotogrametría con drones ha revolucionado la forma de realizar levantamientos topográficos y cartográficos. Gracias a la combinación de aeronaves no tripuladas, cámaras de alta resolución y software especializado, hoy es posible obtener información geoespacial de gran precisión en tiempos muy reducidos. En TopoAtlántico utilizamos esta tecnología para generar ortofotos, modelos digitales del terreno, nubes de puntos y modelos 3D destinados a proyectos de ingeniería, construcción, urbanismo y medio ambiente en todas las Islas Canarias.",
+
+  "section1": "¿Qué es la fotogrametría con drones?",
+
+  "section1Text1": "La fotogrametría con drones es una técnica de medición que permite reconstruir la geometría de un terreno o de una infraestructura mediante el procesamiento de fotografías aéreas tomadas desde un vehículo aéreo no tripulado (Dron). A diferencia de una simple fotografía, cada imagen contiene información espacial que, al combinarse con cientos o miles de fotografías adicionales, permite generar modelos tridimensionales extremadamente precisos.",
+
+  "section1Text2": "El principio de funcionamiento se basa en la fotogrametría digital: el software identifica miles de puntos comunes entre imágenes consecutivas y calcula automáticamente su posición en el espacio. El resultado es una representación tridimensional del terreno con precisión centimétrica, especialmente cuando el proyecto se apoya en puntos de control terrestre (GCP) o sistemas GNSS RTK/PPK.",
+
+  "section1Text3": "Actualmente, la fotogrametría con drones constituye una herramienta fundamental para ingenieros, arquitectos, topógrafos y administraciones públicas. Su capacidad para documentar grandes superficies en poco tiempo ha convertido esta tecnología en un estándar para proyectos de obra civil, minería, agricultura de precisión, inspección de infraestructuras y gestión medioambiental.",
+
+  "section2": "¿Cómo se realiza un levantamiento fotogramétrico?",
+
+  "section2Text1": "Todo proyecto comienza con una planificación detallada del vuelo. En esta fase se define la altura de vuelo, la resolución deseada (Ground Sample Distance o GSD), el porcentaje de solape entre fotografías, la velocidad del dron y la extensión del área que será documentada. Una correcta planificación garantiza la calidad del resultado final y evita la necesidad de repetir vuelos.",
+
+  "section2Text2": "Durante la misión, el dron ejecuta automáticamente la ruta programada mientras captura imágenes georreferenciadas con un elevado porcentaje de solape longitudinal y transversal. Dependiendo de las dimensiones del proyecto, pueden obtenerse desde unas pocas decenas hasta varios miles de fotografías de alta resolución.",
+
+  "section2Text3": "Una vez finalizado el vuelo, todas las imágenes se procesan mediante software fotogramétrico especializado, como WebODM, Pix4D o Agisoft Metashape. Durante este proceso se alinean las fotografías, se genera una nube de puntos densa y posteriormente se obtienen productos cartográficos como ortofotos, modelos digitales del terreno (MDT), modelos digitales de superficie (MDS) y modelos tridimensionales listos para su utilización en software CAD y GIS.",
+
+  "section3": "¿Qué productos se obtienen?",
+
+  "section3Text1": "Uno de los principales beneficios de la fotogrametría con drones es la enorme variedad de productos que pueden generarse a partir de un único vuelo. La información capturada puede adaptarse a las necesidades específicas de cada proyecto, desde simples ortofotos hasta complejos modelos tridimensionales destinados a ingeniería.",
+
+  "section3Text2": "Entre los productos más habituales destacan las ortofotos georreferenciadas de alta resolución, los modelos digitales del terreno (MDT), los modelos digitales de superficie (MDS), las nubes de puntos densas en formato LAS/LAZ, las mallas tridimensionales (OBJ), las curvas de nivel y los cálculos de volúmenes para movimientos de tierras, canteras o acopios de materiales.",
+
+  "section3Text3": "Todos estos productos pueden integrarse directamente en plataformas como AutoCAD Civil 3D, QGIS, ArcGIS o cualquier otro software compatible con información geoespacial, facilitando el diseño, análisis y seguimiento de proyectos de ingeniería y construcción.",
+
+  "section4": "¿Qué precisión puede alcanzarse?",
+
+  "section4Text1": "Una de las preguntas más frecuentes es si la fotogrametría con drones puede sustituir a un levantamiento topográfico convencional. La respuesta depende de la precisión requerida por el proyecto. En la mayoría de trabajos de cartografía, ingeniería y obra civil, la fotogrametría ofrece resultados con precisión centimétrica, siempre que el vuelo esté correctamente planificado y se utilicen equipos y metodologías adecuadas.",
+
+  "section4Text2": "La precisión final depende de numerosos factores, entre ellos la resolución de las imágenes (GSD), la calidad de la cámara, la altura de vuelo, el porcentaje de solape, las condiciones meteorológicas y el sistema de posicionamiento utilizado por el dron. Para proyectos que requieren la máxima exactitud es habitual emplear puntos de control terrestre (GCP), medidos mediante receptores GNSS o estación total, que permiten ajustar el modelo fotogramétrico con gran fiabilidad.",
+
+  "section4Text3": "Los drones equipados con tecnología RTK o PPK permiten reducir considerablemente el número de puntos de apoyo necesarios y mejorar la georreferenciación de las imágenes. Aun así, en trabajos de alta responsabilidad técnica, la combinación de drones, GNSS y puntos de control continúa siendo la metodología recomendada para garantizar resultados precisos y verificables.",
+
+
+  "section5": "Ventajas de la fotogrametría con drones",
+
+  "section5Text1": "La principal ventaja de la fotogrametría con drones es su capacidad para documentar grandes superficies en un tiempo muy reducido. Áreas que requerirían varios días de trabajo mediante métodos tradicionales pueden capturarse en cuestión de minutos, reduciendo tanto los costes como los plazos de ejecución del proyecto.",
+
+  "section5Text2": "Además de la rapidez, esta tecnología proporciona una enorme cantidad de información. Un único vuelo permite generar ortofotos de alta resolución, modelos digitales del terreno, nubes de puntos, modelos tridimensionales y cálculos de volúmenes, todo ello a partir de la misma captura de imágenes. Esto convierte cada vuelo en una fuente de información muy valiosa que puede reutilizarse para diferentes necesidades a lo largo del proyecto.",
+
+  "section5Text3": "Otra ventaja importante es la seguridad. Muchas zonas presentan dificultades de acceso o riesgos para el personal técnico, como taludes, canteras, cubiertas industriales o zonas afectadas por desprendimientos. El empleo de drones reduce significativamente la exposición de los trabajadores, permitiendo obtener información precisa sin necesidad de acceder físicamente a áreas potencialmente peligrosas.",
+
+
+  "section6": "Aplicaciones de la fotogrametría con drones en Canarias",
+
+  "section6Text1": "La singular orografía del archipiélago canario convierte la fotogrametría con drones en una herramienta especialmente útil. Barrancos, laderas volcánicas, zonas costeras, espacios naturales protegidos y terrenos de difícil acceso pueden documentarse de forma rápida y segura, obteniendo información topográfica de gran calidad.",
+
+  "section6Text2": "En TopoAtlántico aplicamos esta tecnología en proyectos de ingeniería civil, urbanismo, control de movimientos de tierras, cálculo de volúmenes, seguimiento de obras, inspección de infraestructuras, documentación patrimonial, energías renovables y estudios medioambientales. Los productos obtenidos pueden integrarse fácilmente en flujos de trabajo basados en CAD, BIM y sistemas de información geográfica.",
+
+  "section6Text3": "La combinación de drones, GNSS, estaciones totales y software especializado permite ofrecer soluciones adaptadas a cada proyecto, optimizando tiempos de trabajo y proporcionando información fiable para la toma de decisiones durante todas las fases de una obra o estudio técnico.",
+
+
+  "section7": "Preguntas frecuentes",
+
+  "section7Text1": "¿Es necesaria una autorización para realizar un vuelo fotogramétrico? En España, las operaciones con drones deben cumplir la normativa vigente de AESA y EASA. Dependiendo de la ubicación del proyecto, pueden existir restricciones relacionadas con el espacio aéreo, zonas urbanas, aeropuertos o espacios naturales protegidos. Antes de cada vuelo es imprescindible realizar un estudio aeronáutico y verificar la viabilidad de la operación.",
+
+  "section7Text2": "¿Qué superficie puede levantarse en un solo vuelo? La respuesta depende del modelo de dron, la autonomía de las baterías, la resolución requerida y la complejidad del terreno. En proyectos de gran extensión es habitual dividir el trabajo en varias misiones para garantizar la calidad de las imágenes y mantener un elevado porcentaje de solape entre fotografías.",
+
+  "section7Text3": "¿Necesita un levantamiento mediante fotogrametría con drones en Canarias? En TopoAtlántico ponemos a su disposición equipos de última generación y experiencia en topografía, cartografía y geomática para ofrecer soluciones precisas adaptadas a las necesidades de cada proyecto."
+},
+
+
+
+
+
+
 "monitoring": {
   "title": "Monitoreo de estructuras",
 
   "intro": "El monitoreo y la auscultación de estructuras consisten en medir de forma periódica y precisa el comportamiento de edificios, puentes, muros, presas, excavaciones e infraestructuras para detectar desplazamientos, deformaciones o asentamientos antes de que se conviertan en un problema. Gracias a la topografía de alta precisión es posible garantizar la seguridad de las estructuras y tomar decisiones fundamentadas durante toda la vida útil del proyecto.",
 
-  "section1": "¿Qué es el Monitoreo y la Auscultación de Estructuras?",
+  "section1": "¿Qué es el monitoreo y la auscultación de estructuras?",
   "section1Text": "La auscultación estructural consiste en controlar la posición de determinados puntos de una estructura mediante mediciones repetidas a lo largo del tiempo. Comparando estas observaciones es posible detectar movimientos horizontales, verticales o deformaciones con precisión milimétrica. Esta información resulta fundamental para evaluar el comportamiento real de la estructura y comprobar que evoluciona dentro de los límites previstos por el proyecto.",
 
   "section2": "¿Qué estructuras necesitan monitoreo?",
@@ -166,7 +241,8 @@
 "blogCard": {
   "surveyExcerpt": "Descubre qué es un levantamiento topográfico, cuándo es necesario y cómo beneficia a proyectos de ingeniería y construcción.",
   "settingOutExcerpt": "Descubre cómo el replanteo de obra garantiza la ubicación exacta de cada elemento constructivo y por qué es imprescindible para cualquier proyecto de ingeniería.",
-  "monitoringExcerpt": "Descubre cómo el monitoreo y la auscultación de estructuras permiten detectar deformaciones y garantizar la seguridad de edificios, puentes e infraestructuras."
+  "monitoringExcerpt": "Descubre cómo el monitoreo y la auscultación de estructuras permiten detectar deformaciones y garantizar la seguridad de edificios, puentes e infraestructuras.",
+  "FotogrametriaDronesExcerpt": "Conozca cómo la fotogrametría con drones está transformando la topografía moderna mediante ortofotos, modelos digitales y cartografía de alta precisión para proyectos en las Islas Canarias."
 },
 
 "blogSection": {

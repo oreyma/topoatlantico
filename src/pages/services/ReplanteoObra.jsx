@@ -30,14 +30,14 @@ export default function ReplanteoObra() {
 <ServiceTemplate>
 
       {/* CONTENIDO PRINCIPAL */}
-      <section className="min-h-screen flex flex-col items-center justify-center text-center bg-white p-6 pt-20" >
+      <section className="min-h-screen flex flex-col items-center justify-center text-center bg-white p-6 pt-30" >
         <div className="max-w-3xl">
           <h1 className="text-3xl font-bold text-topo-navy mt-6 mb-4 text-center">
             {t("services.replanteo.title")}
           </h1>
 
           <img
-            src="/images/servicios/replanteo.jpg"
+            src="/images/servicios/ReplanteoDeObraTopografico.jpg"
             alt={t("services.replanteo.title")}
             className="w-full h-64 md:h-96 object-cover rounded-xl shadow-md"
           />

@@ -44,7 +44,7 @@ export default function Navbar() {
               }`}
             />
             <div className="flex flex-col leading-tight">
-              <span className="text-2xl font-bold text-topo-navy text-base sm:text-lg lg:text-xl">TopoAtlantico</span>
+              <span className="text-2xl font-bold text-topo-navy text-base sm:text-lg lg:text-xl">TOPOATLANTICO</span>
               <span className="text-sm italic font-medium text-[#1B7F8C] tracking-wide">
                 Servicios Topográficos
               </span>
@@ -78,9 +78,9 @@ export default function Navbar() {
   {t("navbar.services")}
 </Link>
 
-<Link to="/#projects">
+{/*<Link to="/#projects">
   {t("navbar.projects")}
-</Link>
+</Link>*/}
 
 <Link to="/#about">
   {t("navbar.about")}

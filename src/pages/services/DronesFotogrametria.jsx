@@ -28,7 +28,7 @@ export default function DronesFotogrametria() {
 <ServiceTemplate>
       {/* CONTENIDO PRINCIPAL */}
       <section
-  className="min-h-screen flex flex-col items-center justify-center text-center bg-white p-6 pt-15"
+  className="min-h-screen flex flex-col items-center justify-center text-center bg-white p-6 pt-30"
 >
         <div className="max-w-3xl">
           <h1 className="text-3xl font-bold text-topo-navy mt-6 mb-4 text-center">
@@ -36,12 +36,12 @@ export default function DronesFotogrametria() {
           </h1>
 
           <img
-            src="/images/servicios/dron.jpg"
+            src="/images/servicios/FotogrametriaModelos3dNubeDePuntos.jpg"
             alt={t("services.drones.title")}
             className="w-full h-64 md:h-96 object-cover rounded-xl shadow-md"
           />
 
-          <p className="text-lg text-topo-dark mb-6">
+          <p className="whitespace-pre-line text-topo-dark mb-6">
             {t("services.drones.desc")}
           </p>
 

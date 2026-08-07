@@ -1,4 +1,4 @@
-import { useTranslation } from "react-i18next";
+	import { useTranslation } from "react-i18next";
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 
@@ -105,7 +105,7 @@ export default function WhatIsTopographicSurvey() {
 
 <figure className="mb-10">
   <img
-    src="/images/blog/QueInfo.jpg"
+    src="/images/blog/LevantamientoTopograficoIntro.jpg"
     alt="Topographic survey project in Gran Canaria"
     className="w-full rounded-xl shadow-md"
   />
@@ -123,8 +123,8 @@ export default function WhatIsTopographicSurvey() {
 
 <figure className="mb-10">
   <img
-    src="/images/blog/CuandoNecesario.jpg"
-    alt="Topographic survey project in Gran Canaria"
+    src="/images/blog/UtilidadLevantamiento.jpg"
+    alt="Levantamiento topográfico, proyectos Canarias"
     className="w-full rounded-xl shadow-md"
   />
 </figure>
@@ -141,8 +141,8 @@ export default function WhatIsTopographicSurvey() {
 
 <figure className="mb-10">
   <img
-    src="/images/blog/Instrum.jpg"
-    alt="Topographic survey project in Gran Canaria"
+    src="/images/blog/InstrumentosLevantamiento.jpg"
+    alt="Estacion total y receptores gps gns, Topografía en Gran Canaria"
     className="w-full rounded-xl shadow-md"
   />
 </figure>
@@ -170,8 +170,8 @@ export default function WhatIsTopographicSurvey() {
 
 <figure className="mb-10">
   <img
-    src="/images/blog/Ventajas.jpg"
-    alt="Topographic survey project in Gran Canaria"
+    src="/images/blog/BeneficiosLevantamiento.jpg"
+    alt="Beneficios medición topográfica en Gran Canaria"
     className="w-full rounded-xl shadow-md"
   />
 </figure>
@@ -188,7 +188,7 @@ export default function WhatIsTopographicSurvey() {
 
 <figure className="mb-10">
   <img
-    src="/images/blog/CanariasLev.jpg"
+    src="/images/blog/CanariasLevantamiento.jpg"
     alt="Topographic survey project in Gran Canaria"
     className="w-full rounded-xl shadow-md"
   />
