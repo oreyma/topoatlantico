@@ -32,14 +32,14 @@ export default function Levantamientos() {
       <section
   className="min-h-screen flex flex-col items-center justify-center text-center bg-white p-6 pt-30"
 >
-        <div className="w-full max-w-5xl">
+        <div className="w-full max-w-2xl">
           <h1 className="text-3xl font-bold text-topo-navy mt-6 mb-4 text-center">
             {t("services.levantamientos.title")}
           </h1>
 
           <div className="w-full bg-white p-3 rounded-xl shadow-md">
     <img
-      src="/images/servicios/PlanoLevantamientoAutocad.jpg"
+      src="/images/servicios/PlanoLevantamientoAutocad.webp"
       alt={t("services.levantamientos.title")}
       className="w-full aspect-[1.414/1] object-contain"
     />

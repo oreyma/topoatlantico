@@ -47,7 +47,7 @@ const articleLink =
   {/* Imagen de fondo */}
   <div
     className="absolute inset-0 bg-cover bg-center"
-    style={{ backgroundImage: "url('/hero-bg.jpg')" }}
+    style={{ backgroundImage: "url('/hero-bg.webp')" }}
   ></div>
 
   {/* Capa de oscurecimiento */}
@@ -84,12 +84,12 @@ const articleLink =
     <p className="mb-6 text-topo-dark">{t("services.description")}</p>
     <div className="grid gap-6 md:grid-cols-3">
 
-      <ServiceCard title={t("services.list.parcelas")} image="/images/servicios/MediciónRegularizaciónFincas.jpg" link="/servicios/medicion-parcelas" />
-      <ServiceCard title={t("services.list.replanteo")} image="/images/servicios/ReplanteoDeObra.jpg" link="/servicios/replanteo-obra" />
-      <ServiceCard title={t("services.list.levantamientos")} image="/images/servicios/LevantaminetoTopografico.jpg" link="/servicios/levantamientos" />
-      <ServiceCard title={t("services.list.asistencia")} image="/images/servicios/ATecnica.jpg" link="/servicios/asistencia-tecnica" />
-      <ServiceCard title={t("services.list.monitoreo")} image="/images/servicios/MonitoreoEstructuras.jpg" link="/servicios/monitoreo-auscultacion" />
-      <ServiceCard title={t("services.list.drones")} image="/images/servicios/FotogrametriaDronesGCP.jpg" link="/servicios/drones-fotogrametria" />
+      <ServiceCard title={t("services.list.parcelas")} image="/images/servicios/MediciónRegularizaciónFincas.webp" link="/servicios/medicion-parcelas" />
+      <ServiceCard title={t("services.list.replanteo")} image="/images/servicios/ReplanteoDeObra.webp" link="/servicios/replanteo-obra" />
+      <ServiceCard title={t("services.list.levantamientos")} image="/images/servicios/LevantaminetoTopografico.webp" link="/servicios/levantamientos" />
+      <ServiceCard title={t("services.list.asistencia")} image="/images/servicios/ATecnica.webp" link="/servicios/asistencia-tecnica" />
+      <ServiceCard title={t("services.list.monitoreo")} image="/images/servicios/MonitoreoEstructuras.webp" link="/servicios/monitoreo-auscultacion" />
+      <ServiceCard title={t("services.list.drones")} image="/images/servicios/FotogrametriaDronesGCP.webp" link="/servicios/drones-fotogrametria" />
     </div>
   </div>
 </section>

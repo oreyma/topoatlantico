@@ -37,7 +37,7 @@ export default function ReplanteoObra() {
           </h1>
 
           <img
-            src="/images/servicios/ReplanteoDeObraTopografico.jpg"
+            src="/images/servicios/ReplanteoDeObraTopografico.webp"
             alt={t("services.replanteo.title")}
             className="w-full h-64 md:h-96 object-cover rounded-xl shadow-md"
           />

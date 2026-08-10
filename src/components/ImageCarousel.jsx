@@ -2,14 +2,14 @@ import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
 const images = [
-  { src: "/images/LevantaminetoTopográfico_C.jpg", key: "carousel.1" },
-  { src: "/images/ReplanteoDeObraUrbanizacion.jpg", key: "carousel.2" },
-  { src: "/images/MonitoreEstructurasTunel.jpg", key: "carousel.3" },
-  { src: "/images/ReplanteoDeObraEdificacion.jpg", key: "carousel.4" },
-  { src: "/images/ReplanteoDeObraCivil.jpg", key: "carousel.5" },
-  { src: "/images/LevantamientoFerroviario.jpg", key: "carousel.6" },
-  { src: "/images/Monitore_ControlGeométrico.jpg", key: "carousel.7" },
-  { src: "/images/DronesFotogrametriaOrtofoto.jpg", key: "carousel.8" },
+  { src: "/images/LevantaminetoTopográfico_C.webp", key: "carousel.1" },
+  { src: "/images/ReplanteoDeObraUrbanizacion.webp", key: "carousel.2" },
+  { src: "/images/MonitoreEstructurasTunel.webp", key: "carousel.3" },
+  { src: "/images/ReplanteoDeObraEdificacion.webp", key: "carousel.4" },
+  { src: "/images/ReplanteoDeObraCivil.webp", key: "carousel.5" },
+  { src: "/images/LevantamientoFerroviario.webp", key: "carousel.6" },
+  { src: "/images/Monitore_ControlGeométrico.webp", key: "carousel.7" },
+  { src: "/images/Ortofoto_Fotogrametria_Drones.webp", key: "carousel.8" },
 ];
 
 export default function ImageCarousel() {

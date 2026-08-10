@@ -38,7 +38,7 @@ export default function MonitoreoAuscultacion() {
           </h1>
 
           <img
-            src="/images/servicios/MonitoreoEstructuras.jpg"
+            src="/images/servicios/MonitoreoEstructuras.webp"
             alt={t("services.monitoreo.title")}
             className="w-full h-64 md:h-96 object-cover rounded-xl shadow-md"
           />

@@ -36,7 +36,7 @@ export default function AsistenciaTecnica() {
           </h1>
 
           <img
-            src="/images/servicios/AsistenciaTecnica.jpg"
+            src="/images/servicios/AsistenciaTecnica.webp"
             alt={t("services.asistencia.title")}
             className="w-full h-64 md:h-96 object-cover rounded-xl shadow-md"
           />
