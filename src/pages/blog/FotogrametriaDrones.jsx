@@ -15,8 +15,8 @@ export default function FotogrametriaDrones() {
   : "https://topoatlantico.com/blog/Drone-Photogrammetry";
 
   const seoTitle = isSpanish
-    ? "Fotogrametría con Drones en Canarias | TopoAtlantico"
-    : "Drone Photogrammetry in the Canary Islands | TopoAtlantico";
+    ? "Fotogrametría con Drones en Canarias | TOPOATLANTICO"
+    : "Drone Photogrammetry in the Canary Islands | TOPOATLANTICO";
 
   return (
     <>
@@ -57,7 +57,7 @@ export default function FotogrametriaDrones() {
       <ArticleTemplate
         title={t("blog.FotogrametriaDrones.title")}
         image="/images/blog/FotogrametriaDrones.jpg"
-        video="/videos/FotogrametriaDrones.mp4"
+        video="/videos/FotogrametriaDronesORTOFOTO.mp4"
       >
 
         {/* Publication date */}
@@ -341,7 +341,7 @@ export default function FotogrametriaDrones() {
 
   <figure className="mb-10">
     <video
-      src="/videos/VideoProject1.mp4"
+      src="/videos/DronModelo3DNubePuntos.mp4"
      autoPlay
     muted
     loop

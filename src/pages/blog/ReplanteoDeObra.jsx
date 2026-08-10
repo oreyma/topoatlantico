@@ -15,8 +15,8 @@ export default function ReplanteoDeObra() {
     : "https://topoatlantico.com/blog/construction-setting-out-canary-islands";
 
   const seoTitle = isSpanish
-    ? "Replanteo de Obra en Canarias | Guía Completa | TopoAtlantico"
-    : "Construction Setting Out in the Canary Islands | Complete Guide | TopoAtlantico";
+    ? "Replanteo de Obra en Canarias | Guía Completa | TOPOATLANTICO"
+    : "Construction Setting Out in the Canary Islands | Complete Guide | TOPOATLANTICO";
 
   return (
     <>

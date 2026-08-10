@@ -46,7 +46,7 @@
     },
     "drones": {
       "title": "Drones y Fotogrametría",
-      "desc": "Realizamos vuelos con drones profesionales para la obtención de ortofotos, modelos 3D, nubes de puntos, cálculo de volúmenes y documentación técnica de alta precisión. \n Además, realizamos tomas de videos para la inspección de estructuras e infraestructuras de difícil acceso, el seguimiento y documentación del proceso de obra y el apoyo a proyectos de ingeniería y construcción."
+      "desc": "Realizamos vuelos con drones para la obtención de ortofotos, modelos 3D, nubes de puntos, cálculo de volúmenes y documentación técnica de alta precisión. \n Además, realizamos tomas de videos para seguimiento de obra, inspección de edificios y estructuras  de difícil acceso y apoyo a todo tipo de proyectos de ingeniería."
     }
   },
   "projects": {
@@ -73,7 +73,7 @@
   "sending": "Enviando...",
   "whatsapp": "Escríbenos por WhatsApp",
   "data_title": "Datos",
-  "company": "TopoAtlantico · Canarias",
+  "company": "TOPOATLANTICO · Canarias",
   "follow": "Síguenos",
   "success_title": "Gracias",
   "success_message": "✅ Tu mensaje ha sido enviado correctamente. Te responderemos pronto."
@@ -108,7 +108,7 @@
   "section7Text": "El coste y la duración de un levantamiento topográfico dependen del tamaño, la accesibilidad y la complejidad del terreno. En el caso de un solar pequeño, el trabajo suele completarse en pocas horas y su precio normalmente no supera los 300 euros. En cambio, los proyectos de mayor extensión o con condiciones difíciles pueden requerir varios días de trabajo y un presupuesto más elevado.",
 
   "section8": "¿Necesita un levantamiento topográfico?",
-  "section8Text": "TopoAtlantico ofrece servicios profesionales de topografía en todas las Islas Canarias. Contacte con nosotros para recibir asesoramiento técnico y un presupuesto personalizado."
+  "section8Text": "TOPOATLANTICO ofrece servicios profesionales de topografía en todas las Islas Canarias. Contacte con nosotros para recibir asesoramiento técnico y un presupuesto personalizado."
 
 },
 
@@ -144,7 +144,7 @@
 "FotogrametriaDrones": {
   "title": "Fotogrametría con drones en Canarias",
 
-  "intro": "La fotogrametría con drones ha revolucionado la forma de realizar levantamientos topográficos y cartográficos. Gracias a la combinación de aeronaves no tripuladas, cámaras de alta resolución y software especializado, hoy es posible obtener información geoespacial de gran precisión en tiempos muy reducidos. En TopoAtlántico utilizamos esta tecnología para generar ortofotos, modelos digitales del terreno, nubes de puntos y modelos 3D destinados a proyectos de ingeniería, construcción, urbanismo y medio ambiente en todas las Islas Canarias.",
+  "intro": "La fotogrametría con drones ha revolucionado la forma de realizar levantamientos topográficos y cartográficos. Gracias a la combinación de aeronaves no tripuladas, cámaras de alta resolución y software especializado, hoy es posible obtener información geoespacial de gran precisión en tiempos muy reducidos. En TOPOATLANTICO utilizamos esta tecnología para generar ortofotos, modelos digitales del terreno, nubes de puntos y modelos 3D destinados a proyectos de ingeniería, construcción, urbanismo y medio ambiente en todas las Islas Canarias.",
 
   "section1": "¿Qué es la fotogrametría con drones?",
 
@@ -192,7 +192,7 @@
 
   "section6Text1": "La singular orografía del archipiélago canario convierte la fotogrametría con drones en una herramienta especialmente útil. Barrancos, laderas volcánicas, zonas costeras, espacios naturales protegidos y terrenos de difícil acceso pueden documentarse de forma rápida y segura, obteniendo información topográfica de gran calidad.",
 
-  "section6Text2": "En TopoAtlántico aplicamos esta tecnología en proyectos de ingeniería civil, urbanismo, control de movimientos de tierras, cálculo de volúmenes, seguimiento de obras, inspección de infraestructuras, documentación patrimonial, energías renovables y estudios medioambientales. Los productos obtenidos pueden integrarse fácilmente en flujos de trabajo basados en CAD, BIM y sistemas de información geográfica.",
+  "section6Text2": "En TOPOATLANTICO aplicamos esta tecnología en proyectos de ingeniería civil, urbanismo, control de movimientos de tierras, cálculo de volúmenes, seguimiento de obras, inspección de infraestructuras, documentación patrimonial, energías renovables y estudios medioambientales. Los productos obtenidos pueden integrarse fácilmente en flujos de trabajo basados en CAD, BIM y sistemas de información geográfica.",
 
   "section6Text3": "La combinación de drones, GNSS, estaciones totales y software especializado permite ofrecer soluciones adaptadas a cada proyecto, optimizando tiempos de trabajo y proporcionando información fiable para la toma de decisiones durante todas las fases de una obra o estudio técnico.",
 
@@ -203,7 +203,7 @@
 
   "section7Text2": "¿Qué superficie puede levantarse en un solo vuelo? La respuesta depende del modelo de dron, la autonomía de las baterías, la resolución requerida y la complejidad del terreno. En proyectos de gran extensión es habitual dividir el trabajo en varias misiones para garantizar la calidad de las imágenes y mantener un elevado porcentaje de solape entre fotografías.",
 
-  "section7Text3": "¿Necesita un levantamiento mediante fotogrametría con drones en Canarias? En TopoAtlántico ponemos a su disposición equipos de última generación y experiencia en topografía, cartografía y geomática para ofrecer soluciones precisas adaptadas a las necesidades de cada proyecto."
+  "section7Text3": "¿Necesita un levantamiento mediante fotogrametría con drones en Canarias? En TOPOATLANTICO ponemos a su disposición equipos de última generación y experiencia en topografía, cartografía y geomática para ofrecer soluciones precisas adaptadas a las necesidades de cada proyecto."
 },
 
 
@@ -256,13 +256,13 @@
   },
 "legal": {
   "title": "Aviso Legal",
-  "content": "Este sitio web pertenece a TopoAtlantico. La información contenida en esta página tiene carácter meramente informativo. No nos hacemos responsables del mal uso que se pueda hacer de los contenidos. El acceso a este sitio implica la aceptación de las condiciones de uso aquí descritas.",
+  "content": "Este sitio web pertenece a TOPOATLANTICO. La información contenida en esta página tiene carácter meramente informativo. No nos hacemos responsables del mal uso que se pueda hacer de los contenidos. El acceso a este sitio implica la aceptación de las condiciones de uso aquí descritas.",
   "updated": "Última actualización: Octubre 2025",
   "back": "Volver al inicio"
 },
 "privacy": {
   "title": "Política de Privacidad",
-  "content": "En TopoAtlantico respetamos su privacidad y garantizamos la protección de sus datos personales conforme al Reglamento General de Protección de Datos (RGPD). Los datos que nos proporcione serán utilizados exclusivamente para atender sus consultas o solicitudes de presupuesto.",
+  "content": "En TOPOATLANTICO respetamos su privacidad y garantizamos la protección de sus datos personales conforme al Reglamento General de Protección de Datos (RGPD). Los datos que nos proporcione serán utilizados exclusivamente para atender sus consultas o solicitudes de presupuesto.",
   "updated": "Última actualización: Octubre 2025",
   "back": "Volver al inicio"
 },
@@ -279,6 +279,6 @@
     "5": "Replanteo Obra lineal",
     "6": "Levantamiento ferroviario",
     "7": "Monitoreo y auscultación",
-    "8": "Replanteo Obra Civil y Edificación"
+    "8": "Fotogrametría con Drones"
   }
 }

@@ -36,7 +36,7 @@ export default function DronesFotogrametria() {
           </h1>
 
           <img
-            src="/images/servicios/FotogrametriaModelos3dNubeDePuntos.jpg"
+            src="/images/servicios/Modelo3dLasCurvasNivelOrtofoto.jpg"
             alt={t("services.drones.title")}
             className="w-full h-64 md:h-96 object-cover rounded-xl shadow-md"
           />

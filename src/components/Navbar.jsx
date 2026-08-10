@@ -38,7 +38,7 @@ export default function Navbar() {
 >
             <img
               src={logo}
-              alt="TopoAtlantico"
+              alt="TOPOATLANTICO"
               className={`object-contain transition-all duration-300 ${
                 scrolled ? "w-20 h-20" : "w-24 h-24"
               }`}

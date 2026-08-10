@@ -32,16 +32,19 @@ export default function MedicionParcelas() {
       <section
   className="min-h-screen flex flex-col items-center justify-center text-center bg-white p-6 pt-30"
 >
-        <div className="max-w-3xl">
-          <h1 className="text-3xl font-bold text-topo-navy mt-6 mb-4 text-center">
-            {t("services.parcelas.title")}
-          </h1>
 
-          <img
-            src="/images/servicios/DeslindeGeorreferenciacionCatastro-Registro.jpg"
-            alt={t("services.parcelas.title")}
-            className="w-full h-64 md:h-96 object-cover rounded-xl shadow-md"
-          />
+<div className="w-full max-w-5xl">
+  <h1 className="text-3xl font-bold text-topo-navy mt-6 mb-4 text-center">
+    {t("services.parcelas.title")}
+  </h1>
+
+  <div className="w-full bg-white p-3 rounded-xl shadow-md">
+    <img
+      src="/images/servicios/PlanoDeslindeGeorreferenciacionCatastro-Registro.jpg"
+      alt={t("services.parcelas.title")}
+      className="w-full aspect-[1.414/1] object-contain"
+    />
+  </div>
 
           <p className="whitespace-pre-line text-topo-dark mb-6">
             {t("services.parcelas.desc")}

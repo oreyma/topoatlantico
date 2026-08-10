@@ -15,8 +15,8 @@ export default function MonitoreoEstructuras() {
   : "https://topoatlantico.com/blog/monitoring-structures";
 
   const seoTitle = isSpanish
-    ? "Monitoreo y Auscultación de Estructuras en Canarias | TopoAtlantico"
-    : "Structural Monitoring in the Canary Islands | TopoAtlantico";
+    ? "Monitoreo y Auscultación de Estructuras en Canarias | TOPOATLANTICO"
+    : "Structural Monitoring in the Canary Islands | TOPOATLANTICO";
 
   return (
     <>

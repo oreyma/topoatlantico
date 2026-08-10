@@ -2,14 +2,14 @@ import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
 const images = [
-  { src: "/images/proyecto1.jpg", key: "carousel.1" },
-  { src: "/images/proyecto2.jpg", key: "carousel.2" },
-  { src: "/images/proyecto3.jpg", key: "carousel.3" },
-  { src: "/images/proyecto4.jpg", key: "carousel.4" },
-  { src: "/images/proyecto5.jpg", key: "carousel.5" },
-  { src: "/images/proyecto8.jpg", key: "carousel.6" },
-  { src: "/images/proyecto9.jpg", key: "carousel.7" },
-  { src: "/images/proyecto10.jpg", key: "carousel.8" },
+  { src: "/images/LevantaminetoTopográfico_C.jpg", key: "carousel.1" },
+  { src: "/images/ReplanteoDeObraUrbanizacion.jpg", key: "carousel.2" },
+  { src: "/images/MonitoreEstructurasTunel.jpg", key: "carousel.3" },
+  { src: "/images/ReplanteoDeObraEdificacion.jpg", key: "carousel.4" },
+  { src: "/images/ReplanteoDeObraCivil.jpg", key: "carousel.5" },
+  { src: "/images/LevantamientoFerroviario.jpg", key: "carousel.6" },
+  { src: "/images/Monitore_ControlGeométrico.jpg", key: "carousel.7" },
+  { src: "/images/DronesFotogrametriaOrtofoto.jpg", key: "carousel.8" },
 ];
 
 export default function ImageCarousel() {

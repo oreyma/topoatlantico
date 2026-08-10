@@ -89,7 +89,7 @@ const articleLink =
       <ServiceCard title={t("services.list.levantamientos")} image="/images/servicios/LevantaminetoTopografico.jpg" link="/servicios/levantamientos" />
       <ServiceCard title={t("services.list.asistencia")} image="/images/servicios/ATecnica.jpg" link="/servicios/asistencia-tecnica" />
       <ServiceCard title={t("services.list.monitoreo")} image="/images/servicios/MonitoreoEstructuras.jpg" link="/servicios/monitoreo-auscultacion" />
-      <ServiceCard title={t("services.list.drones")} image="/images/servicios/Ortofoto_Fotogrametria_Drones.jpg" link="/servicios/drones-fotogrametria" />
+      <ServiceCard title={t("services.list.drones")} image="/images/servicios/FotogrametriaDronesGCP.jpg" link="/servicios/drones-fotogrametria" />
     </div>
   </div>
 </section>
@@ -155,6 +155,8 @@ const articleLink =
   <div className="max-w-6xl mx-auto p-6 text-center">
     <ImageCarousel />
   </div>
+
+
       {/* BLOG */}
       <div id="blog">
         <h2 className= "pt-15 text-3xl font-bold mb-2 text-topo-navy">

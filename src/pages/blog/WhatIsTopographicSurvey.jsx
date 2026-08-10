@@ -15,8 +15,8 @@ export default function WhatIsTopographicSurvey() {
     : "https://topoatlantico.com/blog/what-is-a-topographic-survey";
 
   const seoTitle = isSpanish
-    ? "¿Qué es un Levantamiento Topográfico en Canarias? | TopoAtlantico"
-    : "What Is a Topographic Survey in the Canary Islands? | TopoAtlantico";
+    ? "¿Qué es un Levantamiento Topográfico en Canarias? | TOPOATLANTICO"
+    : "What Is a Topographic Survey in the Canary Islands? | TOPOATLANTICO";
 
   return (
     <>

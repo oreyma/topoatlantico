@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- HOME -->
+  <url>
+    <loc>https://topoatlantico.com/</loc>
+  </url>
+
+  <!-- SERVICES -->
+  <url>
+    <loc>https://topoatlantico.com/servicios/medicion-parcelas</loc>
+  </url>
+
+  <url>
+    <loc>https://topoatlantico.com/servicios/replanteo-obra</loc>
+  </url>
+
+  <url>
+    <loc>https://topoatlantico.com/servicios/levantamientos</loc>
+  </url>
+
+  <url>
+    <loc>https://topoatlantico.com/servicios/asistencia-tecnica</loc>
+  </url>
+
+  <url>
+    <loc>https://topoatlantico.com/servicios/monitoreo-auscultacion</loc>
+  </url>
+
+  <url>
+    <loc>https://topoatlantico.com/servicios/drones-fotogrametria</loc>
+  </url>
+
+  <!-- BLOG -->
+  <url>
+    <loc>https://topoatlantico.com/blog</loc>
+  </url>
+
+  <url>
+    <loc>https://topoatlantico.com/blog/que-es-un-levantamiento-topografico</loc>
+  </url>
+
+  <url>
+    <loc>https://topoatlantico.com/blog/replanteo-de-obra</loc>
+  </url>
+
+  <url>
+    <loc>https://topoatlantico.com/blog/monitoreo-estructuras</loc>
+  </url>
+
+  <url>
+    <loc>https://topoatlantico.com/blog/Fotogrametria-drones</loc>
+  </url>
+
+  <!-- LEGAL -->
+  <url>
+    <loc>https://topoatlantico.com/politica-privacidad</loc>
+  </url>
+
+  <url>
+    <loc>https://topoatlantico.com/aviso-legal</loc>
+  </url>
+
+</urlset>

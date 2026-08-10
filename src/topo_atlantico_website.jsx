@@ -1,10 +1,10 @@
 /*
-TopoAtlántico - Single-file React component (Tailwind CSS)
+TOPOATLANTICO - Single-file React component (Tailwind CSS)
 
 INSTRUCCIONES RÁPIDAS:
 1) Este fichero es un componente React que puede pegarse en un proyecto creado con Vite/React o Create React App.
 2) Requiere Tailwind CSS para el estilo. Si no quieres Tailwind, copia las clases y conviértelas a CSS propio.
-3) Sustituye `/logo.png` por la ruta de tu logo final (por ejemplo: `/assets/logo-topoatlántico.png`).
+3) Sustituye `/logo.png` por la ruta de tu logo final (por ejemplo: `/assets/logo-TOPOATLANTICO.png`).
 4) Formularios: el formulario de contacto usa `mailto:` como fallback. Para envío real en producción, conecta con Formspree, Netlify Forms, o tu backend.
 
 Cómo arrancar (resumen):
@@ -26,8 +26,8 @@ export default function TopoAtlanticoWebsite() {
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
           <a href="#home" className="flex items-center gap-3">
             {/* Logo: replace /logo.png with your real file in public/ */}
-            <img src="/logo.png" alt="TopoAtlántico" className="w-12 h-12 object-contain" />
-            <span className="font-semibold text-xl">TopoAtlántico</span>
+            <img src="/logo.png" alt="TOPOATLANTICO" className="w-12 h-12 object-contain" />
+            <span className="font-semibold text-xl">TOPOATLANTICO</span>
           </a>
           <nav className="hidden md:flex gap-6 items-center text-sm">
             <a href="#services" className="hover:text-sky-600">Servicios</a>
@@ -55,7 +55,7 @@ export default function TopoAtlanticoWebsite() {
       <main id="home" className="py-16">
         <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div>
-            <h1 className="text-4xl md:text-5xl font-extrabold leading-tight">TopoAtlántico</h1>
+            <h1 className="text-4xl md:text-5xl font-extrabold leading-tight">TOPOATLANTICO</h1>
             <p className="mt-4 text-lg text-slate-700">Servicios de topografía y cartografía en las Islas Canarias. Precisión, tecnología y conocimiento del terreno insular: estación total, drones, GNSS y modelado 3D.</p>
 
             <div className="mt-6 flex gap-4">
@@ -74,7 +74,7 @@ export default function TopoAtlanticoWebsite() {
           <div className="flex justify-center md:justify-end">
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-lg bg-gradient-to-br from-sky-50 to-emerald-50 flex items-center justify-center shadow-lg">
               {/* Logo grande */}
-              <img src="/logo.png" alt="TopoAtlántico logo" className="w-48 h-48 object-contain" />
+              <img src="/logo.png" alt="TOPOATLANTICO logo" className="w-48 h-48 object-contain" />
             </div>
           </div>
         </div>
@@ -113,7 +113,7 @@ export default function TopoAtlanticoWebsite() {
         <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div>
             <h2 className="text-2xl font-bold">Sobre nosotros</h2>
-            <p className="mt-3 text-slate-700">TopoAtlántico es un estudio de topografía con base en Canarias. Combinamos experiencia local con tecnología (estación total, GNSS y drones) para entregar resultados precisos y documentación lista para obra.</p>
+            <p className="mt-3 text-slate-700">TOPOATLANTICO es un estudio de topografía con base en Canarias. Combinamos experiencia local con tecnología (estación total, GNSS y drones) para entregar resultados precisos y documentación lista para obra.</p>
 
             <ul className="mt-4 text-slate-600">
               <li>• Técnicos titulados en topografía y geomática</li>
@@ -137,7 +137,7 @@ export default function TopoAtlanticoWebsite() {
             <form className="space-y-4 bg-white p-6 rounded-lg shadow" onSubmit={(e) => {
               e.preventDefault();
               const f = e.target;
-              const subject = encodeURIComponent('Solicitud desde web - TopoAtlántico');
+              const subject = encodeURIComponent('Solicitud desde web - TOPOATLANTICO');
               const body = encodeURIComponent(`Nombre: ${f.name.value}%0AEmail: ${f.email.value}%0AMensaje: ${f.message.value}`);
               window.location.href = `mailto:info@topoatlantico.com?subject=${subject}&body=${body}`;
             }}>
@@ -159,7 +159,7 @@ export default function TopoAtlanticoWebsite() {
 
             <div className="bg-white p-6 rounded-lg shadow">
               <h3 className="font-semibold">Datos</h3>
-              <p className="mt-2 text-sm text-slate-600">TopoAtlántico · Canarias</p>
+              <p className="mt-2 text-sm text-slate-600">TOPOATLANTICO · Canarias</p>
               <p className="mt-2 text-sm">📞 +34 600 000 000</p>
               <p className="text-sm">✉️ info@topoatlantico.com</p>
 
@@ -178,7 +178,7 @@ export default function TopoAtlanticoWebsite() {
       {/* FOOTER */}
       <footer className="bg-slate-800 text-white py-6">
         <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
-          <div>© {new Date().getFullYear()} TopoAtlántico</div>
+          <div>© {new Date().getFullYear()} TOPOATLANTICO</div>
           <div className="text-sm text-slate-300">Made with care · Servicios de topografía en Canarias</div>
         </div>
       </footer>

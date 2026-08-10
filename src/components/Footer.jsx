@@ -15,7 +15,7 @@ export default function Footer() {
     <footer className="font-semibold mb-2 text-topo-navy border-t border-topo-gray bg-white py-4">
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between text-sm text-center md:text-left">
         <p>
-          © {new Date().getFullYear()} TopoAtlántico. {t("footer.rights")}
+          © {new Date().getFullYear()} TOPOATLANTICO. {t("footer.rights")}
         </p>
         <div className="flex gap-4 mt-3 md:mt-0">
           <Link to={privacyPath} className="hover:underline">

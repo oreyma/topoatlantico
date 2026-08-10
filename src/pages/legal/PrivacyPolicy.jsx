@@ -26,7 +26,7 @@ export default function PrivacyPolicy() {
           className="flex items-center gap-3 cursor-pointer"
           onClick={handleHomeClick}
         >
-          <img src={logo} alt="TopoAtlantico" className="w-24 h-24 object-contain" />
+          <img src={logo} alt="TOPOATLANTICO" className="w-24 h-24 object-contain" />
           <div className="flex flex-col leading-tight">
             <span className="text-2xl font-bold text-topo-navy">TopoAtlántico</span>
               <span className="text-sm italic font-medium text-[#1B7F8C] tracking-wide">
