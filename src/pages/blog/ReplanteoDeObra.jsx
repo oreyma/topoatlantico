@@ -84,11 +84,11 @@ export default function ReplanteoDeObra() {
           </h2>
 
           <ul className="space-y-2">
-            <li>
+        {/*    <li>
               <a href="#s1" className="hover:underline">
                 {t("blog.settingOut.section1")}
               </a>
-            </li>
+            </li> */}
 
             <li>
               <a href="#s2" className="hover:underline">
@@ -333,7 +333,7 @@ export default function ReplanteoDeObra() {
       : "Related Articles"}
   </h3>
 
-  <div className="max-w-md">
+         <div className="grid md:grid-cols-2 gap-6">
 
     <BlogCard
       compact
@@ -347,6 +347,18 @@ export default function ReplanteoDeObra() {
 
       }
     />
+
+
+<BlogCard
+  title={t("blog.FotogrametriaDrones.title")}
+  excerpt={t("blogCard.FotogrametriaDronesExcerpt")}
+  image="/images/blog/FotogrametriaDrones.jpg"
+  link={
+    isSpanish
+      ? "/blog/Fotogrametria-drones"
+      : "/blog/Drone-Photogrammetry"
+  }
+/>
 
   </div>
 

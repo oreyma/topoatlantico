@@ -1,22 +1,23 @@
-import { useTranslation } from "react-i18next";
+import { useTranslation, Trans } from "react-i18next";
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 
 import ArticleTemplate from "../../components/ArticleTemplate";
 import BlogCard from "../../components/BlogCard";
 
-export default function FotogrametriaDrones() {
+
+export default function FotogrametriaDronesPlanificarVuelo() {
   const { t, i18n } = useTranslation();
 
   const isSpanish = i18n.language === "es";
 
-  const canonicalUrl = isSpanish
-  ? "https://topoatlantico.com/blog/Fotogrametria-drones"
-  : "https://topoatlantico.com/blog/Drone-Photogrammetry";
+const canonicalUrl = isSpanish
+  ? "https://topoatlantico.com/blog/fotogrametria-drones-planificar-vuelo"
+  : "https://topoatlantico.com/blog/drone-photogrammetry-plan-your-flight";
 
   const seoTitle = isSpanish
-    ? "Fotogrametría con Drones en Canarias | TOPOATLANTICO"
-    : "Drone Photogrammetry in the Canary Islands | TOPOATLANTICO";
+    ? "Fotogrametría con drones: cómo planificar un vuelo | TOPOATLANTICO"
+    : "Drone Photogrammetry: How to Plan a Flight | TOPOATLANTICO";
 
   return (
     <>
@@ -25,15 +26,15 @@ export default function FotogrametriaDrones() {
 
         <meta
           name="description"
-          content={t("blog.FotogrametriaDrones.intro")}
+          content={t("blog.FotogrametriaDronesPlanificarVuelo.intro")}
         />
 
         <meta
           name="keywords"
           content={
             isSpanish
-              ? "fotogrametría con drones, levantamiento fotogramétrico, ortofotos, ortofotografía, nube de puntos, MDT, MDS, cartografía con drones, topografía aérea, topografía Canarias, fotogrametría Canarias, topógrafo Canarias, ingeniería civil, movimiento de tierras, cálculo de volúmenes"
-              : "drone photogrammetry, drone surveying, UAV photogrammetry, drone mapping, orthophoto, orthomosaic, point cloud, Digital Terrain Model, DTM, Digital Surface Model, DSM, engineering survey, land survey, Canary Islands surveyor, drone photogrammetry Canary Islands"
+              ? "fotogrametría con drones, levantamiento fotogramétrico, ortofotos, ortofotografía, nube de puntos, MDT, MDS, cartografía con drones, planificar vuelo, way points, solapes, vuelo dron dji, fotogrametría Canarias, topógrafo Canarias, ingeniería civil, movimiento de tierras, cálculo de volúmenes"
+              : "drone photogrammetry, drone surveying, UAV photogrammetry, drone mapping, orthophoto, orthomosaic, point cloud, Digital Terrain Model, DTM, Digital Surface Model, DSM, engineering survey, land survey, Canary Islands surveyor, drone photogrammetry Canary Islands, plan your flight, dji dron flight plan"
           }
         />
 
@@ -43,21 +44,20 @@ export default function FotogrametriaDrones() {
 
         <meta
           property="og:description"
-          content={t("blog.FotogrametriaDrones.intro")}
+          content={t("blog.FotogrametriaDronesPlanificarVuelo.intro")}
         />
 
         <meta
           property="og:image"
-          content="https://topoatlantico.com/images/blog/FotogrametriaDrones.jpg"
-        />
+       content="https://topoatlantico.com/images/blog/FotogrametriaDrones.jpg"  />
 
         <meta property="og:type" content="article" />
       </Helmet>
 
       <ArticleTemplate
-        title={t("blog.FotogrametriaDrones.title")}
-        image="/images/blog/FotogrametriaDrones.jpg"
-        video="/videos/FotogrametriaDronesORTOFOTO.mp4"
+        title={t("blog.FotogrametriaDronesPlanificarVuelo.title")}
+        image="/images/blog/FotogrametriaDronPlanVuelo.jpg"
+        video="/videos/FotogrametriaDronesORTOFOTO_.mp4"
       >
 
         {/* Publication date */}
@@ -73,7 +73,7 @@ export default function FotogrametriaDrones() {
         <div className="bg-topo-gray/10 border-l-4 border-topo-ocean p-6 rounded-lg mb-10">
 
           <p className="text-lg leading-8">
-            {t("blog.FotogrametriaDrones.intro")}
+            {t("blog.FotogrametriaDronesPlanificarVuelo.intro")}
           </p>
 
         </div>
@@ -92,45 +92,45 @@ export default function FotogrametriaDrones() {
 
           <ul className="space-y-2">
 
-            {/* <li>
+            <li>
               <a href="#s1" className="hover:underline">
-                {t("blog.FotogrametriaDrones.section1")}
+                {t("blog.FotogrametriaDronesPlanificarVuelo.section1")}
               </a>
-            </li> */}
+            </li>
 
             <li>
               <a href="#s2" className="hover:underline">
-                {t("blog.FotogrametriaDrones.section2")}
+                {t("blog.FotogrametriaDronesPlanificarVuelo.section2")}
               </a>
             </li>
 
             <li>
               <a href="#s3" className="hover:underline">
-                {t("blog.FotogrametriaDrones.section3")}
+                {t("blog.FotogrametriaDronesPlanificarVuelo.section3")}
               </a>
             </li>
 
             <li>
               <a href="#s4" className="hover:underline">
-                {t("blog.FotogrametriaDrones.section4")}
+                {t("blog.FotogrametriaDronesPlanificarVuelo.section4")}
               </a>
             </li>
 
-           {/* <li>
+       {/*     <li>
               <a href="#s5" className="hover:underline">
-                {t("blog.FotogrametriaDrones.section5")}
+                {t("blog.FotogrametriaDronesPlanificarVuelo.section5")}
               </a>
             </li> */}
 
             <li>
               <a href="#s6" className="hover:underline">
-                {t("blog.FotogrametriaDrones.section6")}
+                {t("blog.FotogrametriaDronesPlanificarVuelo.section6")}
               </a>
             </li>
 
             <li>
               <a href="#s7" className="hover:underline">
-                {t("blog.FotogrametriaDrones.section7")}
+                {t("blog.FotogrametriaDronesPlanificarVuelo.section7")}
               </a>
             </li>
 
@@ -140,25 +140,25 @@ export default function FotogrametriaDrones() {
 
         {/* SECTION 1 */}
 
-      {/*  <div
+       <div
           id="s1"
           className="mb-10 p-6 bg-white border rounded-xl shadow-sm"
         >
 
           <h2 className="text-2xl font-bold text-topo-navy mb-4">
-            {t("blog.FotogrametriaDrones.section1")}
+            {t("blog.FotogrametriaDronesPlanificarVuelo.section1")}
           </h2>
 
   <p className="leading-8 mb-6">
-    {t("blog.FotogrametriaDrones.section1Text1")}
+    {t("blog.FotogrametriaDronesPlanificarVuelo.section1Text1")}
   </p>
 
   <p className="leading-8 mb-6">
-    {t("blog.FotogrametriaDrones.section1Text2")}
+    {t("blog.FotogrametriaDronesPlanificarVuelo.section1Text2")}
   </p>
 
   <p className="leading-8">
-    {t("blog.FotogrametriaDrones.section1Text3")}
+    {t("blog.FotogrametriaDronesPlanificarVuelo.section1Text3")}
   </p>
 
         </div>
@@ -166,14 +166,12 @@ export default function FotogrametriaDrones() {
         <figure className="mb-10">
 
           <img
-            src="/images/blog/FotogrametriaDrones.jpg"
-            alt="Fotogrametria con drones Ortofoto"
+            src="/images/blog/HuellaAlturaVueloDron.webp"
+            alt="Relacion entre la altura de vuelo y la cobertura o huella"
             className="w-full rounded-xl shadow-md"
           />
 
-
-
-        </figure> */}
+        </figure>
 
         {/* SECTION 2 */}
 
@@ -183,28 +181,27 @@ export default function FotogrametriaDrones() {
         >
 
           <h2 className="text-2xl font-bold text-topo-navy mb-4">
-            {t("blog.FotogrametriaDrones.section2")}
+            {t("blog.FotogrametriaDronesPlanificarVuelo.section2")}
           </h2>
 
   <p className="leading-8 mb-6">
-    {t("blog.FotogrametriaDrones.section2Text1")}
+    {t("blog.FotogrametriaDronesPlanificarVuelo.section2Text1")}
   </p>
 
   <p className="leading-8 mb-6">
-    {t("blog.FotogrametriaDrones.section2Text2")}
+    {t("blog.FotogrametriaDronesPlanificarVuelo.section2Text2")}
   </p>
 
   <p className="leading-8">
-    {t("blog.FotogrametriaDrones.section2Text3")}
+    {t("blog.FotogrametriaDronesPlanificarVuelo.section2Text3")}
   </p>
-
         </div>
 
         <figure className="mb-10">
 
           <img
-            src="/images/blog/FotogrametriaDronPlanVuelo_.jpg"
-            alt="Planificar vuelo fotogrametrico"
+            src="/images/blog/ResolucionGSDTamañoPixel.webp"
+            alt="Planificar vuelo fotogrametrico GSD Resolucion Pixel"
             className="w-full rounded-xl shadow-md"
           />
 
@@ -218,28 +215,29 @@ export default function FotogrametriaDrones() {
         >
 
           <h2 className="text-2xl font-bold text-topo-navy mb-4">
-            {t("blog.FotogrametriaDrones.section3")}
+            {t("blog.FotogrametriaDronesPlanificarVuelo.section3")}
           </h2>
 
   <p className="leading-8 mb-6">
-    {t("blog.FotogrametriaDrones.section3Text1")}
+    {t("blog.FotogrametriaDronesPlanificarVuelo.section3Text1")}
   </p>
 
   <p className="leading-8 mb-6">
-    {t("blog.FotogrametriaDrones.section3Text2")}
+    {t("blog.FotogrametriaDronesPlanificarVuelo.section3Text2")}
   </p>
 
   <p className="leading-8">
-    {t("blog.FotogrametriaDrones.section3Text3")}
+    {t("blog.FotogrametriaDronesPlanificarVuelo.section3Text3")}
   </p>
+
 
         </div>
 
         <figure className="mb-10">
 
           <img
-            src="/images/blog/Modelo3dLasCurvasNivelOrtofoto.jpg"
-            alt="Dron Modelos 3d nubes de puntos .las"
+            src="/images/blog/FotgrametriaSolapesPasadas.webp"
+            alt="Vuelo dron recubrimiento transversal y longitudinal, solapes"
             className="w-full rounded-xl shadow-md"
           />
 
@@ -252,54 +250,67 @@ export default function FotogrametriaDrones() {
         >
 
           <h2 className="text-2xl font-bold text-topo-navy mb-4">
-            {t("blog.FotogrametriaDrones.section4")}
+            {t("blog.FotogrametriaDronesPlanificarVuelo.section4")}
           </h2>
 
   <p className="leading-8 mb-6">
-    {t("blog.FotogrametriaDrones.section4Text1")}
+    {t("blog.FotogrametriaDronesPlanificarVuelo.section4Text1")}
   </p>
 
   <p className="leading-8 mb-6">
-    {t("blog.FotogrametriaDrones.section4Text2")}
+    {t("blog.FotogrametriaDronesPlanificarVuelo.section4Text2")}
   </p>
 
   <p className="leading-8">
-    {t("blog.FotogrametriaDrones.section4Text3")}
+    {t("blog.FotogrametriaDronesPlanificarVuelo.section4Text3")}
   </p>
 
+  <p className="leading-8 mb-6">
+    {t("blog.FotogrametriaDronesPlanificarVuelo.section4Text4")}
+  </p>
+
+  <p className="leading-8 mb-6">
+    {t("blog.FotogrametriaDronesPlanificarVuelo.section4Text5")}
+  </p>
+
+  <p className="leading-8">
+    {t("blog.FotogrametriaDronesPlanificarVuelo.section4Text6")}
+  </p>
         </div>
+
 
         <figure className="mb-10">
 
           <img
-            src="/images/blog/PrecisionFotogrametriaModelo3D.jpg"
-            alt="Precision centimetrica en nube de puntos, modeolos 3d y ortofotos"
+            src="/images/blog/RecubrimientoVelocidadDroneIntervaloFoto.webp"
+            alt="Relacion entre altura de vuelo, velocidad e intarvalo de fotografía para recubrimiento desy"
             className="w-full rounded-xl shadow-md"
           />
 
         </figure>
+       
 
-        {/* SECTION 5 */}
+        {/* SECTION 5 
 
-       {/*  <div
+         <div
           id="s5"
           className="mb-10 p-6 bg-white border rounded-xl shadow-sm"
         >
 
           <h2 className="text-2xl font-bold text-topo-navy mb-4">
-            {t("blog.FotogrametriaDrones.section5")}
+            {t("blog.FotogrametriaDronesPlanificarVuelo.section5")}
           </h2>
 
   <p className="leading-8 mb-6">
-    {t("blog.FotogrametriaDrones.section5Text1")}
+    {t("blog.FotogrametriaDronesPlanificarVuelo.section5Text1")}
   </p>
 
   <p className="leading-8 mb-6">
-    {t("blog.FotogrametriaDrones.section5Text2")}
+    {t("blog.FotogrametriaDronesPlanificarVuelo.section5Text2")}
   </p>
 
   <p className="leading-8">
-    {t("blog.FotogrametriaDrones.section5Text3")}
+    {t("blog.FotogrametriaDronesPlanificarVuelo.section5Text3")}
   </p>
 
         </div>
@@ -322,33 +333,60 @@ export default function FotogrametriaDrones() {
         >
 
           <h2 className="text-2xl font-bold text-topo-navy mb-4">
-            {t("blog.FotogrametriaDrones.section6")}
+            {t("blog.FotogrametriaDronesPlanificarVuelo.section6")}
           </h2>
 
   <p className="leading-8 mb-6">
-    {t("blog.FotogrametriaDrones.section6Text1")}
+    {t("blog.FotogrametriaDronesPlanificarVuelo.section6Text1")}
   </p>
 
-  <p className="leading-8 mb-6">
-    {t("blog.FotogrametriaDrones.section6Text2")}
-  </p>
+<p className="leading-8 mb-6">
+  <Trans
+    i18nKey="blog.FotogrametriaDronesPlanificarVuelo.section6Text2"
+    components={{
+      litchi: (
+        <a
+          href={t("blog.FotogrametriaDronesPlanificarVuelo.section6LitchiLink")}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-700 hover:underline"
+        />
+      ),
+    }}
+  />
+</p>
+
+<p className="leading-8 mb-6">
+  <Trans
+    i18nKey="blog.FotogrametriaDronesPlanificarVuelo.section6Text3"
+    components={{
+      waypointmap: (
+        <a
+          href={t("blog.FotogrametriaDronesPlanificarVuelo.section6WaypointMapLink")}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-700 hover:underline"
+        />
+      ),
+    }}
+  />
+</p>
 
   <p className="leading-8">
-    {t("blog.FotogrametriaDrones.section6Text3")}
+    {t("blog.FotogrametriaDronesPlanificarVuelo.section6Text4")}
   </p>
 
         </div>
 
-  <figure className="mb-10">
-    <video
-      src="/videos/DronModelo3DNubePuntos.mp4"
-     autoPlay
-    muted
-    loop
-    playsInline
-      className="w-full rounded-xl shadow-md"
-    />
-  </figure>
+ <figure className="mb-10">
+
+          <img
+            src="/images/blog/PlanVueloMisionWaypointMap.webp"
+            alt="Plan vuelo dron con WaypointMap"
+            className="w-full rounded-xl shadow-md"
+          />
+
+        </figure>
 
         {/* SECTION 7 */}
 
@@ -358,19 +396,19 @@ export default function FotogrametriaDrones() {
         >
 
           <h2 className="text-2xl font-bold text-topo-navy mb-4">
-            {t("blog.FotogrametriaDrones.section7")}
+            {t("blog.FotogrametriaDronesPlanificarVuelo.section7")}
           </h2>
 
   <p className="leading-8 mb-6">
-    {t("blog.FotogrametriaDrones.section7Text1")}
+    {t("blog.FotogrametriaDronesPlanificarVuelo.section7Text1")}
   </p>
 
   <p className="leading-8 mb-6">
-    {t("blog.FotogrametriaDrones.section7Text2")}
+    {t("blog.FotogrametriaDronesPlanificarVuelo.section7Text2")}
   </p>
 
   <p className="leading-8">
-    {t("blog.FotogrametriaDrones.section7Text3")}
+    {t("blog.FotogrametriaDronesPlanificarVuelo.section7Text3")}
   </p>
 
         </div>
@@ -442,13 +480,13 @@ export default function FotogrametriaDrones() {
             />
 
 <BlogCard
-  title={t("blog.FotogrametriaDronesPlanificarVuelo.title")}
-  excerpt={t("blog.FotogrametriaDronesPlanificarVuelo.intro")}
-  image="/images/blog/FotogrametriaDronPlanVuelo.jpg"
+  title={t("blog.FotogrametriaDrones.title")}
+  excerpt={t("blogCard.FotogrametriaDronesExcerpt")}
+  image="/images/blog/FotogrametriaDrones.jpg"
   link={
-    i18n.language === "es"
-      ? "/blog/Fotogrametria-drones-Planificar-vuelo"
-      : "/blog/Drone-Photogrammetry-Plan-your-flight"
+    isSpanish
+      ? "/blog/Fotogrametria-drones"
+      : "/blog/Drone-Photogrammetry"
   }
 />
 

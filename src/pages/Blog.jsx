@@ -66,6 +66,19 @@ const settingOutLink =
   }
 />
 
+
+<BlogCard
+  title={t("blog.FotogrametriaDronesPlanificarVuelo.title")}
+  excerpt={t("blog.FotogrametriaDronesPlanificarVuelo.intro")}
+  image="/images/blog/FotogrametriaDronPlanVuelo.jpg"
+  link={
+    i18n.language === "es"
+      ? "/blog/Fotogrametria-drones-Planificar-vuelo"
+      : "/blog/Drone-Photogrammetry-Plan-your-flight"
+  }
+/>
+
+
 </div>
       </section>
 

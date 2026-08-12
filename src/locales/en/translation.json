@@ -205,6 +205,87 @@
 },
 
 
+"FotogrametriaDronesPlanificarVuelo": {
+  "title": "Drone Photogrammetry: How to Plan a Flight",
+
+  "intro": "Flight planning is one of the most important stages when aiming to achieve the desired results from drone photogrammetry. Before carrying out the flight, it is necessary to analyse the characteristics of the drone, the dimensions of the survey area, the required resolution and any possible environmental or operational constraints. Proper planning makes it possible to obtain images with the resolution and geometry required to generate accurate and high-quality orthophotos, point clouds and 3D models.",
+
+  "section1": "Relationship Between the Camera, Flight Altitude and Ground Footprint",
+
+  "section1Text1": "The area of ground recorded in each photograph depends mainly on the characteristics of the camera and the altitude at which the flight is carried out.",
+
+  "section1Text2": "With the same camera, increasing the flight altitude also increases the area of ground covered by each photograph. This makes it possible to cover a larger area with fewer images, but at the same time reduces the level of detail recorded on the ground. Conversely, lowering the flight altitude results in a smaller ground footprint, with each photograph representing a smaller area. This allows a higher level of detail to be obtained, although a greater number of photographs will be required to cover the entire survey area",
+
+  "section1Text3": "The relationship between flight altitude and ground footprint should be selected according to the objective of the survey. There is no universally appropriate flight altitude: planning must be adapted to the required resolution, the characteristics of the camera and the type of final product to be generated.",
+
+  "section2": "Resolution and GSD: How Much Ground Does Each Pixel Represent?",
+
+  "section2Text1": "One of the main parameters of a photogrammetric flight is GSD, or Ground Sampling Distance. GSD represents the size of each image pixel on the ground and is normally expressed in centimetres per pixel.",
+
+  "section2Text2": "Flight altitude has a direct relationship with GSD. As flight altitude increases, each pixel represents a larger portion of the ground, resulting in lower spatial resolution. Conversely, reducing the flight altitude makes it possible to record smaller features.",
+
+  "section2Text3": "For example, a flight planned to achieve approximately 2 cm/pixel will provide considerably more detail than one carried out with a GSD of 5 cm/pixel. The required resolution will depend on the purpose of the survey and the level of accuracy that needs to be achieved.",
+
+  "section3": "Forward and Side Overlap Between Photographs",
+
+  "section3Text1": "To reconstruct a 3D model using photogrammetry, it is not enough to obtain individual photographs of the survey area. The images must have sufficient overlap so that the software can identify common points between consecutive photographs.",
+
+  "section3Text2": "Forward overlap refers to the overlap between consecutive photographs along the flight direction, while side overlap refers to the overlap between adjacent parallel flight lines.",
+
+  "section3Text3": "Insufficient overlap can make photogrammetric reconstruction more difficult and may result in areas with insufficient information, errors in the point cloud or problems when generating the orthophoto. For this reason, the overlap percentage should be defined during flight planning according to the type of terrain, the camera and the final product to be generated. In many cases, a forward overlap of 80% and a side overlap of 70% provides a suitable starting point.",
+
+  "section4": "Relationship Between Altitude, Speed and Capture Interval",
+
+  "section4Text1": "Flight altitude determines the size of the ground footprint of each photograph, while drone speed and the interval between photographs determine how far the drone travels between consecutive images.",
+
+  "section4Text2": "If the drone flies at a given speed and the camera takes a photograph at a specific time interval, we can approximately calculate the distance travelled between two consecutive photographs. This distance must be compatible with the image footprint in order to achieve the desired forward overlap.",
+
+  "section4Text3": "For example, if the drone travels at 5 metres per second and the camera takes a photograph every 2 seconds, the drone will travel approximately 10 metres between photographs. If we increase the speed while maintaining the same capture interval, the distance between photographs will increase and the overlap will decrease.",
+
+  "section4Text4": "The opposite approach can also be taken: if we want to maintain a given speed but need to increase the overlap, we can reduce the interval between photographs, provided that the camera and flight system are capable of capturing images at the required frequency.",
+
+  "section4Text5": "Flight planning therefore involves finding an appropriate combination of altitude, speed, capture interval and camera characteristics. These parameters are directly related, and changing them independently can significantly affect the outcome of the flight.",
+
+  "section4Text6": "In addition, speed must be compatible with the exposure settings and lighting conditions. Excessive speed can increase the risk of motion blur, particularly when relatively long exposure times are used.",
+
+  "section5": "Battery Life and Mission Organisation",
+
+  "section5Text1": "Drone battery life is another factor that must be considered during flight planning. The area that can be covered in a single flight depends on the available battery life, flight speed, altitude, number of photographs and the characteristics of the mission.",
+
+  "section5Text2": "The battery life stated by the manufacturer should be considered as a reference rather than the actual flight time available for photogrammetric work. Wind, temperature, payload, positioning and safety margins can all reduce the effective flight time.",
+
+  "section5Text3": "When the survey area is extensive, it may be necessary to divide the survey into several missions or use multiple batteries. Proper planning makes it possible to organise flights while maintaining sufficient battery reserves to return safely to the take-off point and carry out any necessary battery changes.",
+
+"section6": "Software for Automated Flight Planning",
+
+"section6Text1": "There are currently several free tools that allow flight missions to be planned digitally before going to the field. These applications allow you to define the work area, set waypoints, configure flight parameters and, in some cases, automatically generate flight routes to cover an area using parallel passes.",
+
+"section6Text2": "<litchi>Litchi Hub</litchi> is a web-based platform that allows you to design flight missions from your browser using waypoints and configure different mission parameters. It is particularly useful for planning a mission in advance and reviewing its route before carrying out the flight. It also allows routes to be transferred to compatible devices for use with a wide range of commercial drones.",
+
+"section6Litchi": "Litchi Hub",
+
+"section6LitchiLink": "https://hub.flylitchi.com/",
+
+"section6Text3": "<waypointmap>WaypointMap</waypointmap> is another tool designed for planning mapping missions with compatible drones. It allows you to define a work area and generate automated flight routes to cover it. Compatible drones include the DJI Mini 5 Pro, as well as other DJI models.",
+
+"section6WaypointMap": "WaypointMap",
+
+"section6WaypointMapLink": "https://www.waypointmap.com/",
+
+"section6Text4": "These tools make flight planning considerably easier, but they do not replace the need for a preliminary assessment of the terrain or the responsibility of the pilot. Before carrying out a mission, it is necessary to check the actual conditions of the area, obstacles, airspace restrictions, weather conditions and all applicable safety requirements.",
+
+  "section7": "From Flight Planning to the Photogrammetric Survey",
+
+  "section7Text1": "A properly planned photogrammetric mission makes it possible to obtain a set of photographs with suitable geometry for subsequent processing. These images can be used to generate products such as orthophotos, point clouds, Digital Terrain Models, Digital Surface Models and 3D models.",
+
+  "section7Text2": "The quality of the final result depends on the entire workflow and not only on the software used to process the photographs. The camera, flight altitude, GSD, overlap, speed, capture interval, battery life and terrain conditions must all be considered together.",
+
+  "section7Text3": "Good planning reduces the likelihood of having to repeat the flight and makes it possible to obtain more consistent information that is better suited to the objectives of the survey.",
+
+  "ctaTitle": "Do You Need a Drone Photogrammetric Survey?",
+
+  "ctaText": "TopoAtlantico provides professional drone photogrammetry, mapping and surveying services throughout the Canary Islands. Contact us to discuss the characteristics of your project and receive a personalised quotation."
+},
 
 
 

@@ -84,11 +84,11 @@ export default function WhatIsTopographicSurvey() {
             <li><a href="#s1" className="hover:underline">{t("blog.topographicSurvey.section1")}</a></li>
             <li><a href="#s2" className="hover:underline">{t("blog.topographicSurvey.section2")}</a></li>
             <li><a href="#s3" className="hover:underline">{t("blog.topographicSurvey.section3")}</a></li>
-            <li><a href="#s4" className="hover:underline">{t("blog.topographicSurvey.section4")}</a></li>
+          {/*  <li><a href="#s4" className="hover:underline">{t("blog.topographicSurvey.section4")}</a></li> */}
             <li><a href="#s5" className="hover:underline">{t("blog.topographicSurvey.section5")}</a></li>
             <li><a href="#s6" className="hover:underline">{t("blog.topographicSurvey.section6")}</a></li>
             <li><a href="#s7" className="hover:underline">{t("blog.topographicSurvey.section7")}</a></li>
-            <li><a href="#s8" className="hover:underline">{t("blog.topographicSurvey.section8")}</a></li>
+            {/*   <li><a href="#s8" className="hover:underline">{t("blog.topographicSurvey.section8")}</a></li> */}
           </ul>
         </div>
 
@@ -250,7 +250,7 @@ export default function WhatIsTopographicSurvey() {
       : "Related Articles"}
   </h3>
 
-  <div className="max-w-md">
+      <div className="grid md:grid-cols-2 gap-6">
 
     <BlogCard
       compact
@@ -263,6 +263,17 @@ export default function WhatIsTopographicSurvey() {
           : "/blog/construction-setting-out"
       }
     />
+
+<BlogCard
+  title={t("blog.FotogrametriaDrones.title")}
+  excerpt={t("blogCard.FotogrametriaDronesExcerpt")}
+  image="/images/blog/FotogrametriaDrones.jpg"
+  link={
+    i18n.language === "es"
+      ? "/blog/Fotogrametria-drones"
+      : "/blog/Drone-Photogrammetry"
+  }
+/>
 
   </div>
 

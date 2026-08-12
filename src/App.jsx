@@ -25,6 +25,7 @@ import WhatIsTopographicSurvey from "./pages/blog/WhatIsTopographicSurvey";
 import ReplanteoDeObra from "./pages/blog/ReplanteoDeObra";
 import MonitoreoEstructuras from "./pages/blog/MonitoreoEstructuras";
 import FotogrametriaDrones from "./pages/blog/FotogrametriaDrones";
+import FotogrametriaDronesPlanificarVuelo from  "./pages/blog/FotogrametriaDronesPlanificarVuelo";
 import BlogCard from "./components/BlogCard";
 import ScrollToHash from "./components/ScrollToHash";
 import ScrollToTop from "./components/ScrollToTop";
@@ -210,6 +211,18 @@ const articleLink =
       : "/blog/Drone-Photogrammetry"
   }
 />
+
+<BlogCard
+  title={t("blog.FotogrametriaDronesPlanificarVuelo.title")}
+  excerpt={t("blog.FotogrametriaDronesPlanificarVuelo.intro")}
+  image="/images/blog/FotogrametriaDronPlanVuelo.jpg"
+  link={
+    i18n.language === "es"
+      ? "/blog/Fotogrametria-drones-Planificar-vuelo"
+      : "/blog/Drone-Photogrammetry-Plan-your-flight"
+  }
+/>
+
  </div>
       </div>
 
@@ -258,6 +271,9 @@ export default function App() {
         <Route path="/blog/monitoreo-estructuras" element={<MonitoreoEstructuras />} />
         <Route path="/blog/Fotogrametria-drones" element={<FotogrametriaDrones />} />
         <Route path="/blog/Drone-Photogrammetry" element={<FotogrametriaDrones />} />
+        <Route path="/blog/fotogrametria-drones-planificar-vuelo" element={<FotogrametriaDronesPlanificarVuelo />} />
+        <Route path="/blog/drone-photogrammetry-plan-your-flight" element={<FotogrametriaDronesPlanificarVuelo />} />
+
 
         <Route path="/politica-privacidad" element={<PoliticaPrivacidad />} />
         <Route path="/aviso-legal" element={<AvisoLegal />} />

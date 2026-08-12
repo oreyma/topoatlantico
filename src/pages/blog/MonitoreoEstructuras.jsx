@@ -91,17 +91,17 @@ export default function MonitoreoEstructuras() {
 
           <ul className="space-y-2">
 
-            <li>
+        {/*    <li>
               <a href="#s1" className="hover:underline">
                 {t("blog.monitoring.section1")}
               </a>
-            </li>
+            </li> */}
 
             <li>
               <a href="#s2" className="hover:underline">
                 {t("blog.monitoring.section2")}
               </a>
-            </li>
+            </li> 
 
             <li>
               <a href="#s3" className="hover:underline">
@@ -115,11 +115,11 @@ export default function MonitoreoEstructuras() {
               </a>
             </li>
 
-            <li>
+         {/*   <li>
               <a href="#s5" className="hover:underline">
                 {t("blog.monitoring.section5")}
               </a>
-            </li>
+            </li> */}
 
             <li>
               <a href="#s6" className="hover:underline">

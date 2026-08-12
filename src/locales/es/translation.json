@@ -207,8 +207,88 @@
 },
 
 
+    "FotogrametriaDronesPlanificarVuelo": {
+      "title": "Fotogrametría con drones: Cómo planificar un vuelo",
+
+      "intro": "La planificación del vuelo es determinante para  garantizar resultados fotográmetricos de calidad. Antes de realizar el vuelo, es imprescindible analizar las características del dron, las dimensiones de la zona de trabajo, la resolución necesaria y las posibles limitaciones del entorno. Una correcta planificación permite obtener imágenes con la resolución y geometría necesarias para generar ortofotos, nubes de puntos y modelos tridimensionales con precisión y calidad.",
+
+      "section1": "Relación entre la camara, la altura de vuelo y la huella sobre el terreno",
+
+      "section1Text1": "La superficie del terreno que aparece en cada fotografía depende fundamentalmente de dos factores: las características de la cámara y la altura a la que se realiza el vuelo.",
+
+      "section1Text2": "Cuando la altura de vuelo aumenta, cada fotografía abarca una mayor extensión del terreno. Esto permite cubrir áreas amplias con menos imágenes, aunque implica una reducción en el nivel de detalle captado. Por el contrario, si la altura de vuelo disminuye, la huella sobre el terreno es menor y cada fotografía recoge una superficie más reducida. Esto mejora la resolución y el detalle de la imagen, pero exige tomar un mayor número de fotografías para cubrir toda la zona de trabajo.",
+
+      "section1Text3": "La elección de la altura de vuelo debe ajustarse al objetivo del proyecto. No existe una altura universalmente válida: la planificación debe adaptarse a la resolución requerida, a las especificaciones de la cámara y al tipo de producto final que se desea obtener.",
+
+      "section2": "Resolución y GSD: cuánto mide cada píxel de mi fotografía",
+
+      "section2Text1": "Uno de los parámetros fundamentales en un vuelo fotogramétrico es el GSD (Ground Sampling Distance). El GSD indica el tamaño real que representa cada píxel de la imagen en el terreno y suele expresarse en centímetros por píxel.",
+
+      "section2Text2": "La altura de vuelo influye directamente en este valor. Cuando la altura aumenta, cada píxel abarca una mayor superficie del terreno, lo que reduce la resolución espacial. Por el contrario, al disminuir la altura de vuelo, cada píxel representa una zona más pequeña, permitiendo identificar elementos de menor tamaño.",
+
+      "section2Text3": "Por ejemplo, un vuelo planificado para obtener un GSD de 2 cm/píxel proporcionará un nivel de detalle mucho mayor que otro realizado con un GSD de 5 cm/píxel. La resolución adecuada dependerá del objetivo del levantamiento y del grado de precisión que se necesite alcanzar.",
+
+      "section3": "Recubrimiento longitudinal y transversal entre fotografías",
+
+      "section3Text1": "Para reconstruir un modelo tridimensional mediante fotogrametría no basta con obtener fotografías individuales de la zona. Las imágenes deben presentar una superposición suficiente para que el software pueda identificar puntos comunes entre fotografías consecutivas.",
+
+      "section3Text2": "A este solape entre fotografías se le denomina recubrimiento. El recubrimiento longitudinal corresponde a la superposición entre fotografías consecutivas siguiendo la dirección de vuelo, mientras que el recubrimiento transversal corresponde a la superposición entre pasadas de vuelo paralelas.",
+
+      "section3Text3": "Un solape insuficiente puede dificultar la reconstrucción fotogramétrica y provocar zonas sin información, errores en la nube de puntos o problemas en la generación de la ortofoto. Por este motivo, el porcentaje de solape debe definirse durante la planificación en función del tipo de terreno, la cámara y el producto que se pretende generar. En muchos levantamientos, un solape longitudinal del 80% y solape transversal del 70% es aceptable.",
 
 
+"section4": "Relación entre altura, velocidad e intervalo de captura",
+
+  "section4Text1": "La altura de vuelo determina el tamaño de la huella de cada fotografía, mientras que la velocidad del dron y el intervalo entre fotografías determinan cuánto se desplaza el dron entre una fotografía y la siguiente.",
+
+  "section4Text2": "Si el dron vuela a una velocidad determinada y la cámara toma una fotografía cada cierto intervalo de tiempo, podemos calcular aproximadamente la distancia recorrida entre dos fotografías consecutivas. Esta distancia debe ser compatible con la huella de la imagen para conseguir el solape longitudinal deseado.",
+
+  "section4Text3": "Por ejemplo, si el dron se desplaza a 5 metros por segundo y la cámara realiza una fotografía cada 2 segundos, el dron recorrerá aproximadamente 10 metros entre fotografías. Si aumentamos la velocidad manteniendo el mismo intervalo de captura, la distancia entre fotografías será mayor y el solape disminuirá.",
+
+  "section4Text4": "También podemos actuar en sentido contrario: si queremos mantener una determinada velocidad pero necesitamos aumentar el solape, podemos reducir el intervalo entre fotografías, siempre que la cámara y el sistema de vuelo permitan realizar las capturas con la frecuencia necesaria.",
+
+  "section4Text5": "La planificación consiste, por tanto, en encontrar una combinación adecuada entre altura, velocidad, intervalo de captura y características de la cámara. Estos parámetros están directamente relacionados y modificarlos de forma independiente puede alterar significativamente el resultado del vuelo.",
+
+  "section4Text6": "Además, la velocidad debe ser compatible con la exposición y las condiciones de iluminación. Una velocidad excesiva puede aumentar el riesgo de movimiento o desenfoque en las fotografías, especialmente cuando se utilizan tiempos de exposición elevados.",
+
+  "section5": "Autonomía y organización de la misión",
+
+  "section5Text1": "La autonomía del dron es otro de los factores que deben considerarse durante la planificación. La superficie que puede cubrirse en un vuelo depende de la autonomía disponible, la velocidad de vuelo, la altura, el número de fotografías y las características de la misión.",
+
+  "section5Text2": "La autonomía indicada por el fabricante debe considerarse como una referencia y no como el tiempo de vuelo disponible para realizar trabajos fotogramétricos. El viento, la temperatura, el peso del equipo, los desplazamientos y los márgenes de seguridad pueden reducir el tiempo de vuelo efectivo.",
+
+  "section5Text3": "Cuando la superficie de trabajo es extensa, puede ser necesario dividir el levantamiento en varias misiones o utilizar varias baterías. Una correcta planificación permite organizar los vuelos de manera que exista suficiente margen para regresar al punto de despegue y realizar los cambios de batería necesarios.",
+
+  "section6": "Software para la planificación automática de vuelos",
+
+  "section6Text1": "Actualmente existen diferentes herramientas gratuitas que permiten planificar misiones de vuelo de forma digital antes de acudir al terreno. Estas aplicaciones permiten definir la zona de trabajo, establecer waypoints, configurar parámetros de vuelo y, en determinados casos, generar automáticamente rutas para cubrir una superficie mediante pasadas paralelas.",
+
+  "section6Text2": "<litchi>Litchi hub</litchi> es una plataforma web que permite diseñar misiones de vuelo desde el navegador mediante waypoints y trabajar con diferentes parámetros de la misión. Es especialmente útil para planificar previamente una misión y revisar su recorrido antes de realizar el vuelo, además permite transferirlas las rutas a dispositivos compatibles con un gran número de drones comerciales",
+
+  "section6Litchi": "Litchi Hub",
+
+  "section6LitchiLink": "https://hub.flylitchi.com/",
+
+  "section6Text3": "<waypointmap>WaypointMap</waypointmap> es otra herramienta orientada a la planificación de misiones de mapeo con drones compatibles. Tambien Permite definir una zona de trabajo y generar rutas de vuelo automatizadas para cubrirla. Entre los drones compatibles se encuentra el DJI Mini 5 Pro, además de otros modelos DJI.",
+
+  "section6WaypointMap": "WaypointMap",
+
+  "section6WaypointMapLink": "https://www.waypointmap.com/",
+
+  "section6Text4": "Estas herramientas facilitan considerablemente la planificación, pero no sustituyen el análisis previo del terreno ni la responsabilidad del piloto. Antes de ejecutar una misión es necesario comprobar las condiciones reales de la zona, los obstáculos, las restricciones de espacio aéreo, las condiciones meteorológicas y todos los requisitos de seguridad aplicables.",
+
+  "section7": "De la planificación al levantamiento fotogramétrico",
+
+  "section7Text1": "Una misión fotogramétrica correctamente planificada permite obtener un conjunto de fotografías con una geometría adecuada para su posterior procesamiento. A partir de estas imágenes pueden generarse productos como ortofotografías, nubes de puntos, modelos digitales del terreno, modelos digitales de superficie y modelos tridimensionales.",
+
+  "section7Text2": "La calidad del resultado final depende de todo el proceso y no únicamente del software utilizado para procesar las fotografías. La cámara, la altura de vuelo, el GSD, el solape, la velocidad, el intervalo de captura, la autonomía y las condiciones del terreno deben analizarse conjuntamente.",
+
+  "section7Text3": "Una buena planificación reduce la posibilidad de tener que repetir el vuelo y permite obtener información más homogénea y adecuada para los objetivos del levantamiento.",
+
+    "ctaTitle": "¿Necesita un levantamiento fotogramétrico con drones?",
+
+  "ctaText": "TOPOATLANTICO ofrece servicios profesionales de fotogrametría, cartografía y levantamientos con drones en las Islas Canarias. Contacte con nosotros para estudiar las características de su proyecto y recibir un presupuesto personalizado."
+},
 
 
 "monitoring": {
@@ -244,6 +324,7 @@
   "monitoringExcerpt": "Descubre cómo el monitoreo y la auscultación de estructuras permiten detectar deformaciones y garantizar la seguridad de edificios, puentes e infraestructuras.",
   "FotogrametriaDronesExcerpt": "Conozca cómo la fotogrametría con drones está transformando la topografía moderna mediante ortofotos, modelos digitales y cartografía de alta precisión para proyectos en las Islas Canarias."
 },
+
 
 "blogSection": {
   "title": "Blog y Guías",
