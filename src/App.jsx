@@ -88,7 +88,7 @@ const articleLink =
       <ServiceCard title={t("services.list.parcelas")} image="/images/servicios/MediciónRegularizaciónFincas.webp" link="/servicios/medicion-parcelas" />
       <ServiceCard title={t("services.list.replanteo")} image="/images/servicios/ReplanteoDeObra.webp" link="/servicios/replanteo-obra" />
       <ServiceCard title={t("services.list.levantamientos")} image="/images/servicios/LevantaminetoTopografico.webp" link="/servicios/levantamientos" />
-      <ServiceCard title={t("services.list.asistencia")} image="/images/servicios/ATecnica.webp" link="/servicios/asistencia-tecnica" />
+      <ServiceCard title={t("services.list.asistencia")} image="/images/servicios/AsistenciaTecnicaControlGeometricoVolumenes.webp" link="/servicios/asistencia-tecnica" />
       <ServiceCard title={t("services.list.monitoreo")} image="/images/servicios/MonitoreoEstructuras.webp" link="/servicios/monitoreo-auscultacion" />
       <ServiceCard title={t("services.list.drones")} image="/images/servicios/FotogrametriaDronesGCP.webp" link="/servicios/drones-fotogrametria" />
     </div>
@@ -173,7 +173,7 @@ const articleLink =
         <BlogCard
   title={t("blog.topographicSurvey.title")}
   excerpt={t("blogCard.surveyExcerpt")}
-  image="/images/blog/topographic-survey.jpg"
+  image="/images/blog/Levantamiento_Topográfico_Carretera.webp"
   link={
     i18n.language === "es"
       ? "/blog/que-es-un-levantamiento-topografico"
@@ -184,7 +184,7 @@ const articleLink =
 <BlogCard
   title={t("blog.settingOut.title")}
   excerpt={t("blogCard.settingOutExcerpt")}
-  image="/images/blog/replanteo.jpg"
+  image="/images/blog/Replanteo_Edificacion.webp"
   link={
     i18n.language === "es"
       ? "/blog/replanteo-de-obra"
@@ -194,7 +194,7 @@ const articleLink =
 <BlogCard
   title={t("blog.monitoring.title")}
   excerpt={t("blogCard.monitoringExcerpt")}
-  image="/images/blog/monitoreo.jpg"
+  image="/images/blog/MonitoreoTunelDeformacion.webp"
   link={
     i18n.language === "es"
       ? "/blog/monitoreo-estructuras"
@@ -204,7 +204,7 @@ const articleLink =
 <BlogCard
   title={t("blog.FotogrametriaDrones.title")}
   excerpt={t("blogCard.FotogrametriaDronesExcerpt")}
-  image="/images/blog/FotogrametriaDrones.jpg"
+  image="/images/blog/FotogrametriaDrones.webp"
   link={
     i18n.language === "es"
       ? "/blog/Fotogrametria-drones"
@@ -215,7 +215,7 @@ const articleLink =
 <BlogCard
   title={t("blog.FotogrametriaDronesPlanificarVuelo.title")}
   excerpt={t("blog.FotogrametriaDronesPlanificarVuelo.intro")}
-  image="/images/blog/FotogrametriaDronPlanVuelo.jpg"
+  image="/images/blog/FotogrametriaDronPlanVuelo.webp"
   link={
     i18n.language === "es"
       ? "/blog/Fotogrametria-drones-Planificar-vuelo"

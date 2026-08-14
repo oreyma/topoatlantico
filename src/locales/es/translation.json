@@ -42,7 +42,7 @@
     },
     "monitoreo": {
       "title": "Monitoreo de Estructuras",
-      "desc": "Realizamos control de deformaciones y desplazamientos en estructuras, taludes, presas y edificaciones. Utilizamos instrumentación de alta precisión para un seguimiento continuo y seguro."
+      "desc": "Realizamos control de deformaciones y desplazamientos en estructuras, taludes, tuneles, presas y edificaciones. Utilizamos instrumentación de alta precisión para un seguimiento continuo y seguro."
     },
     "drones": {
       "title": "Drones y Fotogrametría",
@@ -263,7 +263,7 @@
 
   "section6Text1": "Actualmente existen diferentes herramientas gratuitas que permiten planificar misiones de vuelo de forma digital antes de acudir al terreno. Estas aplicaciones permiten definir la zona de trabajo, establecer waypoints, configurar parámetros de vuelo y, en determinados casos, generar automáticamente rutas para cubrir una superficie mediante pasadas paralelas.",
 
-  "section6Text2": "<litchi>Litchi hub</litchi> es una plataforma web que permite diseñar misiones de vuelo desde el navegador mediante waypoints y trabajar con diferentes parámetros de la misión. Es especialmente útil para planificar previamente una misión y revisar su recorrido antes de realizar el vuelo, además permite transferirlas las rutas a dispositivos compatibles con un gran número de drones comerciales",
+  "section6Text2": "<litchi>Litchi hub</litchi> es una plataforma web que permite diseñar misiones de vuelo desde el navegador mediante waypoints y trabajar con diferentes parámetros de la misión. Es especialmente útil para planificar previamente una misión y revisar su recorrido antes de realizar el vuelo, además permite transferir las rutas a dispositivos compatibles con un gran número de drones comerciales",
 
   "section6Litchi": "Litchi Hub",
 

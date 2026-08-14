@@ -4,6 +4,7 @@ import Button from "../../components/Button"
 import { useTranslation } from "react-i18next"
 import Navbar from "../../components/Navbar"
 import ServiceTemplate from "../../components/ServiceTemplate";
+import BlogCard from "../../components/BlogCard";
 
 export default function DronesFotogrametria() {
   const navigate = useNavigate()
@@ -60,9 +61,53 @@ export default function DronesFotogrametria() {
             >
               {t("buttons.other")}
             </button>
+
           </div>
+
         </div>
+
+
+{/* RELATED ARTICLE */}
+
+<div className="mt-12 border-t pt-10">
+  <h3 className="text-2xl font-bold text-topo-navy mb-6">
+    {i18n.language === "es"
+      ? "¿Quieres saber cómo se realiza la fotogrametría con drones?"
+      : "Would you like to know how drone photogrammetry works?"}
+  </h3>
+
+  <div className="max-w-3xl grid md:grid-cols-2 gap-6">
+
+<BlogCard
+  title={t("blog.FotogrametriaDrones.title")}
+  excerpt={t("blogCard.FotogrametriaDronesExcerpt")}
+  image="/images/blog/FotogrametriaDrones.webp"
+  link={
+    i18n.language === "es"
+      ? "/blog/Fotogrametria-drones"
+      : "/blog/Drone-Photogrammetry"
+  }
+/>
+
+<BlogCard
+  title={t("blog.FotogrametriaDronesPlanificarVuelo.title")}
+  excerpt={t("blog.FotogrametriaDronesPlanificarVuelo.intro")}
+  image="/images/blog/FotogrametriaDronPlanVuelo.webp"
+  link={
+    i18n.language === "es"
+      ? "/blog/Fotogrametria-drones-Planificar-vuelo"
+      : "/blog/Drone-Photogrammetry-Plan-your-flight"
+  }
+/>
+
+
+  </div>
+</div>
+
+
+
       </section>
+
       </ServiceTemplate>
     </>
   )

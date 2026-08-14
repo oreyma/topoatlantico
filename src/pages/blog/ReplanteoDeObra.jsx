@@ -48,7 +48,7 @@ export default function ReplanteoDeObra() {
 
         <meta
           property="og:image"
-          content="https://topoatlantico.com/images/blog/setting-out.jpg"
+          content="https://topoatlantico.com/images/blog/Replanteo_Edificacion.webp"
         />
 
         <meta property="og:type" content="article" />
@@ -56,7 +56,7 @@ export default function ReplanteoDeObra() {
 
       <ArticleTemplate
         title={t("blog.settingOut.title")}
-        image="/images/blog/replanteo.jpg"
+        image="/images/blog/Replanteo_Edificacion.webp"
       >
 
         {/* Publication date */}
@@ -150,7 +150,7 @@ export default function ReplanteoDeObra() {
         <figure className="mb-10">
 
           <img
-            src="/images/blog/QueEsUnReplanteo.jpg"
+            src="/images/blog/QueEsUnReplanteo.webp"
             alt="Construction setting out using robotic total station"
             className="w-full rounded-xl shadow-md"
           />
@@ -177,7 +177,7 @@ export default function ReplanteoDeObra() {
         <figure className="mb-10">
 
           <img
-            src="/images/blog/NecesarioReplanteo.jpg"
+            src="/images/blog/NecesarioReplanteo.webp"
             alt="Replanteo estrucutras edificación y obra civil"
             className="w-full rounded-xl shadow-md"
           />
@@ -204,7 +204,7 @@ export default function ReplanteoDeObra() {
         <figure className="mb-10">
 
           <img
-            src="/images/blog/ReplanteoCarretera.jpg"
+            src="/images/blog/ReplanteoCarretera.webp"
             alt="Replanteo carretera con estación total y gps"
             className="w-full rounded-xl shadow-md"
           />
@@ -231,7 +231,7 @@ export default function ReplanteoDeObra() {
         <figure className="mb-10">
 
           <img
-            src="/images/blog/ReplanteoPrecision.jpg"
+            src="/images/blog/ReplanteoPrecision.webp"
             alt="Precision en replanteo, evitar costes elevados"
             className="w-full rounded-xl shadow-md"
           />
@@ -252,7 +252,7 @@ export default function ReplanteoDeObra() {
 
         <figure className="mb-10">
           <img
-            src="/images/blog/ReplanteoObraCivil.jpg"
+            src="/images/blog/ReplanteoObraCivil.webp"
             alt="Replanteo carretera en las Islas Canarias"
             className="w-full rounded-xl shadow-md"
           />
@@ -271,7 +271,7 @@ export default function ReplanteoDeObra() {
 
         <figure className="mb-10">
           <img
-            src="/images/blog/ReplanteoCanarias.jpg"
+            src="/images/blog/ReplanteoCanarias.webp"
             alt="Replanteo infraestructuras, Canarias"
             className="w-full rounded-xl shadow-md"
           />
@@ -339,7 +339,7 @@ export default function ReplanteoDeObra() {
       compact
       title={t("blog.topographicSurvey.title")}
       excerpt={t("blogCard.surveyExcerpt")}
-      image="/images/blog/topographic-survey.jpg"
+      image="/images/blog/Levantamiento_Topográfico_Carretera.webp"
       link={
         isSpanish
           ? "/blog/que-es-un-levantamiento-topografico"
@@ -352,7 +352,7 @@ export default function ReplanteoDeObra() {
 <BlogCard
   title={t("blog.FotogrametriaDrones.title")}
   excerpt={t("blogCard.FotogrametriaDronesExcerpt")}
-  image="/images/blog/FotogrametriaDrones.jpg"
+  image="/images/blog/FotogrametriaDrones.webp"
   link={
     isSpanish
       ? "/blog/Fotogrametria-drones"

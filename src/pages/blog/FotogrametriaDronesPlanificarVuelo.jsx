@@ -49,14 +49,14 @@ const canonicalUrl = isSpanish
 
         <meta
           property="og:image"
-       content="https://topoatlantico.com/images/blog/FotogrametriaDrones.jpg"  />
+       content="https://topoatlantico.com/images/blog/FotogrametriaDrones.webp"  />
 
         <meta property="og:type" content="article" />
       </Helmet>
 
       <ArticleTemplate
         title={t("blog.FotogrametriaDronesPlanificarVuelo.title")}
-        image="/images/blog/FotogrametriaDronPlanVuelo.jpg"
+        image="/images/blog/FotogrametriaDronPlanVuelo.webp"
         video="/videos/FotogrametriaDronesORTOFOTO_.mp4"
       >
 
@@ -168,7 +168,7 @@ const canonicalUrl = isSpanish
           <img
             src="/images/blog/HuellaAlturaVueloDron.webp"
             alt="Relacion entre la altura de vuelo y la cobertura o huella"
-            className="w-full rounded-xl shadow-md"
+            className="w-full h-64 md:h-96 object-cover rounded-xl shadow-md"
           />
 
         </figure>
@@ -202,7 +202,7 @@ const canonicalUrl = isSpanish
           <img
             src="/images/blog/ResolucionGSDTamañoPixel.webp"
             alt="Planificar vuelo fotogrametrico GSD Resolucion Pixel"
-            className="w-full rounded-xl shadow-md"
+            className="w-full h-64 md:h-116 object-cover rounded-xl shadow-md"
           />
 
         </figure>
@@ -238,7 +238,7 @@ const canonicalUrl = isSpanish
           <img
             src="/images/blog/FotgrametriaSolapesPasadas.webp"
             alt="Vuelo dron recubrimiento transversal y longitudinal, solapes"
-            className="w-full rounded-xl shadow-md"
+            className="w-full h-64 md:h-100 object-cover rounded-xl shadow-md"
           />
 
         </figure>
@@ -284,7 +284,7 @@ const canonicalUrl = isSpanish
           <img
             src="/images/blog/RecubrimientoVelocidadDroneIntervaloFoto.webp"
             alt="Relacion entre altura de vuelo, velocidad e intarvalo de fotografía para recubrimiento desy"
-            className="w-full rounded-xl shadow-md"
+            className="w-full h-64 md:h-116 object-cover rounded-xl shadow-md"
           />
 
         </figure>
@@ -318,9 +318,9 @@ const canonicalUrl = isSpanish
         <figure className="mb-10">
 
           <img
-            src="/images/blog/Introducir5.jpg"
+            src="/images/blog/Introducir5.webp"
             alt="Benefits of structural monitoring"
-            className="w-full rounded-xl shadow-md"
+            className="w-full h-64 md:h-96 object-cover rounded-xl shadow-md"
           />
 
         </figure> */}
@@ -383,7 +383,7 @@ const canonicalUrl = isSpanish
           <img
             src="/images/blog/PlanVueloMisionWaypointMap.webp"
             alt="Plan vuelo dron con WaypointMap"
-            className="w-full rounded-xl shadow-md"
+            className="w-full h-64 md:h-116 object-cover rounded-xl shadow-md"
           />
 
         </figure>
@@ -471,7 +471,7 @@ const canonicalUrl = isSpanish
               compact
               title={t("blog.topographicSurvey.title")}
               excerpt={t("blogCard.surveyExcerpt")}
-              image="/images/blog/topographic-survey.jpg"
+              image="/images/blog/topographic-survey.webp"
               link={
                 isSpanish
                   ? "/blog/que-es-un-levantamiento-topografico"
@@ -482,7 +482,7 @@ const canonicalUrl = isSpanish
 <BlogCard
   title={t("blog.FotogrametriaDrones.title")}
   excerpt={t("blogCard.FotogrametriaDronesExcerpt")}
-  image="/images/blog/FotogrametriaDrones.jpg"
+  image="/images/blog/FotogrametriaDrones.webp"
   link={
     isSpanish
       ? "/blog/Fotogrametria-drones"

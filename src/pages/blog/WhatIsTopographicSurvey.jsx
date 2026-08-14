@@ -48,7 +48,7 @@ export default function WhatIsTopographicSurvey() {
 
         <meta
           property="og:image"
-          content="https://topoatlantico.com/images/blog/topographic-survey.jpg"
+          content="https://topoatlantico.com/images/blog/Levantamiento_Topográfico_Carretera.webp"
         />
 
         <meta property="og:type" content="article" />
@@ -56,7 +56,7 @@ export default function WhatIsTopographicSurvey() {
 
       <ArticleTemplate
         title={t("blog.topographicSurvey.title")}
-        image="/images/blog/topographic-survey.jpg"
+        image="/images/blog/Levantamiento_Topográfico_Carretera.webp"
       >
         {/* Publication date */}
         <p className="text-sm text-gray-500 mb-6">
@@ -105,9 +105,9 @@ export default function WhatIsTopographicSurvey() {
 
 <figure className="mb-10">
   <img
-    src="/images/blog/LevantamientoTopograficoIntro.jpg"
+    src="/images/blog/LevantamientoTopograficoIntro.webp"
     alt="Topographic survey project in Gran Canaria"
-    className="w-full rounded-xl shadow-md"
+    className="w-full h-64 md:h-106 object-cover rounded-xl shadow-md"
   />
 </figure>
 
@@ -123,9 +123,9 @@ export default function WhatIsTopographicSurvey() {
 
 <figure className="mb-10">
   <img
-    src="/images/blog/UtilidadLevantamiento.jpg"
+    src="/images/blog/UtilidadLevantamiento.webp"
     alt="Levantamiento topográfico, proyectos Canarias"
-    className="w-full rounded-xl shadow-md"
+    className="w-full h-64 md:h-96 object-cover rounded-xl shadow-md"
   />
 </figure>
 
@@ -141,9 +141,9 @@ export default function WhatIsTopographicSurvey() {
 
 <figure className="mb-10">
   <img
-    src="/images/blog/InstrumentosLevantamiento.jpg"
+    src="/images/blog/InstrumentosLevantamiento.webp"
     alt="Estacion total y receptores gps gns, Topografía en Gran Canaria"
-    className="w-full rounded-xl shadow-md"
+    className="w-full h-64 md:h-96 object-cover rounded-xl shadow-md"
   />
 </figure>
 
@@ -170,9 +170,9 @@ export default function WhatIsTopographicSurvey() {
 
 <figure className="mb-10">
   <img
-    src="/images/blog/BeneficiosLevantamiento.jpg"
+    src="/images/blog/BeneficiosLevantamiento.webp"
     alt="Beneficios medición topográfica en Gran Canaria"
-    className="w-full rounded-xl shadow-md"
+    className="w-full h-64 md:h-96 object-cover rounded-xl shadow-md"
   />
 </figure>
 
@@ -188,9 +188,9 @@ export default function WhatIsTopographicSurvey() {
 
 <figure className="mb-10">
   <img
-    src="/images/blog/CanariasLevantamiento.jpg"
+    src="/images/blog/CanariasLevantamiento.webp"
     alt="Topographic survey project in Gran Canaria"
-    className="w-full rounded-xl shadow-md"
+    className="w-full h-64 md:h-96 object-cover rounded-xl shadow-md"
   />
 </figure>
 
@@ -256,7 +256,7 @@ export default function WhatIsTopographicSurvey() {
       compact
       title={t("blog.settingOut.title")}
       excerpt={t("blogCard.settingOutExcerpt")}
-      image="/images/blog/replanteo.jpg"
+      image="/images/blog/Replanteo_Edificacion.webp"
       link={
         isSpanish
           ? "/blog/replanteo-de-obra"
@@ -267,7 +267,7 @@ export default function WhatIsTopographicSurvey() {
 <BlogCard
   title={t("blog.FotogrametriaDrones.title")}
   excerpt={t("blogCard.FotogrametriaDronesExcerpt")}
-  image="/images/blog/FotogrametriaDrones.jpg"
+  image="/images/blog/FotogrametriaDrones.webp"
   link={
     i18n.language === "es"
       ? "/blog/Fotogrametria-drones"

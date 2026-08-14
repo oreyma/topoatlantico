@@ -4,7 +4,7 @@ import Button from "../../components/Button"
 import { useTranslation } from "react-i18next"
 import Navbar from "../../components/Navbar"
 import ServiceTemplate from "../../components/ServiceTemplate";
-
+import BlogCard from "../../components/BlogCard";
 
 export default function ReplanteoObra() {
   const navigate = useNavigate()
@@ -24,6 +24,10 @@ export default function ReplanteoObra() {
     }, 100)
   }
 
+const settingOutLink =
+  i18n.language === "es"
+    ? "/blog/replanteo-de-obra"
+    : "/blog/construction-setting-out";
 
   return (
     <>
@@ -63,6 +67,31 @@ export default function ReplanteoObra() {
             </button>
           </div>
         </div>
+
+{/* RELATED ARTICLE */}
+
+<div className="mt-12 border-t pt-10">
+  <h3 className="grid md:grid-cols-2 gap-6 text-2xl font-bold text-topo-navy mb-6">
+    {i18n.language === "es"
+      ? "¿Quieres saber cómo se lleva a cabo un  replanteo?"
+      : "Would you like to know how setting out works?"}
+  </h3>
+
+  <div className="max-w-3xl grid md:grid-cols-2 gap-6">
+
+  <BlogCard
+    title={t("blog.settingOut.title")}
+    excerpt={t("blogCard.settingOutExcerpt")}
+    image="/images/blog/Replanteo_Edificacion.webp"
+    link={settingOutLink}
+  />
+
+
+
+  </div>
+</div>
+
+
       </section>
       </ServiceTemplate>
     </>

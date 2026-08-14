@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 const images = [
   { src: "/images/LevantaminetoTopográfico_C.webp", key: "carousel.1" },
   { src: "/images/ReplanteoDeObraUrbanizacion.webp", key: "carousel.2" },
-  { src: "/images/MonitoreEstructurasTunel.webp", key: "carousel.3" },
+  { src: "/images/MonitoreoEstructurasTunel.webp", key: "carousel.3" },
   { src: "/images/ReplanteoDeObraEdificacion.webp", key: "carousel.4" },
   { src: "/images/ReplanteoDeObraCivil.webp", key: "carousel.5" },
   { src: "/images/LevantamientoFerroviario.webp", key: "carousel.6" },

@@ -48,7 +48,7 @@ export default function FotogrametriaDrones() {
 
         <meta
           property="og:image"
-          content="https://topoatlantico.com/images/blog/FotogrametriaDrones.jpg"
+          content="https://topoatlantico.com/images/blog/FotogrametriaDrones.webp"
         />
 
         <meta property="og:type" content="article" />
@@ -56,7 +56,7 @@ export default function FotogrametriaDrones() {
 
       <ArticleTemplate
         title={t("blog.FotogrametriaDrones.title")}
-        image="/images/blog/FotogrametriaDrones.jpg"
+        image="/images/blog/FotogrametriaDrones.webp"
         video="/videos/FotogrametriaDronesORTOFOTO.mp4"
       >
 
@@ -163,10 +163,10 @@ export default function FotogrametriaDrones() {
 
         </div>
 
-        <figure className="mb-10">
+        <figure className="mb-20">
 
           <img
-            src="/images/blog/FotogrametriaDrones.jpg"
+            src="/images/blog/FotogrametriaDrones_.webp"
             alt="Fotogrametria con drones Ortofoto"
             className="w-full rounded-xl shadow-md"
           />
@@ -203,9 +203,9 @@ export default function FotogrametriaDrones() {
         <figure className="mb-10">
 
           <img
-            src="/images/blog/FotogrametriaDronPlanVuelo_.jpg"
+            src="/images/blog/FotogrametriaDronPlanVuelo.webp"
             alt="Planificar vuelo fotogrametrico"
-            className="w-full rounded-xl shadow-md"
+            className="w-full h-64 md:h-96 object-cover rounded-xl shadow-md"
           />
 
         </figure>
@@ -238,9 +238,9 @@ export default function FotogrametriaDrones() {
         <figure className="mb-10">
 
           <img
-            src="/images/blog/Modelo3dLasCurvasNivelOrtofoto.jpg"
+            src="/images/blog/Modelo3dLasCurvasNivelOrtofoto.webp"
             alt="Dron Modelos 3d nubes de puntos .las"
-            className="w-full rounded-xl shadow-md"
+            className="w-full h-64 md:h-96 object-cover rounded-xl shadow-md"
           />
 
         </figure>
@@ -272,9 +272,9 @@ export default function FotogrametriaDrones() {
         <figure className="mb-10">
 
           <img
-            src="/images/blog/PrecisionFotogrametriaModelo3D.jpg"
+            src="/images/blog/PrecisionFotogrametriaModelo3D.webp"
             alt="Precision centimetrica en nube de puntos, modeolos 3d y ortofotos"
-            className="w-full rounded-xl shadow-md"
+            className="w-full h-64 md:h-96 object-cover rounded-xl shadow-md"
           />
 
         </figure>
@@ -307,7 +307,7 @@ export default function FotogrametriaDrones() {
         <figure className="mb-10">
 
           <img
-            src="/images/blog/Introducir5.jpg"
+            src="/images/blog/Introducir5.webp"
             alt="Benefits of structural monitoring"
             className="w-full rounded-xl shadow-md"
           />
@@ -433,7 +433,7 @@ export default function FotogrametriaDrones() {
               compact
               title={t("blog.topographicSurvey.title")}
               excerpt={t("blogCard.surveyExcerpt")}
-              image="/images/blog/topographic-survey.jpg"
+              image="/images/blog/Levantamiento_Topográfico_Carretera.webp"
               link={
                 isSpanish
                   ? "/blog/que-es-un-levantamiento-topografico"
@@ -444,7 +444,7 @@ export default function FotogrametriaDrones() {
 <BlogCard
   title={t("blog.FotogrametriaDronesPlanificarVuelo.title")}
   excerpt={t("blog.FotogrametriaDronesPlanificarVuelo.intro")}
-  image="/images/blog/FotogrametriaDronPlanVuelo.jpg"
+  image="/images/blog/FotogrametriaDronPlanVuelo.webp"
   link={
     i18n.language === "es"
       ? "/blog/Fotogrametria-drones-Planificar-vuelo"

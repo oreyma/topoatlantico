@@ -48,7 +48,7 @@ export default function MonitoreoEstructuras() {
 
         <meta
           property="og:image"
-          content="https://topoatlantico.com/images/blog/monitoring.jpg"
+          content="https://topoatlantico.com/images/blog/MonitoreoTunelDeformacion.webp"
         />
 
         <meta property="og:type" content="article" />
@@ -56,7 +56,7 @@ export default function MonitoreoEstructuras() {
 
       <ArticleTemplate
         title={t("blog.monitoring.title")}
-        image="/images/blog/monitoreo.jpg"
+        image="/images/blog/MonitoreoTunelDeformacion.webp"
       >
 
         {/* Publication date */}
@@ -157,7 +157,7 @@ export default function MonitoreoEstructuras() {
         <figure className="mb-10">
 
           <img
-            src="/images/blog/WhatIsMonitoring.jpg"
+            src="/images/blog/WhatIsMonitoring.webp"
             alt="Structural monitoring using robotic total stations"
             className="w-full rounded-xl shadow-md"
           />
@@ -184,9 +184,9 @@ export default function MonitoreoEstructuras() {
         <figure className="mb-10">
 
           <img
-            src="/images/blog/MonitoreoTunel.jpg"
+            src="/images/blog/monitoreo.webp"
             alt="Control de deformacion en tuneles, puentes y otras estrucutras"
-            className="w-full rounded-xl shadow-md"
+            className="w-full h-64 md:h-96 object-cover rounded-xl shadow-md"
           />
 
         </figure>
@@ -211,9 +211,9 @@ export default function MonitoreoEstructuras() {
         <figure className="mb-10">
 
           <img
-            src="/images/blog/MonitoreoPresasCanarias.jpg"
+            src="/images/blog/MonitoreoPresasCanarias.webp"
             alt="Monitoreo de estructuras"
-            className="w-full rounded-xl shadow-md"
+            className="w-full h-64 md:h-96 object-cover rounded-xl shadow-md"
           />
 
         </figure>
@@ -237,9 +237,9 @@ export default function MonitoreoEstructuras() {
         <figure className="mb-10">
 
           <img
-            src="/images/blog/MonitoreoEquipos.jpg"
+            src="/images/blog/MonitoreoEquipos.webp"
             alt="Equipos topograficos utilizados, estacion total, niveles y receptores gnss"
-            className="w-full rounded-xl shadow-md"
+            className="w-full h-64 md:h-96 object-cover rounded-xl shadow-md"
           />
 
         </figure>
@@ -264,9 +264,9 @@ export default function MonitoreoEstructuras() {
         <figure className="mb-10">
 
           <img
-            src="/images/blog/BeneficiosMonitoreo.jpg"
+            src="/images/blog/BeneficiosMonitoreo.webp"
             alt="Detectar deformaciones estructuras"
-            className="w-full rounded-xl shadow-md"
+            className="w-full h-64 md:h-96 object-cover rounded-xl shadow-md"
           />
 
         </figure> */}
@@ -291,9 +291,9 @@ export default function MonitoreoEstructuras() {
         <figure className="mb-10">
 
           <img
-            src="/images/blog/MonitoreoNivelacion.jpg"
+            src="/images/blog/MonitoreoNivelacion.webp"
             alt="Nivelacion monitore Canarias"
-            className="w-full rounded-xl shadow-md"
+            className="w-full h-64 md:h-96 object-cover rounded-xl shadow-md"
           />
 
         </figure>
@@ -373,7 +373,7 @@ export default function MonitoreoEstructuras() {
               compact
               title={t("blog.topographicSurvey.title")}
               excerpt={t("blogCard.surveyExcerpt")}
-              image="/images/blog/topographic-survey.jpg"
+              image="/images/blog/Levantamiento_Topográfico_Carretera.webp"
               link={
                 isSpanish
                   ? "/blog/que-es-un-levantamiento-topografico"
@@ -385,7 +385,7 @@ export default function MonitoreoEstructuras() {
               compact
               title={t("blog.settingOut.title")}
               excerpt={t("blogCard.settingOutExcerpt")}
-              image="/images/blog/replanteo.jpg"
+              image="/images/blog/Replanteo_Edificacion.webp"
               link={
                 isSpanish
                   ? "/blog/replanteo-de-obra"
