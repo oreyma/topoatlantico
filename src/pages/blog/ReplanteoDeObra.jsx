@@ -177,9 +177,9 @@ export default function ReplanteoDeObra() {
         <figure className="mb-10">
 
           <img
-            src="/images/blog/NecesarioReplanteo.webp"
+            src="/images/blog/Replanteo_Urbanizacion.webp"
             alt="Replanteo estrucutras edificación y obra civil"
-            className="w-full rounded-xl shadow-md"
+            className="w-full h-64 md:h-106 object-cover rounded-xl shadow-md"
           />
 
         </figure>
@@ -204,9 +204,9 @@ export default function ReplanteoDeObra() {
         <figure className="mb-10">
 
           <img
-            src="/images/blog/ReplanteoCarretera.webp"
+            src="/images/blog/Replanteo_ObraCivil_Carretera.webp"
             alt="Replanteo carretera con estación total y gps"
-            className="w-full rounded-xl shadow-md"
+            className="w-full h-64 md:h-106 object-cover rounded-xl shadow-md"
           />
 
         </figure>
@@ -233,7 +233,7 @@ export default function ReplanteoDeObra() {
           <img
             src="/images/blog/ReplanteoPrecision.webp"
             alt="Precision en replanteo, evitar costes elevados"
-            className="w-full rounded-xl shadow-md"
+            className="w-full h-64 md:h-106 object-cover rounded-xl shadow-md"
           />
 
         </figure>
@@ -252,9 +252,9 @@ export default function ReplanteoDeObra() {
 
         <figure className="mb-10">
           <img
-            src="/images/blog/ReplanteoObraCivil.webp"
+            src="/images/blog/ReplanteoObra_Carretera.webp"
             alt="Replanteo carretera en las Islas Canarias"
-            className="w-full rounded-xl shadow-md"
+            className="w-full h-64 md:h-106 object-cover rounded-xl shadow-md"
           />
         </figure>
 
@@ -273,7 +273,7 @@ export default function ReplanteoDeObra() {
           <img
             src="/images/blog/ReplanteoCanarias.webp"
             alt="Replanteo infraestructuras, Canarias"
-            className="w-full rounded-xl shadow-md"
+            className="w-full h-64 md:h-106 object-cover rounded-xl shadow-md"
           />
         </figure>
 

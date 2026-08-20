@@ -105,7 +105,7 @@ export default function WhatIsTopographicSurvey() {
 
 <figure className="mb-10">
   <img
-    src="/images/blog/LevantamientoTopograficoIntro.webp"
+    src="/images/blog/PlanoLevantamientoAutocad.webp"
     alt="Topographic survey project in Gran Canaria"
     className="w-full h-64 md:h-106 object-cover rounded-xl shadow-md"
   />
