@@ -26,19 +26,71 @@ import ReplanteoDeObra from "./pages/blog/ReplanteoDeObra";
 import MonitoreoEstructuras from "./pages/blog/MonitoreoEstructuras";
 import FotogrametriaDrones from "./pages/blog/FotogrametriaDrones";
 import FotogrametriaDronesPlanificarVuelo from  "./pages/blog/FotogrametriaDronesPlanificarVuelo";
+import InmatriculacionFincaRegistro from "./pages/blog/InmatriculacionFincaRegistro";
 import BlogCard from "./components/BlogCard";
 import ScrollToHash from "./components/ScrollToHash";
 import ScrollToTop from "./components/ScrollToTop";
+import { Helmet } from "react-helmet-async";
 
 function Home() {
- const { t, i18n } = useTranslation();	
-const articleLink =
-  i18n.language === "es"
-    ? "/blog/que-es-un-levantamiento-topografico"
-    : "/blog/what-is-a-topographic-survey";
+
+
+
+const { t, i18n } = useTranslation();
+
+  const isSpanish = i18n.language === "es";
+
+  const seoTitle = isSpanish
+    ? "TOPOATLANTICO | Topografía, Drones y Fotogrametría en Canarias"
+    : "TOPOATLANTICO | Land Surveying & Photogrammetry in the Canary Islands";
+
+  const seoDescription = isSpanish
+    ? "Servicios de topografía, drones y fotogrametría en Canarias. Levantamientos topográficos, replanteos de obra, medición y regularización de parcelas, monitorización de estructuras, inspección con drones, videos para seguimiento de obra y fotogrametría. Equipos de precisión: GNSS, estación total, drones."
+    : "Land surveying and drone photogrammetry services in the Canary Islands. construction setting out, land surveying, cadastral and Land Registry coordination, drone photogrammetry, infrastructure inspections. Professional-grade equipment: robotic total station, GNSS receivers, and drones.";
+
   return (
 
     <Layout>
+
+  <Helmet>
+    <title>{seoTitle}</title>
+
+    <meta
+      name="description"
+      content={seoDescription}
+    />
+
+    <link
+      rel="canonical"
+      href="https://www.topoatlantico.com/"
+    />
+
+    <meta property="og:title" content={seoTitle} />
+
+    <meta
+      property="og:description"
+      content={seoDescription}
+    />
+
+    <meta
+      property="og:image"
+      content="https://www.topoatlantico.com/images/og-home.webp"
+    />
+
+    <meta property="og:type" content="website" />
+
+    <meta
+      property="og:url"
+      content="https://www.topoatlantico.com/"
+    />
+
+    <meta
+      property="og:site_name"
+      content="TOPOATLANTICO"
+    />
+  </Helmet>
+
+
       <Navbar />
 {/* HERO SECTION */}
 <section
@@ -111,6 +163,7 @@ const articleLink =
 
 
 {/* ABOUT + BLOG */}
+
 <section
   id="about"
   className="pt-15 bg-white"
@@ -223,6 +276,18 @@ const articleLink =
   }
 />
 
+<BlogCard
+  title={t("blog.InmatriculacionFincaRegistro.title")}
+  excerpt={t("blog.InmatriculacionFincaRegistro.intro")}
+  image="/images/blog/InmatriculacionGeorreferenciacionCatastroRegistro.webp"
+  link={
+    i18n.language === "es"
+      ? "/blog/inmatriculacion-finca-registro"
+      : "/blog/property-registration-spain"
+  }
+/>
+
+
  </div>
       </div>
 
@@ -273,7 +338,8 @@ export default function App() {
         <Route path="/blog/Drone-Photogrammetry" element={<FotogrametriaDrones />} />
         <Route path="/blog/fotogrametria-drones-planificar-vuelo" element={<FotogrametriaDronesPlanificarVuelo />} />
         <Route path="/blog/drone-photogrammetry-plan-your-flight" element={<FotogrametriaDronesPlanificarVuelo />} />
-
+        <Route path="/blog/inmatriculacion-finca-registro" element={<InmatriculacionFincaRegistro />} />
+        <Route path="/blog/property-registration-spain" element={<InmatriculacionFincaRegistro />} />
 
         <Route path="/politica-privacidad" element={<PoliticaPrivacidad />} />
         <Route path="/aviso-legal" element={<AvisoLegal />} />

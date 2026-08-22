@@ -1,14 +1,24 @@
 import { useNavigate } from "react-router-dom"
-import Footer from "../../components/Footer"
 import Button from "../../components/Button"
 import { useTranslation } from "react-i18next"
-import Navbar from "../../components/Navbar"
 import ServiceTemplate from "../../components/ServiceTemplate";
+import BlogCard from "../../components/BlogCard";
+import { Helmet } from "react-helmet-async";
 
 
 export default function MonitoreoAuscultacion() {
   const navigate = useNavigate()
   const { t, i18n } = useTranslation()
+
+const isSpanish = i18n.language === "es";
+
+const seoTitle = isSpanish
+  ? "Monitoreo de Estructuras | Control de Deformaciones en Canarias | TOPOATLANTICO"
+  : "Structural Monitoring | Deformation & Displacement Monitoring in the Canary Islands | TOPOATLANTICO";
+
+const seoDescription = isSpanish
+  ? "Monitoreo y auscultación de estructuras, taludes, túneles, presas y edificaciones en Canarias. Control de deformaciones y desplazamientos mediante instrumentación de alta precisión."
+  : "Structural monitoring and surveying of slopes, tunnels, dams and buildings in the Canary Islands. High-precision monitoring of deformations and displacements.";
 
   const handleContactClick = () => {
     navigate("/#contact")
@@ -27,6 +37,51 @@ export default function MonitoreoAuscultacion() {
 
   return (
     <>
+
+<Helmet>
+  <title>{seoTitle}</title>
+
+  <meta
+    name="description"
+    content={seoDescription}
+  />
+
+  <link
+    rel="canonical"
+    href="https://www.topoatlantico.com/servicios/monitoreo-auscultacion"
+  />
+
+  <meta
+    property="og:title"
+    content={seoTitle}
+  />
+
+  <meta
+    property="og:description"
+    content={seoDescription}
+  />
+
+  <meta
+    property="og:image"
+    content="https://www.topoatlantico.com/images/servicios/MonitoreoEstructuras.webp"
+  />
+
+  <meta
+    property="og:type"
+    content="website"
+  />
+
+  <meta
+    property="og:url"
+    content="https://www.topoatlantico.com/servicios/monitoreo-auscultacion"
+  />
+
+  <meta
+    property="og:site_name"
+    content="TOPOATLANTICO"
+  />
+</Helmet>
+
 <ServiceTemplate>
       {/* CONTENIDO PRINCIPAL */}
       <section
@@ -64,6 +119,33 @@ export default function MonitoreoAuscultacion() {
             </button>
           </div>
         </div>
+
+{/* RELATED ARTICLE */}
+
+<div className="mt-12 border-t pt-10">
+  <h3 className="text-2xl font-bold text-topo-navy mb-6">
+    {i18n.language === "es"
+      ? "¿Quieres saber en qué consite el monitoreo de estructuras?"
+      : "Would you like to know how structural monitoring is carried out?"}
+  </h3>
+
+  <div className="max-w-3xl grid md:grid-cols-2 gap-6">
+
+
+<BlogCard
+  title={t("blog.monitoring.title")}
+  excerpt={t("blogCard.monitoringExcerpt")}
+  image="/images/blog/MonitoreoTunelDeformacion.webp"
+  link={
+    i18n.language === "es"
+      ? "/blog/monitoreo-estructuras"
+      : "/blog/monitoring-structures"}
+/>
+
+
+  </div>
+</div>
+
       </section>
       </ServiceTemplate>
     </>

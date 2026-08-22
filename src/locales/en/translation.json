@@ -287,7 +287,25 @@
   "ctaText": "TopoAtlantico provides professional drone photogrammetry, mapping and surveying services throughout the Canary Islands. Contact us to discuss the characteristics of your project and receive a personalised quotation."
 },
 
+"InmatriculacionFincaRegistro": {
+"title": "Registering a Property for the First Time in Spain: Georeferenced Representation and Cadastre",
+"seoDescription": "Need to register a property in Spain for the first time? Learn about the procedure, georeferenced property plans, and the importance of ensuring consistency between the Spanish Cadastre and Land Registry.",
 
+"intro": "In Spain, inmatriculation is the procedure by which a property that has not previously been registered in the Land Registry is registered for the first time. In this process, correctly identifying the physical property is essential. Spanish Land Registry legislation requires properties being registered for the first time to be accompanied by a georeferenced graphical representation that accurately identifies their location and boundaries. There must also be consistency between the property's legal description, its graphical representation and the information recorded in the Cadastre.",
+
+
+"section1": "Georeferenced Graphical Representation and Why It Matters",
+
+"section1Text": "A georeferenced graphical representation allows the description of a property to be located precisely on the ground using geographic coordinates. In first-registration procedures, Spanish Mortgage Law requires the property's georeferenced graphical representation to be incorporated into the Land Registry, allowing its location, area and boundaries to be accurately identified. In the case of first registration under Article 205, a descriptive and graphical cadastral certificate must be provided together with the deed, and the description of the property in the registration deed must correspond to the cadastral information. This verification is particularly important to prevent the property being registered from overlapping with other registered properties, neighbouring parcels or public land.",
+
+"section2": "How is the Property's Correspondence with the Cadastre Checked?",
+
+"section2Text": "Before starting the registration procedure, it is advisable to check that the property's description, area, boundaries and graphical representation are consistent with the cadastral mapping. When differences exist between the physical reality, the documentary description and the Cadastre, it may be necessary to analyse the origin of those discrepancies and determine the appropriate way to resolve them. This may involve topographic surveys, GNSS and total station measurements, cadastral mapping, orthophotography and other cartographic sources. The objective is to accurately determine the property's boundaries and verify that the proposed graphical representation corresponds to the actual portion of land that is intended to be registered.",
+
+"section3": "Documentation and Checks Before Registering a Property",
+
+"section3Text": "The documentation required will depend on the procedure used and the specific circumstances of the property. For first registration under Article 205 of the Spanish Mortgage Law, among other requirements, the relevant public deed and the descriptive and graphical cadastral certificate must be provided, with the necessary correspondence between them. Before submitting the documentation to the Land Registry, it is advisable to check the cadastral situation, the possible existence of neighbouring registered properties, the physical boundaries of the land and any potential overlap with roads, public rights of way or other public land. A professional topographic survey and a correctly prepared georeferenced graphical representation can help with these checks and identify potential discrepancies before the registration procedure begins. TOPOATLANTICO provides professional topographic surveying and georeferenced graphical documentation services for these types of procedures throughout the Canary Islands."
+},
 
 "monitoring": {
   "title": "Structural monitoring",

@@ -20,7 +20,13 @@ const settingOutLink =
     <>
       <Navbar />
 
-      <section className="pt-40 pb-20 max-w-6xl mx-auto px-6">
+      <section className="pt-40 pb-20 max-w-6xl mx-auto px-6"
+      style={{
+        backgroundImage: "url('/images/bg-pattern.jpg')",
+        backgroundColor: "rgba(255,255,255,0.85)",
+        backgroundBlendMode: "overlay",
+      }}
+    >
         <h1 className="text-4xl font-bold text-topo-navy mb-6">
           {t("blogSection.title")}
         </h1>
@@ -82,6 +88,16 @@ const settingOutLink =
   }
 />
 
+<BlogCard
+  title={t("blog.InmatriculacionFincaRegistro.title")}
+  excerpt={t("blog.InmatriculacionFincaRegistro.intro")}
+  image="/images/blog/InmatriculacionGeorreferenciacionCatastroRegistro.webp"
+  link={
+    i18n.language === "es"
+      ? "/blog/inmatriculacion-finca-registro"
+      : "/blog/property-registration-spain"
+  }
+/>
 
 </div>
       </section>

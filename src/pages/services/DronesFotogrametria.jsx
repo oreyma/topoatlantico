@@ -5,10 +5,21 @@ import { useTranslation } from "react-i18next"
 import Navbar from "../../components/Navbar"
 import ServiceTemplate from "../../components/ServiceTemplate";
 import BlogCard from "../../components/BlogCard";
+import { Helmet } from "react-helmet-async";
 
 export default function DronesFotogrametria() {
   const navigate = useNavigate()
   const { t, i18n } = useTranslation()
+
+const isSpanish = i18n.language === "es";
+
+const seoTitle = isSpanish
+  ? "Drones y Fotogrametría | segumiento de obra, Ortofotos y Modelos 3D en Canarias | TOPOATLANTICO"
+  : "Drone Photogrammetry | Orthophotos & 3D Models in the Canary Islands | TOPOATLANTICO";
+
+const seoDescription = isSpanish
+  ? "Servicios de fotogrametría con drones en Canarias. Ortofotos, nubes de puntos, modelos 3D, levantamientos y cartografía, videos seguimiento de obra, inspección de edificios y estructuras, ingeniería y proyectos técnicos."
+  : "Drone photogrammetry services in the Canary Islands. Orthophotos, point clouds, 3D models, surveying and mapping for construction, engineering and technical projects.";
 
   const handleContactClick = () => {
     navigate("/#contact")
@@ -26,6 +37,51 @@ export default function DronesFotogrametria() {
 
   return (
     <>
+
+<Helmet>
+  <title>{seoTitle}</title>
+
+  <meta
+    name="description"
+    content={seoDescription}
+  />
+
+  <link
+    rel="canonical"
+    href="https://www.topoatlantico.com/servicios/drones-fotogrametria"
+  />
+
+  <meta
+    property="og:title"
+    content={seoTitle}
+  />
+
+  <meta
+    property="og:description"
+    content={seoDescription}
+  />
+
+  <meta
+    property="og:image"
+    content="https://www.topoatlantico.com/images/servicios/Modelo3dLasCurvasNivelOrtofoto.webp"
+  />
+
+  <meta
+    property="og:type"
+    content="website"
+  />
+
+  <meta
+    property="og:url"
+    content="https://www.topoatlantico.com/servicios/drones-fotogrametria"
+  />
+
+  <meta
+    property="og:site_name"
+    content="TOPOATLANTICO"
+  />
+</Helmet>
+
 <ServiceTemplate>
       {/* CONTENIDO PRINCIPAL */}
       <section

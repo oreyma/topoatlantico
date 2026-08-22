@@ -1,13 +1,22 @@
 import { useNavigate } from "react-router-dom"
-import Footer from "../../components/Footer"
 import Button from "../../components/Button"
 import { useTranslation } from "react-i18next"
-import Navbar from "../../components/Navbar"
 import ServiceTemplate from "../../components/ServiceTemplate";
+import { Helmet } from "react-helmet-async";
 
 export default function AsistenciaTecnica() {
   const navigate = useNavigate()
   const { t, i18n } = useTranslation()
+
+  const isSpanish = i18n.language === "es";
+
+  const seoTitle = isSpanish
+    ? "Asistencia Técnica en Obra | Topografía en Canarias | TOPOATLANTICO"
+    : "Technical Site Support & Land Surveying | Canary Islands | TOPOATLANTICO";
+
+  const seoDescription = isSpanish
+    ? "Asistencia técnica en obra, control de replanteos, cubicaciones, nivelaciones y verificación geométrica de estructuras en Canarias."
+    : "Technical site support, setting-out control, earthwork quantity calculations, levelling and geometric verification services in the Canary Islands.";
 
   const handleContactClick = () => {
     navigate("/#contact")
@@ -25,6 +34,50 @@ export default function AsistenciaTecnica() {
 
   return (
     <>
+      <Helmet>
+        <title>{seoTitle}</title>
+
+        <meta
+          name="description"
+          content={seoDescription}
+        />
+
+        <link
+          rel="canonical"
+          href="https://www.topoatlantico.com/servicios/asistencia-tecnica"
+        />
+
+        <meta
+          property="og:title"
+          content={seoTitle}
+        />
+
+        <meta
+          property="og:description"
+          content={seoDescription}
+        />
+
+        <meta
+          property="og:image"
+          content="https://www.topoatlantico.com/images/servicios/AsistenciaTecnica.webp"
+        />
+
+        <meta
+          property="og:type"
+          content="website"
+        />
+
+        <meta
+          property="og:url"
+          content="https://www.topoatlantico.com/servicios/asistencia-tecnica"
+        />
+
+        <meta
+          property="og:site_name"
+          content="TOPOATLANTICO"
+        />
+      </Helmet>
+
 <ServiceTemplate>
       {/* CONTENIDO PRINCIPAL */}
       <section

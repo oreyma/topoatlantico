@@ -1,14 +1,23 @@
 import { useNavigate } from "react-router-dom"
-import Footer from "../../components/Footer"
 import Button from "../../components/Button"
 import { useTranslation } from "react-i18next"
-import Navbar from "../../components/Navbar"
 import ServiceTemplate from "../../components/ServiceTemplate";
 import BlogCard from "../../components/BlogCard";
+import { Helmet } from "react-helmet-async";
 
 export default function ReplanteoObra() {
   const navigate = useNavigate()
   const { t, i18n } = useTranslation()
+
+const isSpanish = i18n.language === "es";
+
+const seoTitle = isSpanish
+  ? "Replanteo de Obra | Topografía de obra de alta Precisión en Canarias | TOPOATLANTICO"
+  : "Construction Setting Out | High-Precision Surveying in the Canary Islands | TOPOATLANTICO";
+
+const seoDescription = isSpanish
+  ? "Servicios de replanteo de alta precisión en Canarias para edificación y obra civil. Replanteo de estructuras, movimientos de tierra, servicios enterrados y urbanización."
+  : "High-precision construction setting out services in the Canary Islands for building and civil engineering projects. Structural setting out, earthworks, utilities and urban development.";
 
    const handleContactClick = () => {
     navigate("/#contact")
@@ -31,6 +40,51 @@ const settingOutLink =
 
   return (
     <>
+
+<Helmet>
+  <title>{seoTitle}</title>
+
+  <meta
+    name="description"
+    content={seoDescription}
+  />
+
+  <link
+    rel="canonical"
+    href="https://www.topoatlantico.com/servicios/replanteo-obra"
+  />
+
+  <meta
+    property="og:title"
+    content={seoTitle}
+  />
+
+  <meta
+    property="og:description"
+    content={seoDescription}
+  />
+
+  <meta
+    property="og:image"
+    content="https://www.topoatlantico.com/images/servicios/ReplanteoDeObraTopografico.webp"
+  />
+
+  <meta
+    property="og:type"
+    content="website"
+  />
+
+  <meta
+    property="og:url"
+    content="https://www.topoatlantico.com/servicios/replanteo-obra"
+  />
+
+  <meta
+    property="og:site_name"
+    content="TOPOATLANTICO"
+  />
+</Helmet>
+
 <ServiceTemplate>
 
       {/* CONTENIDO PRINCIPAL */}
@@ -71,7 +125,7 @@ const settingOutLink =
 {/* RELATED ARTICLE */}
 
 <div className="mt-12 border-t pt-10">
-  <h3 className="grid md:grid-cols-2 gap-6 text-2xl font-bold text-topo-navy mb-6">
+  <h3 className="text-2xl font-bold text-topo-navy mb-6">
     {i18n.language === "es"
       ? "¿Quieres saber cómo se lleva a cabo un  replanteo?"
       : "Would you like to know how setting out works?"}

@@ -84,7 +84,7 @@
 "topographicSurvey": {
 "title": "¿Qué es un levantamiento topográfico?",
 
-  "intro": "El levantamiento topográfico es el proceso de medir con exactitud las dimensiones, formas y características de un terreno. Esta información resulta fundamental para planificar adecuadamente proyectos de construcción y obras civiles, ya que permite conocer a detalle las condiciones reales del emplazamiento.",
+  "intro": "El levantamiento topográfico es el proceso de medir con exactitud las dimensiones, formas y características de un terreno. Esta información resulta fundamental para planificar adecuadamente proyectos de construcción y obras civiles, ya que permite conocer al detalle las condiciones reales del emplazamiento.",
 
   "section1": "¿Qué Información proporciona un levantamiento topográfico?",
   "section1Text": "Un levantamiento topográfico recoge con precisión la forma, dimensiones y características del terreno. Los planos resultantes suelen incluir curvas de nivel, cotas, edificaciones existentes, muros, carreteras, vallados, árboles, drenajes y cualquier otro elemento visible que pueda influir en el diseño o ejecución de un proyecto.",
@@ -291,6 +291,25 @@
 },
 
 
+  "InmatriculacionFincaRegistro": {
+    "title": "Inmatriculación de una finca: Registro, Catastro y georreferenciación",
+    "seoDescription": "¿Necesitas inmatricular una finca en España? Conoce el procedimiento, la representación gráfica georreferenciada y la importancia de la correspondencia entre Catastro y Registro.",
+
+    "intro": "La inmatriculación es el procedimiento mediante el cual un terreno o una vivienda se inscribe por primera vez en el Registro de la Propiedad. Este proceso garantiza los derechos del propietario y permite una correcta identificación física del inmueble. La legislación hipotecaria contempla diferentes procedimientos para realizar una inmatriculación. Uno de los más habituales es el previsto en el artículo 205 de la Ley Hipotecaria. Para llevarse a cabo, es necesario acreditar tanto la titularidad como la identidad de la finca que se pretende registrar y debe existir concordancia entre la descripción de la finca, su representación gráfica y la información catastral.",
+
+    "section1": "La representación gráfica georreferenciada y su importancia",
+
+    "section1Text": "La legislación hipotecaria exige que, en los supuestos de inmatriculación, la finca vaya acompañada de una representación gráfica georreferenciada que permita determinar con precisión su ubicación y delimitación sobre el territorio. Además, debe existir concordancia entre la descripción de la finca, su representación gráfica y la información catastral.",
+
+    "section2": "¿Cómo se comprueba la correspondencia con el Catastro?",
+
+    "section2Text": "Antes de iniciar el procedimiento es recomendable comprobar que la descripción de la finca, su superficie, sus linderos y su representación gráfica son coherentes con la cartografía catastral. Cuando existen diferencias entre la realidad física, la descripción documental y el Catastro, puede ser necesario analizar el origen de esas discrepancias y determinar la forma adecuada de corregirlas. Para ello pueden utilizarse levantamientos topográficos, mediciones mediante GNSS y estación total, cartografía catastral, ortofotografía y otras fuentes cartográficas. El objetivo es determinar con precisión el perímetro de la finca y comprobar que la representación propuesta corresponde realmente con la porción de terreno que se pretende inmatricular.",
+
+    "section3": "Documentación y comprobaciones antes de la inmatriculación",
+
+    "section3Text": "Antes de presentar la documentación en el Registro de la Propiedad es aconsejable comprobar la situación catastral, la posible existencia de fincas registrales colindantes, la delimitación física del terreno y la posible afección a caminos, vías públicas u otros bienes de dominio público. Un levantamiento topográfico y una representación gráfica georreferenciada correctamente elaborados pueden facilitar estas comprobaciones y ayudar a detectar posibles discrepancias antes de iniciar el procedimiento registral. TOPOATLANTICO ofrece servicios de levantamiento topográfico y elaboración de documentación gráfica georreferenciada para este tipo de trabajos en las Islas Canarias."
+},
+
 "monitoring": {
   "title": "Monitoreo de estructuras",
 
@@ -318,6 +337,7 @@
   "section7Text": "La frecuencia de las mediciones depende del tipo de estructura y del nivel de riesgo asociado. Algunos proyectos requieren controles diarios o incluso sistemas automáticos de monitoreo continuo, mientras que otros únicamente necesitan campañas mensuales o trimestrales. La precisión alcanzada por los equipos topográficos actuales permite detectar desplazamientos del orden de pocos milímetros."
 }
 },
+
 "blogCard": {
   "surveyExcerpt": "Descubre qué es un levantamiento topográfico, cuándo es necesario y cómo beneficia a proyectos de ingeniería y construcción.",
   "settingOutExcerpt": "Descubre cómo el replanteo de obra garantiza la ubicación exacta de cada elemento constructivo y por qué es imprescindible para cualquier proyecto de ingeniería.",
