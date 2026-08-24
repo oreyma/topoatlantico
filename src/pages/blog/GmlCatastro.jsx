@@ -5,53 +5,67 @@ import { Link } from "react-router-dom";
 import ArticleTemplate from "../../components/ArticleTemplate";
 import BlogCard from "../../components/BlogCard";
 
-export default function InmatriculacionFincaRegistro() {
+export default function GmlCatastro() {
   const { t, i18n } = useTranslation();
 
   const isSpanish = i18n.language === "es";
 
-  const canonicalUrl = isSpanish
-  ? "https://www.topoatlantico.com/blog/inmatriculacion-finca-registro"
-  : "https://www.topoatlantico.com/blog/property-registration-spain";
+const canonicalUrl = isSpanish
+  ? "https://www.topoatlantico.com/blog/gml-catastro-canarias"
+  : "https://www.topoatlantico.com/blog/gml-cadastre-canary-islands";
 
-  const seoTitle = isSpanish
-    ? "Inmatriculación de una finca: Registro, Catastro y georreferenciación | TOPOATLANTICO"
-    : "Registering a Property in Spain: Land Registry, Cadastre & Georeferencing | TOPOATLANTICO";
+const seoTitle = isSpanish
+  ? "¿Qué es un GML del Catastro y para qué sirve? | Canarias | TOPOATLANTICO"
+  : "What Is a Cadastral GML File and What Is It Used For? | Canary Islands | TOPOATLANTICO";
+
+const seoDescription = isSpanish
+  ? "Descubre qué es un archivo GML del Catastro, cuándo es necesario y cómo se genera para representar gráficamente una finca de forma georreferenciada."
+  : "Learn what a cadastral GML file is, when it is required and how it is generated to provide a georeferenced graphical representation of a property.";
 
 
   return (
     <>
-      <Helmet>
-        <title>{seoTitle}</title>
+     <Helmet>
+  <title>{seoTitle}</title>
 
-        <meta
-          name="description"
-          content={t("blog.InmatriculacionFincaRegistro.seoDescription")}
-        />
+  <meta
+    name="description"
+    content={seoDescription}
+  />
 
-        <meta
-          name="keywords"
-          content={
-            isSpanish
-              ? "inmatriculación de finca, inmatricular una finca, inmatriculación Registro de la Propiedad, inmatriculación de terrenos, representación gráfica georreferenciada, Catastro y Registro de la Propiedad, coordinación Catastro Registro, levantamiento topográfico para inmatriculación, finca georreferenciada, plano georreferenciado de finca, GML de finca, coordenadas georreferenciadas, inmatriculación finca rústica, inmatricular terreno rústico, representación gráfica alternativa, inmatriculación de fincas Canarias, levantamiento topográfico para inmatriculación Canarias, georreferenciación de fincas Canarias, inmatriculación finca rústica Canarias"
-              : "property registration Spain, register property for the first time Spain, Spanish Land Registry, Spanish Cadastre, Cadastre and Land Registry Spain, georeferenced property plan Spain, georeferenced property boundaries Spain, property boundary survey Spain, land survey Spain, property survey Spain, cadastral survey Spain, georeferenced property survey, property registration requirements Spain, land survey for property registration Spain, georeferenced land survey Spain, property boundary survey Spain, land surveyor Spain, topographic survey Spain"
-          }
-        />
+  <meta
+    name="keywords"
+    content={
+      isSpanish
+        ? "GML Catastro, archivo GML, GML de finca, GML Catastro Canarias, georreferenciación de fincas, representación gráfica georreferenciada, Catastro, Registro de la Propiedad, finca georreferenciada, coordenadas de finca"
+        : "cadastral GML, GML file, property GML, cadastral GML Canary Islands, property georeferencing, georeferenced property plan, Cadastre, Land Registry, georeferenced property, property coordinates"
+    }
+  />
 
-        <link rel="canonical" href={canonicalUrl} />
+  <link
+    rel="canonical"
+    href={canonicalUrl}
+  />
 
-        <meta property="og:title" content={seoTitle} />
+  <meta
+    property="og:title"
+    content={seoTitle}
+  />
 
-<meta
-  property="og:description"
-  content={t("blog.InmatriculacionFincaRegistro.seoDescription")}
-/>
-        <meta
-          property="og:image"
-          content="https://www.topoatlantico.com/images/blog/InmatriculacionParcelaRegistro.webp"
-        />
+  <meta
+    property="og:description"
+    content={seoDescription}
+  />
 
-        <meta property="og:type" content="article" />
+  <meta
+    property="og:image"
+    content="https://www.topoatlantico.com/images/blog/GmlCatastro.webp"
+  />
+
+  <meta
+    property="og:type"
+    content="article"
+  />
 
   <meta
     property="og:url"
@@ -63,7 +77,7 @@ export default function InmatriculacionFincaRegistro() {
     content="TOPOATLANTICO"
   />
 
-  <meta
+ <meta
     property="og:locale"
     content={isSpanish ? "es_ES" : "en_GB"}
   />
@@ -75,22 +89,27 @@ export default function InmatriculacionFincaRegistro() {
 
   <meta
     property="article:section"
-    content="Inmatriculaciones: Registro, Catastro y georreferenciación"
+    content={
+      isSpanish
+        ? "Catastro y georreferenciación"
+        : "Cadastre and georeferencing"
+    }
   />
-      </Helmet>
+
+</Helmet>
 
       <ArticleTemplate
-        title={t("blog.InmatriculacionFincaRegistro.title")}
-        image="/images/blog/InmatriculacionGeorreferenciacionCatastroRegistro.webp"
-        video="/videos/InmatriculacionFincaRegistro.mp4"
+        title={t("blog.GmlCatastro.title")}
+        image="/images/blog/GmlCatastro.webp"
+        video="/videos/GmlCatastro.mp4"
       >
 
         {/* Publication date */}
 
         <p className="text-sm text-gray-500 mb-6">
           {isSpanish
-            ? "Publicado: Agosto 2026"
-            : "Published: August 2026"}
+            ? "Publicado: Septiembre 2026"
+            : "Published: September 2026"}
         </p>
 
         {/* INTRO */}
@@ -98,7 +117,7 @@ export default function InmatriculacionFincaRegistro() {
         <div className="bg-topo-gray/10 border-l-4 border-topo-ocean p-6 rounded-lg mb-10">
 
           <p className="text-lg leading-8">
-            {t("blog.InmatriculacionFincaRegistro.intro")}
+            {t("blog.GmlCatastro.intro")}
           </p>
 
         </div>
@@ -119,19 +138,19 @@ export default function InmatriculacionFincaRegistro() {
 
              <li>
               <a href="#s1" className="hover:underline">
-                {t("blog.InmatriculacionFincaRegistro.section1")}
+                {t("blog.GmlCatastro.section1")}
               </a>
             </li> 
 
             <li>
               <a href="#s2" className="hover:underline">
-                {t("blog.InmatriculacionFincaRegistro.section2")}
+                {t("blog.GmlCatastro.section2")}
               </a>
             </li>
 
             <li>
               <a href="#s3" className="hover:underline">
-                {t("blog.InmatriculacionFincaRegistro.section3")}
+                {t("blog.GmlCatastro.section3")}
               </a>
             </li>
 
@@ -147,11 +166,11 @@ export default function InmatriculacionFincaRegistro() {
         >
 
           <h2 className="text-2xl font-bold text-topo-navy mb-4">
-            {t("blog.InmatriculacionFincaRegistro.section1")}
+            {t("blog.GmlCatastro.section1")}
           </h2>
 
           <p className="leading-8">
-            {t("blog.InmatriculacionFincaRegistro.section1Text")}
+            {t("blog.GmlCatastro.section1Text")}
           </p>
 
         </div>
@@ -159,9 +178,9 @@ export default function InmatriculacionFincaRegistro() {
         <figure className="mb-10">
 
           <img
-            src="/images/blog/PlanoDeslindeGeorreferenciacionCatastroRegistro.webp"
-            alt="Inmatriculacion de finca en el registor"
-            className="w-full h-64 md:h-96 object-cover rounded-xl shadow-md"
+            src="/images/blog/InformeGraficoGeorreferenciacionGML.webp"
+            alt="gml para catastro y registro de la propiedad, formato digital con representación gráfica georreferenciada de una finca."
+            className="w-full h-64 md:h-96 object-contain rounded-xl shadow-md"
           />
 
         </figure>
@@ -174,11 +193,11 @@ export default function InmatriculacionFincaRegistro() {
         >
 
           <h2 className="text-2xl font-bold text-topo-navy mb-4">
-            {t("blog.InmatriculacionFincaRegistro.section2")}
+            {t("blog.GmlCatastro.section2")}
           </h2>
 
           <p className="leading-8">
-            {t("blog.InmatriculacionFincaRegistro.section2Text")}
+            {t("blog.GmlCatastro.section2Text")}
           </p>
 
         </div>
@@ -186,9 +205,9 @@ export default function InmatriculacionFincaRegistro() {
         <figure className="mb-10">
 
           <img
-            src="/images/blog/InformeGraficoGeorreferenciacion.webp"
-            alt="Informe grafico georreferenciado para inmatriculacion en registro de la propiedad y coordinacion con catastro"
-            className="w-full h-64 md:h-96 object-cover rounded-xl shadow-md"
+            src="/images/blog/GenerarGmlCatastroRegistro.webp"
+            alt="El GML se genera a partir de las coordenadas de los vertices que definen la finca en el sistema de referencia correspondiente. Para ello, puede ser necesario realizar un levantamiento topográfico"
+            className="w-full h-64 md:h-96 object-contain rounded-xl shadow-md"
           />
 
         </figure>
@@ -201,11 +220,11 @@ export default function InmatriculacionFincaRegistro() {
         >
 
           <h2 className="text-2xl font-bold text-topo-navy mb-4">
-            {t("blog.InmatriculacionFincaRegistro.section3")}
+            {t("blog.GmlCatastro.section3")}
           </h2>
 
           <p className="leading-8">
-            {t("blog.InmatriculacionFincaRegistro.section3Text")}
+            {t("blog.GmlCatastro.section3Text")}
           </p>
 
         </div>
@@ -213,9 +232,9 @@ export default function InmatriculacionFincaRegistro() {
         <figure className="mb-10">
 
           <img
-            src="/images/blog/RepresentacionGraficaCatastro.webp"
-            alt="comprobar que la finca, su superficie, sus linderos y su representación gráfica son coherentes con la cartografía catastral"
-            className="w-full h-64 md:h-96 object-cover rounded-xl shadow-md"
+            src="/images/blog/GMLCatastroIVG.webp"
+            alt="El gml debe compararse con la cartografía catastral y puede ser necesario justificar las diferencias existentes mediante documentación técnica, IVG"
+            className="w-full h-64 md:h-96 object-contain rounded-xl shadow-md"
           />
 
         </figure>
@@ -227,9 +246,8 @@ export default function InmatriculacionFincaRegistro() {
           <h3 className="text-2xl font-bold mb-3 text-slate-800">
 
             {isSpanish
-              ? "¿Necesita un informe gráfico de georreferenciacion en Canarias?"
-              : "Need a Georeferenced Graphical Representation in the Canaries?"}
-
+                  ? "¿Necesita generar un archivo GML para Catastro o Registro en Canarias?"
+    : "Need a GML file for the Cadastre or Land Registry in the Canary Islands?"}
           </h3>
 
           <p className="mb-6 text-slate-700">
@@ -273,16 +291,7 @@ export default function InmatriculacionFincaRegistro() {
           </h3>
 
           <div className="grid md:grid-cols-4 gap-6">
-<BlogCard
-  title={t("blog.DiferenciaCatastroRegistro.title")}
-  excerpt={t("blog.DiferenciaCatastroRegistro.intro")}
-  image="/images/blog/DiferenciaCatastroRegistro.webp"
-  link={
-    i18n.language === "es"
-      ? "/blog/diferencia-catastro-registro"
-      : "/blog/difference-cadastre-registry"
-  }
-/>
+
 
 <BlogCard
   title={t("blog.CertificadoGeorreferenciacionCanarias.title")}
@@ -296,13 +305,24 @@ export default function InmatriculacionFincaRegistro() {
 />
 
 <BlogCard
-  title={t("blog.GmlCatastro.title")}
-  excerpt={t("blog.GmlCatastro.intro")}
-  image="/images/blog/GmlCatastro.webp"
+  title={t("blog.DiferenciaCatastroRegistro.title")}
+  excerpt={t("blog.DiferenciaCatastroRegistro.intro")}
+  image="/images/blog/DiferenciaCatastroRegistro.webp"
   link={
     i18n.language === "es"
-      ? "/blog/gml-catastro-canarias"
-      : "/blog/gml-cadastre-canary-islands"
+      ? "/blog/diferencia-catastro-registro"
+      : "/blog/difference-cadastre-registry"
+  }
+/>
+
+<BlogCard
+  title={t("blog.InmatriculacionFincaRegistro.title")}
+  excerpt={t("blog.InmatriculacionFincaRegistro.intro")}
+  image="/images/blog/InmatriculacionGeorreferenciacionCatastroRegistro.webp"
+  link={
+    i18n.language === "es"
+      ? "/blog/inmatriculacion-finca-registro"
+      : "/blog/property-registration-spain"
   }
 />
 

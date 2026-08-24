@@ -11,8 +11,8 @@ export default function FotogrametriaDrones() {
   const isSpanish = i18n.language === "es";
 
   const canonicalUrl = isSpanish
-  ? "https://topoatlantico.com/blog/Fotogrametria-drones"
-  : "https://topoatlantico.com/blog/Drone-Photogrammetry";
+  ? "https://www.topoatlantico.com/blog/Fotogrametria-drones"
+  : "https://www.topoatlantico.com/blog/Drone-Photogrammetry";
 
   const seoTitle = isSpanish
     ? "Fotogrametría con Drones en Canarias | TOPOATLANTICO"
@@ -23,10 +23,10 @@ export default function FotogrametriaDrones() {
       <Helmet>
         <title>{seoTitle}</title>
 
-        <meta
-          name="description"
-          content={t("blog.FotogrametriaDrones.intro")}
-        />
+<meta
+  name="description"
+  content={t("blog.FotogrametriaDrones.seoDescription")}
+/>
 
         <meta
           name="keywords"
@@ -41,17 +41,47 @@ export default function FotogrametriaDrones() {
 
         <meta property="og:title" content={seoTitle} />
 
-        <meta
-          property="og:description"
-          content={t("blog.FotogrametriaDrones.intro")}
-        />
+<meta
+  property="og:description"
+  content={t("blog.FotogrametriaDrones.seoDescription")}
+/>
 
         <meta
           property="og:image"
-          content="https://topoatlantico.com/images/blog/FotogrametriaDrones.webp"
+          content="https://www.topoatlantico.com/images/blog/FotogrametriaDrones.webp"
         />
 
         <meta property="og:type" content="article" />
+
+  <meta
+    property="og:url"
+    content={canonicalUrl}
+  />
+
+  <meta
+    property="og:site_name"
+    content="TOPOATLANTICO"
+  />
+
+  <meta
+    property="og:locale"
+    content={isSpanish ? "es_ES" : "en_GB"}
+  />
+
+  <meta
+    property="og:locale:alternate"
+    content={isSpanish ? "en_GB" : "es_ES"}
+  />
+
+<meta
+  property="article:section"
+  content={
+    isSpanish
+      ? "Fotogrametría con drones"
+      : "Drone photogrammetry"
+  }
+/>
+
       </Helmet>
 
       <ArticleTemplate
@@ -427,7 +457,19 @@ export default function FotogrametriaDrones() {
 
           </h3>
 
-          <div className="grid md:grid-cols-2 gap-6">
+          <div className="grid md:grid-cols-3 gap-6">
+
+
+<BlogCard
+  title={t("blog.FotogrametriaDronesPlanificarVuelo.title")}
+  excerpt={t("blog.FotogrametriaDronesPlanificarVuelo.intro")}
+  image="/images/blog/FotogrametriaDronPlanVuelo.webp"
+  link={
+    i18n.language === "es"
+      ? "/blog/Fotogrametria-drones-Planificar-vuelo"
+      : "/blog/Drone-Photogrammetry-Plan-your-flight"
+  }
+/>
 
             <BlogCard
               compact
@@ -441,16 +483,17 @@ export default function FotogrametriaDrones() {
               }
             />
 
-<BlogCard
-  title={t("blog.FotogrametriaDronesPlanificarVuelo.title")}
-  excerpt={t("blog.FotogrametriaDronesPlanificarVuelo.intro")}
-  image="/images/blog/FotogrametriaDronPlanVuelo.webp"
-  link={
-    i18n.language === "es"
-      ? "/blog/Fotogrametria-drones-Planificar-vuelo"
-      : "/blog/Drone-Photogrammetry-Plan-your-flight"
-  }
-/>
+    <BlogCard
+      compact
+      title={t("blog.settingOut.title")}
+      excerpt={t("blogCard.settingOutExcerpt")}
+      image="/images/blog/Replanteo_Edificacion.webp"
+      link={
+        isSpanish
+          ? "/blog/replanteo-de-obra"
+          : "/blog/construction-setting-out"
+      }
+    />
 
           </div>
 

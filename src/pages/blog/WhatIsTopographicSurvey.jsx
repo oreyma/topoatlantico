@@ -11,8 +11,8 @@ export default function WhatIsTopographicSurvey() {
   const isSpanish = i18n.language === "es";
 
   const canonicalUrl = isSpanish
-    ? "https://topoatlantico.com/blog/que-es-un-levantamiento-topografico"
-    : "https://topoatlantico.com/blog/what-is-a-topographic-survey";
+    ? "https://www.topoatlantico.com/blog/que-es-un-levantamiento-topografico"
+    : "https://www.topoatlantico.com/blog/what-is-a-topographic-survey";
 
   const seoTitle = isSpanish
     ? "¿Qué es un Levantamiento Topográfico en Canarias? | TOPOATLANTICO"
@@ -25,7 +25,7 @@ export default function WhatIsTopographicSurvey() {
 
         <meta
           name="description"
-          content={t("blog.topographicSurvey.intro")}
+          content={t("blog.topographicSurvey.seoDescription")}
         />
 
         <meta
@@ -43,15 +43,41 @@ export default function WhatIsTopographicSurvey() {
 
         <meta
           property="og:description"
-          content={t("blog.topographicSurvey.intro")}
+          content={t("blog.topographicSurvey.seoDescription")}
         />
 
         <meta
           property="og:image"
-          content="https://topoatlantico.com/images/blog/Levantamiento_Topográfico_Carretera.webp"
+          content="https://www.topoatlantico.com/images/blog/Levantamiento_Topográfico_Carretera.webp"
         />
 
         <meta property="og:type" content="article" />
+
+  <meta
+    property="og:url"
+    content={canonicalUrl}
+  />
+
+  <meta
+    property="og:site_name"
+    content="TOPOATLANTICO"
+  />
+
+  <meta
+    property="og:locale"
+    content={isSpanish ? "es_ES" : "en_GB"}
+  />
+
+  <meta
+    property="og:locale:alternate"
+    content={isSpanish ? "en_GB" : "es_ES"}
+  />
+
+<meta
+  property="article:section"
+  content={isSpanish ? "Levantamiento topográfico" : "Topographic surveying"}
+/>
+
       </Helmet>
 
       <ArticleTemplate
@@ -250,7 +276,7 @@ export default function WhatIsTopographicSurvey() {
       : "Related Articles"}
   </h3>
 
-      <div className="grid md:grid-cols-2 gap-6">
+      <div className="grid md:grid-cols-3 gap-6">
 
     <BlogCard
       compact
@@ -272,6 +298,17 @@ export default function WhatIsTopographicSurvey() {
     i18n.language === "es"
       ? "/blog/Fotogrametria-drones"
       : "/blog/Drone-Photogrammetry"
+  }
+/>
+
+<BlogCard
+  title={t("blog.FotogrametriaDronesPlanificarVuelo.title")}
+  excerpt={t("blog.FotogrametriaDronesPlanificarVuelo.intro")}
+  image="/images/blog/FotogrametriaDronPlanVuelo.webp"
+  link={
+    i18n.language === "es"
+      ? "/blog/Fotogrametria-drones-Planificar-vuelo"
+      : "/blog/Drone-Photogrammetry-Plan-your-flight"
   }
 />
 

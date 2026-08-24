@@ -11,8 +11,8 @@ export default function MonitoreoEstructuras() {
   const isSpanish = i18n.language === "es";
 
   const canonicalUrl = isSpanish
-  ? "https://topoatlantico.com/blog/monitoreo-estructuras"
-  : "https://topoatlantico.com/blog/monitoring-structures";
+  ? "https://www.topoatlantico.com/blog/monitoreo-estructuras"
+  : "https://www.topoatlantico.com/blog/monitoring-structures";
 
   const seoTitle = isSpanish
     ? "Monitoreo y Auscultación de Estructuras en Canarias | TOPOATLANTICO"
@@ -23,10 +23,10 @@ export default function MonitoreoEstructuras() {
       <Helmet>
         <title>{seoTitle}</title>
 
-        <meta
-          name="description"
-          content={t("blog.monitoring.intro")}
-        />
+<meta
+  name="description"
+  content={t("blog.monitoring.seoDescription")}
+/>
 
         <meta
           name="keywords"
@@ -41,17 +41,47 @@ export default function MonitoreoEstructuras() {
 
         <meta property="og:title" content={seoTitle} />
 
-        <meta
-          property="og:description"
-          content={t("blog.monitoring.intro")}
-        />
+<meta
+  property="og:description"
+  content={t("blog.monitoring.seoDescription")}
+/>
 
         <meta
           property="og:image"
-          content="https://topoatlantico.com/images/blog/MonitoreoTunelDeformacion.webp"
+         content="https://www.topoatlantico.com/images/blog/MonitoreoTunelDeformacion.webp"
         />
 
         <meta property="og:type" content="article" />
+
+  <meta
+    property="og:url"
+    content={canonicalUrl}
+  />
+
+  <meta
+    property="og:site_name"
+    content="TOPOATLANTICO"
+  />
+
+  <meta
+    property="og:locale"
+    content={isSpanish ? "es_ES" : "en_GB"}
+  />
+
+  <meta
+    property="og:locale:alternate"
+    content={isSpanish ? "en_GB" : "es_ES"}
+  />
+
+      <meta
+        property="article:section"
+        content={
+          isSpanish
+            ? "Monitoreo y auscultación de estructuras"
+            : "Structural monitoring"
+        }
+      />
+
       </Helmet>
 
       <ArticleTemplate
@@ -109,11 +139,11 @@ export default function MonitoreoEstructuras() {
               </a>
             </li>
 
-            <li>
+          {/*   <li>
               <a href="#s4" className="hover:underline">
                 {t("blog.monitoring.section4")}
               </a>
-            </li>
+            </li> */}
 
          {/*   <li>
               <a href="#s5" className="hover:underline">
@@ -217,7 +247,7 @@ export default function MonitoreoEstructuras() {
           />
 
         </figure>
-        {/* SECTION 4 */}
+        {/* SECTION 4 
 
         <div
           id="s4"
@@ -242,7 +272,7 @@ export default function MonitoreoEstructuras() {
             className="w-full h-64 md:h-96 object-cover rounded-xl shadow-md"
           />
 
-        </figure>
+        </figure> */}
 
         {/* SECTION 5 */}
 
@@ -367,7 +397,7 @@ export default function MonitoreoEstructuras() {
 
           </h3>
 
-          <div className="grid md:grid-cols-2 gap-6">
+          <div className="grid md:grid-cols-3 gap-6">
 
             <BlogCard
               compact
@@ -392,6 +422,17 @@ export default function MonitoreoEstructuras() {
                   : "/blog/construction-setting-out"
               }
             />
+
+<BlogCard
+  title={t("blog.FotogrametriaDrones.title")}
+  excerpt={t("blogCard.FotogrametriaDronesExcerpt")}
+  image="/images/blog/FotogrametriaDrones.webp"
+  link={
+    i18n.language === "es"
+      ? "/blog/Fotogrametria-drones"
+      : "/blog/Drone-Photogrammetry"
+  }
+/>
 
           </div>
 

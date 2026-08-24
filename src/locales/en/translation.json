@@ -81,6 +81,7 @@
 "blog": {
 "topographicSurvey": {
 "title": "What is a topographic survey?",
+"seoDescription": "Learn what a topographic survey is, what information it provides and when it is required for construction, engineering and land management projects in the Canary Islands.",
 
 "intro": "A topographic survey is the process of accurately measuring and mapping the natural and man-made features of a piece of land. It provides essential information about elevations, boundaries, structures, vegetation, roads, utilities and terrain characteristics. Topographic surveys are widely used in engineering, construction, architecture, land development and infrastructure projects.",
 
@@ -111,6 +112,7 @@
 },
 "settingOut": {
   "title": "What is construction setting out?",
+"seoDescription": "Learn what construction setting out is, when it is required and how it ensures the accurate positioning of structures, installations and earthworks in the Canary Islands.",
 
   "intro": "Construction setting out is the process of transferring the dimensions and coordinates from engineering drawings onto the ground before and during construction. It ensures that every element of a project is built in the correct position, elevation and alignment. Accurate setting out is essential for buildings, roads, bridges, utilities and civil engineering projects throughout the Canary Islands.",
 
@@ -141,6 +143,7 @@
 
 "FotogrametriaDrones": {
   "title": "Drone photogrammetry in the Canary Islands",
+"seoDescription": "Learn how drone photogrammetry is used to create orthophotos, point clouds and 3D terrain models for surveying, engineering and construction projects in the Canary Islands.",
 
   "intro": "Drone photogrammetry has revolutionised the way topographic and cartographic surveys are carried out. By combining unmanned aerial vehicles (UAVs), high-resolution cameras and specialised processing software, it is now possible to obtain highly accurate geospatial information in a fraction of the time required by traditional surveying methods. At TOPOATLANTICO, we use this technology to produce orthophotos, digital terrain models, dense point clouds and 3D models for engineering, construction, urban planning and environmental projects throughout the Canary Islands.",
 
@@ -207,6 +210,7 @@
 
 "FotogrametriaDronesPlanificarVuelo": {
   "title": "Drone Photogrammetry: How to Plan a Flight",
+"seoDescription": "Learn how to plan a drone photogrammetry flight, choose the flight altitude, configure image overlap and capture suitable images for orthophotos and 3D models.",
 
   "intro": "Flight planning is one of the most important stages when aiming to achieve the desired results from drone photogrammetry. Before carrying out the flight, it is necessary to analyse the characteristics of the drone, the dimensions of the survey area, the required resolution and any possible environmental or operational constraints. Proper planning makes it possible to obtain images with the resolution and geometry required to generate accurate and high-quality orthophotos, point clouds and 3D models.",
 
@@ -288,27 +292,88 @@
 },
 
 "InmatriculacionFincaRegistro": {
-"title": "Registering a Property for the First Time in Spain: Georeferenced Representation and Cadastre",
+"title": "Registering a property for the first time in Spain: Georeferenced representation and Cadastre",
 "seoDescription": "Need to register a property in Spain for the first time? Learn about the procedure, georeferenced property plans, and the importance of ensuring consistency between the Spanish Cadastre and Land Registry.",
 
 "intro": "In Spain, inmatriculation is the procedure by which a property that has not previously been registered in the Land Registry is registered for the first time. In this process, correctly identifying the physical property is essential. Spanish Land Registry legislation requires properties being registered for the first time to be accompanied by a georeferenced graphical representation that accurately identifies their location and boundaries. There must also be consistency between the property's legal description, its graphical representation and the information recorded in the Cadastre.",
 
 
-"section1": "Georeferenced Graphical Representation and Why It Matters",
+"section1": "Georeferenced graphical representation and why it matters",
 
 "section1Text": "A georeferenced graphical representation allows the description of a property to be located precisely on the ground using geographic coordinates. In first-registration procedures, Spanish Mortgage Law requires the property's georeferenced graphical representation to be incorporated into the Land Registry, allowing its location, area and boundaries to be accurately identified. In the case of first registration under Article 205, a descriptive and graphical cadastral certificate must be provided together with the deed, and the description of the property in the registration deed must correspond to the cadastral information. This verification is particularly important to prevent the property being registered from overlapping with other registered properties, neighbouring parcels or public land.",
 
-"section2": "How is the Property's Correspondence with the Cadastre Checked?",
+"section2": "How is the property's correspondence with the cadastre checked?",
 
 "section2Text": "Before starting the registration procedure, it is advisable to check that the property's description, area, boundaries and graphical representation are consistent with the cadastral mapping. When differences exist between the physical reality, the documentary description and the Cadastre, it may be necessary to analyse the origin of those discrepancies and determine the appropriate way to resolve them. This may involve topographic surveys, GNSS and total station measurements, cadastral mapping, orthophotography and other cartographic sources. The objective is to accurately determine the property's boundaries and verify that the proposed graphical representation corresponds to the actual portion of land that is intended to be registered.",
 
-"section3": "Documentation and Checks Before Registering a Property",
+"section3": "Documentation and checks before registering a property",
 
 "section3Text": "The documentation required will depend on the procedure used and the specific circumstances of the property. For first registration under Article 205 of the Spanish Mortgage Law, among other requirements, the relevant public deed and the descriptive and graphical cadastral certificate must be provided, with the necessary correspondence between them. Before submitting the documentation to the Land Registry, it is advisable to check the cadastral situation, the possible existence of neighbouring registered properties, the physical boundaries of the land and any potential overlap with roads, public rights of way or other public land. A professional topographic survey and a correctly prepared georeferenced graphical representation can help with these checks and identify potential discrepancies before the registration procedure begins. TOPOATLANTICO provides professional topographic surveying and georeferenced graphical documentation services for these types of procedures throughout the Canary Islands."
 },
 
+"CertificadoGeorreferenciacionCanarias": {
+  "title": "What is a georeferencing certificate and when is it required?",
+   "seoDescription": "What is a georeferencing certificate and when is it required? Learn what it contains and how it relates to the Spanish Cadastre and Land Registry in the Canary Islands.",
+
+  "intro": "A georeferencing certificate is a technical document that identifies the location, area and boundaries of a property using precise geographic coordinates. Its purpose is to define the parcel graphically and facilitate its identification and correspondence with cadastral and Land Registry information. Depending on the procedure, it may include plans, coordinates of the parcel vertices and supporting graphical documentation required to establish its boundaries.",
+
+  "section1": "When is a georeferencing certificate required?",
+  "section1Text": "Georeferencing may be required for various procedures related to property ownership and the Cadastre. These include certain first registrations of properties in the Land Registry, subdivisions, amalgamations and divisions of parcels, modifications to property areas or boundaries, boundary surveys and other procedures where the precise location and geometry of a parcel need to be established. It may also be required to verify the correspondence between the physical reality of a property and its cadastral or Land Registry information.",
+
+  "section2": "What information does it contain?",
+  "section2Text": "The content depends on the procedure for which the certificate is required, but a georeferencing certificate may include the identification of the property, area, reference coordinate system, coordinates of the parcel vertices, a georeferenced plan and supplementary graphical documentation. When it is necessary to justify a modification in relation to cadastral mapping, it may also include an alternative graphical representation and the documentation required for its validation.",
+
+  "section3": "How is a georeferencing certificate obtained?",
+  "section3Text": "Preparing a georeferencing certificate requires an analysis of the available documentation and a determination of the actual geometry of the property. When the existing information is insufficient, a topographic survey may be carried out using GNSS equipment and a total station. The resulting data is then processed to produce the georeferenced graphical representation, the coordinates of the parcel vertices and the technical documentation required for the relevant procedure. In the Canary Islands, the complex terrain and characteristics of some properties make it particularly important to have precise and correctly georeferenced boundaries."
+},
+
+"GmlCatastro": {
+  "title": "What is a cadastral GML file and what is it used for?",
+
+  "seoDescription": "Learn what a cadastral GML file is, when it is required and how it is generated to provide a georeferenced graphical representation of a property.",
+
+  "intro": "A GML file is a digital format used to represent the geometry of a parcel or property in a georeferenced form. In Spain, GML files are particularly important in certain procedures involving the Spanish Cadastre and Land Registry, as they allow the location, shape and area of a property to be defined using geographic coordinates.",
+
+  "section1": "When is a GML file required?",
+
+  "section1Text": "Whether a GML file is required depends on the procedure being carried out and the characteristics of the property. It may be required for certain first registrations of properties in the Land Registry, subdivisions, amalgamations or divisions of parcels, modifications to property areas or boundaries, and other procedures where a georeferenced graphical representation is required. It can also be used to check the correspondence between the geometry of a property and the cadastral mapping.",
+
+  "section2": "How is a GML file generated?",
+
+  "section2Text": "To generate a GML file correctly, it is necessary to have the property's geometry defined by coordinates and using the appropriate reference system. When the available information is not sufficient to determine the property boundaries accurately, a topographic survey using GNSS equipment and a total station may be required. The geometry is then processed and the GML file is generated according to the applicable technical specifications. Before using it in a legal or cadastral procedure, it is advisable to check that the geometry and file data are correct.",
+
+  "section3": "GML, the Cadastre and the Land Registry",
+
+  "section3Text": "A GML file provides a digital representation of the georeferenced geometry of a property, but it does not by itself replace the legal or technical documentation required for each procedure. In certain cases, the georeferenced graphical representation must be compared with the cadastral mapping, and differences may need to be explained or supported with technical documentation. Therefore, when discrepancies exist between the physical reality of a property, the Cadastre and the Land Registry, it is advisable to analyse the property's situation before generating or submitting the documentation."
+},
+
+"DiferenciaCatastroRegistro": {
+  "title": "What Is the Difference Between the Cadastre and the Land Registry?",
+
+  "seoDescription": "Learn the differences between the Spanish Cadastre and Land Registry, what information each contains and why discrepancies may exist between them.",
+
+  "intro": "The Spanish Cadastre and the Land Registry are two different institutions that contain information related to real estate. Although their data may be related and should be consistent in certain procedures, their functions and the information they manage are not the same. Understanding these differences is important when buying, selling or regularising a property.",
+
+  "section1": "What Is the Cadastre and What Information Does It Contain?",
+
+  "section1Text": "The Cadastre is an administrative register containing information about properties, such as their location, area, cadastral reference number, use and graphical representation. Its mapping allows parcels to be identified graphically and their physical and economic characteristics to be consulted. Cadastral information is used, among other purposes, for the management of certain taxes and administrative procedures.",
+
+"catastroLinkText": "View the Spanish Cadastre map",
+
+  "section2": "What Is the Land Registry?",
+
+  "section2Text": "The Land Registry is a public register that provides information about the legal status of properties. It records, among other things, ownership rights, mortgages, easements and other charges or rights affecting a property. Registry information is mainly based on the legal documentation submitted for registration.",
+
+"registroLinkText": "View the Land Registry Geoportal",
+
+  "section3": "Why Can Differences Exist Between the Cadastre and Land Registry?",
+
+  "section3Text": "Differences may be caused by physical changes to a property that have not been reflected in both institutions, historical errors, differences in area or boundaries, or information originating from documents and maps produced at different times. When discrepancies are detected, it is advisable to analyse the property situation and check the correspondence between the physical reality, the Cadastre and the Land Registry before starting a regularisation procedure."
+},
+
 "monitoring": {
   "title": "Structural monitoring",
+"seoDescription": "Learn what structural monitoring is, when it is required and how deformation and displacement are monitored in buildings, slopes, tunnels and other structures in the Canary Islands.",
 
   "intro": "Structural monitoring is the process of periodically measuring buildings, bridges, retaining walls, dams, excavations and civil engineering structures to detect movements, settlements or deformations before they become critical. Using high-precision surveying techniques, engineers can verify structural stability, improve safety and make informed decisions throughout the entire life cycle of a project.",
 

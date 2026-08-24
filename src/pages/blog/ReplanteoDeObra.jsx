@@ -11,8 +11,8 @@ export default function ReplanteoDeObra() {
   const isSpanish = i18n.language === "es";
 
   const canonicalUrl = isSpanish
-    ? "https://topoatlantico.com/blog/replanteo-de-obra-canarias"
-    : "https://topoatlantico.com/blog/construction-setting-out-canary-islands";
+    ? "https://www.topoatlantico.com/blog/replanteo-de-obra-canarias"
+    : "https://www.topoatlantico.com/blog/construction-setting-out-canary-islands";
 
   const seoTitle = isSpanish
     ? "Replanteo de Obra en Canarias | Guía Completa | TOPOATLANTICO"
@@ -25,7 +25,7 @@ export default function ReplanteoDeObra() {
 
         <meta
           name="description"
-          content={t("blog.settingOut.intro")}
+          content={t("blog.settingOut.seoDescription")}
         />
 
         <meta
@@ -41,17 +41,43 @@ export default function ReplanteoDeObra() {
 
         <meta property="og:title" content={seoTitle} />
 
-        <meta
-          property="og:description"
-          content={t("blog.settingOut.intro")}
-        />
+<meta
+  property="og:description"
+  content={t("blog.settingOut.seoDescription")}
+/>
 
         <meta
           property="og:image"
-          content="https://topoatlantico.com/images/blog/Replanteo_Edificacion.webp"
+          content="https://www.topoatlantico.com/images/blog/Replanteo_Edificacion.webp"
         />
 
         <meta property="og:type" content="article" />
+
+  <meta
+    property="og:url"
+    content={canonicalUrl}
+  />
+
+  <meta
+    property="og:site_name"
+    content="TOPOATLANTICO"
+  />
+
+  <meta
+    property="og:locale"
+    content={isSpanish ? "es_ES" : "en_GB"}
+  />
+
+  <meta
+    property="og:locale:alternate"
+    content={isSpanish ? "en_GB" : "es_ES"}
+  />
+
+<meta
+  property="article:section"
+  content={isSpanish ? "Replanteo de obra" : "Construction setting out"}
+/>
+
       </Helmet>
 
       <ArticleTemplate
@@ -108,11 +134,11 @@ export default function ReplanteoDeObra() {
               </a>
             </li>
 
-            <li>
+          {/*  <li>
               <a href="#s5" className="hover:underline">
                 {t("blog.settingOut.section5")}
               </a>
-            </li>
+            </li> */}
 
             <li>
               <a href="#s6" className="hover:underline">
@@ -231,7 +257,7 @@ export default function ReplanteoDeObra() {
         <figure className="mb-10">
 
           <img
-            src="/images/blog/ReplanteoPrecision.webp"
+            src="/images/blog/ReplanteoObraPrecision.webp"
             alt="Precision en replanteo, evitar costes elevados"
             className="w-full h-64 md:h-106 object-cover rounded-xl shadow-md"
           />
@@ -239,7 +265,7 @@ export default function ReplanteoDeObra() {
         </figure>
 
 
-        {/* SECTION 5 */}
+        {/* SECTION 5 
         <div id="s5" className="mb-10 p-6 bg-white border rounded-xl shadow-sm">
           <h2 className="text-2xl font-bold text-topo-navy mb-4">
             {t("blog.settingOut.section5")}
@@ -256,7 +282,7 @@ export default function ReplanteoDeObra() {
             alt="Replanteo carretera en las Islas Canarias"
             className="w-full h-64 md:h-106 object-cover rounded-xl shadow-md"
           />
-        </figure>
+        </figure> */}
 
         {/* SECTION 6 */}
         <div id="s6" className="mb-10 p-6 bg-white border rounded-xl shadow-sm">
@@ -271,7 +297,7 @@ export default function ReplanteoDeObra() {
 
         <figure className="mb-10">
           <img
-            src="/images/blog/ReplanteoCanarias.webp"
+            src="/images/blog/ReplanteoObraCanarias.webp"
             alt="Replanteo infraestructuras, Canarias"
             className="w-full h-64 md:h-106 object-cover rounded-xl shadow-md"
           />
@@ -333,7 +359,7 @@ export default function ReplanteoDeObra() {
       : "Related Articles"}
   </h3>
 
-         <div className="grid md:grid-cols-2 gap-6">
+         <div className="grid md:grid-cols-3 gap-6">
 
     <BlogCard
       compact
@@ -357,6 +383,17 @@ export default function ReplanteoDeObra() {
     isSpanish
       ? "/blog/Fotogrametria-drones"
       : "/blog/Drone-Photogrammetry"
+  }
+/>
+
+<BlogCard
+  title={t("blog.FotogrametriaDronesPlanificarVuelo.title")}
+  excerpt={t("blog.FotogrametriaDronesPlanificarVuelo.intro")}
+  image="/images/blog/FotogrametriaDronPlanVuelo.webp"
+  link={
+    i18n.language === "es"
+      ? "/blog/Fotogrametria-drones-Planificar-vuelo"
+      : "/blog/Drone-Photogrammetry-Plan-your-flight"
   }
 />
 

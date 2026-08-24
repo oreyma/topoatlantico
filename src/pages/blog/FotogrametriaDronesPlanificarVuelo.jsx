@@ -12,8 +12,8 @@ export default function FotogrametriaDronesPlanificarVuelo() {
   const isSpanish = i18n.language === "es";
 
 const canonicalUrl = isSpanish
-  ? "https://topoatlantico.com/blog/fotogrametria-drones-planificar-vuelo"
-  : "https://topoatlantico.com/blog/drone-photogrammetry-plan-your-flight";
+  ? "https://www.topoatlantico.com/blog/fotogrametria-drones-planificar-vuelo"
+  : "https://www.topoatlantico.com/blog/drone-photogrammetry-plan-your-flight";
 
   const seoTitle = isSpanish
     ? "Fotogrametría con drones: cómo planificar un vuelo | TOPOATLANTICO"
@@ -24,17 +24,17 @@ const canonicalUrl = isSpanish
       <Helmet>
         <title>{seoTitle}</title>
 
-        <meta
-          name="description"
-          content={t("blog.FotogrametriaDronesPlanificarVuelo.intro")}
-        />
+<meta
+  name="description"
+  content={t("blog.FotogrametriaDronesPlanificarVuelo.seoDescription")}
+/>
 
         <meta
           name="keywords"
           content={
             isSpanish
-              ? "fotogrametría con drones, levantamiento fotogramétrico, ortofotos, ortofotografía, nube de puntos, MDT, MDS, cartografía con drones, planificar vuelo, way points, solapes, vuelo dron dji, fotogrametría Canarias, topógrafo Canarias, ingeniería civil, movimiento de tierras, cálculo de volúmenes"
-              : "drone photogrammetry, drone surveying, UAV photogrammetry, drone mapping, orthophoto, orthomosaic, point cloud, Digital Terrain Model, DTM, Digital Surface Model, DSM, engineering survey, land survey, Canary Islands surveyor, drone photogrammetry Canary Islands, plan your flight, dji dron flight plan"
+              ? "fotogrametría con drones, levantamiento fotogramétrico, ortofotos, ortofotografía, nube de puntos, MDT, MDS, cartografía con drones, planificar vuelo, waypoints, solapes, vuelo dron dji, fotogrametría Canarias, topógrafo Canarias, ingeniería civil, movimiento de tierras, cálculo de volúmenes"
+              : "drone photogrammetry, drone surveying, UAV photogrammetry, drone mapping, orthophoto, orthomosaic, point cloud, Digital Terrain Model, DTM, Digital Surface Model, DSM, waypoints, engineering survey, land survey, Canary Islands surveyor, drone photogrammetry Canary Islands, plan your flight, dji drone flight plan"
           }
         />
 
@@ -42,16 +42,45 @@ const canonicalUrl = isSpanish
 
         <meta property="og:title" content={seoTitle} />
 
-        <meta
-          property="og:description"
-          content={t("blog.FotogrametriaDronesPlanificarVuelo.intro")}
-        />
+<meta
+  property="og:description"
+  content={t("blog.FotogrametriaDronesPlanificarVuelo.seoDescription")}
+/>
 
         <meta
           property="og:image"
-       content="https://topoatlantico.com/images/blog/FotogrametriaDrones.webp"  />
+       content="https://www.topoatlantico.com/images/blog/FotogrametriaDrones.webp"  />
 
         <meta property="og:type" content="article" />
+
+  <meta
+    property="og:url"
+    content={canonicalUrl}
+  />
+
+  <meta
+    property="og:site_name"
+    content="TOPOATLANTICO"
+  />
+
+  <meta
+    property="og:locale"
+    content={isSpanish ? "es_ES" : "en_GB"}
+  />
+
+  <meta
+    property="og:locale:alternate"
+    content={isSpanish ? "en_GB" : "es_ES"}
+  />
+
+<meta
+  property="article:section"
+  content={
+    isSpanish
+      ? "Fotogrametría con drones"
+      : "Drone photogrammetry"
+  }
+/>
       </Helmet>
 
       <ArticleTemplate
@@ -465,7 +494,18 @@ const canonicalUrl = isSpanish
 
           </h3>
 
-          <div className="grid md:grid-cols-2 gap-6">
+          <div className="grid md:grid-cols-3 gap-6">
+
+<BlogCard
+  title={t("blog.FotogrametriaDrones.title")}
+  excerpt={t("blogCard.FotogrametriaDronesExcerpt")}
+  image="/images/blog/FotogrametriaDrones.webp"
+  link={
+    isSpanish
+      ? "/blog/Fotogrametria-drones"
+      : "/blog/Drone-Photogrammetry"
+  }
+/>
 
             <BlogCard
               compact
@@ -480,13 +520,13 @@ const canonicalUrl = isSpanish
             />
 
 <BlogCard
-  title={t("blog.FotogrametriaDrones.title")}
-  excerpt={t("blogCard.FotogrametriaDronesExcerpt")}
-  image="/images/blog/FotogrametriaDrones.webp"
+  title={t("blog.CertificadoGeorreferenciacionCanarias.title")}
+  excerpt={t("blog.CertificadoGeorreferenciacionCanarias.intro")}
+  image="/images/blog/CertificadoGeorreferenciacionCanarias.webp"
   link={
-    isSpanish
-      ? "/blog/Fotogrametria-drones"
-      : "/blog/Drone-Photogrammetry"
+    i18n.language === "es"
+      ? "/blog/certificado-georreferenciación-canarias"
+      : "/blog/georeferencing-certificate-canary-islands"
   }
 />
 

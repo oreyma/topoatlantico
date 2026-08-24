@@ -27,6 +27,9 @@ import MonitoreoEstructuras from "./pages/blog/MonitoreoEstructuras";
 import FotogrametriaDrones from "./pages/blog/FotogrametriaDrones";
 import FotogrametriaDronesPlanificarVuelo from  "./pages/blog/FotogrametriaDronesPlanificarVuelo";
 import InmatriculacionFincaRegistro from "./pages/blog/InmatriculacionFincaRegistro";
+import CertificadoGeorreferenciacionCanarias from "./pages/blog/CertificadoGeorreferenciacionCanarias";
+import GmlCatastro from "./pages/blog/GmlCatastro";
+import DiferenciaCatastroRegistro from "./pages/blog/DiferenciaCatastroRegistro";
 import BlogCard from "./components/BlogCard";
 import ScrollToHash from "./components/ScrollToHash";
 import ScrollToTop from "./components/ScrollToTop";
@@ -287,6 +290,38 @@ const { t, i18n } = useTranslation();
   }
 />
 
+<BlogCard
+  title={t("blog.CertificadoGeorreferenciacionCanarias.title")}
+  excerpt={t("blog.CertificadoGeorreferenciacionCanarias.intro")}
+  image="/images/blog/CertificadoGeorreferenciacionCanarias.webp"
+  link={
+    i18n.language === "es"
+      ? "/blog/certificado-georreferenciación-canarias"
+      : "/blog/georeferencing-certificate-canary-islands"
+  }
+/>
+
+<BlogCard
+  title={t("blog.GmlCatastro.title")}
+  excerpt={t("blog.GmlCatastro.intro")}
+  image="/images/blog/GmlCatastro.webp"
+  link={
+    i18n.language === "es"
+      ? "/blog/gml-catastro-canarias"
+      : "/blog/gml-cadastre-canary-islands"
+  }
+/>
+
+<BlogCard
+  title={t("blog.DiferenciaCatastroRegistro.title")}
+  excerpt={t("blog.DiferenciaCatastroRegistro.intro")}
+  image="/images/blog/DiferenciaCatastroRegistro.webp"
+  link={
+    i18n.language === "es"
+      ? "/blog/diferencia-catastro-registro"
+      : "/blog/difference-cadastre-registry"
+  }
+/>
 
  </div>
       </div>
@@ -340,6 +375,12 @@ export default function App() {
         <Route path="/blog/drone-photogrammetry-plan-your-flight" element={<FotogrametriaDronesPlanificarVuelo />} />
         <Route path="/blog/inmatriculacion-finca-registro" element={<InmatriculacionFincaRegistro />} />
         <Route path="/blog/property-registration-spain" element={<InmatriculacionFincaRegistro />} />
+        <Route path="/blog/certificado-georreferenciación-canarias" element={<CertificadoGeorreferenciacionCanarias />} />
+        <Route path="/blog/georeferencing-certificate-canary-islands" element={<CertificadoGeorreferenciacionCanarias />} />
+        <Route path="/blog/gml-catastro-canarias" element={<GmlCatastro />} />
+        <Route path="/blog/gml-cadastre-canary-islands" element={<GmlCatastro />} />
+        <Route path="/blog/diferencia-catastro-registro" element={<DiferenciaCatastroRegistro />} />
+        <Route path="/blog/difference-cadastre-registry" element={<DiferenciaCatastroRegistro />} />
 
         <Route path="/politica-privacidad" element={<PoliticaPrivacidad />} />
         <Route path="/aviso-legal" element={<AvisoLegal />} />

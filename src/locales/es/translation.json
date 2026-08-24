@@ -83,6 +83,7 @@
 "blog": {
 "topographicSurvey": {
 "title": "¿Qué es un levantamiento topográfico?",
+"seoDescription": "Descubre qué es un levantamiento topográfico, qué información proporciona y cuándo es necesario para proyectos de construcción, ingeniería y gestión de terrenos en Canarias.",
 
   "intro": "El levantamiento topográfico es el proceso de medir con exactitud las dimensiones, formas y características de un terreno. Esta información resulta fundamental para planificar adecuadamente proyectos de construcción y obras civiles, ya que permite conocer al detalle las condiciones reales del emplazamiento.",
 
@@ -114,6 +115,7 @@
 
 "settingOut": {
   "title": "¿Qué es el replanteo de obra?",
+"seoDescription": "Descubre qué es el replanteo de obra, cuándo es necesario y cómo se realiza para garantizar la correcta ejecución de estructuras, instalaciones, servicios enterrados y movimientos de tierra en Canarias.",
 
   "intro": "El replanteo de obra es el proceso mediante el cual se trasladan al terreno los elementos constructivos definidos en los planos del proyecto. Se trata de una fase esencial en cualquier obra, ya que garantiza que cada componente se ejecute exactamente en la posición prevista. Esto asegura la estabilidad de la construcción, optimiza el uso de materiales y permite que los trabajos se ajusten a las normativas vigentes. Un replanteo realizado con precisión evita errores y contratiempos, reduce costes y asegura que edificaciones, infraestructuras y obras civiles se ejecuten correctamente desde el inicio.",
 
@@ -143,6 +145,7 @@
 
 "FotogrametriaDrones": {
   "title": "Fotogrametría con drones en Canarias",
+"seoDescription": "Descubre cómo se utiliza la fotogrametría con drones para crear ortofotos, nubes de puntos y modelos 3D del terreno en proyectos de topografía, ingeniería y obra civil en Canarias.",
 
   "intro": "La fotogrametría con drones ha revolucionado la forma de realizar levantamientos topográficos y cartográficos. Gracias a la combinación de aeronaves no tripuladas, cámaras de alta resolución y software especializado, hoy es posible obtener información geoespacial de gran precisión en tiempos muy reducidos. En TOPOATLANTICO utilizamos esta tecnología para generar ortofotos, modelos digitales del terreno, nubes de puntos y modelos 3D destinados a proyectos de ingeniería, construcción, urbanismo y medio ambiente en todas las Islas Canarias.",
 
@@ -209,6 +212,7 @@
 
     "FotogrametriaDronesPlanificarVuelo": {
       "title": "Fotogrametría con drones: Cómo planificar un vuelo",
+"seoDescription": "Aprende cómo planificar un vuelo de fotogrametría con drones, elegir la altura, configurar los solapes y obtener imágenes adecuadas para crear ortofotos y modelos 3D.",
 
       "intro": "La planificación del vuelo es determinante para  garantizar resultados fotográmetricos de calidad. Antes de realizar el vuelo, es imprescindible analizar las características del dron, las dimensiones de la zona de trabajo, la resolución necesaria y las posibles limitaciones del entorno. Una correcta planificación permite obtener imágenes con la resolución y geometría necesarias para generar ortofotos, nubes de puntos y modelos tridimensionales con precisión y calidad.",
 
@@ -301,17 +305,78 @@
 
     "section1Text": "La legislación hipotecaria exige que, en los supuestos de inmatriculación, la finca vaya acompañada de una representación gráfica georreferenciada que permita determinar con precisión su ubicación y delimitación sobre el territorio. Además, debe existir concordancia entre la descripción de la finca, su representación gráfica y la información catastral.",
 
-    "section2": "¿Cómo se comprueba la correspondencia con el Catastro?",
+"section2": "¿Cómo se comprueba la correspondencia con el Catastro?",
 
-    "section2Text": "Antes de iniciar el procedimiento es recomendable comprobar que la descripción de la finca, su superficie, sus linderos y su representación gráfica son coherentes con la cartografía catastral. Cuando existen diferencias entre la realidad física, la descripción documental y el Catastro, puede ser necesario analizar el origen de esas discrepancias y determinar la forma adecuada de corregirlas. Para ello pueden utilizarse levantamientos topográficos, mediciones mediante GNSS y estación total, cartografía catastral, ortofotografía y otras fuentes cartográficas. El objetivo es determinar con precisión el perímetro de la finca y comprobar que la representación propuesta corresponde realmente con la porción de terreno que se pretende inmatricular.",
+"section2Text": "Antes de iniciar el procedimiento, es recomendable comprobar que la descripción de la finca, su superficie, sus linderos y su representación gráfica son coherentes con la cartografía catastral. Cuando existen diferencias entre la realidad física, la descripción documental y el Catastro, puede ser necesario analizar el origen de esas discrepancias y determinar la forma adecuada de corregirlas. Para ello pueden utilizarse levantamientos topográficos, cartografía catastral, ortofotografía y otras fuentes cartográficas. Una vez recopilada y analizada la información, la Sede Electrónica del Catastro ofrece herramientas de validación gráfica, entre ellas el Informe de Validación Gráfica (IVG), que permite comprobar la correspondencia de una representación gráfica georreferenciada con la cartografía catastral y analizar posibles diferencias. Esta comprobación resulta especialmente útil cuando se pretende inmatricular una finca o realizar modificaciones sobre su geometría.",
 
     "section3": "Documentación y comprobaciones antes de la inmatriculación",
 
     "section3Text": "Antes de presentar la documentación en el Registro de la Propiedad es aconsejable comprobar la situación catastral, la posible existencia de fincas registrales colindantes, la delimitación física del terreno y la posible afección a caminos, vías públicas u otros bienes de dominio público. Un levantamiento topográfico y una representación gráfica georreferenciada correctamente elaborados pueden facilitar estas comprobaciones y ayudar a detectar posibles discrepancias antes de iniciar el procedimiento registral. TOPOATLANTICO ofrece servicios de levantamiento topográfico y elaboración de documentación gráfica georreferenciada para este tipo de trabajos en las Islas Canarias."
 },
 
+"CertificadoGeorreferenciacionCanarias": {
+  "title": "¿Qué es un certificado de georreferenciación y cuándo es necesario?",
+  "seoDescription": "¿Qué es un certificado de georreferenciación y cuándo se necesita? Conoce su contenido, utilidad y relación con Catastro y Registro de la Propiedad en Canarias.",
+
+  "intro": "Un certificado de georreferenciación es un documento técnico que identifica la ubicación, superficie y delimitación de una finca mediante coordenadas geográficas precisas. Su objetivo es definir gráficamente la parcela y facilitar su identificación y correspondencia con la información catastral y registral. Dependiendo del procedimiento, puede incluir planos, coordenadas de los vértices de la parcela y documentación gráfica necesaria para acreditar su delimitación.",
+
+  "section1": "¿Cuándo es necesario un certificado de georreferenciación?",
+  "section1Text": "La georreferenciación puede ser necesaria en diferentes procedimientos relacionados con la propiedad y el Catastro. Entre ellos se encuentran determinadas inmatriculaciones, segregaciones, agrupaciones y divisiones de fincas, modificaciones de superficie o linderos, deslindes y otros procedimientos en los que sea necesario definir con precisión la ubicación y geometría de una parcela. También puede resultar necesaria para comprobar la correspondencia entre la realidad física de una finca y su información catastral o registral.",
+
+  "section2": "¿Qué información contiene?",
+  "section2Text": "El contenido depende del procedimiento para el que se solicite, pero un certificado de georreferenciación puede incluir la identificación de la finca, superficie, sistema de referencia, coordenadas de los vértices, plano georreferenciado y documentación gráfica complementaria. Cuando es necesario justificar una modificación respecto a la cartografía catastral, puede incluirse también una representación gráfica alternativa y la documentación necesaria para su validación.",
+
+  "section3": "¿Cómo se obtiene un certificado de georreferenciación?",
+  "section3Text": "Para elaborar un certificado de georreferenciación es necesario analizar la documentación disponible y determinar la geometría real de la finca. Cuando la información existente no es suficiente, puede realizarse un levantamiento topográfico mediante equipos GNSS y estación total. Posteriormente, los datos se procesan para obtener la representación gráfica georreferenciada, las coordenadas de los vértices y la documentación técnica necesaria para el procedimiento correspondiente. En Canarias, la compleja orografía y las características de algunas parcelas hacen especialmente importante disponer de una delimitación precisa y correctamente georreferenciada."
+},
+
+"GmlCatastro": {
+  "title": "¿Qué es un archivo GML del Catastro y para qué sirve?",
+
+  "seoDescription": "Descubre qué es un archivo GML del Catastro, cuándo es necesario y cómo se genera para representar gráficamente una finca de forma georreferenciada.",
+
+  "intro": "Un archivo GML es un formato digital utilizado para almacenar información geográfica. En España, en el ámbito catastral, los archivos GML tienen especial importancia en determinados procedimientos relacionados con el Catastro y el Registro de la Propiedad, ya que permiten definir mediante coordenadas la ubicación, forma y superficie de una finca. El archivo permite trabajar con la información de la finca de forma digital y facilita su comprobación mediante herramientas y servicios de validación gráfica.",
+
+  "section1": "¿Cuándo es necesario un archivo GML?",
+
+  "section1Text": "La necesidad de aportar un archivo GML depende del procedimiento que se esté realizando y de las características de la finca. Suele ser necesario en determinados procedimientos de inmatriculación, segregación, agrupación o división de fincas y modificaciones de superficie o de linderos. También puede utilizarse para comprobar la correspondencia entre la geometría de una finca y la cartografía catastral.",
+
+  "section2": "¿Cómo se genera un GML de una finca?",
+
+  "section2Text": "Para generar correctamente un archivo GML es necesario disponer de las coordenadas de los vertices que definen los límites de la finca en el sistema de referencia correspondiente. Cuando no es posible determinar con precisión los límites de la parcela, puede ser necesario realizar un levantamiento topográfico para determinarlos. Posteriormente, la geometría se importa a herramientas como ParCatGML de QGIS que permite generar el archivo GML conforme a las especificaciones técnicas correspondientes.",
+
+  "section3": "GML, Catastro y Registro de la Propiedad",
+
+  "section3Text": "El archivo GML permite representar digitalmente la geometría georreferenciada de una finca, pero no sustituye por sí mismo a la documentación jurídica o técnica necesaria para cada procedimiento. En determinados casos, la representación gráfica georreferenciada debe compararse con la cartografía catastral y puede ser necesario justificar las diferencias existentes mediante documentación técnica. Por ello, cuando existen discrepancias entre la realidad física, el Catastro y el Registro de la Propiedad, es recomendable analizar la situación de la finca antes de generar o presentar la documentación."
+},
+
+"DiferenciaCatastroRegistro": {
+  "title": "¿Cuál es la Diferencia entre Catastro y Registro de la Propiedad?",
+
+  "seoDescription": "Conoce las diferencias entre Catastro y Registro de la Propiedad en España, qué información contiene cada uno y por qué pueden existir discrepancias entre ambos.",
+
+  "intro": "El Catastro y el Registro de la Propiedad son dos organismos diferentes que contienen información relacionada con los bienes inmuebles. Aunque sus datos pueden estar relacionados y deben ser coherentes en determinados procedimientos, sus funciones y la información que gestionan no son las mismas. Conocer estas diferencias es importante cuando se compra, vende o regulariza una finca.",
+
+  "section1": "¿Qué es el Catastro y qué información contiene?",
+
+  "section1Text": "El Catastro es un registro administrativo que contiene información sobre los bienes inmuebles, como su ubicación, superficie, referencia catastral, uso y representación gráfica. Su cartografía permite identificar gráficamente las parcelas y consultar sus características físicas y económicas. La información catastral se emplea, entre otros fines, para la gestión de impuestos como el IBI, la plusvalía municipal o el impuesto sobre el patrimonio, además de servir de apoyo en diversos procedimientos administrativos. La Sede Electrónica del Catastro dispone de un visor en línea que permite consultar la situación de una propiedad, su delimitación gráfica y su valor de referencia.",
+
+"catastroLinkText": "Consultar la cartografía del Catastro",
+
+  "section2": "¿Qué es el Registro de la Propiedad?",
+
+  "section2Text": "El Registro de la Propiedad es un registro público destinado a ofrecer información sobre la situación jurídica de los bienes inmuebles. En él se inscriben, entre otros, los derechos de propiedad, hipotecas, servidumbres y otras cargas o derechos que afectan a una finca. La información registral se basa principalmente en la documentación jurídica presentada para su inscripción. Por este motivo, es muy recomendable consultar el Registro, por ejemplo, solicitando una nota simple, antes de adquirir un inmueble. El Registro de la Propiedad también ofrece un geoportal en linea que permite visualizar la situación registral de un inmueble y consultar su delimitación gráfica.",
+
+"registroLinkText": "Consultar el Geoportal del Registro de la Propiedad",
+
+  "section3": "¿Por qué pueden existir diferencias entre Catastro y Registro?",
+
+  "section3Text": "Las diferencias pueden deberse a cambios físicos en la finca que no se han reflejado en ambos organismos, errores históricos, diferencias en la superficie o en los linderos, o a que la información procede de documentos y cartografías elaborados en momentos diferentes. Cuando se detectan discrepancias, es recomendable analizar la situación de la finca y comprobar la correspondencia entre la realidad física, el Catastro y el Registro de la Propiedad antes de iniciar un procedimiento de regularización."
+},
+
 "monitoring": {
   "title": "Monitoreo de estructuras",
+"seoDescription": "Descubre qué es el monitoreo y la auscultación de estructuras, cuándo es necesario y cómo se controlan deformaciones y desplazamientos en edificios, taludes, túneles y otras estructuras en Canarias.",
 
   "intro": "El monitoreo y la auscultación de estructuras consisten en medir de forma periódica y precisa el comportamiento de edificios, puentes, muros, presas, excavaciones e infraestructuras para detectar desplazamientos, deformaciones o asentamientos antes de que se conviertan en un problema. Gracias a la topografía de alta precisión es posible garantizar la seguridad de las estructuras y tomar decisiones fundamentadas durante toda la vida útil del proyecto.",
 

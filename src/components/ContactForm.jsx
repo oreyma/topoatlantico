@@ -88,8 +88,8 @@ export default function ContactForm() {
                 <span className="text-sm font-medium">{t("contact.whatsapp")}</span>
               </a>
 
-          <h4 className="mt-4 font-semibold text-topo-navy">{t("contact.follow")}</h4>
-          <p>LinkedIn · Instagram</p>
+        {/*  <h4 className="mt-4 font-semibold text-topo-navy">{t("contact.follow")}</h4>
+          <p>LinkedIn · Instagram</p> */}
         </div>
       </div>
     </section>
