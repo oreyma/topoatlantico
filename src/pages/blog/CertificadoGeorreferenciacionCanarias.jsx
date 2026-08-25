@@ -33,6 +33,16 @@ const seoDescription = isSpanish
     content={seoDescription}
   />
 
+  <meta
+    name="keywords"
+    content={
+      isSpanish
+        ? "certificado de georreferenciación, georreferenciación de fincas, finca georreferenciada, plano georreferenciado, coordenadas georreferenciadas, Catastro, Registro de la Propiedad, representación gráfica georreferenciada, levantamiento topográfico, georreferenciación Canarias, topógrafo Canarias"
+        : "georeferencing certificate, property georeferencing, georeferenced property, georeferenced property plan, georeferenced coordinates, Spanish Cadastre, Spanish Land Registry, georeferenced graphical representation, topographic survey, georeferencing Canary Islands, Canary Islands surveyor"
+    }
+  />
+
+
   <link
     rel="canonical"
     href={canonicalUrl}
@@ -80,7 +90,11 @@ const seoDescription = isSpanish
 
   <meta
     property="article:section"
-    content="certificado de georreferenciación"
+    content={
+      isSpanish
+        ? "Certificado de georreferenciación"
+        : "Georeferencing Certificate"
+    }
   />
 
 </Helmet>

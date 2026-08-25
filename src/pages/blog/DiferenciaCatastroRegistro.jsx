@@ -334,7 +334,7 @@ const seoDescription = isSpanish
   image="/images/blog/CertificadoGeorreferenciacionCanarias.webp"
   link={
     i18n.language === "es"
-      ? "/blog/certificado-georreferenciación-canarias"
+      ? "/blog/certificado-georreferenciacion-canarias"
       : "/blog/georeferencing-certificate-canary-islands"
   }
 />

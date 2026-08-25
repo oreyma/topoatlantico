@@ -296,7 +296,7 @@ const { t, i18n } = useTranslation();
   image="/images/blog/CertificadoGeorreferenciacionCanarias.webp"
   link={
     i18n.language === "es"
-      ? "/blog/certificado-georreferenciación-canarias"
+      ? "/blog/certificado-georreferenciacion-canarias"
       : "/blog/georeferencing-certificate-canary-islands"
   }
 />
@@ -375,7 +375,7 @@ export default function App() {
         <Route path="/blog/drone-photogrammetry-plan-your-flight" element={<FotogrametriaDronesPlanificarVuelo />} />
         <Route path="/blog/inmatriculacion-finca-registro" element={<InmatriculacionFincaRegistro />} />
         <Route path="/blog/property-registration-spain" element={<InmatriculacionFincaRegistro />} />
-        <Route path="/blog/certificado-georreferenciación-canarias" element={<CertificadoGeorreferenciacionCanarias />} />
+        <Route path="/blog/certificado-georreferenciacion-canarias" element={<CertificadoGeorreferenciacionCanarias />} />
         <Route path="/blog/georeferencing-certificate-canary-islands" element={<CertificadoGeorreferenciacionCanarias />} />
         <Route path="/blog/gml-catastro-canarias" element={<GmlCatastro />} />
         <Route path="/blog/gml-cadastre-canary-islands" element={<GmlCatastro />} />
