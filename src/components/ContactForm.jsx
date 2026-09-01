@@ -66,13 +66,13 @@ export default function ContactForm() {
         <div className="bg-white p-6 rounded-xl shadow">
           <h3 className="font-semibold mb-2 text-topo-navy">{t("contact.data_title")}</h3>
           <p>{t("contact.company")}</p>
-          <p>📞 +34 641 320 535</p>
+          {/*<p>📞 +34 641 320 535</p>*/}
           <p>📞 +34 642 566 908</p>
           <p>✉️ info@topoatlantico.com</p>
 
             {/* BOTÓN DE WHATSAPP */}
               <a
-                href="https://wa.me/34642566908"
+                href="https://wa.me/34641320535"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-green-600 hover:text-green-700 transition-colors"
