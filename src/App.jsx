@@ -44,12 +44,12 @@ const { t, i18n } = useTranslation();
   const isSpanish = i18n.language === "es";
 
   const seoTitle = isSpanish
-    ? "TOPOATLANTICO | Servicios de Topografía y Cartografía en las Islas Canarias"
-    : "TOPOATLANTICO | Land Surveying and Mapping services in the Canary Islands";
+    ? "Topografía y Cartografía en Canarias | TOPOATLANTICO"
+    : "Land Surveying and Mapping services in the Canary Islands | TOPOATLANTICO";
 
   const seoDescription = isSpanish
-    ? "Servicios de topografía, drones y fotogrametría en Canarias. Levantamientos topográficos, replanteos de obra, medición y regularización de parcelas, monitorización de estructuras, inspección con drones, videos para seguimiento de obra y fotogrametría. Equipos de precisión: GNSS, estación total, drones."
-    : "Land surveying and drone photogrammetry services in the Canary Islands. construction setting out, land surveying, cadastral and Land Registry coordination, drone photogrammetry, infrastructure inspections. Professional-grade equipment: robotic total station, GNSS receivers, and drones.";
+    ? "Servicios de topografía y cartografía en las Islas Canarias para construcción, ingeniería y medición de terrenos. Levantamientos, replanteos,  monitorización de estructuras, georreferenciación, control geométrico, fotogrametría con drones y seguimiento de obra."
+    : "Land surveying and mapping services in the Canary Islands for construction, engineering and land measurement. Topographic surveys, setting out, drone photogrammetry, georeferencing and geometric control.";
 
   return (
 
@@ -60,13 +60,11 @@ const { t, i18n } = useTranslation();
 
     <meta
       name="description"
-      content={seoDescription}
-    />
+      content={seoDescription} />
 
     <link
       rel="canonical"
-      href="https://www.topoatlantico.com/"
-    />
+      href="https://www.topoatlantico.com/" />
 
     <meta property="og:title" content={seoTitle} />
 
@@ -80,7 +78,8 @@ const { t, i18n } = useTranslation();
       content="https://www.topoatlantico.com/images/og-home.webp"
     />
 
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content="website"
+    />
 
     <meta
       property="og:url"

@@ -16,8 +16,8 @@ const seoTitle = isSpanish
   : "Property and Land Surveys in the Canary Islands | TOPOATLANTICO";
 
 const seoDescription = isSpanish
-  ? "Medición de terrenos rústicos y urbanos en Canarias. Nuestros servicios incluyen delimitación de linderos, certificados de georreferenciación y antigüedad, comprobaciones con Catastro y Registro, segregaciones, agrupaciones, divisiones de fincas, inmatriculaciones, GML catastro, Informe de validación gráfica, representaciones gráficas alternativas, y cálculo de superficies y volúmenes."
-  : "Land surveying services for rural and urban properties in the Canary Islands. Our services also include georeferencing certificates, building age certificates, Land Registry and Cadastre coordination, property subdivisions, mergers, boundary adjustments, first registrations, alternative graphical representations, and detailed area and volume calculations.";
+  ? "Medición de parcelas y fincas rústicas y urbanas en Canarias. Levantamientos, delimitación de linderos, certificados de georreferenciación y antigüedad, comprobaciones con Catastro y Registro, GML, divisiones de fincas, inmatriculaciones y cálculo de superficies y volúmenes."
+  : "Land surveying services for rural and urban properties in the Canary Islands. Surveys, boundary definition, georeferencing certificates, building age certificates, Land Registry and Cadastre coordination and detailed area and volume calculations.";
 
   const handleContactClick = () => {
     navigate("/#contact")

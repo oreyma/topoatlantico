@@ -14,11 +14,11 @@ export default function DronesFotogrametria() {
 const isSpanish = i18n.language === "es";
 
 const seoTitle = isSpanish
-  ? "Fotogrametría con Drones en Canarias | Levantamientos, cartografía y Segumiento de obra | TOPOATLANTICO"
-  : "Drone Photogrammetry in the Canary Islands | Mapping, Orthophotos & 3D Models in the Canary Islands | TOPOATLANTICO";
+  ? "Fotogrametría con Drones en Canarias | TOPOATLANTICO"
+  : "Drone Photogrammetry in the Canary Islands | TOPOATLANTICO";
 
 const seoDescription = isSpanish
-  ? "Servicios de fotogrametría con drones en Canarias para topografía, ingeniería y construcción. Ortofotos, nubes de puntos, modelos 3D, levantamientos y cartografía, videos seguimiento de obra, inspección de edificios y estructuras, ingeniería y proyectos técnicos."
+  ? "Fotogrametría con drones en Canarias para topografía, ingeniería y construcción. Ortofotos, nubes de puntos, modelos 3D, levantamientos y cartografía, seguimiento de obra e inspección de edificios y estructuras."
   : "Drone photogrammetry services in the Canary Islands for surveying, engineering and construction. Orthophotos, point clouds, 3D models, surveying and mapping for construction, engineering and technical projects.";
 
   const handleContactClick = () => {

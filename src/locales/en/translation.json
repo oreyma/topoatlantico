@@ -20,8 +20,8 @@
       "parcelas": "Property and Land Surveys",
       "replanteo": "Setting out engineering",
       "levantamientos": "Topographic Surveys & Mapping",
-      "asistencia": "Surveys Inspection & QA Reports",
-      "monitoreo": "Surface and Sub-surface Monitoring",
+      "asistencia": "Land Surveying | Technical Assistance on Construction Sites",
+      "monitoreo": "Structural Monitoring & Surveying",
       "drones": "Drone Photogrammetry"
     },
 
@@ -32,7 +32,7 @@
       "section1": "What is a topographic survey?",
       "section1Text": "A topographic survey consists of accurately measuring and representing the natural and man-made features of a site. It determines the position and elevation of points, defines the geometry of the terrain and records existing features such as buildings, walls, roads, paths, fences, services and other relevant elements. The resulting data can be used to produce topographic plans, digital terrain models and technical documentation.",
 
-      "section2": "Planimetric, altimetric or both?",
+      "section2": "Planimetric, altimetric, or both?",
       "section2Text": "A survey may focus on the horizontal position of features, their elevations or both. Planimetric surveys represent the geometry and position of existing features, while altimetric surveys determine their elevations and differences in height. Many projects require both components to obtain a complete representation of the site.",
 
       "section3": "Why are topographic surveys so important for construction and engineering?",
@@ -47,7 +47,7 @@
 
     "replanteo": {
       "title": "Construction Setting Out",
-      "desc": "High-precision setting-out services for building and civil works: structures, earthworks, utility networks, etc."
+      "desc": "High-precision setting-out services for building and civil engineering projects, including structures, earthworks, utility networks and urban development."
     },
     "parcelas": {
 "title": "Property and Land Surveys in the Canary Islands",
@@ -72,17 +72,17 @@
 "section6Text": "TOPOATLANTICO provides land surveying and topographic survey services for rural and urban properties throughout the Canary Islands. If you need to determine the area of a plot, check its boundaries, investigate discrepancies with the Cadastre or prepare georeferenced documentation and GML files, contact us to discuss your requirements and request a quotation."
 },
     "asistencia": {
-      "title": "Surveys Inspection & QA Reports",
-      "desc": "Control of layouts, Excavation & fill volume calculations, leveling. We ensure geometric precision at all project stages."
+      "title": "Land Surveying | Technical Assistance on Construction Sites",
+      "desc": "We provide technical surveying assistance on construction sites, including setting-out, cut-and-fill volume calculations, levelling and geometric verification of structures. We ensure geometric accuracy throughout all stages of the project."
     },
     "monitoreo": {
-      "title": "Monitoring & Structural Surveying",
-      "desc": "Tracking structural and ground deformations using high-precision instruments."
+      "title": "Structural Monitoring & Surveying",
+      "desc": "We monitor structural and ground deformations and displacements using high-precision surveying instruments."
     },
 
     "drones": {
   "title": "Drone Photogrammetry in the Canary Islands",
-  "description": "We carry out drone photogrammetry surveys to produce orthophotos, point clouds, digital terrain models and 3D models, building and infrastructure inspections, construction progress monitoring, project documentation and volume calculations. Solutions for surveying, engineering, construction, urban development and construction monitoring.",
+  "description": "We carry out drone photogrammetry surveys to produce orthophotos, point clouds, digital terrain models and 3D models and volume calculations. We also provide aerial imagery for construction progress monitoring, building and infrastructure inspections, and technical project documentation. Solutions for surveying, engineering, construction and urban development.",
 
   "section1": "When is a drone survey useful?",
   "section1Text": "Photogrammetry is particularly useful for covering large areas, difficult-to-access terrain or sites where a large amount of information needs to be collected in a relatively short time. It can be used for topographic surveys, construction monitoring, volume calculations, earthworks, infrastructure inspection, environmental studies and surface documentation.",
