@@ -44,8 +44,8 @@ const { t, i18n } = useTranslation();
   const isSpanish = i18n.language === "es";
 
   const seoTitle = isSpanish
-    ? "TOPOATLANTICO | Topografía, Drones y Fotogrametría en Canarias"
-    : "TOPOATLANTICO | Land Surveying & Photogrammetry in the Canary Islands";
+    ? "TOPOATLANTICO | Servicios de Topografía y Cartografía en las Islas Canarias"
+    : "TOPOATLANTICO | Land Surveying and Mapping services in the Canary Islands";
 
   const seoDescription = isSpanish
     ? "Servicios de topografía, drones y fotogrametría en Canarias. Levantamientos topográficos, replanteos de obra, medición y regularización de parcelas, monitorización de estructuras, inspección con drones, videos para seguimiento de obra y fotogrametría. Equipos de precisión: GNSS, estación total, drones."

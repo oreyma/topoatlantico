@@ -11,11 +11,11 @@ export default function AsistenciaTecnica() {
   const isSpanish = i18n.language === "es";
 
   const seoTitle = isSpanish
-    ? "Asistencia Técnica en Obra | Topografía en Canarias | TOPOATLANTICO"
-    : "Technical Site Support & Land Surveying | Canary Islands | TOPOATLANTICO";
+    ? "Topógrafo para Asistencia Técnica en Obra en Canarias | TOPOATLANTICO"
+    : "Technical Site Support & Land Surveying in the Canary Islands | TOPOATLANTICO";
 
   const seoDescription = isSpanish
-    ? "Asistencia técnica en obra, control de replanteos, cubicaciones, nivelaciones y verificación geométrica de estructuras en Canarias."
+    ? "Servicios topográficos de asistencia técnica en obra: control de replanteos, cubicaciones, nivelaciones y verificación geométrica de estructuras en Canarias."
     : "Technical site support, setting-out control, earthwork quantity calculations, levelling and geometric verification services in the Canary Islands.";
 
   const handleContactClick = () => {

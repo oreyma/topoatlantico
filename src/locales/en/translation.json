@@ -17,25 +17,60 @@
     "title": "Our Services",
     "description": "We offer tailored technical solutions",
     "list": {
-      "parcelas": "Mapping Property Boundaries",
-      "replanteo": "Setting Out Engineering",
-      "levantamientos": "Land Surveying & Mapping",
+      "parcelas": "Property and Land Surveys",
+      "replanteo": "Setting out engineering",
+      "levantamientos": "Topographic Surveys & Mapping",
       "asistencia": "Surveys Inspection & QA Reports",
       "monitoreo": "Surface and Sub-surface Monitoring",
-      "drones": "Drones & Photogrammetry"
+      "drones": "Drone Photogrammetry"
     },
+
     "levantamientos": {
-      "title": "Land Surveying & Mapping",
-      "desc": "We carry out precise topographic surveys for engineering, construction, and cartography. generating maps, contour lines, 3D terrain models, cut & fill analysis."
+      "title": "Topographic Surveys in the Canary Islands",
+      "description": "We carry out topographic surveys throughout the Canary Islands to obtain accurate information about the geometry, elevations and physical features of a site. We combine GNSS, total stations and, where appropriate, drone photogrammetry to produce plans and models adapted to each project.",
+
+      "section1": "What is a topographic survey?",
+      "section1Text": "A topographic survey consists of accurately measuring and representing the natural and man-made features of a site. It determines the position and elevation of points, defines the geometry of the terrain and records existing features such as buildings, walls, roads, paths, fences, services and other relevant elements. The resulting data can be used to produce topographic plans, digital terrain models and technical documentation.",
+
+      "section2": "Planimetric, altimetric or both?",
+      "section2Text": "A survey may focus on the horizontal position of features, their elevations or both. Planimetric surveys represent the geometry and position of existing features, while altimetric surveys determine their elevations and differences in height. Many projects require both components to obtain a complete representation of the site.",
+
+      "section3": "Why are topographic surveys so important for construction and engineering?",
+      "section3Text": "Topographic surveys are an essential part of many construction and engineering projects. They can be used as the basis for building projects, roads, developments, earthworks, infrastructure and other types of construction. The information obtained allows architects, engineers and other professionals to work from an accurate representation of the terrain and to carry out checks throughout the construction process.",
+
+      "section4": "How much does a topographic survey cost?",
+      "section4Text": "The cost depends on factors such as the size of the site, location, accessibility, terrain, vegetation, the number of features to be surveyed, the required accuracy and the type of final documentation. For this reason, each survey is quoted individually. If you provide the location and basic characteristics of the project, we can assess the work required and prepare a quotation.",
+
+      "section5": "Do you need a topographic survey in the Canary Islands?",
+      "section5Text": "TOPOATLANTICO provides topographic surveying services throughout the Canary Islands for construction, engineering, urban development, property surveys and other technical projects. If you need accurate information about a site, a topographic plan for a project or a detailed representation of the existing terrain, contact us to discuss your requirements and request a quotation."
     },
+
     "replanteo": {
       "title": "Construction Setting Out",
       "desc": "High-precision setting-out services for building and civil works: structures, earthworks, utility networks, etc."
     },
     "parcelas": {
-      "title": "Property Boundary Measurement",
-      "desc": "We provide accurate surveys of rural and urban properties, boundary determination, and topographic surveys. Our services also include georeferencing certificates, building age certificates, Land Registry and Cadastre coordination, property subdivisions, mergers, boundary adjustments, first registrations, alternative graphical representations, and detailed area and volume calculations."
-    },
+"title": "Property and Land Surveys in the Canary Islands",
+"description": "Land surveying services for rural and urban properties in the Canary Islands. We determine property boundaries, areas and physical features through topographic surveys, cadastral checks and georeferencing.",
+
+"section1": "When is a property survey necessary?",
+"section1Text": "A property survey provides accurate information about the area, boundaries and physical characteristics of a plot of land. It may be necessary to verify the actual area of a property, define or check boundaries, prepare for a property sale, assess a subdivision or amalgamation, develop a construction project or investigate differences between the physical property and the information available in the Cadastre.",
+
+"section2": "Should you survey a property before selling it?",
+"section2Text": "Checking the dimensions and boundaries of a property before a sale can help identify possible discrepancies with the available documentation and prevent problems later on. A topographic survey provides accurate information about the actual area and physical condition of the property. Where differences exist between the property and the Cadastre or other documents, having this information in advance can help assess the situation and prepare any technical documentation that may be required.",
+
+"section3": "How much does a land survey cost?",
+"section3Text": "The cost of a survey mainly depends on the size of the property, its location, accessibility, terrain, vegetation, the number and complexity of boundaries and the type of documentation required. For this reason, each project is quoted individually. If you provide the property's location and basic characteristics, we can assess the work required and prepare a quotation.",
+
+"section4": "When is a georeferencing certificate required?",
+"section4Text": "Georeferencing may be required for various procedures related to property ownership and the Cadastre. These include certain first registrations of properties in the Land Registry, subdivisions, amalgamations and divisions of parcels, modifications to property areas or boundaries, boundary surveys and other procedures where the precise location and geometry of a parcel need to be established. It may also be required to verify the correspondence between the physical reality of a property and its cadastral or Land Registry information.",
+
+"section5": "What is a cadastral GML file?",
+"section5Text": "A GML file is a digital format used to represent the geometry of a parcel or property in a georeferenced form. In Spain, GML files are particularly important in certain procedures involving the Spanish Cadastre and Land Registry, as they allow the location, shape and area of a property to be defined using geographic coordinates.",
+
+"section6": "Do you need a property or land survey?",
+"section6Text": "TOPOATLANTICO provides land surveying and topographic survey services for rural and urban properties throughout the Canary Islands. If you need to determine the area of a plot, check its boundaries, investigate discrepancies with the Cadastre or prepare georeferenced documentation and GML files, contact us to discuss your requirements and request a quotation."
+},
     "asistencia": {
       "title": "Surveys Inspection & QA Reports",
       "desc": "Control of layouts, Excavation & fill volume calculations, leveling. We ensure geometric precision at all project stages."
@@ -44,17 +79,33 @@
       "title": "Monitoring & Structural Surveying",
       "desc": "Tracking structural and ground deformations using high-precision instruments."
     },
+
     "drones": {
-      "title": "Drones & Photogrammetry",
-      "desc": "We use professional drones to capture accurate geospatial data and high-quality visual documentation. Our services include aerial photogrammetry, orthophotos, 3D models, point clouds, building and infrastructure inspections, construction progress monitoring, project documentation, volume calculations, and technical support for engineering, surveying, and construction projects."
-    }
+  "title": "Drone Photogrammetry in the Canary Islands",
+  "description": "We carry out drone photogrammetry surveys to produce orthophotos, point clouds, digital terrain models and 3D models, building and infrastructure inspections, construction progress monitoring, project documentation and volume calculations. Solutions for surveying, engineering, construction, urban development and construction monitoring.",
+
+  "section1": "When is a drone survey useful?",
+  "section1Text": "Photogrammetry is particularly useful for covering large areas, difficult-to-access terrain or sites where a large amount of information needs to be collected in a relatively short time. It can be used for topographic surveys, construction monitoring, volume calculations, earthworks, infrastructure inspection, environmental studies and surface documentation.",
+
+  "section2": "What products can be obtained?",
+  "section2Text": "Depending on the requirements of the project, we can produce georeferenced orthophotos, point clouds, digital terrain models (DTM), digital surface models (DSM), 3D models, contour lines and surface or volume calculations. Results can be delivered in formats compatible with CAD and GIS software.",
+
+  "section3": "What level of accuracy can drone photogrammetry achieve?",
+  "section3Text": "Accuracy depends on factors such as the camera used, flight altitude, GSD, image overlap, terrain conditions and the positioning system. For projects requiring controlled accuracy and georeferencing, ground control points can be surveyed using GNSS receivers or total stations. Drones equipped with RTK or PPK technology can also improve the positioning accuracy of the captured images.",
+
+  "section4": "How much does a drone photogrammetry survey cost?",
+  "section4Text": "The cost mainly depends on the area to be surveyed, location, accessibility, terrain, required resolution, requested products and required accuracy. The need for ground control points and the complexity of flight planning and data processing can also affect the cost. For this reason, each project is quoted individually.",
+
+  "section5": "Do you need a drone survey in the Canary Islands?",
+  "section5Text": "TopoAtlantico provides drone photogrammetry surveys throughout the Canary Islands for surveying, engineering, construction, urban development and other technical projects. If you need an orthophoto, terrain model, point cloud, 3D model or surface and volume calculations, contact us to discuss your project and request a quotation."
+}
   },
   "projects": {
     "title": "Industry Experience"
   },
   "about": {
     "title": "About Us",
-    "p1": "TOPOATLANTICO is a new surveying firm based in the Canary Islands. We combine local expertise with advanced technology to deliver precise results at reduced costs.",
+    "p1": "TOPOATLANTICO is a new surveying firm based in the Canary Islands. We combine local expertise with advanced technology to deliver precise results and solutions tailored to each project.",
   "list": {
     "1": "Qualified Geomatics and Surveying Engineers.",
     "2": "AESA-certified UAS (drone) operators.",

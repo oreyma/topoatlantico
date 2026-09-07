@@ -14,12 +14,12 @@ export default function DronesFotogrametria() {
 const isSpanish = i18n.language === "es";
 
 const seoTitle = isSpanish
-  ? "Drones y Fotogrametría | segumiento de obra, Ortofotos y Modelos 3D en Canarias | TOPOATLANTICO"
-  : "Drone Photogrammetry | Orthophotos & 3D Models in the Canary Islands | TOPOATLANTICO";
+  ? "Fotogrametría con Drones en Canarias | Levantamientos, cartografía y Segumiento de obra | TOPOATLANTICO"
+  : "Drone Photogrammetry in the Canary Islands | Mapping, Orthophotos & 3D Models in the Canary Islands | TOPOATLANTICO";
 
 const seoDescription = isSpanish
-  ? "Servicios de fotogrametría con drones en Canarias. Ortofotos, nubes de puntos, modelos 3D, levantamientos y cartografía, videos seguimiento de obra, inspección de edificios y estructuras, ingeniería y proyectos técnicos."
-  : "Drone photogrammetry services in the Canary Islands. Orthophotos, point clouds, 3D models, surveying and mapping for construction, engineering and technical projects.";
+  ? "Servicios de fotogrametría con drones en Canarias para topografía, ingeniería y construcción. Ortofotos, nubes de puntos, modelos 3D, levantamientos y cartografía, videos seguimiento de obra, inspección de edificios y estructuras, ingeniería y proyectos técnicos."
+  : "Drone photogrammetry services in the Canary Islands for surveying, engineering and construction. Orthophotos, point clouds, 3D models, surveying and mapping for construction, engineering and technical projects.";
 
   const handleContactClick = () => {
     navigate("/#contact")
@@ -83,86 +83,175 @@ const seoDescription = isSpanish
 </Helmet>
 
 <ServiceTemplate>
-      {/* CONTENIDO PRINCIPAL */}
-      <section
-  className="min-h-screen flex flex-col items-center justify-center text-center bg-white p-6 pt-30"
->
-        <div className="max-w-3xl">
-          <h1 className="text-3xl font-bold text-topo-navy mt-6 mb-4 text-center">
-            {t("services.drones.title")}
-          </h1>
 
-          <img
-            src="/images/servicios/Modelo3dLasCurvasNivelOrtofoto.webp"
-            alt={t("services.drones.title")}
-            className="w-full h-64 md:h-96 object-cover rounded-xl shadow-md"
-          />
+        {/* CONTENIDO PRINCIPAL */}
+        <section className="min-h-screen bg-white p-6 pt-30">
 
-          <p className="whitespace-pre-line text-topo-dark mb-6">
-            {t("services.drones.desc")}
-          </p>
+          <div className="w-full max-w-4xl mx-auto">
 
-          <div className="flex justify-center gap-4">
-            <Button
-              variant="accent"
-              onClick={handleContactClick}
-              className="px-6 py-3 rounded-lg font-semibold border border-topo-navy text-topo-navy hover:bg-gray-200 transition-colors"
-            >
-              {t("buttons.quote")}
-            </Button>
+            {/* TÍTULO */}
+            <h1 className="text-3xl font-bold text-topo-navy mt-6 mb-6 text-center">
+              {t("services.drones.title")}
+            </h1>
 
-            <button
-              onClick={handleServicesClick}
-              className="px-6 py-3 rounded-lg font-semibold border border-topo-navy text-topo-navy hover:bg-gray-200 transition-colors"
-            >
-              {t("buttons.other")}
-            </button>
+            {/* IMAGEN */}
+            <div className="w-full bg-white p-3 rounded-xl shadow-md mb-8">
+              <img
+                src="/images/servicios/Modelo3dLasCurvasNivelOrtofoto.webp"
+                alt={t("services.drones.title")}
+                className="w-full h-64 md:h-96 object-cover rounded-lg"
+              />
+            </div>
 
-          </div>
+            {/* INTRODUCCIÓN */}
+            <p className="text-lg leading-relaxed text-topo-dark mb-10">
+              {t("services.drones.description")}
+            </p>
 
+{/* BOTONES */}
+            <div className="flex justify-center gap-4 mb-12">
+              <Button
+                variant="accent"
+                onClick={handleContactClick}
+                className="px-6 py-3 rounded-lg font-semibold border border-topo-navy text-topo-navy hover:bg-gray-200 transition-colors"
+              >
+                {t("buttons.quote")}
+              </Button>
+
+              <button
+                onClick={handleServicesClick}
+                className="px-6 py-3 rounded-lg font-semibold border border-topo-navy text-topo-navy hover:bg-gray-200 transition-colors"
+              >
+                {t("buttons.other")}
+              </button>
+            </div>
+
+  {/* Table of contents */}
+        <div className="bg-topo-gray/5 rounded-xl mb-10">
+          <h2 className="text-xl font-bold text-topo-navy mb-4">
+            {isSpanish
+              ? "Preguntas Frecuentes"
+              : "Frequently asked questions"}
+          </h2>
+
+          <ul className="space-y-2">
+            <li><a href="#s1" className="hover:underline">{t("services.drones.section1")}</a></li>
+            <li><a href="#s2" className="hover:underline">{t("services.drones.section2")}</a></li>
+            <li><a href="#s3" className="hover:underline">{t("services.drones.section3")}</a></li>
+            <li><a href="#s4" className="hover:underline">{t("services.drones.section4")}</a></li> 
+            <li><a href="#s5" className="hover:underline">{t("services.drones.section5")}</a></li>
+          </ul>
         </div>
 
 
-{/* RELATED ARTICLE */}
+            {/* SECTION 1 */}
+            <div id="s1" className="mb-10">
+              <h2 className="text-2xl font-bold text-topo-navy mb-3">
+                {t("services.drones.section1")}
+              </h2>
 
-<div className="mt-12 border-t pt-10">
-  <h3 className="text-2xl font-bold text-topo-navy mb-6">
-    {i18n.language === "es"
-      ? "¿Quieres saber cómo se realiza la fotogrametría con drones?"
-      : "Would you like to know how drone photogrammetry works?"}
-  </h3>
+              <p className="text-topo-dark leading-relaxed">
+                {t("services.drones.section1Text")}
+              </p>
+            </div>
 
-  <div className="max-w-3xl grid md:grid-cols-2 gap-6">
+            {/* SECTION 2 */}
+            <div id="s2" className="mb-10">
+              <h2 className="text-2xl font-bold text-topo-navy mb-3">
+                {t("services.drones.section2")}
+              </h2>
 
-<BlogCard
-  title={t("blog.FotogrametriaDrones.title")}
-  excerpt={t("blogCard.FotogrametriaDronesExcerpt")}
-  image="/images/blog/FotogrametriaDrones.webp"
-  link={
-    i18n.language === "es"
-      ? "/blog/Fotogrametria-drones"
-      : "/blog/Drone-Photogrammetry"
-  }
-/>
+              <p className="text-topo-dark leading-relaxed">
+                {t("services.drones.section2Text")}
+              </p>
+            </div>
 
-<BlogCard
-  title={t("blog.FotogrametriaDronesPlanificarVuelo.title")}
-  excerpt={t("blog.FotogrametriaDronesPlanificarVuelo.intro")}
-  image="/images/blog/FotogrametriaDronPlanVuelo.webp"
-  link={
-    i18n.language === "es"
-      ? "/blog/Fotogrametria-drones-Planificar-vuelo"
-      : "/blog/Drone-Photogrammetry-Plan-your-flight"
-  }
-/>
+            {/* SECTION 3 */}
+            <div id="s3" className="mb-10">
+              <h2 className="text-2xl font-bold text-topo-navy mb-3">
+                {t("services.drones.section3")}
+              </h2>
 
+              <p className="text-topo-dark leading-relaxed">
+                {t("services.drones.section3Text")}
+              </p>
+            </div>
 
-  </div>
-</div>
+            {/* SECTION 4 */}
+            <div id="s4" className="mb-10">
+              <h2 className="text-2xl font-bold text-topo-navy mb-3">
+                {t("services.drones.section4")}
+              </h2>
 
+              <p className="text-topo-dark leading-relaxed">
+                {t("services.drones.section4Text")}
+              </p>
+            </div>
 
+            {/* SECTION 5 */}
+            <div id="s5" className="mb-10">
+              <h2 className="text-2xl font-bold text-topo-navy mb-3">
+                {t("services.drones.section5")}
+              </h2>
 
-      </section>
+              <p className="text-topo-dark leading-relaxed">
+                {t("services.drones.section5Text")}
+              </p>
+            </div>
+
+            {/* BOTONES */}
+            <div className="flex justify-center gap-4 mb-12">
+              <Button
+                variant="accent"
+                onClick={handleContactClick}
+                className="px-6 py-3 rounded-lg font-semibold border border-topo-navy text-topo-navy hover:bg-gray-200 transition-colors"
+              >
+                {t("buttons.quote")}
+              </Button>
+            </div>
+
+          </div>
+
+          {/* RELATED ARTICLES */}
+          <div className="max-w-4xl mx-auto mt-12 border-t pt-10">
+
+            <h3 className="text-2xl font-bold text-topo-navy mb-6 text-center">
+              {isSpanish
+                ? "¿Quieres saber más sobre la fotogrametría con drones?"
+                : "Would you like to learn more about drone photogrammetry?"}
+            </h3>
+
+            <div className="max-w-3xl mx-auto grid md:grid-cols-2 gap-6">
+
+              {/* ARTICLE 1 */}
+              <BlogCard
+                title={t("blog.FotogrametriaDrones.title")}
+                excerpt={t("blogCard.FotogrametriaDronesExcerpt")}
+                image="/images/blog/FotogrametriaDrones.webp"
+                link={
+                  isSpanish
+                    ? "/blog/Fotogrametria-drones"
+                    : "/blog/Drone-Photogrammetry"
+                }
+              />
+
+              {/* ARTICLE 2 */}
+              <BlogCard
+                title={t("blog.FotogrametriaDronesPlanificarVuelo.title")}
+                excerpt={t("blog.FotogrametriaDronesPlanificarVuelo.intro")}
+                image="/images/blog/FotogrametriaDronPlanVuelo.webp"
+                link={
+                  isSpanish
+                    ? "/blog/Fotogrametria-drones-Planificar-vuelo"
+                    : "/blog/Drone-Photogrammetry-Plan-your-flight"
+                }
+              />
+
+            </div>
+
+          </div>
+
+        </section>
 
       </ServiceTemplate>
     </>

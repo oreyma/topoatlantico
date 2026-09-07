@@ -12,12 +12,12 @@ export default function MedicionParcelas() {
 const isSpanish = i18n.language === "es";
 
 const seoTitle = isSpanish
-  ? "Medición y Regularización de Fincas | Georreferenciación en Canarias | TOPOATLANTICO"
-  : "Property Surveys & Land Regularization | Georeferencing in the Canary Islands | TOPOATLANTICO";
+  ? "Medición de Parcelas y Fincas en Canarias | TOPOATLANTICO"
+  : "Property and Land Surveys in the Canary Islands | TOPOATLANTICO";
 
 const seoDescription = isSpanish
-  ? "Medición y regularización de fincas rústicas y urbanas en Canarias. Linderos, georreferenciación, Catastro-Registro, segregaciones, agrupaciones, GML, inmatriculaciones y superficies."
-  : "Property surveying and land regularization services in the Canary Islands. Boundaries, georeferencing, Cadastre-Land Registry coordination, subdivisions, GML files, first property registration and area calculations.";
+  ? "Medición de terrenos rústicos y urbanos en Canarias. Nuestros servicios incluyen delimitación de linderos, certificados de georreferenciación y antigüedad, comprobaciones con Catastro y Registro, segregaciones, agrupaciones, divisiones de fincas, inmatriculaciones, GML catastro, Informe de validación gráfica, representaciones gráficas alternativas, y cálculo de superficies y volúmenes."
+  : "Land surveying services for rural and urban properties in the Canary Islands. Our services also include georeferencing certificates, building age certificates, Land Registry and Cadastre coordination, property subdivisions, mergers, boundary adjustments, first registrations, alternative graphical representations, and detailed area and volume calculations.";
 
   const handleContactClick = () => {
     navigate("/#contact")
@@ -81,109 +81,197 @@ const seoDescription = isSpanish
 </Helmet>
 
 <ServiceTemplate>
-      {/* CONTENIDO PRINCIPAL */}
-      <section
-  className="min-h-screen flex flex-col items-center justify-center text-center bg-white p-6 pt-30"
->
 
-<div className="w-full max-w-2xl">
-  <h1 className="text-3xl font-bold text-topo-navy mt-6 mb-4 text-center">
-    {t("services.parcelas.title")}
-  </h1>
+{/* CONTENIDO PRINCIPAL */}
+<section className="min-h-screen flex flex-col items-center bg-white p-6 pt-30">
 
-  <div className="w-full bg-white p-3 rounded-xl shadow-md">
-    <img
-      src="/images/servicios/PlanoDeslindeGeorreferenciacionCatastro-Registro.webp"
-      alt={t("services.parcelas.title")}
-      className="w-full aspect-[1.414/1] object-contain"
-    />
-  </div>
+  <div className="w-full max-w-4xl">
 
-          <p className="whitespace-pre-line text-topo-dark mb-6">
-            {t("services.parcelas.desc")}
-          </p>
+    <h1 className="text-3xl font-bold text-topo-navy mt-6 mb-6 text-center">
+      {t("services.parcelas.title")}
+    </h1>
 
-          <div className="flex justify-center gap-4">
-            <Button
-              variant="accent"
-              onClick={handleContactClick}
-              className="px-6 py-3 rounded-lg font-semibold border border-topo-navy text-topo-navy hover:bg-gray-200 transition-colors"
-            >
-              {t("buttons.quote")}
-            </Button>
+    <div className="w-full bg-white p-3 rounded-xl shadow-md mb-8">
+      <img
+        src="/images/servicios/PlanoDeslindeGeorreferenciacionCatastro-Registro.webp"
+        alt={t("services.parcelas.title")}
+        className="w-full aspect-[1.414/1] object-contain"
+      />
+    </div>
 
-            <button
-              onClick={handleServicesClick}
-              className="px-6 py-3 rounded-lg font-semibold border border-topo-navy text-topo-navy hover:bg-gray-200 transition-colors"
-            >
-              {t("buttons.other")}
-            </button>
-          </div>
+    {/* INTRO */}
+    <p className="whitespace-pre-line text-topo-dark mb-10 text-lg leading-relaxed">
+      {t("services.parcelas.description")}
+    </p>
+
+{/* BOTONES */}
+            <div className="flex justify-center gap-4 mb-12">
+              <Button
+                variant="accent"
+                onClick={handleContactClick}
+                className="px-6 py-3 rounded-lg font-semibold border border-topo-navy text-topo-navy hover:bg-gray-200 transition-colors"
+              >
+                {t("buttons.quote")}
+              </Button>
+
+              <button
+                onClick={handleServicesClick}
+                className="px-6 py-3 rounded-lg font-semibold border border-topo-navy text-topo-navy hover:bg-gray-200 transition-colors"
+              >
+                {t("buttons.other")}
+              </button>
+            </div>
+
+  {/* Table of contents */}
+        <div className="bg-topo-gray/5 rounded-xl mb-10">
+          <h2 className="text-xl font-bold text-topo-navy mb-4">
+            {isSpanish
+              ? "Preguntas Frecuentes"
+              : "Frequently asked questions"}
+          </h2>
+
+          <ul className="space-y-2">
+            <li><a href="#s1" className="hover:underline">{t("services.parcelas.section1")}</a></li>
+            <li><a href="#s2" className="hover:underline">{t("services.parcelas.section2")}</a></li>
+            <li><a href="#s3" className="hover:underline">{t("services.parcelas.section3")}</a></li>
+            <li><a href="#s4" className="hover:underline">{t("services.parcelas.section4")}</a></li> 
+            <li><a href="#s5" className="hover:underline">{t("services.parcelas.section5")}</a></li>
+            <li><a href="#s6" className="hover:underline">{t("services.parcelas.section6")}</a></li>
+          </ul>
         </div>
 
-{/* RELATED ARTICLE */}
+    {/* SECTION 1 */}
+    <div id="s1" className="mb-10">
+      <h2 className="text-2xl font-bold text-topo-navy mb-3">
+        {t("services.parcelas.section1")}
+      </h2>
+      <p className="text-topo-dark leading-relaxed">
+        {t("services.parcelas.section1Text")}
+      </p>
+    </div>
 
-<div className="mt-12 border-t pt-10">
-  <h3 className="text-2xl font-bold text-topo-navy mb-6">
-    {i18n.language === "es"
-      ? "¿Quieres saber cómo se realiza una inmatriculación?"
-      : "Would you like to know how to register a property in Spain?"}
-  </h3>
+    {/* SECTION 2 */}
+    <div id="s2" className="mb-10">
+      <h2 className="text-2xl font-bold text-topo-navy mb-3">
+        {t("services.parcelas.section2")}
+      </h2>
+      <p className="text-topo-dark leading-relaxed">
+        {t("services.parcelas.section2Text")}
+      </p>
+    </div>
 
-  <div className="max-w-3xl grid md:grid-cols-2 gap-6">
+    {/* SECTION 3 */}
+    <div id="s3" className="mb-10">
+      <h2 className="text-2xl font-bold text-topo-navy mb-3">
+        {t("services.parcelas.section3")}
+      </h2>
+      <p className="text-topo-dark leading-relaxed">
+        {t("services.parcelas.section3Text")}
+      </p>
+    </div>
 
+    {/* SECTION 4 */}
+    <div id="s4" className="mb-10">
+      <h2 className="text-2xl font-bold text-topo-navy mb-3">
+        {t("services.parcelas.section4")}
+      </h2>
+      <p className="text-topo-dark leading-relaxed">
+        {t("services.parcelas.section4Text")}
+      </p>
+    </div>
 
-<BlogCard
-  title={t("blog.InmatriculacionFincaRegistro.title")}
-  excerpt={t("blog.InmatriculacionFincaRegistro.intro")}
-  image="/images/blog/InmatriculacionGeorreferenciacionCatastroRegistro.webp"
-  link={
-    i18n.language === "es"
-      ? "/blog/inmatriculacion-finca-registro"
-      : "/blog/property-registration-spain"
-  }
-/>
+    {/* SECTION 5 */}
+    <div id="s5" className="mb-10">
+      <h2 className="text-2xl font-bold text-topo-navy mb-3">
+        {t("services.parcelas.section5")}
+      </h2>
+      <p className="text-topo-dark leading-relaxed">
+        {t("services.parcelas.section5Text")}
+      </p>
+    </div>
 
-<BlogCard
-  title={t("blog.CertificadoGeorreferenciacionCanarias.title")}
-  excerpt={t("blog.CertificadoGeorreferenciacionCanarias.intro")}
-  image="/images/blog/CertificadoGeorreferenciacionCanarias.webp"
-  link={
-    i18n.language === "es"
-      ? "/blog/certificado-georreferenciacion-canarias"
-      : "/blog/georeferencing-certificate-canary-islands"
-  }
-/>
+    {/* SECTION 6 */}
+    <div id="s6" className="mb-10">
+      <h2 className="text-2xl font-bold text-topo-navy mb-3">
+        {t("services.parcelas.section6")}
+      </h2>
+      <p className="text-topo-dark leading-relaxed">
+        {t("services.parcelas.section6Text")}
+      </p>
+    </div>
 
+    {/* CTA */}
+    <div className="flex justify-center gap-4 mb-12">
+      <Button
+        variant="accent"
+        onClick={handleContactClick}
+        className="px-6 py-3 rounded-lg font-semibold border border-topo-navy text-topo-navy hover:bg-gray-200 transition-colors"
+      >
+        {t("buttons.quote")}
+      </Button>
+    </div>
 
-<BlogCard
-  title={t("blog.DiferenciaCatastroRegistro.title")}
-  excerpt={t("blog.DiferenciaCatastroRegistro.intro")}
-  image="/images/blog/DiferenciaCatastroRegistro.webp"
-  link={
-    i18n.language === "es"
-      ? "/blog/diferencia-catastro-registro"
-      : "/blog/difference-cadastre-registry"
-  }
-/>
+    {/* RELATED ARTICLE */}
+    <div className="border-t pt-10">
+      <h3 className="text-2xl font-bold text-topo-navy mb-6 text-center">
+        {i18n.language === "es"
+          ? "Artículos relacionados con la medición de parcelas y regularización de fincas"
+          : "Related articles on property surveys and land regularization"}
+      </h3>
 
-<BlogCard
-  title={t("blog.GmlCatastro.title")}
-  excerpt={t("blog.GmlCatastro.intro")}
-  image="/images/blog/GmlCatastro.webp"
-  link={
-    i18n.language === "es"
-      ? "/blog/gml-catastro-canarias"
-      : "/blog/gml-cadastre-canary-islands"
-  }
-/>
+      <div className="max-w-3xl mx-auto grid md:grid-cols-2 gap-6">
+
+        <BlogCard
+          title={t("blog.InmatriculacionFincaRegistro.title")}
+          excerpt={t("blog.InmatriculacionFincaRegistro.intro")}
+          image="/images/blog/InmatriculacionGeorreferenciacionCatastroRegistro.webp"
+          link={
+            i18n.language === "es"
+              ? "/blog/inmatriculacion-finca-registro"
+              : "/blog/property-registration-spain"
+          }
+        />
+
+        <BlogCard
+          title={t("blog.CertificadoGeorreferenciacionCanarias.title")}
+          excerpt={t("blog.CertificadoGeorreferenciacionCanarias.intro")}
+          image="/images/blog/CertificadoGeorreferenciacionCanarias.webp"
+          link={
+            i18n.language === "es"
+              ? "/blog/certificado-georreferenciacion-canarias"
+              : "/blog/georeferencing-certificate-canary-islands"
+          }
+        />
+
+        <BlogCard
+          title={t("blog.DiferenciaCatastroRegistro.title")}
+          excerpt={t("blog.DiferenciaCatastroRegistro.intro")}
+          image="/images/blog/DiferenciaCatastroRegistro.webp"
+          link={
+            i18n.language === "es"
+              ? "/blog/diferencia-catastro-registro"
+              : "/blog/difference-cadastre-registry"
+          }
+        />
+
+        <BlogCard
+          title={t("blog.GmlCatastro.title")}
+          excerpt={t("blog.GmlCatastro.intro")}
+          image="/images/blog/GmlCatastro.webp"
+          link={
+            i18n.language === "es"
+              ? "/blog/gml-catastro-canarias"
+              : "/blog/gml-cadastre-canary-islands"
+          }
+        />
+
+      </div>
+    </div>
 
   </div>
-</div>
-
-
-      </section>
+</section>
       </ServiceTemplate>
     </>
   )
 }
+

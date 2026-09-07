@@ -17,44 +17,98 @@
     "title": "Nuestros servicios",
     "description": "Ofrecemos asesoramiento y soluciones adaptadas al cliente",
     "list": {
-      "parcelas": "Medición y regularización de fincas",
+      "parcelas": "Medición de parcelas y fincas",
       "replanteo": "Replanteo de Obra",
       "levantamientos": "Levantamientos Topográficos",
-      "asistencia": "Asistencia Técnica",
+      "asistencia": "Topografía | Asistencia Técnica en Obra",
       "monitoreo": "Monitoreo de Estrucutras",
-      "drones": "Drones y Fotogrametría"
+      "drones": "Fotogrametría con Drones"
     },
-  "levantamientos": {
-      "title": "Levantamientos Topográficos y Cartografía",
-      "desc": "Realizamos levantamientos topográficos precisos para ingeniería, edificación y cartografía. Generamos planos, curvas de nivel y modelos 3D del terreno."
-    },
+
+    "levantamientos": {
+      "title": "Levantamientos Topográficos en Canarias",
+      "description": "Realizamos levantamientos topográficos en las Islas Canarias para todo tipo de proyectos de construcción, ingeniería civil, urbanismo, edificación, medición de terrenos, etc. Combinamos metodologías GNSS, estación total y, cuando resulta conveniente, fotogrametría con drones para generar planos y modelos precisos adaptados a las necesidades de cada encargo, garantizando resultados fiables y una ejecución sin sorpresas.",
+
+      "section1": "¿Qué es un levantamiento topográfico?",
+      "section1Text": "El levantamiento topográfico es el proceso de medir y representar con precisión las dimensiones, formas y características de un terreno. Esta tarea permite determinar la posición y altura de puntos, definir la geometría del terreno y localizar elementos existentes como edificaciones, muros, carreteras, caminos, cerramientos, servicios y otros elementos relevantes.",
+
+      "section3": "¿Levantamientos planimétricos, altimétricos o ambos?",
+      "section3Text": "Un levantamiento puede centrarse en la posición horizontal de los elementos, en sus alturas o en ambas características. Los levantamientos planimétricos permiten representar la geometría y posición en planta de los elementos existentes, mientras que los levantamientos altimétricos permiten determinar sus cotas, pendientes y diferencias de altura. En muchos proyectos es necesario combinar ambas componentes para obtener una representación completa del terreno.",
+
+      "section2": "¿Por qué es neceario un levantamiento topográfico para construcción e ingeniería?",
+      "section2Text": "Los levantamientos topográficos son una parte fundamental de numerosos proyectos de construcción e ingeniería. Son utilizados como punto de partida para la configuración de proyectos de edificación, carreteras, urbanizaciones, movimientos de tierras, instalaciones y otras obras. La información obtenida permite a arquitectos, ingenieros y técnicos disponer de una representación precisa del terreno sobre la que desarrollar sus diseños y realizar comprobaciones durante la ejecución.",
+
+      "section4": "¿Cuánto cuesta un levantamiento topográfico?",
+      "section4Text": "El precio de un levantamiento topográfico depende de factores como la superficie del terreno, su ubicación, accesibilidad, orografía, precisión requerida y tipo de documentación final. Por este motivo, cada trabajo se presupuesta de forma personalizada. En el caso de un solar pequeño, el trabajo suele completarse en pocas horas y su precio puede situarse habitualmente por debajo de 300 euros. En cambio, los proyectos de mayor extensión o con condiciones difíciles pueden requerir varios días de trabajo y un presupuesto más elevado.",
+
+      "section5": "¿Necesita un levantamiento topográfico en Canarias?",
+      "section5Text": "TOPOATLANTICO realiza levantamientos topográficos en las Islas Canarias para proyectos de construcción, ingeniería, urbanismo, medición de parcelas y otros trabajos técnicos. Si necesita conocer las características de un terreno, preparar un proyecto o disponer de un plano topográfico preciso, contacte con nosotros para estudiar su caso y solicitar presupuesto."
+},
+
     "replanteo": {
       "title": "Replanteo de Obra",
       "desc": "Servicios de replanteo de alta precisión en edificación y obra civil: Amplia experiencia en replanteos de estructuras, movimientos de tierra, servicios enterrados, urbanización, etc."
     },
+
     "parcelas": {
-      "title": "Medición y regularización de fincas",
-      "desc": "Ofrecemos soluciones técnicas para la medición y regularización de fincas rústicas y urbanas. \n Nuestros servicios incluyen delimitación de linderos, certificados de georreferenciación y antigüedad, coordinación Catastro-Registro, segregaciones, agrupaciones, divisiones de fincas, inmatriculaciones, GML catastro, Informe de validación gráfica, representaciones gráficas alternativas, y cálculo de superficies y volúmenes."
-    },
+"title": "Medición de parcelas y fincas en Canarias",
+"description": "Realizamos mediciones de fincas rústicas y urbanas en Canarias para determinar su superficie, límites y características con precisión. Nuestros servicios incluyen delimitación de linderos, certificados de georreferenciación y antigüedad, comprobaciones con Catastro y Registro, segregaciones, agrupaciones, divisiones, inmatriculaciones, GML catastro, Informe de validación gráfica, representaciones gráficas alternativas, y cálculo de superficies y volúmenes.",
+
+"section1": "¿Cuándo es necesario medir una finca?",
+"section1Text": "La medición de una finca permite conocer con precisión su superficie, límites y características físicas. Puede ser necesaria para comprobar la superficie real de una parcela, verificar linderos, preparar una compraventa, estudiar una segregación o agrupación, desarrollar un proyecto de construcción o analizar diferencias entre la realidad física y la información disponible en Catastro.",
+
+"section2": "¿Es recomendable medir una finca antes de venderla?",
+"section2Text": "Comprobar las dimensiones y límites de una finca antes de una compraventa puede ayudar a detectar posibles discrepancias con la documentación disponible y evitar problemas posteriores. Una medición topográfica permite conocer la superficie real y comprobar la situación física de la propiedad. Cuando existen diferencias con Catastro o con otros documentos, disponer de esta información con antelación facilita el análisis de la situación y la preparación de la documentación técnica que pueda ser necesaria.",
+
+"section3": "¿Cuánto cuesta medir una parcela?",
+"section3Text": "El precio de una medición depende principalmente de la superficie de la finca, su ubicación, accesibilidad, orografía, vegetación, número y complejidad de los límites y del tipo de documentación que se necesite. Por este motivo, cada trabajo se presupuesta de forma personalizada. Si nos indica la ubicación y las características de la finca, podemos valorar los trabajos necesarios y preparar un presupuesto.",
+
+"section4": "¿Cuándo es necesario un certificado de georreferenciación?",
+"section4Text": "La georreferenciación puede ser necesaria en diferentes procedimientos relacionados con el Registro de la Propiedad y el Catastro. Entre ellos se encuentran determinadas inmatriculaciones, segregaciones, agrupaciones y divisiones de fincas, modificaciones de superficie o linderos, deslindes y otros procedimientos en los que sea necesario definir con precisión la ubicación y geometría de una parcela. También puede resultar necesaria para comprobar la correspondencia entre la realidad física de una finca y su información catastral o registral.",
+
+"section5": "¿Qué es un archivo GML del Catastro?",
+"section5Text": "Un archivo GML es un formato digital utilizado para almacenar información geográfica. En España, en el ámbito catastral, los archivos GML tienen especial importancia en determinados procedimientos relacionados con el Catastro y el Registro de la Propiedad, ya que permiten definir mediante coordenadas la ubicación, forma y superficie de una finca. El archivo permite trabajar con la información de la finca de forma digital y facilita su comprobación mediante herramientas y servicios de validación gráfica.",
+
+"section6": "¿Necesita medir una finca rústica o un terreno urbano?",
+"section6Text": "TOPOATLANTICO realiza mediciones de parcelas tanto rústicas como urbanas en las Islas Canarias. Si necesita conocer la superficie de una parcela, comprobar sus límites, analizar diferencias con Catastro o preparar documentación georreferenciad y archivos GML, contacte con nosotros para estudiar su caso y solicitar presupuesto."
+},
+
     "asistencia": {
-      "title": "Asistencia Técnica",
-      "desc": "Ofrecemos asistencia técnica en obra, control de replanteos, cubicaciones, nivelaciones y verificación de estructuras. Aseguramos la precisión geométrica en todas las fases del proyecto."
+      "title": "Topografía | Asistencia Técnica en Obra",
+      "desc": "Ofrecemos asistencia técnica en obra para el control de replanteos, cubicaciones, nivelaciones y verificación geométrica de estructuras. Aseguramos la precisión geométrica en todas las fases del proyecto."
     },
+
     "monitoreo": {
       "title": "Monitoreo de Estructuras",
       "desc": "Realizamos control de deformaciones y desplazamientos en estructuras, taludes, tuneles, presas y edificaciones. Utilizamos instrumentación de alta precisión para un seguimiento continuo y seguro."
     },
     "drones": {
-      "title": "Drones y Fotogrametría",
-      "desc": "Realizamos vuelos con drones para la obtención de ortofotos, modelos 3D, nubes de puntos, cálculo de volúmenes y documentación técnica de alta precisión. \n Además, realizamos tomas de videos para seguimiento de obra, inspección de edificios y estructuras  de difícil acceso y apoyo a todo tipo de proyectos de ingeniería."
+  "title": "Fotogrametría con Drones en Canarias",
+  "description": "Realizamos levantamientos fotogramétricos con drones para obtener ortofotos, nubes de puntos, modelos digitales del terreno, modelos 3D y cálculo de volumenes. Soluciones para topografía, ingeniería, construcción y urbanismo. \n Además, realizamos tomas de videos para seguimiento de obra, inspección de edificios y estructuras  de difícil acceso. Apoyo a todo tipo de proyectos.",
+
+  "section1": "¿Cuándo es útil un levantamiento con drones?",
+  "section1Text": "La fotogrametría resulta especialmente útil para cubrir superficies extensas, terrenos de difícil acceso o zonas donde se necesita obtener una gran cantidad de información en poco tiempo. Puede utilizarse para levantamientos topográficos, seguimiento de obras, cálculo de volúmenes, movimientos de tierras, inspección de infraestructuras, estudios ambientales y documentación de superficies.",
+
+  "section3": "¿Qué precisión puede alcanzar la fotogrametría con drones?",
+  "section3Text": "La precisión depende de factores como la cámara utilizada, la altura de vuelo, las condiciones del terreno y el sistema de posicionamiento. Para trabajos que requieren una georreferenciación y precisión controladas pueden utilizarse puntos de apoyo terrestre medidos mediante GNSS o estación total, pudiendo alcanzar precisiones centimétricas.",
+
+  "section2": "¿Qué productos se pueden obtener?",
+  "section2Text": "Dependiendo de las necesidades del proyecto, podemos generar ortofotos georreferenciadas, nubes de puntos, modelos digitales del terreno (MDT), modelos digitales de superficie (MDS), modelos 3D, curvas de nivel y cálculos de superficies o volúmenes. Los resultados pueden entregarse en formatos compatibles con programas CAD y GIS.",
+
+  "section4": "¿Cuánto cuesta un levantamiento fotogramétrico con drones?",
+  "section4Text": "El precio depende principalmente de la superficie que deba cubrirse, la ubicación, la accesibilidad, la resolución necesaria, los productos solicitados y la precisión requerida. También pueden influir la necesidad de puntos de control terrestre y la complejidad de la planificación y el procesamiento. Por este motivo, cada proyecto se presupuesta de forma personalizada.",
+
+  "section5": "¿Necesita un levantamiento con drones en Canarias?",
+  "section5Text": "TOPOATLANTICO realiza levantamientos fotogramétricos con drones en las Islas Canarias para proyectos de topografía, ingeniería, construcción, urbanismo y otros trabajos técnicos. Si necesita una ortofoto, un modelo del terreno, una nube de puntos, un modelo 3D o un cálculo de superficies y volúmenes, contacte con nosotros para estudiar su proyecto y solicitar presupuesto."
     }
   },
+
   "projects": {
     "title": "Experiencias en el Sector"
   },
   "about": {
     "title": "Sobre nosotros",
-    "p1": "TOPOATLANTICO es un nuevo estudio de topografía con base en las Islas Canarias. Combinamos nuestra experiencia local con la última tecnología para entregar resultados precisos a costes reducidos.",
+    "p1": "TOPOATLANTICO es un nuevo estudio de topografía con base en las Islas Canarias. Combinamos nuestra experiencia local con tecnología avanzada para ofrecer resultados precisos y soluciones adaptadas a cada proyecto.",
     "list": {
       "1": "Técnicos colegiados en geomática y topografía",
       "2": "Operadores de UAS (drones) certificados por AESA",
