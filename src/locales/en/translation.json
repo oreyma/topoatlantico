@@ -18,10 +18,10 @@
     "description": "We offer tailored technical solutions",
     "list": {
       "parcelas": "Property and Land Surveys",
-      "replanteo": "Setting out engineering",
+      "replanteo": "Construction Setting Out",
       "levantamientos": "Topographic Surveys & Mapping",
-      "asistencia": "Land Surveying | Technical Assistance on Construction Sites",
-      "monitoreo": "Structural Monitoring & Surveying",
+      "asistencia": "Surveying Support on Construction Sites",
+      "monitoreo": "Topographic and Structural Monitoring",
       "drones": "Drone Photogrammetry"
     },
 
@@ -45,10 +45,29 @@
       "section5Text": "TOPOATLANTICO provides topographic surveying services throughout the Canary Islands for construction, engineering, urban development, property surveys and other technical projects. If you need accurate information about a site, a topographic plan for a project or a detailed representation of the existing terrain, contact us to discuss your requirements and request a quotation."
     },
 
-    "replanteo": {
-      "title": "Construction Setting Out",
-      "desc": "High-precision setting-out services for building and civil engineering projects, including structures, earthworks, utility networks and urban development."
+"replanteo": {
+"title": "Construction Setting Out",
+"description": "High-precision topographic setting-out services throughout the Canary Islands for construction, building, infrastructure and urban development projects. We carry out setting out of structures, foundations, earthworks, utility networks, roads and other construction elements using total stations and GNSS technology.",
+
+"section1": "What does topographic setting out involve?",
+"section1Text": "Setting out is the process of transferring the construction elements defined in a project onto the ground. Using points and reference marks established on site, the surveyor accurately positions the different elements to be constructed, ensuring that their location and elevation correspond to the project documentation.",
+
+"section2": "Why is accurate setting out important?",
+"section2Text": "Accurate setting out helps prevent positional, alignment and elevation errors that can lead to significant deviations, construction delays and high correction costs. It is an essential stage of any construction project, helping to ensure the correct execution of the structure, optimise the use of materials and ensure that the works comply with the project requirements and applicable regulations.",
+
+"section3": "What elements are set out in building projects?",
+"section3Text": "In building construction, setting out is particularly relevant during the execution of foundations and structures. This includes setting out footings, columns, walls, slabs, floor structures and other construction elements, providing reliable reference points for the teams responsible for carrying out the works.",
+
+"section4": "What elements are set out in infrastructure and civil engineering projects?",
+"section4Text": "In infrastructure and civil engineering projects, such as roads, viaducts, tunnels, urban developments, utility networks and other works, continuous geometric control is commonly carried out for alignments, elevations, slopes, roads, earthworks, drainage systems, conduits and underground utilities.",
+
+"section5": "How much does construction setting out cost?",
+"section5Text": "The cost of setting-out work depends on the type of project, the number of points or elements that need to be established, the required accuracy and the time required on site. For this reason, each job is quoted individually. If you provide the location and basic details of the project, we can assess the work required and prepare a quotation.",
+
+"section6": "Do you need topographic setting out in the Canary Islands?",
+"section6Text": "At TOPOATLANTICO, we have extensive experience providing topographic setting-out services throughout the Canary Islands for building, civil engineering, infrastructure, urban development and other construction projects. If you need to establish project elements on the ground, check positions and elevations, or carry out surveying controls during construction, contact us. We will assess the requirements of your project and prepare a quotation tailored to your needs."
     },
+
     "parcelas": {
 "title": "Property and Land Surveys in the Canary Islands",
 "description": "Land surveying services for rural and urban properties in the Canary Islands. We determine property boundaries, areas and physical features through topographic surveys, cadastral checks and georeferencing.",
@@ -71,14 +90,74 @@
 "section6": "Do you need a property or land survey?",
 "section6Text": "TOPOATLANTICO provides land surveying and topographic survey services for rural and urban properties throughout the Canary Islands. If you need to determine the area of a plot, check its boundaries, investigate discrepancies with the Cadastre or prepare georeferenced documentation and GML files, contact us to discuss your requirements and request a quotation."
 },
-    "asistencia": {
-      "title": "Land Surveying | Technical Assistance on Construction Sites",
-      "desc": "We provide technical surveying assistance on construction sites, including setting-out, cut-and-fill volume calculations, levelling and geometric verification of structures. We ensure geometric accuracy throughout all stages of the project."
-    },
+
+"asistencia": {
+  "title": "Surveying Support and Construction Control",
+
+  "description": "Surveying support and topographic control services for construction, building, infrastructure and urban development projects throughout the Canary Islands. We provide setting-out checks, volume calculations, levelling, elevation and slope checks, and geometric verification of structures and completed works.",
+
+  "section1": "Why hire a surveyor for construction support?",
+
+  "section1Text": "Surveying support provides specialist assistance throughout the construction process to check that the works are being carried out in accordance with the project. Through periodic measurements and surveying checks, positions, elevations, alignments, slopes, geometries, surface areas and earthwork quantities can be verified, providing accurate information to identify potential deviations and support decision-making during construction.",
+
+  "section2": "Why is it important to check setting out?",
+
+  "section2Text": "Checking the setting-out work carried out on site allows us to verify that the position, alignment and elevations of constructed elements correspond to the project documentation. These checks can be applied to foundations, structures, walls, roads, utility networks, pipelines and other construction elements, helping to ensure that the works are carried out correctly, prevent errors and reduce costs.",
+
+  "section3": "Why carry out volume calculations and earthworks control?",
+
+  "section3Text": "These services allow different stages of a construction project to be compared, providing detailed monitoring of completed works and an independent check of the information provided by subcontractors. Using topographic surveys and digital terrain models, we calculate excavation, fill and stockpile volumes and verify the actual progress of the works.",
+
+  "section4": "When is it advisable to carry out levelling and check elevations, grades and slopes?",
+
+  "section4Text": "This type of control is particularly important in road, platform, access road, drainage, pipeline, paving and other construction projects where differences in elevation must comply strictly with the project specifications.",
+
+  "section5": "How is the geometric verification of structures carried out?",
+
+  "section5Text": "The geometric verification of structures is carried out using high-precision surveying measurements to check the geometry and position of construction elements. Depending on the requirements of the project, alignments, verticality, positions, dimensions, elevations and other geometric parameters can be verified in order to identify possible deviations from the design geometry.",
+
+  "section6": "What is the purpose of construction monitoring and control?",
+
+  "section6Text": "Carrying out surveying checks throughout the different stages of a construction project provides objective information about the condition and progress of the works. Measurements can be used to verify construction, identify deviations, compare different stages and generate technical information to support the site management team and those responsible for carrying out the works.",
+
+  "section7": "Do you need surveying support in the Canary Islands?",
+
+  "section7Text": "TOPOATLANTICO provides surveying support and topographic control services for building, civil engineering, infrastructure and urban development projects throughout the Canary Islands. If you need setting-out checks, volume calculations, elevation and slope checks, or geometric verification of structures and completed works, contact us to discuss your project requirements and request a quotation."
+},
+
     "monitoreo": {
-      "title": "Structural Monitoring & Surveying",
-      "desc": "We monitor structural and ground deformations and displacements using high-precision surveying instruments."
-    },
+  "title": "Topographic Monitoring and Structural Surveying in the Canary Islands",
+
+  "description": "Topographic monitoring and surveying services for structures, buildings, excavations and infrastructure throughout the Canary Islands. We carry out periodic checks of displacement, settlement, deformation, verticality, alignment and other geometric parameters using total stations and GNSS technology.",
+
+  "section1": "What is topographic monitoring and structural surveying?",
+
+  "section1Text": "Topographic monitoring involves carrying out periodic measurements to detect possible displacement, settlement, deformation or changes in the geometry of a structure or site. By establishing control points and comparing measurements taken at different times, it is possible to identify changes and monitor their development over time.",
+
+  "section2": "Monitoring structures and buildings",
+
+  "section2Text": "Topographic monitoring can be used to assess the geometric behaviour of structures and buildings during construction, refurbishment or their service life. Depending on the requirements of the project, displacement, settlement, inclination, verticality, alignment and other geometric parameters can be monitored to identify possible movement or deformation.",
+
+  "section3": "Monitoring excavations and retaining structures",
+
+  "section3Text": "Deep excavations, slopes and retaining structures may require topographic monitoring throughout different stages of construction. Periodic measurements can help identify possible displacement or deformation and monitor control points located on the ground, retaining walls, nearby structures or other elements that may be affected by the works.",
+
+  "section4": "Topographic monitoring of dams and infrastructure",
+
+  "section4Text": "Topographic monitoring can also be applied to the geometric control of dams and other infrastructure. Using control points and high-precision measurements, it is possible to monitor displacement, settlement, inclination and other geometric changes, providing objective information about their development over time.",
+
+  "section5": "What parameters can be monitored using surveying techniques?",
+
+  "section5Text": "Depending on the requirements of the project, monitoring surveys can be used to assess horizontal and vertical displacement, settlement, changes in elevation, inclination, verticality, alignment and changes in the position of control points. The selection of monitoring points and measurement frequency is adapted to the characteristics and objectives of each project.",
+
+  "section6": "How is topographic monitoring carried out?",
+
+  "section6Text": "The process begins by establishing a network of reference and monitoring points. Periodic measurements are then carried out using total stations, GNSS or other appropriate surveying techniques. The results are compared with previous measurements to identify possible changes and analyse their development over time. Depending on the requirements of the project, the data can be organised into monitoring reports and records.",
+
+  "section7": "Do you need topographic monitoring in the Canary Islands?",
+
+  "section7Text": "TOPOATLANTICO provides topographic monitoring and surveying services throughout the Canary Islands for structures, buildings, excavations, slopes, dams and infrastructure. If you need to monitor possible displacement, settlement, deformation or geometric changes through periodic surveying measurements, contact us to discuss your project requirements and request a quotation."
+},
 
     "drones": {
   "title": "Drone Photogrammetry in the Canary Islands",
@@ -428,7 +507,7 @@
 
   "intro": "Structural monitoring is the process of periodically measuring buildings, bridges, retaining walls, dams, excavations and civil engineering structures to detect movements, settlements or deformations before they become critical. Using high-precision surveying techniques, engineers can verify structural stability, improve safety and make informed decisions throughout the entire life cycle of a project.",
 
-  "section1": "What Is structural monitoring?",
+  "section1": "What is structural monitoring?",
   "section1Text": "Structural monitoring consists of repeatedly measuring specific points on a structure over time. By comparing observations from different surveys, engineers can detect horizontal movements, vertical settlements and structural deformations with millimetre-level accuracy. This information is essential for assessing the real behaviour of the structure and verifying that it performs within the design tolerances.",
 
   "section2": "Which structures require monitoring?",

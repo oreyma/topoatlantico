@@ -12,12 +12,13 @@ export default function ReplanteoObra() {
 const isSpanish = i18n.language === "es";
 
 const seoTitle = isSpanish
-  ? "Replanteo de Obra | Topografía de obra de alta Precisión en Canarias | TOPOATLANTICO"
-  : "Construction Setting Out | High-Precision Surveying in the Canary Islands | TOPOATLANTICO";
+  ? "Replanteo de Obra en Canarias| TOPOATLANTICO"
+    : "Construction Setting Out in the Canary Islands | TOPOATLANTICO";
 
-const seoDescription = isSpanish
-  ? "Servicios de replanteo de alta precisión en Canarias para edificación y obra civil. Replanteo de estructuras, movimientos de tierra, servicios enterrados y urbanización."
-  : "High-precision construction setting out services in the Canary Islands for building and civil engineering projects. Structural setting out, earthworks, utilities and urban development.";
+  const seoDescription = isSpanish
+    ? "Servicios de replanteo topográfico de alta precisión en Canarias para obras de construcción, edificación, infraestructuras y urbanización. Replanteo de estructuras, cimentaciones, movimientos de tierras y servicios."
+    : "High-precision construction setting-out services throughout the Canary Islands for building, civil engineering, infrastructure and urban development projects. Setting out of structures, foundations, earthworks and utility networks."
+
 
    const handleContactClick = () => {
     navigate("/#contact")
@@ -87,66 +88,172 @@ const settingOutLink =
 
 <ServiceTemplate>
 
-      {/* CONTENIDO PRINCIPAL */}
-      <section className="min-h-screen flex flex-col items-center justify-center text-center bg-white p-6 pt-30" >
-        <div className="max-w-3xl">
-          <h1 className="text-3xl font-bold text-topo-navy mt-6 mb-4 text-center">
-            {t("services.replanteo.title")}
-          </h1>
+              {/* CONTENIDO PRINCIPAL */}
+        <section className="min-h-screen bg-white p-6 pt-30">
 
-          <img
-            src="/images/servicios/ReplanteoDeObraTopografico.webp"
-            alt={t("services.replanteo.title")}
-            className="w-full h-64 md:h-96 object-cover rounded-xl shadow-md"
-          />
+          <div className="max-w-4xl mx-auto">
 
-          <p className="text-lg text-topo-dark mb-6">
-            {t("services.replanteo.desc")}
-          </p>
+            {/* TITLE */}
+            <h1 className="text-3xl font-bold text-topo-navy mt-6 mb-6 text-center">
+              {t("services.replanteo.title")}
+            </h1>
 
-          <div className="flex justify-center gap-4">
-            <Button
-              variant="accent"
-              onClick={handleContactClick}
-              className="px-6 py-3 rounded-lg font-semibold border border-topo-navy text-topo-navy hover:bg-gray-200 transition-colors"
-            >
-              {t("buttons.quote")}
-            </Button>
+            {/* IMAGE */}
+            <img
+              src="/images/servicios/ReplanteoDeObraTopografico.webp"
+              alt={t("services.replanteo.title")}
+              className="w-full h-64 md:h-96 object-cover rounded-xl shadow-md mb-6"
+            />
 
-            <button
-              onClick={handleServicesClick}
-              className="px-6 py-3 rounded-lg font-semibold border border-topo-navy text-topo-navy hover:bg-gray-200 transition-colors"
-            >
-              {t("buttons.other")}
-            </button>
-          </div>
+            {/* DESCRIPTION */}
+            <p className="text-lg text-topo-dark mb-8 leading-relaxed">
+              {t("services.replanteo.description")}
+            </p>
+
+            {/* BUTTONS */}
+            <div className="flex flex-wrap justify-center gap-4 mb-12">
+
+              <Button
+                variant="accent"
+                onClick={handleContactClick}
+                className="px-6 py-3 rounded-lg font-semibold border border-topo-navy text-topo-navy hover:bg-gray-200 transition-colors"
+              >
+                {t("buttons.quote")}
+              </Button>
+
+              <button
+                onClick={handleServicesClick}
+                className="px-6 py-3 rounded-lg font-semibold border border-topo-navy text-topo-navy hover:bg-gray-200 transition-colors"
+              >
+                {t("buttons.other")}
+              </button>
+            </div>
+
+{/* Table of contents */}
+        <div className="bg-topo-gray/5 rounded-xl mb-10">
+          <h2 className="text-xl font-bold text-topo-navy mb-4">
+            {isSpanish
+              ? "Preguntas Frecuentes"
+              : "Frequently asked questions"}
+          </h2>
+
+          <ul className="space-y-2">
+            <li><a href="#s1" className="hover:underline">{t("services.replanteo.section1")}</a></li>
+            <li><a href="#s2" className="hover:underline">{t("services.replanteo.section2")}</a></li>
+            <li><a href="#s3" className="hover:underline">{t("services.replanteo.section3")}</a></li>
+            <li><a href="#s4" className="hover:underline">{t("services.replanteo.section4")}</a></li> 
+            <li><a href="#s5" className="hover:underline">{t("services.replanteo.section5")}</a></li>
+            <li><a href="#s6" className="hover:underline">{t("services.replanteo.section6")}</a></li>
+          </ul>
         </div>
 
-{/* RELATED ARTICLE */}
+            {/* INFORMATION SECTIONS */}
 
-<div className="mt-12 border-t pt-10">
-  <h3 className="text-2xl font-bold text-topo-navy mb-6">
-    {i18n.language === "es"
-      ? "¿Quieres saber cómo se lleva a cabo un  replanteo?"
-      : "Would you like to know how setting out works?"}
-  </h3>
+            <div className="space-y-10">
 
-  <div className="max-w-3xl grid md:grid-cols-2 gap-6">
+              {/* SECTION 1 */}
+              <div id="s1" className="mb-10">
+                <h2 className="text-2xl font-bold text-topo-navy mb-3">
+                  {t("services.replanteo.section1")}
+                </h2>
 
-  <BlogCard
-    title={t("blog.settingOut.title")}
-    excerpt={t("blogCard.settingOutExcerpt")}
-    image="/images/blog/Replanteo_Edificacion.webp"
-    link={settingOutLink}
-  />
+                <p className="text-topo-dark leading-relaxed">
+                  {t("services.replanteo.section1Text")}
+                </p>
+              </div>
 
+              {/* SECTION 2 */}
+              <div id="s2" className="mb-10">
+                <h2 className="text-2xl font-bold text-topo-navy mb-3">
+                  {t("services.replanteo.section2")}
+                </h2>
 
+                <p className="text-topo-dark leading-relaxed">
+                  {t("services.replanteo.section2Text")}
+                </p>
+              </div>
 
-  </div>
-</div>
+              {/* SECTION 3 */}
+              <div id="s3" className="mb-10">
+                <h2 className="text-2xl font-bold text-topo-navy mb-3">
+                  {t("services.replanteo.section3")}
+                </h2>
 
+                <p className="text-topo-dark leading-relaxed">
+                  {t("services.replanteo.section3Text")}
+                </p>
+              </div>
 
-      </section>
+              {/* SECTION 4 */}
+              <div id="s4" className="mb-10">
+                <h2 className="text-2xl font-bold text-topo-navy mb-3">
+                  {t("services.replanteo.section4")}
+                </h2>
+
+                <p className="text-topo-dark leading-relaxed">
+                  {t("services.replanteo.section4Text")}
+                </p>
+              </div>
+
+              {/* SECTION 5 */}
+              <div id="s5" className="mb-10">
+                <h2 className="text-2xl font-bold text-topo-navy mb-3">
+                  {t("services.replanteo.section5")}
+                </h2>
+
+                <p className="text-topo-dark leading-relaxed">
+                  {t("services.replanteo.section5Text")}
+                </p>
+              </div>
+
+              {/* SECTION 6 */}
+              <div id="s6" className="mb-10">
+                <h2 className="text-2xl font-bold text-topo-navy mb-3">
+                  {t("services.replanteo.section6")}
+                </h2>
+
+                <p className="text-topo-dark leading-relaxed">
+                  {t("services.replanteo.section6Text")}
+                </p>
+              </div>
+            </div>
+
+            {/* FINAL CTA */}
+            <div className="flex justify-center mt-12 mb-8">
+              <Button
+                variant="accent"
+                onClick={handleContactClick}
+                className="px-6 py-3 rounded-lg font-semibold border border-topo-navy text-topo-navy hover:bg-gray-200 transition-colors"
+              >
+                {t("buttons.quote")}
+              </Button>
+            </div>
+          </div>
+
+          {/* RELATED ARTICLE */}
+          <div className="max-w-6xl mx-auto mt-12 border-t pt-10">
+
+            <h3 className="text-2xl font-bold text-topo-navy mb-6 text-center">
+              {i18n.language === "es"
+                ? "¿Quieres saber cómo se lleva a cabo un replanteo?"
+                : "Would you like to know how setting out works?"}
+            </h3>
+
+            <div className="max-w-3xl mx-auto grid md:grid-cols-2 gap-6">
+
+              <BlogCard
+                title={t("blog.settingOut.title")}
+                excerpt={t("blogCard.settingOutExcerpt")}
+                image="/images/blog/Replanteo_Edificacion.webp"
+                link={settingOutLink}
+              />
+
+            </div>
+
+          </div>
+
+        </section>
+
       </ServiceTemplate>
     </>
   )

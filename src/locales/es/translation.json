@@ -21,7 +21,7 @@
       "replanteo": "Replanteo de Obra",
       "levantamientos": "Levantamientos Topográficos",
       "asistencia": "Topografía | Asistencia Técnica en Obra",
-      "monitoreo": "Monitoreo de Estrucutras",
+      "monitoreo": "Monitoreo y Auscultación Topográfica",
       "drones": "Fotogrametría con Drones"
     },
 
@@ -45,10 +45,28 @@
       "section5Text": "TOPOATLANTICO realiza levantamientos topográficos en las Islas Canarias para proyectos de construcción, ingeniería, urbanismo, medición de parcelas y otros trabajos técnicos. Si necesita conocer las características de un terreno, preparar un proyecto o disponer de un plano topográfico preciso, contacte con nosotros para estudiar su caso y solicitar presupuesto."
 },
 
-    "replanteo": {
-      "title": "Replanteo de Obra",
-      "desc": "Servicios de replanteo de alta precisión en edificación y obra civil: amplia experiencia en replanteos de estructuras, movimientos de tierras, servicios enterrados, urbanización, etc."
-    },
+"replanteo": {
+"title": "Replanteo de Obra",
+"description": "Servicios de replanteo topográfico de alta precisión en Canarias para obras de construcción, edificación, infraestructuras y urbanización. Realizamos replanteos de estructuras, cimentaciones, movimientos de tierras, servicios enterrados, viales y otros elementos de obra, utilizando estación total y tecnología GNSS.",
+
+"section1": "¿En qué consiste el replanteo topográfico?",
+"section1Text": "El replanteo es el proceso mediante el cual se trasladan al terreno los elementos constructivos definidos en un proyecto. Mediante esta tarea, el topógrafo sitúa con precisión los diferentes elementos definidos en los planos, asegurando que su posición y altura se corresponden con la documentación del proyecto.",
+
+"section2": "¿Por qué es importante un replanteo de precisión?",
+"section2Text": "Un replanteo preciso ayuda a evitar errores de posición, alineación y altura que pueden provocar desviaciones importantes, retrasos en la obra y elevados costes de corrección. Se trata de una fase esencial en cualquier obra, ya que contribuye a garantizar la estabilidad de la construcción, optimiza el uso de materiales y permite que los trabajos se ajusten a las normativas vigentes.",
+
+"section3": "¿Qué elementos se replantean en proyectos de construcción?",
+"section3Text": "En edificación, el replanteo es especialmente relevante durante la fase de ejecución de estructuras y cimentaciones. Durante esta etapa, se realiza el replanteo de zapatas, pilares, muros, losas, forjados y cerramientos, proporcionando referencias fiables para los equipos encargados de la ejecución de la obra.",
+
+"section4": "¿Qué elementos se replantean en proyectos de infraestructuras y obra civil?",
+"section4Text": "En obras de infraestructura y obra civil, como carreteras, viaductos, túneles, urbanizaciones, redes de servicios y otras actuaciones, es habitual llevar a cabo un control geométrico continuo de alineaciones, cotas, pendientes, viales, movimientos de tierras, drenajes, canalizaciones y servicios enterrados.",
+
+"section5": "¿Cuánto cuesta un replanteo de obra?",
+"section5Text": "El precio de un replanteo depende del tipo de obra, número de puntos o elementos que deben materializarse, precisión requerida y tiempo necesario en campo. Por este motivo, cada trabajo se presupuesta de forma personalizada. Si nos facilita la ubicación y las características básicas de la obra, podemos valorar el trabajo necesario y preparar un presupuesto.",
+
+"section6": "¿Necesita un replanteo topográfico en Canarias?",
+"section6Text": "En TOPOATLANTICO contamos con amplia experiencia realizando replanteos topográficos en las Islas Canarias para proyectos de edificación, obra civil, infraestructuras, urbanización y otros trabajos de construcción. Si necesita materializar sobre el terreno los elementos definidos en un proyecto, comprobar posiciones y cotas o realizar controles topográficos durante la ejecución de una obra, contacte con nosotros. Estudiaremos las características del trabajo y le prepararemos un presupuesto adaptado a sus necesidades."
+},
 
     "parcelas": {
 "title": "Medición de parcelas y fincas en Canarias",
@@ -73,15 +91,65 @@
 "section6Text": "TOPOATLANTICO realiza mediciones de parcelas tanto rústicas como urbanas en las Islas Canarias. Si necesita conocer la superficie de una parcela, comprobar sus límites, analizar diferencias con Catastro o preparar documentación georreferenciada y archivos GML, contacte con nosotros para estudiar su caso y solicitar presupuesto."
 },
 
-    "asistencia": {
-      "title": "Topografía | Asistencia Técnica en Obra",
-      "desc": "Ofrecemos asistencia técnica en obra para el control de replanteos, cubicaciones, nivelaciones y verificación geométrica de estructuras. Aseguramos la precisión geométrica en todas las fases del proyecto."
-    },
+"asistencia": {
+"title": "Asistencia Técnica Topográfica en Obra",
+"description": "Servicios de asistencia técnica y control topográfico para obras de construcción, edificación, infraestructuras y urbanización en Canarias. Realizamos control de replanteos, cubicaciones, nivelaciones, comprobación de cotas y pendientes y verificación geométrica de estructuras y elementos ejecutados.",
+
+"section1": "¿Por qué contar con un topógrafo para la asistencia técnica en obra?",
+"section1Text": "La asistencia técnica topográfica proporciona apoyo especializado durante la ejecución de una obra para comprobar que los trabajos se realizan de acuerdo con el proyecto. Mediante mediciones y controles periódicos se pueden verificar posiciones, cotas, alineaciones, pendientes, geometrías, cálculos de superficie y cubicaciones, aportando información precisa para detectar posibles desviaciones y facilitar la toma de decisiones durante la ejecución.",
+
+"section2": "¿Por qué es importante controlar los replanteos?",
+"section2Text": "Revisar los replanteos realizados en obra nos permite verificar que la posición, alineación y cotas de los elementos ejecutados se corresponden con la documentación del proyecto. Este control puede aplicarse a cimentaciones, estructuras, muros, viales, redes de servicios, canalizaciones y otros elementos constructivos, contribuyendo a garantizar el correcto desarrollo de los trabajos, evitando errores y reduciendo costes.",
+
+"section3": "¿Por qué realizar cubicaciones y el control de movimientos de tierras?",
+"section3Text": "Estos trabajos permiten comparar distintos estados de la obra para llevar un seguimiento detallado de las tareas ejecutadas y contrastar la información proporcionada por las empresas subcontratadas. Mediante levantamientos topográficos y modelos digitales del terreno realizamos el cálculo de volúmenes de excavación, relleno o acopio y comprobamos el avance real de la obra.",
+
+"section4": "¿Cuándo es conveniente realizar nivelaciones y controlar cotas, rasantes y pendientes?",
+"section4Text": "Este tipo de control es especialmente importante en proyectos de carreteras, plataformas, viales, drenajes, canalizaciones, pavimentos y otras actuaciones en las que las diferencias de altura deben ajustarse rigurosamente a las especificaciones del proyecto.",
+
+"section5": "¿Cómo se lleva a cabo la verificación geométrica de estructuras?",
+"section5Text": "La verificación geométrica de estructuras se realiza mediante mediciones topográficas de precisión para comprobar la geometría y posición de los elementos constructivos. Según las necesidades del proyecto, pueden verificarse alineaciones, verticalidad, posiciones, dimensiones, cotas y otros parámetros geométricos, con el fin de detectar posibles desviaciones respecto a la geometría prevista.",
+
+"section6": "¿Para qué sirve el control y seguimiento de obra?",
+"section6Text": "La realización de controles topográficos durante las diferentes fases de una obra permite disponer de información objetiva sobre el estado y avance de los trabajos. Las mediciones pueden utilizarse para comprobar la ejecución, detectar desviaciones, realizar comparaciones entre diferentes estados y generar información técnica de apoyo para la dirección de obra y los responsables de ejecución.",
+
+"section7": "¿Necesita asistencia técnica topográfica en Canarias?",
+"section7Text": "En TOPOATLANTICO ofrecemos asistencia técnica topográfica para obras de edificación, obra civil, infraestructuras y urbanización en las Islas Canarias. Si necesita controlar replanteos, realizar cubicaciones, comprobar cotas y pendientes o verificar la geometría de estructuras y elementos ejecutados, contacte con nosotros para estudiar las necesidades de su obra y preparar un presupuesto adaptado."
+},
 
     "monitoreo": {
-      "title": "Monitoreo de Estructuras",
-      "desc": "Realizamos control de deformaciones y desplazamientos en estructuras, taludes, túneles, presas y edificaciones. Utilizamos instrumentación de alta precisión para un seguimiento continuo y seguro."
-    },
+  "title": "Monitoreo y Auscultación Topográfica en Canarias",
+
+  "description": "Servicios de auscultación y monitoreo topográfico de estructuras, edificios, excavaciones e infraestructuras en Canarias. Realizamos controles periódicos de desplazamientos, asentamientos, deformaciones, verticalidad, alineaciones y otros parámetros geométricos mediante estación total y tecnología GNSS.",
+
+  "section1": "¿Qué es la auscultación topográfica?",
+
+  "section1Text": "La auscultación topográfica consiste en realizar mediciones periódicas para detectar posibles desplazamientos, asentamientos, deformaciones o cambios en la geometría de una estructura o terreno. Mediante el establecimiento de puntos de control y la comparación de las mediciones realizadas en diferentes momentos, es posible identificar variaciones y realizar un seguimiento de su evolución.",
+
+  "section2": "Monitoreo de estructuras y edificios",
+
+  "section2Text": "El monitoreo topográfico permite controlar la evolución geométrica de estructuras y edificios durante su construcción, rehabilitación o vida útil. Dependiendo de las características del proyecto, se pueden controlar desplazamientos, asentamientos, inclinaciones, verticalidad, alineaciones y otros parámetros geométricos para detectar posibles movimientos o deformaciones.",
+
+  "section3": "Monitoreo de excavaciones y estructuras de contención",
+
+  "section3Text": "Las excavaciones profundas, taludes y estructuras de contención pueden requerir controles topográficos durante las diferentes fases de ejecución. Las mediciones periódicas permiten detectar posibles desplazamientos o deformaciones y comprobar la evolución de puntos de control situados en el terreno, muros, estructuras próximas u otros elementos que puedan verse afectados por los trabajos.",
+
+  "section4": "Auscultación topográfica de presas e infraestructuras",
+
+  "section4Text": "La auscultación topográfica puede aplicarse también al control geométrico de presas y otras infraestructuras. Mediante puntos de control y mediciones de precisión es posible realizar un seguimiento de desplazamientos, asentamientos, inclinaciones y otros cambios geométricos, proporcionando información objetiva sobre su evolución a lo largo del tiempo.",
+
+  "section5": "¿Qué parámetros se pueden controlar mediante topografía?",
+
+  "section5Text": "Dependiendo de las necesidades del proyecto, los trabajos de monitoreo pueden utilizarse para controlar desplazamientos horizontales y verticales, asentamientos, diferencias de cota, inclinaciones, verticalidad, alineaciones y cambios en la posición de puntos de control. La selección de los puntos y la frecuencia de las mediciones se adapta a las características y objetivos de cada proyecto.",
+
+  "section6": "¿Cómo se realiza un monitoreo topográfico?",
+
+  "section6Text": "El proceso comienza con el establecimiento de una red de puntos de referencia y control. Posteriormente se realizan mediciones periódicas mediante estación total, GNSS u otras técnicas topográficas adecuadas. Los resultados se comparan con mediciones anteriores para identificar posibles variaciones y analizar su evolución. Dependiendo de las necesidades del proyecto, los datos pueden organizarse en informes y registros de seguimiento.",
+
+  "section7": "¿Necesita un monitoreo o auscultación topográfica en Canarias?",
+
+  "section7Text": "En TOPOATLANTICO realizamos trabajos de monitoreo y auscultación topográfica en las Islas Canarias para estructuras, edificios, excavaciones, taludes, presas e infraestructuras. Si necesita controlar posibles desplazamientos, asentamientos, deformaciones o cambios geométricos mediante mediciones topográficas periódicas, contacte con nosotros para estudiar las características del proyecto y preparar un presupuesto adaptado."
+},
     "drones": {
   "title": "Fotogrametría con Drones en Canarias",
   "description": "Realizamos levantamientos fotogramétricos con drones para obtener ortofotos, nubes de puntos, modelos digitales del terreno, modelos 3D y cálculo de volúmenes. Ofrecemos soluciones para topografía, ingeniería, construcción y urbanismo. \n Además, realizamos tomas de vídeo para seguimiento de obra e inspección de edificios y estructuras de difícil acceso.",
@@ -171,7 +239,7 @@
   "title": "¿Qué es el replanteo de obra?",
 "seoDescription": "Descubre qué es el replanteo de obra, cuándo es necesario y cómo se realiza para garantizar la correcta ejecución de estructuras, instalaciones, servicios enterrados y movimientos de tierra en Canarias.",
 
-  "intro": "El replanteo de obra es el proceso mediante el cual se trasladan al terreno los elementos constructivos definidos en los planos del proyecto. Se trata de una fase esencial en cualquier obra, ya que garantiza que cada componente se ejecute exactamente en la posición prevista. Esto asegura la estabilidad de la construcción, optimiza el uso de materiales y permite que los trabajos se ajusten a las normativas vigentes. Un replanteo realizado con precisión evita errores y contratiempos, reduce costes y asegura que edificaciones, infraestructuras y obras civiles se ejecuten correctamente desde el inicio.",
+  "intro": "El replanteo de obra es el proceso mediante el cual se trasladan al terreno los elementos constructivos definidos en los planos del proyecto. Se trata de una fase esencial en cualquier obra, ya que garantiza que cada componente se ejecute exactamente en la posición prevista. Esto contribuye a garantizar la correcta ejecución de la construcción, optimizar el uso de materiales y permite que los trabajos se ajusten a las normativas vigentes. Un replanteo realizado con precisión evita errores y contratiempos, reduce costes y asegura que edificaciones, infraestructuras y obras civiles se ejecuten correctamente desde el inicio.",
 
   "section1": "¿Qué es un replanteo de obra?",
   "section1Text": "El replanteo consiste en marcar sobre el terreno la ubicación exacta de cimentaciones, pilares, muros, carreteras, servicios enterrados y cualquier elemento constructivo definido en el proyecto. Su objetivo es trasladar fielmente el diseño del plano a la realidad.",
@@ -205,7 +273,7 @@
 
   "section1": "¿Qué es la fotogrametría con drones?",
 
-  "section1Text1": "La fotogrametría con drones es una técnica de medición que permite reconstruir la geometría de un terreno o de una infraestructura mediante el procesamiento de fotografías aéreas tomadas desde un vehículo aéreo no tripulado (Dron). A diferencia de una simple fotografía, cada imagen contiene información espacial que, al combinarse con cientos o miles de fotografías adicionales, permite generar modelos tridimensionales extremadamente precisos.",
+  "section1Text1": "La fotogrametría con drones es una técnica de medición que permite reconstruir la geometría de un terreno o de una infraestructura mediante el procesamiento de fotografías aéreas tomadas desde un vehículo aéreo no tripulado (dron). A diferencia de una simple fotografía, cada imagen contiene información espacial que, al combinarse con cientos o miles de fotografías adicionales, permite generar modelos tridimensionales detallados.",
 
   "section1Text2": "El principio de funcionamiento se basa en la fotogrametría digital: el software identifica miles de puntos comunes entre imágenes consecutivas y calcula automáticamente su posición en el espacio. El resultado es una representación tridimensional del terreno con precisión centimétrica, especialmente cuando el proyecto se apoya en puntos de control terrestre (GCP) o sistemas GNSS RTK/PPK.",
 
@@ -268,9 +336,9 @@
       "title": "Fotogrametría con drones: Cómo planificar un vuelo",
 "seoDescription": "Aprende cómo planificar un vuelo de fotogrametría con drones, elegir la altura, configurar los solapes y obtener imágenes adecuadas para crear ortofotos y modelos 3D.",
 
-      "intro": "La planificación del vuelo es determinante para  garantizar resultados fotográmetricos de calidad. Antes de realizar el vuelo, es imprescindible analizar las características del dron, las dimensiones de la zona de trabajo, la resolución necesaria y las posibles limitaciones del entorno. Una correcta planificación permite obtener imágenes con la resolución y geometría necesarias para generar ortofotos, nubes de puntos y modelos tridimensionales con precisión y calidad.",
+      "intro": "La planificación del vuelo es determinante para  garantizar resultados fotogramétricos de calidad. Antes de realizar el vuelo, es imprescindible analizar las características del dron, las dimensiones de la zona de trabajo, la resolución necesaria y las posibles limitaciones del entorno. Una correcta planificación permite obtener imágenes con la resolución y geometría necesarias para generar ortofotos, nubes de puntos y modelos tridimensionales con precisión y calidad.",
 
-      "section1": "Relación entre la camara, la altura de vuelo y la huella sobre el terreno",
+      "section1": "Relación entre la cámara, la altura de vuelo y la huella sobre el terreno",
 
       "section1Text1": "La superficie del terreno que aparece en cada fotografía depende fundamentalmente de dos factores: las características de la cámara y la altura a la que se realiza el vuelo.",
 
@@ -321,13 +389,13 @@
 
   "section6Text1": "Actualmente existen diferentes herramientas gratuitas que permiten planificar misiones de vuelo de forma digital antes de acudir al terreno. Estas aplicaciones permiten definir la zona de trabajo, establecer waypoints, configurar parámetros de vuelo y, en determinados casos, generar automáticamente rutas para cubrir una superficie mediante pasadas paralelas.",
 
-  "section6Text2": "<litchi>Litchi hub</litchi> es una plataforma web que permite diseñar misiones de vuelo desde el navegador mediante waypoints y trabajar con diferentes parámetros de la misión. Es especialmente útil para planificar previamente una misión y revisar su recorrido antes de realizar el vuelo, además permite transferir las rutas a dispositivos compatibles con un gran número de drones comerciales",
+  "section6Text2": "<litchi>Litchi hub</litchi> es una plataforma web que permite diseñar misiones de vuelo desde el navegador mediante waypoints y trabajar con diferentes parámetros de la misión. Es especialmente útil para planificar previamente una misión y revisar su recorrido antes de realizar el vuelo. Además permite transferir las rutas a dispositivos compatibles con un gran número de drones comerciales",
 
   "section6Litchi": "Litchi Hub",
 
   "section6LitchiLink": "https://hub.flylitchi.com/",
 
-  "section6Text3": "<waypointmap>WaypointMap</waypointmap> es otra herramienta orientada a la planificación de misiones de mapeo con drones compatibles. Tambien Permite definir una zona de trabajo y generar rutas de vuelo automatizadas para cubrirla. Entre los drones compatibles se encuentra el DJI Mini 5 Pro, además de otros modelos DJI.",
+  "section6Text3": "<waypointmap>WaypointMap</waypointmap> es otra herramienta orientada a la planificación de misiones de mapeo con drones compatibles. Tambien permite definir una zona de trabajo y generar rutas de vuelo automatizadas para cubrirla. Entre los drones compatibles se encuentra el DJI Mini 5 Pro, además de otros modelos DJI.",
 
   "section6WaypointMap": "WaypointMap",
 
@@ -397,7 +465,7 @@
 
   "section2": "¿Cómo se genera un GML de una finca?",
 
-  "section2Text": "Para generar correctamente un archivo GML es necesario disponer de las coordenadas de los vertices que definen los límites de la finca en el sistema de referencia correspondiente. Cuando no es posible determinar con precisión los límites de la parcela, puede ser necesario realizar un levantamiento topográfico para determinarlos. Posteriormente, la geometría se importa a herramientas como ParCatGML de QGIS que permite generar el archivo GML conforme a las especificaciones técnicas correspondientes.",
+  "section2Text": "Para generar correctamente un archivo GML es necesario disponer de las coordenadas de los vértices que definen los límites de la finca en el sistema de referencia correspondiente. Cuando no es posible determinar con precisión los límites de la parcela, puede ser necesario realizar un levantamiento topográfico para determinarlos. Posteriormente, la geometría se importa a herramientas como ParCatGML de QGIS que permite generar el archivo GML conforme a las especificaciones técnicas correspondientes.",
 
   "section3": "GML, Catastro y Registro de la Propiedad",
 
@@ -432,7 +500,7 @@
   "title": "Monitoreo de estructuras",
 "seoDescription": "Descubre qué es el monitoreo y la auscultación de estructuras, cuándo es necesario y cómo se controlan deformaciones y desplazamientos en edificios, taludes, túneles y otras estructuras en Canarias.",
 
-  "intro": "El monitoreo y la auscultación de estructuras consisten en medir de forma periódica y precisa el comportamiento de edificios, puentes, muros, presas, excavaciones e infraestructuras para detectar desplazamientos, deformaciones o asentamientos antes de que se conviertan en un problema. Gracias a la topografía de alta precisión es posible garantizar la seguridad de las estructuras y tomar decisiones fundamentadas durante toda la vida útil del proyecto.",
+  "intro": "El monitoreo y la auscultación de estructuras consisten en medir de forma periódica y precisa el comportamiento de edificios, puentes, muros, presas, excavaciones e infraestructuras para detectar desplazamientos, deformaciones o asentamientos antes de que se conviertan en un problema. Gracias a la topografía de alta precisión es posible controlar la evolución de las estructuras y tomar decisiones fundamentadas durante toda la vida útil del proyecto.",
 
   "section1": "¿Qué es el monitoreo y la auscultación de estructuras?",
   "section1Text": "La auscultación estructural consiste en controlar la posición de determinados puntos de una estructura mediante mediciones repetidas a lo largo del tiempo. Comparando estas observaciones es posible detectar movimientos horizontales, verticales o deformaciones con precisión milimétrica. Esta información resulta fundamental para evaluar el comportamiento real de la estructura y comprobar que evoluciona dentro de los límites previstos por el proyecto.",
