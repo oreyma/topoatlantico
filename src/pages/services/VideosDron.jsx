@@ -104,6 +104,7 @@ export default function VideosDron() {
   loop
   playsInline
   preload="metadata"
+  poster="/images/servicios/VideoDronPormocionalSeguimientoObra.webp"
 >
   <source
     src="/videos/VideosDronPromocional_ObraCivil.mp4"
