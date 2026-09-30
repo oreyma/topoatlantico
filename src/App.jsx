@@ -15,6 +15,7 @@ import Levantamientos from "./pages/services/Levantamientos"
 import AsistenciaTecnica from "./pages/services/AsistenciaTecnica"
 import MonitoreoAuscultacion from "./pages/services/MonitoreoAuscultacion"
 import DronesFotogrametria from "./pages/services/DronesFotogrametria"
+import VideosDron from "./pages/services/VideosDron"
 import ContactForm from "./components/ContactForm"
 import { useTranslation } from "react-i18next"
 import PrivacyPolicy from "./pages/legal/PrivacyPolicy"
@@ -135,7 +136,7 @@ const { t, i18n } = useTranslation();
   }}
 >
   <div className="max-w-6xl mx-auto p-6" >
-    <h2 className="text-3xl font-bold mb-2 text-topo-navy">{t("services.title")}</h2>
+    <h2 className="text-5xl font-bold mb-2 text-topo-navy">{t("services.title")}</h2>
     <p className="mb-6 text-topo-dark">{t("services.description")}</p>
     <div className="grid gap-6 md:grid-cols-3">
 
@@ -145,6 +146,7 @@ const { t, i18n } = useTranslation();
       <ServiceCard title={t("services.list.asistencia")} image="/images/servicios/AsistenciaTecnicaControlGeometricoVolumenes.webp" link="/servicios/asistencia-tecnica" />
       <ServiceCard title={t("services.list.monitoreo")} image="/images/servicios/MonitoreoEstructuras.webp" link="/servicios/monitoreo-auscultacion" />
       <ServiceCard title={t("services.list.drones")} image="/images/servicios/FotogrametriaDronesGCP.webp" link="/servicios/drones-fotogrametria" />
+      <ServiceCard title={t("services.list.videos")} image="/images/servicios/VideoDronPormocionalSeguimientoObra.webp" link="/servicios/videos-dron" />
     </div>
   </div>
 </section>
@@ -360,8 +362,10 @@ export default function App() {
         <Route path="/servicios/asistencia-tecnica" element={<AsistenciaTecnica />} />
         <Route path="/servicios/monitoreo-auscultacion" element={<MonitoreoAuscultacion />} />
         <Route path="/servicios/drones-fotogrametria" element={<DronesFotogrametria />} />
+<Route  path="/servicios/videos-dron"  element={<VideosDron />} />
         <Route path="/blog" element={<Blog />} />
 
+/>
         <Route path="/blog/what-is-a-topographic-survey" element={<WhatIsTopographicSurvey />} />
         <Route path="/blog/que-es-un-levantamiento-topografico" element={<WhatIsTopographicSurvey />} />
 	<Route path="/blog/replanteo-de-obra" element={<ReplanteoDeObra />} />

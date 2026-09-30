@@ -22,7 +22,8 @@
       "levantamientos": "Topographic Surveys & Mapping",
       "asistencia": "Surveying Support on Construction Sites",
       "monitoreo": "Topographic and Structural Monitoring",
-      "drones": "Drone Photogrammetry"
+      "drones": "Drone Photogrammetry",
+      "videos": "Aerial Drone Video Services"
     },
 
     "levantamientos": {
@@ -177,7 +178,33 @@
 
   "section5": "Do you need a drone survey in the Canary Islands?",
   "section5Text": "TopoAtlantico provides drone photogrammetry surveys throughout the Canary Islands for surveying, engineering, construction, urban development and other technical projects. If you need an orthophoto, terrain model, point cloud, 3D model or surface and volume calculations, contact us to discuss your project and request a quotation."
-}
+},
+
+    "videos": {
+      "title": "Drone video services in the Canary Islands",
+
+      "description": "Professional drone video services in the Canary Islands for project promotion, construction progress monitoring and visual inspection of buildings, structures and infrastructure. We capture high-quality aerial footage to document, present and communicate projects clearly and effectively.",
+
+      "section1": "What drone video services do we offer?",
+
+      "section1Text": "We provide professional drone video services for a wide range of project requirements. Our services include promotional videos, construction progress documentation and monitoring, visual inspections of buildings and structures, and aerial footage for architecture, engineering, construction, real estate and other professional projects. Flight planning and filming are adapted to the characteristics and objectives of each project.",
+
+      "section2": "Promotional and project presentation videos",
+
+      "section2Text": "Aerial footage provides a different perspective for presenting buildings, facilities, construction sites, land and completed projects. We produce promotional and presentation videos for companies, architectural practices, construction companies, property developers and other professionals who need to showcase their projects in an attractive and professional way. Filming can combine different aerial shots and perspectives to create visual content adapted to its intended use.",
+
+      "section3": "Construction progress monitoring and documentation",
+
+      "section3Text": "Periodic drone flights can be used to visually document the progress of a construction project over time. The footage can record different stages of construction, show the progress of the works, document the condition of installations and facilitate communication between the different parties involved in the project. Footage from different dates can also be organised to create a visual record of the development of the works.",
+
+      "section4": "Visual inspection of buildings, structures and infrastructure",
+
+      "section4Text": "Drones make it possible to capture detailed images of areas that are difficult to access or where inspection from the ground is impractical. We can carry out aerial filming for the visual inspection of façades, roofs, structures, installations, slopes, construction sites and infrastructure. The resulting images can help identify visible damage, deterioration, anomalies or elements that may require further technical inspection. This is a visual inspection service and can be complemented by surveying, measurement or other technical inspection services when required.",
+
+      "section5": "Do you need a drone video service in the Canary Islands?",
+
+      "section5Text": "TOPOATLANTICO provides professional drone video services throughout the Canary Islands for project promotion, construction progress monitoring and visual inspection of buildings, structures and infrastructure. If you need to document a construction project, showcase a project from the air or obtain aerial footage for a visual inspection, contact us to discuss your project requirements and request a quotation."
+    }
   },
   "projects": {
     "title": "Industry Experience"

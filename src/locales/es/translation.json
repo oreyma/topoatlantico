@@ -22,7 +22,9 @@
       "levantamientos": "Levantamientos Topográficos",
       "asistencia": "Topografía | Asistencia Técnica en Obra",
       "monitoreo": "Monitoreo y Auscultación Topográfica",
-      "drones": "Fotogrametría con Drones"
+      "drones": "Fotogrametría con Drones",
+      "videos": "Proyectos | Vídeo aereo con drones"
+
     },
 
     "levantamientos": {
@@ -168,6 +170,32 @@
 
   "section5": "¿Necesita un levantamiento con drones en Canarias?",
   "section5Text": "TOPOATLANTICO realiza levantamientos fotogramétricos con drones en las Islas Canarias para proyectos de topografía, ingeniería, construcción, urbanismo y otros trabajos técnicos. Si necesita una ortofoto, un modelo del terreno, una nube de puntos, un modelo 3D o un cálculo de superficies y volúmenes, contacte con nosotros para estudiar su proyecto y solicitar presupuesto."
+    },
+
+    "videos": {
+      "title": "Vídeo aéreo con drones en Canarias",
+
+      "description": "Servicios profesionales de vídeo con drones en Canarias para promoción de proyectos, seguimiento de obra e inspección visual de edificios, estructuras e infraestructuras. Capturamos imágenes aéreas de alta calidad para documentar, presentar y comunicar cada proyecto de forma clara y atractiva.",
+
+      "section1": "¿Qué servicios de vídeo con drones ofrecemos?",
+
+      "section1Text": "Realizamos grabaciones aéreas con drones para diferentes necesidades profesionales. Nuestros servicios incluyen vídeos promocionales, documentación y seguimiento de obras, inspecciones visuales de edificios y estructuras, así como imágenes aéreas para proyectos de arquitectura, ingeniería, construcción, inmobiliario y otras actividades. Adaptamos la planificación del vuelo y las tomas a las características y objetivos de cada proyecto.",
+
+      "section2": "Vídeos promocionales y de presentación",
+
+      "section2Text": "Las imágenes aéreas permiten mostrar edificios, instalaciones, obras, terrenos y proyectos desde una perspectiva diferente. Realizamos vídeos promocionales y de presentación para empresas, estudios de arquitectura, constructoras, promotores inmobiliarios y otros profesionales que necesitan mostrar sus proyectos de una forma atractiva y profesional. Las grabaciones pueden combinar diferentes planos y perspectivas aéreas para crear un contenido visual adaptado al uso previsto.",
+
+      "section3": "Seguimiento y documentación de obra",
+
+      "section3Text": "Los vuelos periódicos permiten documentar visualmente la evolución de una obra a lo largo del tiempo. Las imágenes pueden utilizarse para registrar diferentes fases de ejecución, mostrar el avance de los trabajos, documentar el estado de las instalaciones y facilitar la comunicación entre los diferentes agentes que participan en el proyecto. También es posible organizar las grabaciones realizadas en diferentes fechas para disponer de un registro visual de la evolución de la obra.",
+
+      "section4": "Inspección visual de edificios, estructuras e infraestructuras",
+
+      "section4Text": "Los drones permiten obtener imágenes detalladas de zonas de difícil acceso o cuya inspección desde el suelo resulta complicada. Podemos realizar grabaciones aéreas para la inspección visual de fachadas, cubiertas, estructuras, instalaciones, taludes, obras e infraestructuras. Las imágenes obtenidas pueden ayudar a identificar visualmente posibles daños, deterioros, anomalías o elementos que requieran una inspección técnica más detallada. Este servicio es de carácter visual y puede complementarse con otros trabajos de topografía, medición o inspección técnica cuando sea necesario.",
+
+      "section5": "¿Necesita un servicio de vídeo con drones en Canarias?",
+
+      "section5Text": "TOPOATLANTICO ofrece servicios de vídeo con drones en todas las Islas Canarias para promoción de proyectos, seguimiento de obra e inspección visual de edificios, estructuras e infraestructuras. Si necesita documentar una obra, mostrar un proyecto desde el aire o disponer de imágenes aéreas para una inspección visual, contacte con nosotros para comentar las características de su proyecto y solicitar un presupuesto."
     }
   },
 
