@@ -16,8 +16,8 @@ const seoTitle = isSpanish
 ? "Auscultación Topográfica y Monitoreo de Estructuras en Canarias | TOPOATLANTICO" : "Topographic Monitoring & Structural Surveying in the Canary Islands | TOPOATLANTICO"
 
 const seoDescription = isSpanish
-? "Auscultación topográfica y monitoreo de estructuras, edificios, excavaciones, taludes, presas e infraestructuras en Canarias. Control de desplazamientos, asentamientos y deformaciones mediante mediciones de precisión." 
-: "Topographic monitoring and structural surveying of buildings, structures, excavations, slopes, dams and infrastructure in the Canary Islands. Monitoring of displacement, settlement and deformation using high-precision surveying."
+? "Auscultación topográfica y monitoreo de estructuras, edificios, excavaciones, taludes, presas e infraestructuras en Gran Canaria, Tenerife y Fuerteventura. Control de movimientos, deformaciones y desplazamientos en estructuras, edificios y excavaciones." 
+  : "Topographic and structural monitoring in Gran Canaria, Tenerife and Fuerteventura. Measurement of movements, deformations and displacements in structures, buildings and excavations.";
 
   const handleContactClick = () => {
     navigate("/#contact")

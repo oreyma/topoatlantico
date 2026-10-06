@@ -18,8 +18,8 @@ export default function VideosDron() {
     : "Drone Video Services in the Canary Islands | TOPOATLANTICO";
 
   const seoDescription = isSpanish
-    ? "Servicios de vídeo con drones en Canarias para promoción de proyectos de construcción y obra civil, seguimiento de obra e inspección visual de edificios, estructuras e infraestructuras."
-    : "Professional drone video services in the Canary Islands for promotional videos, construction progress monitoring and visual inspections of buildings, structures and infrastructure.";
+    ? "Vídeo con drones en en Gran Canaria, Tenerife y Fuerteventura para promoción de proyectos de construcción y obra civil, seguimiento de obra e inspección visual de edificios, estructuras e infraestructuras."
+    : "Professional drone video services in Gran Canaria, Tenerife and Fuerteventura for promotional videos, construction progress monitoring and visual inspections of buildings, structures and infrastructure.";
 
   const handleContactClick = () => {
     navigate("/#contact")

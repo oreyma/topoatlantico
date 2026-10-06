@@ -15,8 +15,8 @@ export default function AsistenciaTecnica() {
     : "Surveying Support & Construction Control | TOPOATLANTICO"
 
   const seoDescription = isSpanish
-    ? "Asistencia técnica y control topográfico en obras de construcción, edificación e infraestructuras en Canarias. Control de replanteos, cubicaciones, nivelaciones y verificación geométrica."
-    : "Surveying support and construction control in the Canary Islands. Setting-out checks, volume calculations, levelling, elevation checks and geometric verification for construction and infrastructure projects."
+    ? "Asistencia técnica y control topográfico en en Gran Canaria, Tenerife y Fuerteventura para obras de construcción, edificación e infraestructuras. Control de replanteos, cubicaciones, nivelaciones y control geométrico."
+  : "Surveying support in Gran Canaria, Tenerife and Fuerteventura for construction and infrastructure projects. Setting-out checks, volume calculations, levelling and geometric control.";
 
   const handleContactClick = () => {
     navigate("/#contact")

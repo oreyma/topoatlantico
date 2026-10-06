@@ -15,9 +15,9 @@ export default function Levantamientos() {
     ? "Levantamientos Topográficos en Canarias | TOPOATLANTICO"
     : "Topographic Surveys in the Canary Islands | TOPOATLANTICO"
 
-  const seoDescription = isSpanish
-    ? "Levantamientos topográficos en Canarias para construcción, ingeniería, urbanismo y medición de terrenos. Planos topográficos, cotas, curvas de nivel y modelos digitales del terreno."
-    : "Topographic surveys in the Canary Islands for construction, engineering, urban development and land measurement. Plans, elevations, contour lines and digital terrain models."
+const seoDescription = isSpanish
+  ? "Levantamientos topográficos en Gran Canaria, Tenerife y Fuerteventura para construcción, ingeniería y medición de terrenos. Levantamientos planimétricos y altimétricos, planos, cotas, curvas de nivel y modelos digitales del terreno."
+  : "Topographic surveys in Gran Canaria, Tenerife and Fuerteventura for construction, engineering and land measurement. Planimetric and altimetric surveys, plans, elevations, contour lines and digital terrain models.";
 
   const handleContactClick = () => {
     navigate("/#contact")

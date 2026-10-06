@@ -44,13 +44,13 @@ const { t, i18n } = useTranslation();
 
   const isSpanish = i18n.language === "es";
 
-  const seoTitle = isSpanish
-    ? "Topografía y Cartografía en Canarias | TOPOATLANTICO"
-    : "Land Surveying and Mapping services in the Canary Islands | TOPOATLANTICO";
+const seoTitle = isSpanish
+  ? "Topografía y Cartografía en Canarias | TOPOATLANTICO"
+  : "Land Surveying and Mapping Services in the Canary Islands | TOPOATLANTICO";
 
-  const seoDescription = isSpanish
-    ? "Servicios de topografía y cartografía en las Islas Canarias para construcción, ingeniería y medición de terrenos. Levantamientos, replanteos,  monitorización de estructuras, georreferenciación, control geométrico, fotogrametría con drones y seguimiento de obra."
-    : "Land surveying and mapping services in the Canary Islands for construction, engineering and land measurement. Topographic surveys, setting out, drone photogrammetry, georeferencing and geometric control.";
+const seoDescription = isSpanish
+  ? "Servicios de topografía y cartografía en Gran Canaria, Tenerife y Fuerteventura. Levantamientos, replanteos, medición de terrenos, georreferenciación, fotogrametría con drones y control de obra."
+  : "Land surveying and mapping services in Gran Canaria, Tenerife and Fuerteventura. Topographic surveys, setting out, land measurement, georeferencing, drone photogrammetry and construction control.";
 
   return (
 

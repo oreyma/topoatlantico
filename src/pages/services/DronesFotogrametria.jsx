@@ -18,8 +18,8 @@ const seoTitle = isSpanish
   : "Drone Photogrammetry in the Canary Islands | TOPOATLANTICO";
 
 const seoDescription = isSpanish
-  ? "Fotogrametría con drones en Canarias para topografía, ingeniería y construcción. Ortofotos, nubes de puntos, modelos 3D, levantamientos y cartografía, seguimiento de obra e inspección de edificios y estructuras."
-  : "Drone photogrammetry services in the Canary Islands for surveying, engineering and construction. Orthophotos, point clouds, 3D models, surveying and mapping for construction, engineering and technical projects.";
+  ? "Fotogrametría con drones en Gran Canaria, Tenerife y Fuerteventura para topografía, ingeniería y construcción. Ortofotos, nubes de puntos, modelos 3D, levantamientos y cartografía."
+  : "Drone photogrammetry services in Gran Canaria, Tenerife and Fuerteventura for surveying, engineering and construction. Orthophotos, point clouds, 3D models, surveying and mapping for construction, engineering and technical projects.";
 
   const handleContactClick = () => {
     navigate("/#contact")

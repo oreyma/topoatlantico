@@ -6,29 +6,30 @@
     "blog": "Blog",
     "contact": "Contact"
   },
-  "hero": {
-    "title": "TOPOATLANTICO",
-    "subtitle1": "Surveying and mapping services in the Canary Islands.",
-    "subtitle2": "Tailored precision solutions to meet your needs.",
-    "btn_quote": "Request a quote",
-    "btn_services": "View services"
-  },
- "services": {
-    "title": "Our Services",
-    "description": "We offer tailored technical solutions",
-    "list": {
-      "parcelas": "Property and Land Surveys",
-      "replanteo": "Construction Setting Out",
-      "levantamientos": "Topographic Surveys & Mapping",
-      "asistencia": "Surveying Support on Construction Sites",
-      "monitoreo": "Topographic and Structural Monitoring",
-      "drones": "Drone Photogrammetry",
-      "videos": "Aerial Drone Video Services"
-    },
+"hero": {
+  "title": "TOPOATLANTICO",
+  "subtitle1": "Land surveying and mapping services in Gran Canaria, Tenerife and Fuerteventura.",
+  "subtitle2": "Tailored precision solutions to meet your needs.",
+  "btn_quote": "Request a quote",
+  "btn_services": "View services"
+},
+
+"services": {
+  "title": "Our Services",
+  "description": "Surveying and geomatics services for construction, engineering, land measurement and technical projects.",
+  "list": {
+    "parcelas": "Property and Land Surveys",
+    "replanteo": "Construction Setting Out",
+    "levantamientos": "Topographic Surveys & Mapping",
+    "asistencia": "Surveying Support on Construction Sites",
+    "monitoreo": "Topographic and Structural Monitoring",
+    "drones": "Drone Photogrammetry",
+    "videos": "Aerial Drone Video Services"
+},
 
     "levantamientos": {
       "title": "Topographic Surveys in the Canary Islands",
-      "description": "We carry out topographic surveys throughout the Canary Islands to obtain accurate information about the geometry, elevations and physical features of a site. We combine GNSS, total stations and, where appropriate, drone photogrammetry to produce plans and models adapted to each project.",
+      "description": "We carry out topographic surveys in Gran Canaria, Tenerife y Fuerteventura to obtain accurate information about the geometry, elevations and physical features of a site. We combine GNSS, total stations and, where appropriate, drone photogrammetry to produce plans and models adapted to each project.",
 
       "section1": "What is a topographic survey?",
       "section1Text": "A topographic survey consists of accurately measuring and representing the natural and man-made features of a site. It determines the position and elevation of points, defines the geometry of the terrain and records existing features such as buildings, walls, roads, paths, fences, services and other relevant elements. The resulting data can be used to produce topographic plans, digital terrain models and technical documentation.",
@@ -43,7 +44,7 @@
       "section4Text": "The cost depends on factors such as the size of the site, location, accessibility, terrain, vegetation, the number of features to be surveyed, the required accuracy and the type of final documentation. For this reason, each survey is quoted individually. If you provide the location and basic characteristics of the project, we can assess the work required and prepare a quotation.",
 
       "section5": "Do you need a topographic survey in the Canary Islands?",
-      "section5Text": "TOPOATLANTICO provides topographic surveying services throughout the Canary Islands for construction, engineering, urban development, property surveys and other technical projects. If you need accurate information about a site, a topographic plan for a project or a detailed representation of the existing terrain, contact us to discuss your requirements and request a quotation."
+      "section5Text": "TOPOATLANTICO provides topographic surveying services in Gran Canaria, Tenerife and Fuerteventura for construction, engineering, urban development, property surveys and other technical projects. If you need accurate information about a site, a topographic plan for a project or a detailed representation of the existing terrain, contact us to discuss your requirements and request a quotation."
     },
 
 "replanteo": {
@@ -71,7 +72,7 @@
 
     "parcelas": {
 "title": "Property and Land Surveys in the Canary Islands",
-"description": "Land surveying services for rural and urban properties in the Canary Islands. We determine property boundaries, areas and physical features through topographic surveys, cadastral checks and georeferencing.",
+"description": "Land surveying services for rural and urban properties in Gran Canaria, Tenerife y Fuerteventura. We determine property boundaries, areas and physical features through topographic surveys, cadastral checks and georeferencing.",
 
 "section1": "When is a property survey necessary?",
 "section1Text": "A property survey provides accurate information about the area, boundaries and physical characteristics of a plot of land. It may be necessary to verify the actual area of a property, define or check boundaries, prepare for a property sale, assess a subdivision or amalgamation, develop a construction project or investigate differences between the physical property and the information available in the Cadastre.",
@@ -89,7 +90,7 @@
 "section5Text": "A GML file is a digital format used to represent the geometry of a parcel or property in a georeferenced form. In Spain, GML files are particularly important in certain procedures involving the Spanish Cadastre and Land Registry, as they allow the location, shape and area of a property to be defined using geographic coordinates.",
 
 "section6": "Do you need a property or land survey?",
-"section6Text": "TOPOATLANTICO provides land surveying and topographic survey services for rural and urban properties throughout the Canary Islands. If you need to determine the area of a plot, check its boundaries, investigate discrepancies with the Cadastre or prepare georeferenced documentation and GML files, contact us to discuss your requirements and request a quotation."
+"section6Text": "TOPOATLANTICO provides land surveying and topographic survey services for rural and urban properties in Gran Canaria, Tenerife and Fuerteventura. If you need to determine the area of a plot, check its boundaries, investigate discrepancies with the Cadastre or prepare georeferenced documentation and GML files, contact us to discuss your requirements and request a quotation."
 },
 
 "asistencia": {
@@ -162,7 +163,7 @@
 
     "drones": {
   "title": "Drone Photogrammetry in the Canary Islands",
-  "description": "We carry out drone photogrammetry surveys to produce orthophotos, point clouds, digital terrain models and 3D models and volume calculations. We also provide aerial imagery for construction progress monitoring, building and infrastructure inspections, and technical project documentation. Solutions for surveying, engineering, construction and urban development.",
+  "description": "We carry out drone photogrammetry surveys in Gran Canaria, Tenerife and Fuerteventura to produce orthophotos, point clouds, DTMs, 3D models and volume calculations. We also provide aerial imagery for construction progress monitoring, building and infrastructure inspections, and technical project documentation. Solutions for surveying, engineering, construction and urban development.",
 
   "section1": "When is a drone survey useful?",
   "section1Text": "Photogrammetry is particularly useful for covering large areas, difficult-to-access terrain or sites where a large amount of information needs to be collected in a relatively short time. It can be used for topographic surveys, construction monitoring, volume calculations, earthworks, infrastructure inspection, environmental studies and surface documentation.",
@@ -177,13 +178,13 @@
   "section4Text": "The cost mainly depends on the area to be surveyed, location, accessibility, terrain, required resolution, requested products and required accuracy. The need for ground control points and the complexity of flight planning and data processing can also affect the cost. For this reason, each project is quoted individually.",
 
   "section5": "Do you need a drone survey in the Canary Islands?",
-  "section5Text": "TopoAtlantico provides drone photogrammetry surveys throughout the Canary Islands for surveying, engineering, construction, urban development and other technical projects. If you need an orthophoto, terrain model, point cloud, 3D model or surface and volume calculations, contact us to discuss your project and request a quotation."
+  "section5Text": "TopoAtlantico provides drone photogrammetry surveys in Gran Canaria, Tenerife and Fuerteventura for surveying, engineering, construction, urban development and other technical projects. If you need an orthophoto, terrain model, point cloud, 3D model or surface and volume calculations, contact us to discuss your project and request a quotation."
 },
 
     "videos": {
       "title": "Drone video services in the Canary Islands",
 
-      "description": "Professional drone video services in the Canary Islands for project promotion, construction progress monitoring and visual inspection of buildings, structures and infrastructure. We capture high-quality aerial footage to document, present and communicate projects clearly and effectively.",
+      "description": "Professional drone video services in Gran Canaria, Tenerife and Fuerteventura for project promotion, construction progress monitoring and visual inspection of buildings, structures and infrastructure. We capture high-quality aerial footage to document, present and communicate projects clearly and effectively.",
 
       "section1": "What drone video services do we offer?",
 
@@ -203,23 +204,23 @@
 
       "section5": "Do you need a drone video service in the Canary Islands?",
 
-      "section5Text": "TOPOATLANTICO provides professional drone video services throughout the Canary Islands for project promotion, construction progress monitoring and visual inspection of buildings, structures and infrastructure. If you need to document a construction project, showcase a project from the air or obtain aerial footage for a visual inspection, contact us to discuss your project requirements and request a quotation."
+      "section5Text": "TOPOATLANTICO provides professional drone video services in Gran Canaria, Tenerife and Fuerteventura for project promotion, construction progress monitoring and visual inspection of buildings, structures and infrastructure. If you need to document a construction project, showcase a project from the air or obtain aerial footage for a visual inspection, contact us to discuss your project requirements and request a quotation."
     }
   },
   "projects": {
     "title": "Industry Experience"
   },
-  "about": {
-    "title": "About Us",
-    "p1": "TOPOATLANTICO is a new surveying firm based in the Canary Islands. We combine local expertise with advanced technology to deliver precise results and solutions tailored to each project.",
+"about": {
+  "title": "About Us",
+  "p1": "TOPOATLANTICO is a surveying and geomatics firm based in the Canary Islands. We provide services in Gran Canaria, Tenerife and Fuerteventura, combining experience, local knowledge and advanced technology to deliver accurate results and solutions tailored to each project.",
   "list": {
     "1": "Qualified Geomatics and Surveying Engineers.",
     "2": "AESA-certified UAS (drone) operators.",
     "3": "Specialists in topographic surveys, construction setting out, land surveying, cadastral and Land Registry coordination, drone photogrammetry, infrastructure inspections, and structural monitoring.",
     "4": "Professional-grade equipment: robotic total station, GNSS receivers, and drones.",
     "5": "Quotations and availability within 24–48 hours."
-    }
-  },
+  }
+},
 "contact": {
   "title": "Contact",
   "description": "Request a quote or check availability. We'll reply within 24–48 h.",
@@ -581,8 +582,67 @@
 },
 "privacy": {
   "title": "Privacy Policy",
-  "content": "At TOPOATLANTICO, we respect your privacy and guarantee the protection of your personal data in accordance with the General Data Protection Regulation (GDPR). The information you provide will be used solely to respond to your inquiries or quote requests.",
-  "updated": "Last updated: October 2025",
+
+  "section1": "1. Data Controller",
+  "controller": "Data Controller",
+  "tradeName": "Trading name",
+  "taxId": "Tax identification number (NIF)",
+  "address": "Address",
+  "email": "Email",
+  "website": "Website",
+
+  "section2": "2. Purposes of Processing",
+  "section2Text": "Personal data provided by clients, prospective clients and contact persons may be processed for the following purposes:",
+  "purpose1": "To respond to requests for information and quotations.",
+  "purpose2": "To prepare and manage quotations.",
+  "purpose3": "To manage our professional relationship with clients.",
+  "purpose4": "To provide the contracted services.",
+  "purpose5": "To maintain the communications necessary for carrying out the work.",
+  "purpose6": "To manage administrative, accounting and invoicing matters.",
+  "purpose7": "To comply with applicable legal, tax and administrative obligations.",
+
+  "section3": "3. Legal Basis for Processing",
+  "section3Text1": "The processing of personal data necessary to respond to quotation requests and to enter into or provide the requested services is based on taking steps at the request of the data subject prior to entering into a contract and on the performance of the contractual relationship.",
+  "section3Text2": "Processing required for tax, accounting and invoicing purposes is also carried out in order to comply with the legal obligations applicable to the Data Controller.",
+  "section3Text3": "Where processing requires consent, consent will be requested specifically.",
+
+  "section4": "4. Personal Data We Process",
+  "section4Text": "Depending on our relationship with the data subject, the personal data processed may include:",
+  "data1": "First and last name or company name.",
+  "data2": "Tax identification number (NIF/CIF).",
+  "data3": "Postal address.",
+  "data4": "Telephone number.",
+  "data5": "Email address.",
+  "data6": "Information required to prepare quotations and invoices.",
+  "data7": "Information and documentation necessary to provide the contracted professional service.",
+"section4Closing": "We will not request personal data that is not necessary for the relevant purposes. The contact form on this website only requests an email address and the content of the enquiry. Additional personal data may subsequently be processed where necessary to prepare a quotation, enter into a contract or provide the requested service.",
+
+  "section5": "5. Data Retention",
+  "section5Text": "Personal data will be retained for as long as necessary to maintain and manage the professional relationship and, once that relationship has ended, for the periods necessary to comply with legal, tax and accounting obligations and to address any liabilities arising from the professional relationship.",
+
+"section6": "6. Recipients and Service Providers",
+"section6Text1": "Personal data will not be disclosed to third parties unless this is necessary to provide the service, required by law, or necessary to comply with the relevant administrative, tax or professional obligations.",
+"section6Text2": "Certain technology service providers are used for the operation of this website. In particular, the contact form uses Formspree to process enquiries submitted through the website. Only the email address provided by the user and the content of the enquiry are processed through this form.",
+"section6Text3": "The website is hosted and deployed using Vercel. These technology providers may process the technical or personal data necessary to provide their respective services, in accordance with their terms, privacy policies and the safeguards required by applicable data protection legislation.",
+
+  "section7": "7. Your Data Protection Rights",
+  "section7Text1": "Where applicable, data subjects may exercise their rights of access, rectification, erasure, objection, restriction of processing and data portability.",
+  "section7Text2": "To exercise these rights, please contact:",
+  "section7Text3": "The request must provide sufficient information to identify the data subject and specify the right they wish to exercise.",
+  "section7Text4": "Data subjects also have the right to lodge a complaint with the Spanish Data Protection Agency (AEPD) if they consider that the processing of their personal data does not comply with applicable data protection legislation. Further information is available from the",
+
+  "section8": "8. Information Security",
+  "section8Text": "TOPOATLANTICO will implement appropriate technical and organisational measures to protect personal data against loss, alteration, unauthorised processing or unauthorised access, taking into account the nature of the data processed and the risks involved.",
+
+"section9": "9. International Data Transfers",
+"section9Text1": "Some of the technology service providers used by TOPOATLANTICO are established outside the European Economic Area or use infrastructure located outside the European Economic Area. The use of these services may therefore involve international transfers of personal data.",
+"section9Text2": "Where applicable, such transfers will be carried out subject to the safeguards provided for under applicable data protection legislation. Formspree and Vercel provide, among other mechanisms, for the use of Standard Contractual Clauses approved by the European Commission for certain international transfers of personal data.",
+
+"section10": "10. Changes to This Privacy Policy",
+"section10Text": "This Privacy Policy may be updated when necessary to reflect changes in our data processing activities, the services we provide, the service providers we use or applicable legislation.",
+
+  "updatedLabel": "Last updated",
+  "updated": "October 2026",
   "back": "Return to homepage"
 },
 "footer": {

@@ -8,14 +8,14 @@
   },
   "hero": {
     "title": "TOPOATLANTICO",
-    "subtitle1": "Servicios de topografía y cartografía en las Islas Canarias.",
+  "subtitle1": "Servicios de topografía y cartografía en Gran Canaria, Tenerife y Fuerteventura.",
     "subtitle2": "Soluciones de precisión, a la medida de tus necesidades.",
     "btn_quote": "Solicita presupuesto",
     "btn_services": "Ver servicios"
   },
   "services": {
     "title": "Nuestros servicios",
-    "description": "Ofrecemos asesoramiento y soluciones adaptadas al cliente",
+  "description": "Servicios de topografía y geomática para construcción, ingeniería, medición de terrenos y proyectos técnicos.",
     "list": {
       "parcelas": "Medición de parcelas y fincas",
       "replanteo": "Replanteo de Obra",
@@ -23,28 +23,28 @@
       "asistencia": "Topografía | Asistencia Técnica en Obra",
       "monitoreo": "Monitoreo y Auscultación Topográfica",
       "drones": "Fotogrametría con Drones",
-      "videos": "Proyectos | Vídeo aereo con drones"
+      "videos": "Proyectos | Vídeo aéreo con drones"
 
     },
 
     "levantamientos": {
       "title": "Levantamientos Topográficos en Canarias",
-      "description": "Realizamos levantamientos topográficos en las Islas Canarias para todo tipo de proyectos de construcción, ingeniería civil, urbanismo, edificación, medición de terrenos, etc. Combinamos metodologías GNSS, estación total y, cuando resulta conveniente, fotogrametría con drones para generar planos y modelos precisos adaptados a las necesidades de cada encargo, garantizando resultados fiables y una ejecución sin sorpresas.",
+"description": "Realizamos levantamientos topográficos en Gran Canaria, Tenerife y Fuerteventura para proyectos de construcción, ingeniería civil, urbanismo, edificación y medición de terrenos. Combinamos metodologías GNSS, estación total y, cuando resulta conveniente, fotogrametría con drones para generar planos topográficos, curvas de nivel y modelos digitales del terreno precisos y adaptados a las necesidades de cada proyecto.",
 
-      "section1": "¿Qué es un levantamiento topográfico?",
-      "section1Text": "El levantamiento topográfico es el proceso de medir y representar con precisión las dimensiones, formas y características de un terreno. Esta tarea permite determinar la posición y altura de puntos, definir la geometría del terreno y localizar elementos existentes como edificaciones, muros, carreteras, caminos, cerramientos, servicios y otros elementos relevantes.",
+"section1": "¿Qué es un levantamiento topográfico?",
+"section1Text": "El levantamiento topográfico es el proceso de medir y representar con precisión las dimensiones, formas y características de un terreno. Esta tarea permite determinar la posición y altura de puntos, definir la geometría del terreno y localizar elementos existentes como edificaciones, muros, carreteras, caminos, cerramientos, servicios y otros elementos relevantes. A partir de estas mediciones se puede elaborar un plano topográfico que represente fielmente las condiciones existentes del terreno.",
 
-      "section3": "¿Levantamientos planimétricos, altimétricos o ambos?",
-      "section3Text": "Un levantamiento puede centrarse en la posición horizontal de los elementos, en sus alturas o en ambas características. Los levantamientos planimétricos permiten representar la geometría y posición en planta de los elementos existentes, mientras que los levantamientos altimétricos permiten determinar sus cotas, pendientes y diferencias de altura. En muchos proyectos es necesario combinar ambas componentes para obtener una representación completa del terreno.",
+"section3": "¿Qué diferencia hay entre un levantamiento planimétrico y altimétrico?",
+"section3Text": "Un levantamiento topográfico puede centrarse en la posición horizontal de los elementos, en sus alturas o en ambas características. Los levantamientos planimétricos permiten representar la geometría y posición en planta de los elementos existentes, mientras que los levantamientos altimétricos permiten determinar cotas, desniveles, pendientes y diferencias de altura. En muchos proyectos se combinan ambas componentes para obtener una representación completa del terreno mediante planos topográficos, puntos acotados y curvas de nivel.",
 
-      "section2": "¿Por qué es necesario un levantamiento topográfico para construcción e ingeniería?",
-      "section2Text": "Los levantamientos topográficos son una parte fundamental de numerosos proyectos de construcción e ingeniería. Se utilizan como punto de partida para la elaboración de proyectos de edificación, carreteras, urbanizaciones, movimientos de tierras, instalaciones y otras obras. La información obtenida permite a arquitectos, ingenieros y técnicos disponer de una representación precisa del terreno sobre la que desarrollar sus diseños y realizar comprobaciones durante la ejecución.",
+"section2": "¿Por qué es necesario un levantamiento topográfico para construcción e ingeniería?",
+"section2Text": "Los levantamientos topográficos son una parte fundamental de numerosos proyectos de construcción e ingeniería. Se utilizan como punto de partida para proyectos de edificación, carreteras y proyectos viales, urbanizaciones, movimientos de tierras, instalaciones e infraestructuras. La información obtenida permite a arquitectos, ingenieros y técnicos disponer de una representación precisa del terreno sobre la que desarrollar sus diseños, realizar cálculos y efectuar comprobaciones durante la ejecución de las obras.",
 
       "section4": "¿Cuánto cuesta un levantamiento topográfico?",
       "section4Text": "El precio de un levantamiento topográfico depende de factores como la superficie del terreno, su ubicación, accesibilidad, orografía, precisión requerida y tipo de documentación final. Por este motivo, cada trabajo se presupuesta de forma personalizada. En el caso de un solar pequeño, el trabajo puede completarse en pocas horas y su precio puede situarse por debajo de 300 euros. En cambio, los proyectos de mayor extensión o con condiciones difíciles pueden requerir varios días de trabajo y un presupuesto más elevado.",
 
-      "section5": "¿Necesita un levantamiento topográfico en Canarias?",
-      "section5Text": "TOPOATLANTICO realiza levantamientos topográficos en las Islas Canarias para proyectos de construcción, ingeniería, urbanismo, medición de parcelas y otros trabajos técnicos. Si necesita conocer las características de un terreno, preparar un proyecto o disponer de un plano topográfico preciso, contacte con nosotros para estudiar su caso y solicitar presupuesto."
+"section5": "¿Necesita un levantamiento topográfico en Canarias?",
+"section5Text": "TOPOATLANTICO realiza levantamientos topográficos en Gran Canaria, Tenerife y Fuerteventura para proyectos de construcción, ingeniería, urbanismo, medición de parcelas y otros trabajos técnicos. Si necesita conocer las características de un terreno, preparar un proyecto o disponer de un plano topográfico, curvas de nivel o un modelo digital del terreno, contacte con nosotros para estudiar su caso y solicitar presupuesto."
 },
 
 "replanteo": {
@@ -72,26 +72,28 @@
 
     "parcelas": {
 "title": "Medición de parcelas y fincas en Canarias",
-"description": "Realizamos mediciones de fincas rústicas y urbanas en Canarias para determinar su superficie, límites y características con precisión. Nuestros servicios incluyen delimitación de linderos, certificados de georreferenciación y antigüedad, comprobaciones con Catastro y Registro, segregaciones, agrupaciones, divisiones, inmatriculaciones, GML del catastro, informes de validación gráfica, representaciones gráficas alternativas, y cálculo de superficies y volúmenes.",
+"description": "Realizamos mediciones topográficas de fincas rústicas y urbanas en Gran Canaria, Tenerife y Fuerteventura para determinar con precisión su superficie, límites y características. Nuestros servicios incluyen delimitación de linderos, certificados de georreferenciación y antigüedad, comprobaciones con Catastro y Registro de la Propiedad, segregaciones, agrupaciones y divisiones de fincas, inmatriculaciones, archivos GML del Catastro, informes de validación gráfica, representaciones gráficas alternativas y cálculo de superficies y volúmenes.",
 
 "section1": "¿Cuándo es necesario medir una finca?",
-"section1Text": "La medición de una finca permite conocer con precisión su superficie, límites y características físicas. Puede ser necesaria para comprobar la superficie real de una parcela, verificar linderos, preparar una compraventa, estudiar una segregación o agrupación, desarrollar un proyecto de construcción o analizar diferencias entre la realidad física y la información disponible en Catastro.",
+"section1Text": "La medición de una finca permite conocer con precisión su superficie, límites y características físicas. Puede ser necesaria para comprobar la superficie real de una parcela, verificar o delimitar linderos, preparar una compraventa, estudiar una segregación o agrupación, desarrollar un proyecto de construcción o analizar diferencias entre la realidad física y la información disponible en Catastro o en el Registro de la Propiedad.",
 
 "section2": "¿Es recomendable medir una finca antes de venderla?",
-"section2Text": "Comprobar las dimensiones y límites de una finca antes de una compraventa puede ayudar a detectar posibles discrepancias con la documentación disponible y evitar problemas posteriores. Una medición topográfica permite conocer la superficie real y comprobar la situación física de la propiedad. Cuando existen diferencias con Catastro o con otros documentos, disponer de esta información con antelación facilita el análisis de la situación y la preparación de la documentación técnica que pueda ser necesaria.",
+"section2Text": "Comprobar las dimensiones, superficie y límites de una finca antes de una compraventa puede ayudar a detectar posibles discrepancias con la documentación disponible y evitar problemas posteriores. Una medición topográfica permite conocer la superficie real y comprobar la situación física de la propiedad. Cuando existen diferencias con Catastro, el Registro de la Propiedad u otros documentos, disponer de esta información con antelación facilita el análisis de la situación y la preparación de la documentación técnica que pueda ser necesaria.",
 
 "section3": "¿Cuánto cuesta medir una parcela?",
 "section3Text": "El precio de una medición depende principalmente de la superficie de la finca, su ubicación, accesibilidad, orografía, vegetación, número y complejidad de los límites y del tipo de documentación que se necesite. Por este motivo, cada trabajo se presupuesta de forma personalizada. Si nos indica la ubicación y las características de la finca, podemos valorar los trabajos necesarios y preparar un presupuesto.",
 
 "section4": "¿Cuándo es necesario un certificado de georreferenciación?",
-"section4Text": "La georreferenciación puede ser necesaria en diferentes procedimientos relacionados con el Registro de la Propiedad y el Catastro. Entre ellos se encuentran determinadas inmatriculaciones, segregaciones, agrupaciones y divisiones de fincas, modificaciones de superficie o linderos, deslindes y otros procedimientos en los que sea necesario definir con precisión la ubicación y geometría de una finca. También puede resultar necesaria para comprobar la correspondencia entre la realidad física de una finca y su información catastral o registral.",
+"section4Text": "La georreferenciación puede ser necesaria en diferentes procedimientos relacionados con el Registro de la Propiedad y el Catastro. Entre ellos se encuentran determinadas inmatriculaciones, segregaciones, agrupaciones y divisiones de fincas, modificaciones de superficie o linderos, deslindes y otros procedimientos en los que sea necesario definir con precisión la ubicación y geometría de una finca mediante una representación gráfica georreferenciada. También puede resultar necesaria para comprobar la correspondencia entre la realidad física de una finca y su información catastral o registral.",
+
 
 "section5": "¿Qué es un archivo GML del Catastro?",
 "section5Text": "Un archivo GML es un formato digital utilizado para almacenar información geográfica. En España, en el ámbito catastral, los archivos GML tienen especial importancia en determinados procedimientos relacionados con el Catastro y el Registro de la Propiedad, ya que permiten definir mediante coordenadas la ubicación, forma y superficie de una finca. El archivo permite trabajar con la información de la finca de forma digital y facilita su comprobación mediante herramientas y servicios de validación gráfica.",
 
 "section6": "¿Necesita medir una finca rústica o un terreno urbano?",
-"section6Text": "TOPOATLANTICO realiza mediciones de parcelas tanto rústicas como urbanas en las Islas Canarias. Si necesita conocer la superficie de una parcela, comprobar sus límites, analizar diferencias con Catastro o preparar documentación georreferenciada y archivos GML, contacte con nosotros para estudiar su caso y solicitar presupuesto."
+"section6Text": "TOPOATLANTICO realiza mediciones topográficas de parcelas, fincas rústicas y terrenos urbanos en Gran Canaria, Tenerife y Fuerteventura. Si necesita conocer la superficie de una parcela, comprobar o delimitar sus linderos, analizar diferencias con Catastro o el Registro de la Propiedad, o preparar documentación georreferenciada y archivos GML, contacte con nosotros para estudiar su caso y solicitar presupuesto."
 },
+
 
 "asistencia": {
 "title": "Asistencia Técnica Topográfica en Obra",
@@ -152,30 +154,37 @@
 
   "section7Text": "En TOPOATLANTICO realizamos trabajos de monitoreo y auscultación topográfica en las Islas Canarias para estructuras, edificios, excavaciones, taludes, presas e infraestructuras. Si necesita controlar posibles desplazamientos, asentamientos, deformaciones o cambios geométricos mediante mediciones topográficas periódicas, contacte con nosotros para estudiar las características del proyecto y preparar un presupuesto adaptado."
 },
-    "drones": {
+"drones": {
   "title": "Fotogrametría con Drones en Canarias",
-  "description": "Realizamos levantamientos fotogramétricos con drones para obtener ortofotos, nubes de puntos, modelos digitales del terreno, modelos 3D y cálculo de volúmenes. Ofrecemos soluciones para topografía, ingeniería, construcción y urbanismo. \n Además, realizamos tomas de vídeo para seguimiento de obra e inspección de edificios y estructuras de difícil acceso.",
 
-  "section1": "¿Cuándo es útil un levantamiento con drones?",
-  "section1Text": "La fotogrametría resulta especialmente útil para cubrir superficies extensas, terrenos de difícil acceso o zonas donde se necesita obtener una gran cantidad de información en poco tiempo. Puede utilizarse para levantamientos topográficos, seguimiento de obras, cálculo de volúmenes, movimientos de tierras, inspección de infraestructuras, estudios ambientales y documentación de superficies.",
+  "description": "Realizamos levantamientos fotogramétricos con drones en Gran Canaria, Tenerife y Fuerteventura para obtener ortofotos georreferenciadas, nubes de puntos, modelos digitales del terreno, modelos 3D y cálculos de superficies y volúmenes. Ofrecemos soluciones de fotogrametría aérea para topografía, ingeniería, construcción, urbanismo y documentación del territorio.",
+
+  "section1": "¿Cuándo es útil un levantamiento fotogramétrico con drones?",
+
+  "section1Text": "La fotogrametría con drones resulta especialmente útil para cubrir superficies extensas, terrenos de difícil acceso o zonas donde se necesita obtener una gran cantidad de información en poco tiempo. Puede utilizarse para levantamientos topográficos, movimientos de tierras, cálculo de superficies y volúmenes, generación de cartografía y ortofotos, documentación de terrenos y otros proyectos de ingeniería, construcción y urbanismo.",
+
+  "section2": "¿Qué productos se pueden obtener con fotogrametría?",
+
+  "section2Text": "Dependiendo de las necesidades del proyecto, podemos generar ortofotos georreferenciadas, nubes de puntos, modelos digitales del terreno (MDT), modelos digitales de superficie (MDS), modelos 3D, curvas de nivel y cálculos de superficies o volúmenes. Los resultados pueden entregarse en formatos compatibles con programas CAD y GIS para su utilización en proyectos de topografía, ingeniería y construcción.",
 
   "section3": "¿Qué precisión puede alcanzar la fotogrametría con drones?",
-  "section3Text": "La precisión depende de factores como la cámara utilizada, la altura de vuelo, las condiciones del terreno y el sistema de posicionamiento. Para trabajos que requieren una georreferenciación y precisión controladas pueden utilizarse puntos de apoyo terrestre medidos mediante GNSS o estación total, lo que permite alcanzar precisiones centimétricas.",
 
-  "section2": "¿Qué productos se pueden obtener?",
-  "section2Text": "Dependiendo de las necesidades del proyecto, podemos generar ortofotos georreferenciadas, nubes de puntos, modelos digitales del terreno (MDT), modelos digitales de superficie (MDS), modelos 3D, curvas de nivel y cálculos de superficies o volúmenes. Los resultados pueden entregarse en formatos compatibles con programas CAD y GIS.",
+  "section3Text": "La precisión depende de factores como la cámara utilizada, la altura de vuelo, la resolución de las imágenes, las condiciones del terreno y el sistema de posicionamiento. Para trabajos que requieren una georreferenciación y precisión controladas pueden utilizarse puntos de apoyo terrestre medidos mediante GNSS o estación total, lo que permite alcanzar precisiones centimétricas cuando las condiciones y la metodología empleada son adecuadas.",
 
   "section4": "¿Cuánto cuesta un levantamiento fotogramétrico con drones?",
-  "section4Text": "El precio depende principalmente de la superficie que deba cubrirse, la ubicación, la accesibilidad, la resolución necesaria, los productos solicitados y la precisión requerida. También pueden influir la necesidad de puntos de control terrestre y la complejidad de la planificación y el procesamiento. Por este motivo, cada proyecto se presupuesta de forma personalizada.",
 
-  "section5": "¿Necesita un levantamiento con drones en Canarias?",
-  "section5Text": "TOPOATLANTICO realiza levantamientos fotogramétricos con drones en las Islas Canarias para proyectos de topografía, ingeniería, construcción, urbanismo y otros trabajos técnicos. Si necesita una ortofoto, un modelo del terreno, una nube de puntos, un modelo 3D o un cálculo de superficies y volúmenes, contacte con nosotros para estudiar su proyecto y solicitar presupuesto."
-    },
+  "section4Text": "El precio de un levantamiento fotogramétrico depende principalmente de la superficie que deba cubrirse, la ubicación, los productos solicitados y la precisión requerida. También pueden influir la necesidad de puntos de apoyo terrestre y la complejidad de la planificación del vuelo y del procesamiento fotogramétrico. Por este motivo, cada proyecto se presupuesta de forma personalizada.",
+
+  "section5": "¿Necesita fotogrametría con drones en Canarias?",
+
+  "section5Text": "TOPOATLANTICO realiza levantamientos fotogramétricos y vuelos con drones en Gran Canaria, Tenerife y Fuerteventura para proyectos de topografía, ingeniería, construcción, urbanismo y otros trabajos técnicos. Si necesita una ortofoto georreferenciada, una nube de puntos, un modelo digital del terreno, un modelo 3D o un cálculo de superficies y volúmenes, contacte con nosotros para estudiar su proyecto y solicitar presupuesto."
+},
 
     "videos": {
       "title": "Vídeo aéreo con drones en Canarias",
 
-      "description": "Servicios profesionales de vídeo con drones en Canarias para promoción de proyectos, seguimiento de obra e inspección visual de edificios, estructuras e infraestructuras. Capturamos imágenes aéreas de alta calidad para documentar, presentar y comunicar cada proyecto de forma clara y atractiva.",
+      "description": "Servicios profesionales de vídeo con drones en Gran Canaria, Tenerife y Fuerteventura para promoción de proyectos, seguimiento de obra e inspección visual de edificios, estructuras e infraestructuras. Capturamos imágenes aéreas de alta calidad para documentar, presentar y comunicar cada proyecto de forma clara y atractiva.",
+
 
       "section1": "¿Qué servicios de vídeo con drones ofrecemos?",
 
@@ -195,7 +204,7 @@
 
       "section5": "¿Necesita un servicio de vídeo con drones en Canarias?",
 
-      "section5Text": "TOPOATLANTICO ofrece servicios de vídeo con drones en todas las Islas Canarias para promoción de proyectos, seguimiento de obra e inspección visual de edificios, estructuras e infraestructuras. Si necesita documentar una obra, mostrar un proyecto desde el aire o disponer de imágenes aéreas para una inspección visual, contacte con nosotros para comentar las características de su proyecto y solicitar un presupuesto."
+      "section5Text": "TOPOATLANTICO ofrece servicios de vídeo con drones en Gran Canaria, Tenerife y Fuerteventura para promoción de proyectos, seguimiento de obra e inspección visual de edificios, estructuras e infraestructuras. Si necesita documentar una obra, mostrar un proyecto desde el aire o disponer de imágenes aéreas para una inspección visual, contacte con nosotros para comentar las características de su proyecto y solicitar un presupuesto."
     }
   },
 
@@ -204,12 +213,12 @@
   },
   "about": {
     "title": "Sobre nosotros",
-    "p1": "TOPOATLANTICO es un nuevo estudio de topografía con base en las Islas Canarias. Combinamos nuestra experiencia local con tecnología avanzada para ofrecer resultados precisos y soluciones adaptadas a cada proyecto.",
+    "p1": "TOPOATLANTICO es un estudio de topografía con base en las Islas Canarias. Prestamos servicios en Gran Canaria, Tenerife y Fuerteventura, combinando experiencia, conocimiento del territorio y tecnología avanzada para ofrecer resultados precisos y soluciones adaptadas a cada proyecto.",
     "list": {
       "1": "Técnicos colegiados en geomática y topografía",
       "2": "Operadores de UAS (drones) certificados por AESA",
       "3": "Especialistas en levantamientos topográficos, replanteos de obra, medición y regularización de parcelas, fotogrametría, inspección con drones y monitorización de estructuras.",
-      "4": "Equipos de precisión: estación total, GNSS, drones multirrotor",
+      "4": "Equipos de precisión: estación total, GNSS y drones multirrotor",
       "5": "Presupuesto y disponibilidad en 24-48 h."
     }
   },
@@ -578,9 +587,68 @@
 },
 "privacy": {
   "title": "Política de Privacidad",
-  "content": "En TOPOATLANTICO respetamos su privacidad y garantizamos la protección de sus datos personales conforme al Reglamento General de Protección de Datos (RGPD). Los datos que nos proporcione serán utilizados exclusivamente para atender sus consultas o solicitudes de presupuesto.",
-  "updated": "Última actualización: Octubre 2025",
-  "back": "Volver al inicio"
+
+  "section1": "1. Responsable del tratamiento",
+  "controller": "Responsable",
+  "tradeName": "Nombre comercial",
+  "taxId": "NIF",
+  "address": "Domicilio",
+  "email": "Correo electrónico",
+  "website": "Sitio web",
+
+  "section2": "2. Finalidad del tratamiento",
+  "section2Text": "Los datos personales facilitados por clientes, potenciales clientes y personas de contacto serán tratados para las siguientes finalidades:",
+  "purpose1": "Atender solicitudes de información y presupuesto.",
+  "purpose2": "Elaborar y gestionar presupuestos.",
+  "purpose3": "Gestionar la relación profesional con los clientes.",
+  "purpose4": "Prestar los servicios contratados.",
+  "purpose5": "Mantener las comunicaciones necesarias para la ejecución de los trabajos.",
+  "purpose6": "Realizar la gestión administrativa, contable y de facturación.",
+  "purpose7": "Cumplir las obligaciones legales, fiscales y administrativas aplicables.",
+
+  "section3": "3. Base jurídica",
+  "section3Text1": "El tratamiento de los datos necesario para atender solicitudes de presupuesto y contratar o prestar los servicios solicitados se basa en la aplicación de medidas precontractuales y en la ejecución de la relación contractual.",
+  "section3Text2": "Los tratamientos necesarios para la gestión fiscal, contable y de facturación se realizarán asimismo para el cumplimiento de las obligaciones legales aplicables al responsable.",
+  "section3Text3": "Cuando un tratamiento requiera consentimiento, este será solicitado de forma específica.",
+
+  "section4": "4. Datos tratados",
+  "section4Text": "Dependiendo de la relación mantenida con el interesado, podrán tratarse datos como:",
+  "data1": "Nombre y apellidos o razón social.",
+  "data2": "NIF/CIF.",
+  "data3": "Dirección postal.",
+  "data4": "Teléfono.",
+  "data5": "Correo electrónico.",
+  "data6": "Datos necesarios para la elaboración de presupuestos y facturas.",
+  "data7": "Información y documentación necesaria para la ejecución del servicio profesional contratado.",
+"section4Closing": "No se solicitarán datos personales que no resulten necesarios para las finalidades correspondientes. A través del formulario de contacto de este sitio web se solicitan únicamente una dirección de correo electrónico y el contenido de la consulta. Otros datos podrán ser tratados posteriormente cuando resulten necesarios para la elaboración de un presupuesto, la contratación o la prestación del servicio.",
+
+  "section5": "5. Conservación de los datos",
+  "section5Text": "Los datos serán conservados durante el tiempo necesario para mantener y gestionar la relación profesional y, una vez finalizada esta, durante los plazos necesarios para atender las obligaciones legales, fiscales, contables y las posibles responsabilidades derivadas de la relación profesional.",
+
+"section6": "6. Destinatarios y proveedores de servicios",
+"section6Text1": "Los datos personales no serán comunicados a terceros salvo cuando resulte necesario para la prestación del servicio, exista una obligación legal o sea necesario para el cumplimiento de las obligaciones administrativas, fiscales o profesionales correspondientes.",
+"section6Text2": "Para el funcionamiento del sitio web se utilizan determinados proveedores tecnológicos. En particular, el formulario de contacto utiliza Formspree para gestionar el envío de las consultas. A través de este formulario se tratan únicamente la dirección de correo electrónico facilitada por el usuario y el contenido de la consulta.",
+"section6Text3": "El sitio web se encuentra alojado y desplegado mediante Vercel. Estos proveedores tecnológicos podrán tratar los datos técnicos o personales que resulten necesarios para la prestación de sus respectivos servicios, de acuerdo con sus condiciones, políticas de privacidad y las garantías exigidas por la normativa aplicable.",
+
+  "section7": "7. Derechos de los interesados",
+  "section7Text1": "El interesado puede ejercer, cuando proceda, sus derechos de acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad.",
+  "section7Text2": "Para ejercer estos derechos puede dirigirse a:",
+  "section7Text3": "La solicitud deberá permitir identificar al interesado y especificar el derecho que desea ejercer.",
+  "section7Text4": "Asimismo, el interesado tiene derecho a presentar una reclamación ante la Agencia Española de Protección de Datos (AEPD) si considera que el tratamiento de sus datos personales no se ajusta a la normativa vigente. Puede obtener más información en la",
+
+  "section8": "8. Seguridad de la información",
+  "section8Text": "TOPOATLANTICO adoptará las medidas técnicas y organizativas adecuadas para proteger los datos personales y evitar su pérdida, alteración, tratamiento o acceso no autorizado, teniendo en cuenta la naturaleza de los datos tratados y los riesgos existentes.",
+
+"section9": "9. Transferencias internacionales de datos",
+"section9Text1": "Algunos de los proveedores tecnológicos utilizados por TOPOATLANTICO están establecidos o utilizan infraestructura situada fuera del Espacio Económico Europeo, por lo que el uso de estos servicios puede implicar transferencias internacionales de datos.",
+"section9Text2": "Cuando resulte aplicable, estas transferencias se realizarán mediante las garantías previstas en la normativa de protección de datos. Formspree y Vercel contemplan, entre otros mecanismos, el uso de las Cláusulas Contractuales Tipo aprobadas por la Comisión Europea para determinadas transferencias internacionales de datos.",
+
+"section10": "10. Actualización de la política",
+"section10Text": "Esta política podrá actualizarse cuando sea necesario para adaptarla a cambios en los tratamientos realizados, en los servicios prestados, en los proveedores utilizados o en la normativa aplicable.",
+
+  "updatedLabel": "Última actualización",
+  "updated": "Octubre de 2026",
+  "back": "Volver a la página principal"
 },
 "footer": {
   "rights": "Todos los derechos reservados.",

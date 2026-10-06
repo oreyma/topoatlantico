@@ -16,8 +16,8 @@ const seoTitle = isSpanish
     : "Construction Setting Out in the Canary Islands | TOPOATLANTICO";
 
   const seoDescription = isSpanish
-    ? "Servicios de replanteo topográfico de alta precisión en Canarias para obras de construcción, edificación, infraestructuras y urbanización. Replanteo de estructuras, cimentaciones, movimientos de tierras y servicios."
-    : "High-precision construction setting-out services throughout the Canary Islands for building, civil engineering, infrastructure and urban development projects. Setting out of structures, foundations, earthworks and utility networks."
+    ? "Servicios de replanteo topográfico de alta precisión en Gran Canaria, Tenerife y Fuerteventura para obras de construcción, edificación, infraestructuras y urbanización. Replanteo de estructuras, cimentaciones, movimientos de tierras y servicios."
+    : "High-precision construction setting-out services throughout in Gran Canaria, Tenerife y Fuerteventura for building, civil engineering, infrastructure and urban development projects. Setting out of structures, foundations, earthworks and utility networks."
 
 
    const handleContactClick = () => {
