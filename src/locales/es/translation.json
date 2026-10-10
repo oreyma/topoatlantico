@@ -15,7 +15,7 @@
   },
   "services": {
     "title": "Nuestros servicios",
-  "description": "Servicios de topografía y geomática para construcción, ingeniería, medición de terrenos y proyectos técnicos.",
+  "description": "Servicios topográficos para construcción, ingeniería, medición de terrenos y proyectos técnicos.",
     "list": {
       "parcelas": "Medición de parcelas y fincas",
       "replanteo": "Replanteo de Obra",
@@ -215,7 +215,7 @@
     "title": "Sobre nosotros",
     "p1": "TOPOATLANTICO es un estudio de topografía con base en las Islas Canarias. Prestamos servicios en Gran Canaria, Tenerife y Fuerteventura, combinando experiencia, conocimiento del territorio y tecnología avanzada para ofrecer resultados precisos y soluciones adaptadas a cada proyecto.",
     "list": {
-      "1": "Técnicos colegiados en geomática y topografía",
+      "1": "Técnicos topógrafos colegiados",
       "2": "Operadores de UAS (drones) certificados por AESA",
       "3": "Especialistas en levantamientos topográficos, replanteos de obra, medición y regularización de parcelas, fotogrametría, inspección con drones y monitorización de estructuras.",
       "4": "Equipos de precisión: estación total, GNSS y drones multirrotor",
